@@ -1,0 +1,35 @@
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+exclude:
+  - .jekyll-cache
+
+title: AxOps Technology Services
+logo: /assets/img/axops-600x600.png
+logo_local: 
+    image: /assets/img/axops-600x600.png
+    symbol: "&Lambda;"
+    text: "AxOps Technology Services"
+
+url: https://www.axops.tech
+
+tagline: "pending"
+description: "pending"
+
+twitter:
+  username: 
+  card: summary
+
+social:
+  name: AxOps
+  links:
+    - https://twitter.com/_insert_handle_here_
+    - https://www.linkedin.com/in/_insert_handle_here_
+    - https://github.com/axopstech
+
+show_downloads: false
+#paginate: 5
+
+google_recaptcha:
+    site_key: 
