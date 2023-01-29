@@ -6,16 +6,21 @@ exclude:
   - .jekyll-cache
 
 title: AxOps Technology Services
+tagline: "pending"
+description: "pending"
+
+nav_logo: ./assets/img/axops-134x26.png
+nav_logo2x: ./assets/img/axops-134x26@2x.png 2x
+
 logo: /assets/img/axops-600x600.png
+favicon: ./assets/img/favicons/favicon-32x32.png
+
 logo_local: 
     image: /assets/img/axops-600x600.png
     symbol: "&Lambda;"
     text: "AxOps Technology Services"
 
 url: https://www.axops.tech
-
-tagline: "pending"
-description: "pending"
 
 twitter:
   username: 
