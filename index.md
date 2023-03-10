@@ -1,6 +1,9 @@
 ---
 layout: default
+title: this is a template title
 permalink: /
+description: this is a template description
+og_image_url: https://this-is-an-og-image-url.com/image.png
 ---
 {% assign content_config = site.data.content.config %}
 {% assign current_page = site.data.pageconfig %}
