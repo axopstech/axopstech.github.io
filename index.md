@@ -2,17 +2,21 @@
 layout: default
 permalink: /
 ---
+{% assign content_config = site.data.content.config %}
+{% assign current_page = site.data.pageconfig %}
+{% assign config = current_page.index %}
+
   <div class="content-wrapper">
     <!-- .content-wrapper -->
     <section class="wrapper bg-soft-primary">
       <div class="container pt-10 pb-12 pt-md-14 pb-md-17">
         <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
-            <h1 class="display-1 mb-5 mx-md-10 mx-lg-0">Sandbox is effortless and powerful with <br /><span class="typer text-primary text-nowrap" data-delay="100" data-words="easy usage,fast transactions,secure payments"></span><span class="cursor text-primary" data-owner="typer"></span></h1>
-            <p class="lead fs-lg mb-7">Achieve your saving goals. Have all your recurring and one time expenses and incomes in one place.</p>
+            <h1 class="display-1 mb-5 mx-md-10 mx-lg-0">{{ config.tagline_main }} <span class="typer text-primary text-nowrap" data-delay="{{ config.tagline_dynamic_delay }}" data-words="{{ config.tagline_dynamic }}"></span><span class="cursor text-primary" data-owner="typer"></span></h1>
+            <p class="lead fs-lg mb-7">{{ config.tagline_cta }}</p>
             <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-              <span><a class="btn btn-lg btn-primary rounded me-2">Get Started</a></span>
-              <span><a class="btn btn-lg btn-green rounded">Free Trial</a></span>
+              <span><a href="{{ config.button_cta1_url }}" class="btn btn-lg btn-primary rounded me-2">{{ config.button_cta1_text }}</a></span>
+              <span><a href="{{ config.button_cta2_url }}" class="btn btn-lg btn-green rounded">{{ config.button_cta2_text }}</a></span>
             </div>
           </div>
           <!-- /column -->

@@ -1,62 +1,54 @@
 -
-  name: Experience
-  url: /experience/
+  name: Pages
+  url: /pages/
   current: false
   enabled: true
   has_children: true
+  multi_column: false
   children:
     -
-      name: Tools & Technologies
-      url: "#tools-technologies"
+      name: Services
+      url: "#services"
       enabled: true
     -
-      name: Industry Knowledge
-      url: "#industry-knowledge"
-      enabled: true
-    -
-      name: Interpersonal Skills
-      url: "#interpersonal-skills"
-      enabled: true
-    -
-      name: Engagements
-      url: "#engagements"
-      enabled: true
-    -
-      name: Certifications
-      url: "#certifications"
-      enabled: true
-    -
-      name: Education
-      url: "#education"
-      enabled: true
-    -
-      name: Courses
-      url: "#courses"
+      name: About
+      url: "#about"
       enabled: true
 
 -
-  name: Publications
-  url: /publications/
+  name: Projects
+  url: /projects/
   current: false
-  enabled: false
+  enabled: true
   has_children: true
+  multi_column: true
   children:
     -
-      name: Videos
-      url: "#videos"
+      name: Project Pages
+      url: "#project-pages"
       enabled: true
+      children:
+        -
+          name: Projects 1
+          url: "#projects1"
+          enabled: true
+        -
+          name: Projects 2
+          url: "#projects2"
+          enabled: true
     -
-      name: Webinars
-      url: "#webinars"
+      name: Single Projects
+      url: "#single-projects"
       enabled: true
-    -
-      name: Podcasts
-      url: "#podcasts"
-      enabled: true
-    -
-      name: Blogs
-      url: "#blogs"
-      enabled: true
+      children:
+        -
+          name: Single Project 1
+          url: "#single-project1"
+          enabled: true
+        -
+          name: Single Project 2
+          url: "#single-project2"
+          enabled: true
 
 -
   name: Innovations
