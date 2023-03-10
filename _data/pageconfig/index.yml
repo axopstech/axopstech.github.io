@@ -1,5 +1,5 @@
-tagline_main: Scale your business processes efficiently,
-tagline_dynamic: at a fraction of the cost, support infinite scale, on your terms 🎯
+tagline_main: Make your business processes efficient,<br />
+tagline_dynamic: at a fraction of the cost, at infinite scale, on your terms 🎯
 tagline_dynamic_delay: 75
 tagline_cta: Paying too much for too little? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
 
@@ -8,3 +8,11 @@ button_cta1_url: #
 
 button_cta2_text: Let's Talk!
 button_cta2_url: #
+
+why_choose_us_section:
+  enabled: true
+  intro_tagline: Pending Intro Tagline
+  main_tagline: Here are a few reasons why our customers choose to ignore taglines!
+
+client_logos_section:
+  enabled: false
