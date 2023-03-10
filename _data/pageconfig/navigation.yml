@@ -15,8 +15,8 @@
   multi_column: true
   children:
     -
-      name: Training
-      url: "#training"
+      name: Technical Training
+      url: "#technical/training"
       enabled: true
       children:
         -
@@ -28,8 +28,8 @@
           url: "#training2"
           enabled: true
     -
-      name: Consulting
-      url: "#consulting"
+      name: IT Consulting
+      url: "#information-technology-consulting"
       enabled: true
       children:
         -
