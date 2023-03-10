@@ -25,26 +25,23 @@
                     {% if item.multi_column %}
                     <div class="dropdown-menu dropdown-lg">
                       <div class="dropdown-lg-content">
+                        {% for subitem in item.children %}
+                        {% if subitem.enabled %}
+                        {% assign child_url = child_base_url | append: subitem.url %}
                         <div>
-                          <h6 class="dropdown-header">Project Pages</h6>
+                          <h6 class="dropdown-header">{{ subitem.name }}</h6>
                           <ul class="list-unstyled">
-                            <li><a class="dropdown-item" href="./projects.html">Projects I</a></li>
-                            <li><a class="dropdown-item" href="./projects2.html">Projects II</a></li>
-                            <li><a class="dropdown-item" href="./projects3.html">Projects III</a></li>
-                            <li><a class="dropdown-item" href="./projects4.html">Projects IV</a></li>
+                            {% for subchild in subitem.children %}
+                            {% if subchild.enabled %}
+                            {% assign child_url = child_url | append: subchild.url %}
+                            <li><a class="dropdown-item" href="{{ child_url }}">{{ subchild.name }}</a></li>
+                            {% endif %}
+                            {% endfor %}
                           </ul>
                         </div>
                         <!-- /.column -->
-                        <div>
-                          <h6 class="dropdown-header">Single Projects</h6>
-                          <ul class="list-unstyled">
-                            <li><a class="dropdown-item" href="./single-project.html">Single Project I</a></li>
-                            <li><a class="dropdown-item" href="./single-project2.html">Single Project II</a></li>
-                            <li><a class="dropdown-item" href="./single-project3.html">Single Project III</a></li>
-                            <li><a class="dropdown-item" href="./single-project4.html">Single Project IV</a></li>
-                          </ul>
-                        </div>
-                        <!-- /.column -->
+                        {% endif %}
+                        {% endfor %}
                       </div>
                       <!-- /auto-column -->
                     </div>
