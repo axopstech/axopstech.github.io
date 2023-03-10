@@ -1,75 +1,98 @@
 -
-  name: Pages
-  url: /pages/
-  current: false
+  name: Home
+  url: /
+  current: true
   enabled: true
-  has_children: true
+  has_children: false
   multi_column: false
-  children:
-    -
-      name: Services
-      url: "#services"
-      enabled: true
-    -
-      name: About
-      url: "#about"
-      enabled: true
 
 -
-  name: Projects
-  url: /projects/
+  name: Services
+  url: /services/
   current: false
   enabled: true
   has_children: true
   multi_column: true
   children:
     -
-      name: Project Pages
-      url: "#project-pages"
+      name: Training
+      url: "#training"
       enabled: true
       children:
         -
-          name: Projects 1
-          url: "#projects1"
+          name: Training 1
+          url: "#training1"
           enabled: true
         -
-          name: Projects 2
-          url: "#projects2"
+          name: Training 2
+          url: "#training2"
           enabled: true
     -
-      name: Single Projects
-      url: "#single-projects"
+      name: Consulting
+      url: "#consulting"
       enabled: true
       children:
         -
-          name: Single Project 1
-          url: "#single-project1"
+          name: Consulting 1
+          url: "#consulting1"
           enabled: true
         -
-          name: Single Project 2
-          url: "#single-project2"
+          name: Consulting 2
+          url: "#consulting2"
           enabled: true
 
 -
-  name: Innovations
-  url: /innovations/
+  name: Case Studies
+  url: /case-studies/
   current: false
   enabled: true
-  has_children: false
+  has_children: true
+  multi_column: true
   children:
+    -
+      name: Cloud Migration
+      url: "#cloud-migration"
+      enabled: true
+      children:
+        -
+          name: Cloud Migration 1
+          url: "#cloud-migration1"
+          enabled: true
+        -
+          name: Cloud Migration 2
+          url: "#cloud-migration2"
+          enabled: true
+    -
+      name: DevOps
+      url: "#devops"
+      enabled: true
+      children:
+        -
+          name: DevOps 1
+          url: "#devops1"
+          enabled: true
+        -
+          name: DevOps 2
+          url: "#devops2"
+          enabled: true
 
 -
-  name: Blog
-  url: /blog/
-  current: false
-  enabled: false
-  has_children: false
-  children:
-
--
-  name: Contact
-  url: /contact/
+  name: About
+  url: /about/
   current: false
   enabled: true
-  has_children: false
+  has_children: true
+  multi_column: false
   children:
+    -
+      name: Our Vision
+      url: "#company-vision"
+      enabled: true
+    -
+      name: The Team
+      url: "#meet-the-team"
+      enabled: true
+    -
+      name: Careers
+      url: "#careers"
+      enabled: true

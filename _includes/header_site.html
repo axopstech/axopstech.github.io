@@ -58,6 +58,10 @@
                     </ul>
                     {% endif %}
                   </li>
+                  {% else %}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ item.url }}" data-bs-toggle="dropdown">{{ item.name }}</a>
+                  </li>
                   {% endif %}
                 {% endif %}
               {% endfor %}
