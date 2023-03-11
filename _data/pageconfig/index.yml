@@ -1,4 +1,4 @@
-tagline_main: Make your business operations efficient,<br />
+tagline_main: Make your business processes efficient,<br />
 tagline_dynamic: at reduced CapEx, at optimal OpEx, at infinite scale, on your terms 🎯
 tagline_dynamic_delay: 75
 tagline_cta: Paying too much for licensing? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
@@ -13,6 +13,73 @@ why_choose_us_section:
   enabled: true
   intro_tagline: Pending Intro Tagline
   main_tagline: Here are a few reasons why our customers choose to ignore taglines!
+  tabs:
+    -
+      id: tab-1
+      a_class: nav-link d-flex flex-row active
+      svg_src: ./assets/img/icons/lineal/rocket.svg
+      tabsvg_src: ./assets/img/icons/lineal/megaphone.svg
+      svg_class: svg-inject icon-svg icon-svg-md text-yellow me-4
+      div_class: tab-pane fade show active
+      title: Easy Usage
+      summary: Duis mollis commodo luctus cursus commodo tortor mauris.
+      tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
+      text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      image1_src: ./assets/img/photos/about2.jpg
+      image1_srcset: ./assets/img/photos/about2@2x.jpg 2x
+      image2_src: ./assets/img/photos/about3.jpg
+      image2_srcset: ./assets/img/photos/about3@2x.jpg 2x
+      bullets:
+        -
+          - Aenean eu leo quam ornare curabitur blandit tempus.
+          - Nullam quis risus eget urna mollis ornare donec elit.
+        -
+          - Etiam porta sem malesuada magna mollis euismod.
+          - Fermentum massa vivamus faucibus amet euismod.
+    -
+      id: tab-2
+      a_class: nav-link d-flex flex-row
+      svg_src: ./assets/img/icons/lineal/savings.svg
+      tabsvg_src: ./assets/img/icons/lineal/megaphone.svg
+      svg_class: svg-inject icon-svg icon-svg-md text-green me-4
+      div_class: tab-pane fade
+      title: Fast Transactions
+      summary: Vivamus sagittis lacus augue fusce dapibus tellus nibh.
+      tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
+      text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      image1_src: ./assets/img/photos/about2.jpg
+      image1_srcset: ./assets/img/photos/about2@2x.jpg 2x
+      image2_src: ./assets/img/photos/about3.jpg
+      image2_srcset: ./assets/img/photos/about3@2x.jpg 2x
+      bullets:
+        -
+          - Aenean eu leo quam ornare curabitur blandit tempus.
+          - Nullam quis risus eget urna mollis ornare donec elit.
+        -
+          - Etiam porta sem malesuada magna mollis euismod.
+          - Fermentum massa vivamus faucibus amet euismod.
+    -
+      id: tab-3
+      a_class: nav-link d-flex flex-row
+      svg_src: ./assets/img/icons/lineal/shield.svg
+      tabsvg_src: ./assets/img/icons/lineal/megaphone.svg
+      svg_class: svg-inject icon-svg icon-svg-md text-red me-4
+      div_class: tab-pane fade
+      title: Secure Payments
+      summary: Vestibulum ligula porta felis maecenas faucibus mollis.
+      tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
+      text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      image1_src: ./assets/img/photos/about2.jpg
+      image1_srcset: ./assets/img/photos/about2@2x.jpg 2x
+      image2_src: ./assets/img/photos/about3.jpg
+      image2_srcset: ./assets/img/photos/about3@2x.jpg 2x
+      bullets:
+        -
+          - Aenean eu leo quam ornare curabitur blandit tempus.
+          - Nullam quis risus eget urna mollis ornare donec elit.
+        -
+          - Etiam porta sem malesuada magna mollis euismod.
+          - Fermentum massa vivamus faucibus amet euismod.
 
 client_logos_section:
   enabled: false

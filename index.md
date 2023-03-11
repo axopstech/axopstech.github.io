@@ -96,62 +96,58 @@ og_image_url: https://this-is-an-og-image-url.com/image.png
         </div>
         <!-- /.row -->
         <ul class="nav nav-tabs nav-tabs-bg nav-tabs-shadow-lg d-flex justify-content-between nav-justified flex-lg-row flex-column">
-          <li class="nav-item"> <a class="nav-link d-flex flex-row active" data-bs-toggle="tab" href="#tab2-1">
-              <div><img src="./assets/img/icons/lineal/rocket.svg" class="svg-inject icon-svg icon-svg-md text-yellow me-4" alt="" /></div>
+          {% for tab in config.why_choose_us_section.tabs %}
+          <li class="nav-item"> <a class="{{ tab.a_class }}" data-bs-toggle="tab" href="#{{ tab.id }}">
+              <div><img src="{{ tab.svg_src }}" class="{{ tab.svg_class }}" alt="" /></div>
               <div>
-                <h4 class="mb-1">Easy Usage</h4>
-                <p>Duis mollis commodo luctus cursus commodo tortor mauris.</p>
+                <h4 class="mb-1">{{ tab.title }}</h4>
+                <p>{{ tab.summary }}</p>
               </div>
             </a> </li>
-          <li class="nav-item"> <a class="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-2">
-              <div><img src="./assets/img/icons/lineal/savings.svg" class="svg-inject icon-svg icon-svg-md text-green me-4" alt="" /></div>
-              <div>
-                <h4 class="mb-1">Fast Transactions</h4>
-                <p>Vivamus sagittis lacus augue fusce dapibus tellus nibh.</p>
-              </div>
-            </a> </li>
-          <li class="nav-item"> <a class="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-3">
-              <div><img src="./assets/img/icons/lineal/shield.svg" class="svg-inject icon-svg icon-svg-md text-red me-4" alt="" /></div>
-              <div>
-                <h4 class="mb-1">Secure Payments</h4>
-                <p>Vestibulum ligula porta felis maecenas faucibus mollis.</p>
-              </div>
-            </a> </li>
+          {% endfor %}
         </ul>
         <!-- /.nav-tabs -->
         <div class="tab-content mt-6 mt-lg-8 mb-md-9">
-          <div class="tab-pane fade show active" id="tab2-1">
+          {% for tab in config.why_choose_us_section.tabs %}
+          <div class="{{ tab.div_class }}" id="{{ tab.id }}">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-              <div class="col-lg-6">
-                <div class="row gx-md-5 gy-5 align-items-center">
-                  <div class="col-6">
-                    <img class="img-fluid rounded shadow-lg d-flex ms-auto" src="./assets/img/photos/sa13.jpg" srcset="./assets/img/photos/sa13@2x.jpg 2x" alt="" />
+              <div class="col-lg-6 position-relative order-lg-2">
+                <div class="shape bg-dot primary rellax w-16 h-20" data-rellax-speed="1" style="top: 3rem; left: 5.5rem"></div>
+                <div class="overlap-grid overlap-grid-2">
+                  <div class="item">
+                    <figure class="rounded shadow"><img src="{{ tab.image1_src }}" srcset="{{ tab.image1_srcset }}" alt=""></figure>
                   </div>
-                  <!-- /column -->
-                  <div class="col-6">
-                    <img class="img-fluid rounded shadow-lg mb-5" src="./assets/img/photos/sa14.jpg" srcset="./assets/img/photos/sa14@2x.jpg 2x" alt="" />
-                    <img class="img-fluid rounded shadow-lg d-flex col-10" src="./assets/img/photos/sa15.jpg" srcset="./assets/img/photos/sa15@2x.jpg 2x" alt="" />
+                  <div class="item">
+                    <figure class="rounded shadow"><img src="{{ tab.image2_src }}" srcset="{{ tab.image2_srcset }}" alt=""></figure>
                   </div>
-                  <!-- /column -->
                 </div>
-                <!-- /.row -->
               </div>
               <!--/column -->
               <div class="col-lg-6">
-                <h2 class="mb-3">Easy Usage</h2>
-                <p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
-                <ul class="icon-list bullet-bg bullet-soft-yellow">
-                  <li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
-                  <li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
-                  <li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
-                </ul>
-                <a href="#" class="btn btn-yellow mt-2">Learn More</a>
+                <img src="{{ tab.tabsvg_src }}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+                <h2 class="display-4 mb-3">{{ tab.title }}</h2>
+                <p class="lead fs-lg">{{ tab.tagline }}</p>
+                <p class="mb-6">{{ tab.text }}</p>
+                <div class="row gy-3 gx-xl-8">
+                  {% for list in tab.bullets %}
+                  <div class="col-xl-6">
+                    <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                      {% for line in list %}
+                      <li><span><i class="uil uil-check"></i></span><span>{{ line }}</span></li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  <!--/column -->
+                  {% endfor %}
+                </div>
+                <!--/.row -->
               </div>
               <!--/column -->
             </div>
             <!--/.row -->
           </div>
           <!--/.tab-pane -->
+          {% endfor %}
         </div>
         {% endif %}
         <!-- /.tab-content -->
