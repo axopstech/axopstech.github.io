@@ -13,29 +13,9 @@
   enabled: true
   has_children: true
   multi_column: false
-  has_subchildren: true
+  has_subchildren: false
+  is_mega_dropdown: true
   children:
-    -
-      name: Business Analytics
-      url: "#business-analytics"
-      enabled: true
-      children:
-        -
-          name: Data Analytics
-          url: "#data-analytics"
-          enabled: true
-        -
-          name: Data Architecture
-          url: "#data-architecture"
-          enabled: true
-        -
-          name: Data Management
-          url: "#data-management"
-          enabled: true
-        -
-          name: Information Delivery
-          url: "#information-delivery"
-          enabled: true
     -
       name: Cloud & Infrastructure
       url: "#cloud-infrastructure"
@@ -74,27 +54,6 @@
           url: "#serverless-computing"
           enabled: true
     -
-      name: Digital Transformation
-      url: "#digital-transformation"
-      enabled: true
-      children:
-        -
-          name: Domain Transformation
-          url: '#domain-transformation'
-          enabled: true
-        -
-          name: Process Transformation
-          url: "#process-transformation"
-          enabled: true
-        -
-          name: Organisation Transformation
-          url: '#organisation-transformation'
-          enabled: true
-        -
-          name: Business Model Transformation
-          url: "#business-model-transformation"
-          enabled: true
-    -
       name: 'Application Engineering    <span style="visibility: hidden">.</span>'
       url: "#application-engineering"
       enabled: true
@@ -119,7 +78,48 @@
           name: Full-Stack Development
           url: "#full-stack-development"
           enabled: true
-
+    -
+      name: Digital Transformation
+      url: "#digital-transformation"
+      enabled: true
+      children:
+        -
+          name: Domain Transformation
+          url: '#domain-transformation'
+          enabled: true
+        -
+          name: Process Transformation
+          url: "#process-transformation"
+          enabled: true
+        -
+          name: Organisation Transformation
+          url: '#organisation-transformation'
+          enabled: true
+        -
+          name: Business Model Transformation
+          url: "#business-model-transformation"
+          enabled: true
+    -
+      name: Business Analytics
+      url: "#business-analytics"
+      enabled: true
+      children:
+        -
+          name: Data Analytics
+          url: "#data-analytics"
+          enabled: true
+        -
+          name: Data Architecture
+          url: "#data-architecture"
+          enabled: true
+        -
+          name: Data Management
+          url: "#data-management"
+          enabled: true
+        -
+          name: Information Delivery
+          url: "#information-delivery"
+          enabled: true
 -
   name: Case Studies
   url: /case-studies/
@@ -127,7 +127,8 @@
   enabled: true
   has_children: true
   multi_column: false
-  has_subchildren: true
+  has_subchildren: false
+  is_mega_dropdown: true
   children:
     -
       name: Cloud Migration
@@ -218,7 +219,7 @@
           url: "#cloud-configuration-management"
           enabled: true
         -
-          name: Infrastructure-as-Code (IaC)
+          name: Infrastructure Automation
           url: "#cloud-infrastructure-as-code-iac"
           enabled: true
     -
