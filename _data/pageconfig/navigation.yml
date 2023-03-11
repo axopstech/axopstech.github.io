@@ -7,42 +7,117 @@
   multi_column: false
 
 -
-  name: Consulting Services
-  url: /consulting-services/
+  name: Technologies
+  url: /technologies/
   current: false
   enabled: true
   has_children: true
-  multi_column: true
+  multi_column: false
+  has_subchildren: true
   children:
     -
       name: Digital Transformation
-      url: "#data-engineering"
+      url: "#digital-transformation"
       enabled: true
       children:
         -
-          name: DE 1
-          url: "#data-analytics1"
+          name: Business Model Transformation
+          url: "#business-model-transformation"
           enabled: true
         -
-          name: DE 2
-          url: "#data-analytics2"
+          name: Process Transformation
+          url: "#process-transformation"
           enabled: true
         -
-          name: Backup & Disaster Recovery
-          url: 
+          name: Domain Transformation
+          url: '#domain-transformation'
+          enabled: true
+        -
+          name: Organisation Transformation
+          url: '#organisation-transformation'
+          enabled: true
+    -
+      name: Business Analytics
+      url: "#business-analytics"
+      enabled: true
+      children:
+        -
+          name: Information Delivery
+          url: "#information-delivery"
+          enabled: true
+        -
+          name: Data Management
+          url: "#data-management"
+          enabled: true
+        -
+          name: Data Analytics
+          url: "#data-analytics"
+          enabled: true
+        -
+          name: Data Architecture
+          url: "#data-architecture"
           enabled: true
     -
       name: Application Engineering
-      url: "#data-engineering"
+      url: "#application-engineering"
       enabled: true
       children:
         -
-          name: DE 1
-          url: "#data-analytics1"
+          name: Full-Stack Development
+          url: "#full-stack-development"
           enabled: true
         -
-          name: DE 2
-          url: "#data-analytics2"
+          name: DevOps Optimisation
+          url: "#devops-optimisation"
+          enabled: true
+        -
+          name: API Development
+          url: "#api-development"
+          enabled: true
+        -
+          name: SaaS Development
+          url: "#saas-development"
+          enabled: true
+        -
+          name: Cloud Engineering
+          url: "#cloud-engineering"
+          enabled: true
+    -
+      name: Cloud & Infrastructure
+      url: "#cloud-infrastructure"
+      enabled: true
+      children:
+        -
+          name: Cloud Migration
+          url: "#cloud-migration"
+          enabled: true
+        -
+          name: Backup & Archival
+          url: "#backup-archival"
+          enabled: true
+        -
+          name: Disaster Recovery
+          url: "#disaster-recovery"
+          enabled: true
+        -
+          name: Data Lakes
+          url: "#data-lakes"
+          enabled: true
+        -
+          name: DevOps
+          url: "#devops"
+          enabled: true
+        -
+          name: Edge Computing
+          url: "#edge-computing"
+          enabled: true
+        -
+          name: Hybrid Architecture
+          url: "#hybrid-architecture"
+          enabled: true
+        -
+          name: Serverless Computing
+          url: "#serverless-computing"
           enabled: true
 -
   name: Training
