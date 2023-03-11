@@ -7,40 +7,90 @@
   multi_column: false
 
 -
-  name: Services
-  url: /services/
+  name: Consulting Services
+  url: /consulting-services/
   current: false
   enabled: true
   has_children: true
   multi_column: true
   children:
     -
-      name: Technical Training
-      url: "#technical/training"
+      name: Digital Transformation
+      url: "#data-engineering"
       enabled: true
       children:
         -
-          name: Training 1
-          url: "#training1"
+          name: DE 1
+          url: "#data-analytics1"
           enabled: true
         -
-          name: Training 2
-          url: "#training2"
+          name: DE 2
+          url: "#data-analytics2"
+          enabled: true
+        -
+          name: Backup & Disaster Recovery
+          url: 
           enabled: true
     -
-      name: IT Consulting
-      url: "#information-technology-consulting"
+      name: Full-Stack Engineering
+      url: "#data-engineering"
       enabled: true
       children:
         -
-          name: Consulting 1
-          url: "#consulting1"
+          name: DE 1
+          url: "#data-analytics1"
           enabled: true
         -
-          name: Consulting 2
-          url: "#consulting2"
+          name: DE 2
+          url: "#data-analytics2"
           enabled: true
-
+-
+  name: Training
+  url: /training-services/
+  current: false
+  enabled: true
+  has_children: true
+  multi_column: true
+  children:
+    -
+      name: AWS Cloud
+      url: "#devops-engineering"
+      enabled: true
+      children:
+        -
+          name: Data Migration 1
+          url: "#data-migration1"
+          enabled: true
+        -
+          name: Data Migration 2
+          url: "#data-migration2"
+          enabled: true
+    -
+      name: DevOps
+      url: "#devops-engineering"
+      enabled: true
+      children:
+        -
+          name: Data Migration 1
+          url: "#data-migration1"
+          enabled: true
+        -
+          name: Data Migration 2
+          url: "#data-migration2"
+          enabled: true
+    -
+      name: Data & ML Ops
+      url: "#devops-engineering"
+      enabled: true
+      children:
+        -
+          name: Data Migration 1
+          url: "#data-migration1"
+          enabled: true
+        -
+          name: Data Migration 2
+          url: "#data-migration2"
+          enabled: true
 -
   name: Case Studies
   url: /case-studies/
