@@ -45,6 +45,21 @@
                       </div>
                       <!-- /auto-column -->
                     </div>
+                    {% elsif item.has_subchildren %}
+                    <ul class="dropdown-menu">
+                      {% for subitem in item.children %}
+                      {% if subitem.enabled %}
+                      {% assign child_url = child_base_url | append: subitem.url %}
+                      <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">{{ subitem.name }}</a>
+                        <ul class="dropdown-menu">
+                          {% for child in subitem.children %}
+                          <li class="nav-item"><a class="dropdown-item" href="#">{{ child.name }}</a></li>
+                          {% endfor %}
+                        </ul>
+                      </li>
+                      {% endif %}
+                      {% endfor %}
+                    </ul>
                     {% else %}
                     <ul class="dropdown-menu">
                       {% for subitem in item.children %}
@@ -65,6 +80,7 @@
                   {% endif %}
                 {% endif %}
               {% endfor %}
+              
             </ul>
             <!-- /.navbar-nav -->
           </div>

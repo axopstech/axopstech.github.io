@@ -32,7 +32,7 @@
           url: 
           enabled: true
     -
-      name: Full-Stack Engineering
+      name: Application Engineering
       url: "#data-engineering"
       enabled: true
       children:
@@ -50,7 +50,8 @@
   current: false
   enabled: true
   has_children: true
-  multi_column: true
+  multi_column: false
+  has_subchildren: true
   children:
     -
       name: AWS Cloud
@@ -66,20 +67,7 @@
           url: "#data-migration2"
           enabled: true
     -
-      name: DevOps
-      url: "#devops-engineering"
-      enabled: true
-      children:
-        -
-          name: Data Migration 1
-          url: "#data-migration1"
-          enabled: true
-        -
-          name: Data Migration 2
-          url: "#data-migration2"
-          enabled: true
-    -
-      name: Data & ML Ops
+      name: Dev & Data Ops
       url: "#devops-engineering"
       enabled: true
       children:
@@ -97,7 +85,8 @@
   current: false
   enabled: true
   has_children: true
-  multi_column: true
+  multi_column: false
+  has_subchildren: true
   children:
     -
       name: Cloud Migration
