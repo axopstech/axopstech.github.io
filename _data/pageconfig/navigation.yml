@@ -119,9 +119,10 @@
           name: Full-Stack Development
           url: "#full-stack-development"
           enabled: true
+
 -
-  name: Solutions
-  url: /solutions/
+  name: Case Studies
+  url: /case-studies/
   current: false
   enabled: true
   has_children: true
@@ -129,12 +130,75 @@
   has_subchildren: true
   children:
     -
+      name: Cloud Migration
+      url: "#cloud-migration"
+      enabled: true
+      children:
+        -
+          name: Cloud Migration 1
+          url: "#cloud-migration1"
+          enabled: true
+        -
+          name: Cloud Migration 2
+          url: "#cloud-migration2"
+          enabled: true
+    -
+      name: CRM Integration
+      url: "#crm-integration"
+      enabled: true
+      children:
+        -
+          name: CRM Migration 1
+          url: "#cloud-migration1"
+          enabled: true
+        -
+          name: CRM Migration 2
+          url: "#cloud-migration2"
+          enabled: true
+    -
+      name: 'Hybrid Architecture    <span style="visibility: hidden">.</span>'
+      url: "#crm-integration"
+      enabled: true
+      children:
+        -
+          name: Hybrid 1
+          url: "#cloud-migration1"
+          enabled: true
+        -
+          name: Hybrid 2
+          url: "#cloud-migration2"
+          enabled: true
+    -
+      name: 'Continuous Delivery    <span style="visibility: hidden">.</span>'
+      url: "#devops"
+      enabled: true
+      children:
+        -
+          name: DevOps 1
+          url: "#devops1"
+          enabled: true
+        -
+          name: DevOps 2
+          url: "#devops2"
+          enabled: true
+
+-
+  name: Solutions
+  url: /solutions/
+  current: false
+  enabled: true
+  has_children: false
+  multi_column: false
+  has_subchildren: false
+  is_mega_dropdown: true
+  children:
+    -
       name: Technical Training
       url: "#technical-training"
       enabled: true
       children:
         -
-          name: Quantative R&D
+          name: Quantitative R&D
           url: "#quantitative-research-development"
           enabled: true
         -
@@ -183,7 +247,7 @@
           url: "#hubspot-crm-implementation"
           enabled: true
     -
-      name: 'Strategic Advisory Services    <span style="visibility: hidden">.</span>'
+      name: Strategic Advisory
       url: "#strategic-advisory-services"
       enabled: true
       children:
@@ -224,45 +288,10 @@
           name: Client Benefits
           url: "#client-benefits"
           enabled: true
--
-  name: Case Studies
-  url: /case-studies/
-  current: false
-  enabled: true
-  has_children: true
-  multi_column: false
-  has_subchildren: true
-  children:
-    -
-      name: Cloud Migration
-      url: "#cloud-migration"
-      enabled: true
-      children:
-        -
-          name: Cloud Migration 1
-          url: "#cloud-migration1"
-          enabled: true
-        -
-          name: Cloud Migration 2
-          url: "#cloud-migration2"
-          enabled: true
-    -
-      name: DevOps
-      url: "#devops"
-      enabled: true
-      children:
-        -
-          name: DevOps 1
-          url: "#devops1"
-          enabled: true
-        -
-          name: DevOps 2
-          url: "#devops2"
-          enabled: true
 
 -
-  name: About
-  url: /about/
+  name: About Us
+  url: /about-us/
   current: false
   enabled: true
   has_children: true

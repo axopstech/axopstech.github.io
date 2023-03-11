@@ -18,7 +18,34 @@
             <ul class="navbar-nav">
               {% for item in site.data.pageconfig.navigation %}
                 {% if item.enabled %}
-                  {% if item.has_children %}
+                  {% if item.is_mega_dropdown %}
+                  <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">{{ item.name }}</a>
+                    <ul class="dropdown-menu mega-menu">
+                      <li class="mega-menu-content">
+                        <div class="row gx-0 gx-lg-3">
+                          {% for subitem in item.children %}
+                          {% if subitem.enabled %}
+                          <div class="col-lg-3">
+                            <h6 class="dropdown-header">{{ subitem.name }}</h6>
+                            <ul class="list-unstyled">
+                              {% for child in subitem.children %}
+                              {% if child.enabled %}
+                              <li><a class="dropdown-item" href="{{ child.url }}">{{ child.name }}</a></li>
+                              {% endif %}
+                              {% endfor %}
+                            </ul>
+                          </div>
+                          <!--/column -->
+                          {% endif %}
+                          {% endfor %}
+                        </div>
+                        <!--/.row -->
+                      </li>
+                      <!--/.mega-menu-content-->
+                    </ul>
+                    <!--/.dropdown-menu -->
+                  </li>
+                  {% elsif item.has_children %}
                   <li class="nav-item dropdown">
                     {% assign child_base_url = site.baseurl | append: item.url %}
                     <a class="nav-link dropdown-toggle" href="{{ child_base_url }}" data-bs-toggle="dropdown">{{ item.name }}</a>
@@ -80,7 +107,6 @@
                   {% endif %}
                 {% endif %}
               {% endfor %}
-              
             </ul>
             <!-- /.navbar-nav -->
           </div>
