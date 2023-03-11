@@ -16,27 +16,6 @@
   has_subchildren: true
   children:
     -
-      name: Digital Transformation
-      url: "#digital-transformation"
-      enabled: true
-      children:
-        -
-          name: Business Model Transformation
-          url: "#business-model-transformation"
-          enabled: true
-        -
-          name: Process Transformation
-          url: "#process-transformation"
-          enabled: true
-        -
-          name: Domain Transformation
-          url: '#domain-transformation'
-          enabled: true
-        -
-          name: Organisation Transformation
-          url: '#organisation-transformation'
-          enabled: true
-    -
       name: Business Analytics
       url: "#business-analytics"
       enabled: true
@@ -56,31 +35,6 @@
         -
           name: Data Architecture
           url: "#data-architecture"
-          enabled: true
-    -
-      name: Application Engineering
-      url: "#application-engineering"
-      enabled: true
-      children:
-        -
-          name: Full-Stack Development
-          url: "#full-stack-development"
-          enabled: true
-        -
-          name: DevOps Optimisation
-          url: "#devops-optimisation"
-          enabled: true
-        -
-          name: API Development
-          url: "#api-development"
-          enabled: true
-        -
-          name: SaaS Development
-          url: "#saas-development"
-          enabled: true
-        -
-          name: Cloud Engineering
-          url: "#cloud-engineering"
           enabled: true
     -
       name: Cloud & Infrastructure
@@ -120,6 +74,115 @@
           url: "#serverless-computing"
           enabled: true
     -
+      name: Digital Transformation
+      url: "#digital-transformation"
+      enabled: true
+      children:
+        -
+          name: Process Transformation
+          url: "#process-transformation"
+          enabled: true
+        -
+          name: Domain Transformation
+          url: '#domain-transformation'
+          enabled: true
+        -
+          name: Organisation Transformation
+          url: '#organisation-transformation'
+          enabled: true
+        -
+          name: Business Model Transformation
+          url: "#business-model-transformation"
+          enabled: true
+    -
+      name: 'Application Engineering    <span style="visibility: hidden">.</span>'
+      url: "#application-engineering"
+      enabled: true
+      children:
+        -
+          name: Full-Stack Development
+          url: "#full-stack-development"
+          enabled: true
+        -
+          name: DevOps Optimisation
+          url: "#devops-optimisation"
+          enabled: true
+        -
+          name: API Development
+          url: "#api-development"
+          enabled: true
+        -
+          name: SaaS Development
+          url: "#saas-development"
+          enabled: true
+        -
+          name: Cloud Engineering
+          url: "#cloud-engineering"
+          enabled: true
+-
+  name: Solutions
+  url: /solutions/
+  current: false
+  enabled: true
+  has_children: true
+  multi_column: false
+  has_subchildren: true
+  children:
+    -
+      name: Technical Training
+      url: "#technical-training"
+      enabled: true
+      children:
+        -
+          name: DevOps Automation
+          url: "#devops-sdlc-automation"
+          enabled: true
+        -
+          name: Configuration Management
+          url: "#cloud-configuration-management"
+          enabled: true
+        -
+          name: Infrastructure-as-Code (IaC)
+          url: "#cloud-infrastructure-as-code-iac"
+          enabled: true
+        -
+          name: Monitoring & Observability
+          url: "#cloud-monitoring-observability"
+          enabled: true
+        -
+          name: Event-Driven Architecture
+          url: "#event-driven-architecture"
+          enabled: true
+        -
+          name: Quantative R&D
+          url: "#quantitative-research-development"
+          enabled: true
+    -
+      name: CRM & ERP Consulting
+      url: "#crm-erp-consulting"
+      enabled: true
+      children:
+        -
+          name: Salesforce Development
+          url: "#salesforce-development"
+          enabled: true
+        -
+          name: HubSpot Implementation
+          url: "#hubspot-crm-implementation"
+          enabled: true
+        -
+          name: CRM Data Migrations
+          url: "#crm-data-migrations"
+          enabled: true
+        -
+          name: CRM Data Integrations
+          url: "#crm-data-integrations"
+          enabled: true
+        -
+          name: Bespoke CRM Solutions
+          url: "#bespoke-crm-solutions"
+          enabled: true
+    -
       name: 'Strategic Advisory Services    <span style="visibility: hidden">.</span>'
       url: "#strategic-advisory-services"
       enabled: true
@@ -140,40 +203,26 @@
           name: Workforce Optimisation
           url: "#workforce-optimisation"
           enabled: true
--
-  name: Training
-  url: /training-services/
-  current: false
-  enabled: true
-  has_children: true
-  multi_column: false
-  has_subchildren: true
-  children:
     -
-      name: AWS Cloud
-      url: "#devops-engineering"
+      name: Engagement Models
+      url: "#engagement-models"
       enabled: true
       children:
         -
-          name: Data Migration 1
-          url: "#data-migration1"
+          name: On Shore
+          url: "#on-shore"
           enabled: true
         -
-          name: Data Migration 2
-          url: "#data-migration2"
-          enabled: true
-    -
-      name: Dev & Data Ops
-      url: "#devops-engineering"
-      enabled: true
-      children:
-        -
-          name: Data Migration 1
-          url: "#data-migration1"
+          name: Off Shore
+          url: "#off-shore"
           enabled: true
         -
-          name: Data Migration 2
-          url: "#data-migration2"
+          name: Embedded
+          url: "#embedded"
+          enabled: true
+        -
+          name: Client Benefits
+          url: "#client-benefits"
           enabled: true
 -
   name: Case Studies
@@ -218,6 +267,7 @@
   enabled: true
   has_children: true
   multi_column: false
+  has_subchildren: false
   children:
     -
       name: Our Vision
