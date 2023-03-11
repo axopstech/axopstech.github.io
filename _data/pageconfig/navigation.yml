@@ -21,14 +21,6 @@
       enabled: true
       children:
         -
-          name: Information Delivery
-          url: "#information-delivery"
-          enabled: true
-        -
-          name: Data Management
-          url: "#data-management"
-          enabled: true
-        -
           name: Data Analytics
           url: "#data-analytics"
           enabled: true
@@ -36,14 +28,34 @@
           name: Data Architecture
           url: "#data-architecture"
           enabled: true
+        -
+          name: Data Management
+          url: "#data-management"
+          enabled: true
+        -
+          name: Information Delivery
+          url: "#information-delivery"
+          enabled: true
     -
       name: Cloud & Infrastructure
       url: "#cloud-infrastructure"
       enabled: true
       children:
         -
+          name: DevOps
+          url: "#devops"
+          enabled: true
+        -
+          name: Data Lakes
+          url: "#data-lakes"
+          enabled: true
+        -
           name: Cloud Migration
           url: "#cloud-migration"
+          enabled: true
+        -
+          name: Edge Computing
+          url: "#edge-computing"
           enabled: true
         -
           name: Backup & Archival
@@ -52,18 +64,6 @@
         -
           name: Disaster Recovery
           url: "#disaster-recovery"
-          enabled: true
-        -
-          name: Data Lakes
-          url: "#data-lakes"
-          enabled: true
-        -
-          name: DevOps
-          url: "#devops"
-          enabled: true
-        -
-          name: Edge Computing
-          url: "#edge-computing"
           enabled: true
         -
           name: Hybrid Architecture
@@ -79,12 +79,12 @@
       enabled: true
       children:
         -
-          name: Process Transformation
-          url: "#process-transformation"
-          enabled: true
-        -
           name: Domain Transformation
           url: '#domain-transformation'
+          enabled: true
+        -
+          name: Process Transformation
+          url: "#process-transformation"
           enabled: true
         -
           name: Organisation Transformation
@@ -100,14 +100,6 @@
       enabled: true
       children:
         -
-          name: Full-Stack Development
-          url: "#full-stack-development"
-          enabled: true
-        -
-          name: DevOps Optimisation
-          url: "#devops-optimisation"
-          enabled: true
-        -
           name: API Development
           url: "#api-development"
           enabled: true
@@ -118,6 +110,14 @@
         -
           name: Cloud Engineering
           url: "#cloud-engineering"
+          enabled: true
+        -
+          name: DevOps Optimisation
+          url: "#devops-optimisation"
+          enabled: true
+        -
+          name: Full-Stack Development
+          url: "#full-stack-development"
           enabled: true
 -
   name: Solutions
@@ -134,8 +134,20 @@
       enabled: true
       children:
         -
+          name: Quantative R&D
+          url: "#quantitative-research-development"
+          enabled: true
+        -
           name: DevOps Automation
           url: "#devops-sdlc-automation"
+          enabled: true
+        -
+          name: Event-Driven Architecture
+          url: "#event-driven-architecture"
+          enabled: true
+        -
+          name: Monitoring & Observability
+          url: "#cloud-monitoring-observability"
           enabled: true
         -
           name: Configuration Management
@@ -145,31 +157,11 @@
           name: Infrastructure-as-Code (IaC)
           url: "#cloud-infrastructure-as-code-iac"
           enabled: true
-        -
-          name: Monitoring & Observability
-          url: "#cloud-monitoring-observability"
-          enabled: true
-        -
-          name: Event-Driven Architecture
-          url: "#event-driven-architecture"
-          enabled: true
-        -
-          name: Quantative R&D
-          url: "#quantitative-research-development"
-          enabled: true
     -
       name: CRM & ERP Consulting
       url: "#crm-erp-consulting"
       enabled: true
       children:
-        -
-          name: Salesforce Development
-          url: "#salesforce-development"
-          enabled: true
-        -
-          name: HubSpot Implementation
-          url: "#hubspot-crm-implementation"
-          enabled: true
         -
           name: CRM Data Migrations
           url: "#crm-data-migrations"
@@ -182,18 +174,26 @@
           name: Bespoke CRM Solutions
           url: "#bespoke-crm-solutions"
           enabled: true
+        -
+          name: Salesforce Development
+          url: "#salesforce-development"
+          enabled: true
+        -
+          name: HubSpot Implementation
+          url: "#hubspot-crm-implementation"
+          enabled: true
     -
       name: 'Strategic Advisory Services    <span style="visibility: hidden">.</span>'
       url: "#strategic-advisory-services"
       enabled: true
       children:
         -
-          name: Project Management
-          url: "#project-management"
-          enabled: true
-        -
           name: Business Analysis
           url: "#business-analysis"
+          enabled: true
+        -
+          name: Project Management
+          url: "#project-management"
           enabled: true
         -
           name: Technical Recruitment
