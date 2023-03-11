@@ -119,6 +119,27 @@
           name: Serverless Computing
           url: "#serverless-computing"
           enabled: true
+    -
+      name: 'Strategic Advisory Services    <span style="visibility: hidden">.</span>'
+      url: "#strategic-advisory-services"
+      enabled: true
+      children:
+        -
+          name: Project Management
+          url: "#project-management"
+          enabled: true
+        -
+          name: Business Analysis
+          url: "#business-analysis"
+          enabled: true
+        -
+          name: Technical Recruitment
+          url: "#technical-recruitment"
+          enabled: true
+        -
+          name: Workforce Optimisation
+          url: "#workforce-optimisation"
+          enabled: true
 -
   name: Training
   url: /training-services/
