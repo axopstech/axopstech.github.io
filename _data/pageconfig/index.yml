@@ -13,7 +13,7 @@ why_choose_us_section:
   enabled: true
   intro_tagline: “When done well, software is invisible.” - Bjarne Stroustrup
   main_tagline: 'Taming operational <span class="underline">inefficiencies</span> empowers <span class="underline-3 style-2 green">transformation</span> &#128161;'
-  outro_tagline: 'Literally <span class="underline-3 style-2 yellow">everything</span> we do at AxOps&#8482; involves optimising:'
+  outro_tagline: '<span class="underline-3 style-2 yellow">Everything</span> we do at AxOps&#8482; optimises:'
   tabs:
     -
       id: tab-1
@@ -23,20 +23,20 @@ why_choose_us_section:
       svg_class: svg-inject icon-svg icon-svg-md text-yellow me-4
       div_class: tab-pane fade show active
       title: Cost of Ownership
-      summary: Leverage the Cloud to reduce CapEx and optimise OpEx at scale.
-      tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
-      text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      summary: Leverage the Cloud to reduce fixed costs and focus on value creation.
+      tagline: The Cloud can rapidly reduce your CapEx <span class="underline">and</span> OpEx, but there’s more to it than just "well-oiled machinery".
+      text: "We help you truly appreciate the benefits of the Cloud and how to align your business to take advantage of them. We'll help you address:"
       image1_src: ./assets/img/photos/about2.jpg
       image1_srcset: ./assets/img/photos/about2@2x.jpg 2x
       image2_src: ./assets/img/photos/about3.jpg
       image2_srcset: ./assets/img/photos/about3@2x.jpg 2x
       bullets:
         -
-          - Aenean eu leo quam ornare curabitur blandit tempus.
-          - Nullam quis risus eget urna mollis ornare donec elit.
+          - Inefficiencies in your current environment, e.g. technical debt.
+          - How to modernize it to be more efficient, empowering growth.
         -
-          - Etiam porta sem malesuada magna mollis euismod.
-          - Fermentum massa vivamus faucibus amet euismod.
+          - How to leverage the Cloud to support your competitive edge.
+          - How to optimise your technology infrastructure for infinite scale.
     -
       id: tab-2
       a_class: nav-link d-flex flex-row
@@ -44,8 +44,8 @@ why_choose_us_section:
       tabsvg_src: ./assets/img/icons/lineal/rocket.svg
       svg_class: svg-inject icon-svg icon-svg-md text-green me-4
       div_class: tab-pane fade
-      title: Resource Velocity
-      summary: Rapidly and reliably build products and operations in the Cloud.
+      title: Operational Efficiency
+      summary: Rapidly and reliably build products and manage operations at scale.
       tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
       text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
       image1_src: ./assets/img/photos/about2.jpg
@@ -67,7 +67,7 @@ why_choose_us_section:
       svg_class: svg-inject icon-svg icon-svg-md text-red me-4
       div_class: tab-pane fade
       title: Innovation
-      summary: Reduce risk, retire technical debt, and focus on creating value.
+      summary: Reduce risk, retire technical debt, and focus on drivers that matter.
       tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
       text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
       image1_src: ./assets/img/photos/about2.jpg
