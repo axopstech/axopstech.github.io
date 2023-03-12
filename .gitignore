@@ -2,6 +2,7 @@ _site
 _posts
 _drafts
 docs
+assets/img/photos/custom
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
