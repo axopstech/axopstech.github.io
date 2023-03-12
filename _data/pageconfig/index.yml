@@ -11,17 +11,17 @@ button_cta2_url: #
 
 why_choose_us_section:
   enabled: true
-  intro_tagline: Pending Intro Tagline
-  main_tagline: Here are a few reasons why our customers choose to ignore taglines!
+  intro_tagline: “When done well, software is invisible.” - Bjarne Stroustrup
+  main_tagline: 'Taming operational inefficiencies empowers <span class="underline-3 style-2 green">transformation</span>.'
   tabs:
     -
       id: tab-1
       a_class: nav-link d-flex flex-row active
-      svg_src: ./assets/img/icons/lineal/rocket.svg
-      tabsvg_src: ./assets/img/icons/lineal/megaphone.svg
+      svg_src: ./assets/img/icons/lineal/savings.svg
+      tabsvg_src: ./assets/img/icons/lineal/savings.svg
       svg_class: svg-inject icon-svg icon-svg-md text-yellow me-4
       div_class: tab-pane fade show active
-      title: Easy Usage
+      title: Cost of Ownership
       summary: Duis mollis commodo luctus cursus commodo tortor mauris.
       tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
       text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
@@ -39,11 +39,11 @@ why_choose_us_section:
     -
       id: tab-2
       a_class: nav-link d-flex flex-row
-      svg_src: ./assets/img/icons/lineal/savings.svg
-      tabsvg_src: ./assets/img/icons/lineal/megaphone.svg
+      svg_src: ./assets/img/icons/lineal/rocket.svg
+      tabsvg_src: ./assets/img/icons/lineal/rocket.svg
       svg_class: svg-inject icon-svg icon-svg-md text-green me-4
       div_class: tab-pane fade
-      title: Fast Transactions
+      title: Resource Velocity
       summary: Vivamus sagittis lacus augue fusce dapibus tellus nibh.
       tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
       text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
@@ -61,11 +61,11 @@ why_choose_us_section:
     -
       id: tab-3
       a_class: nav-link d-flex flex-row
-      svg_src: ./assets/img/icons/lineal/shield.svg
-      tabsvg_src: ./assets/img/icons/lineal/megaphone.svg
+      svg_src: ./assets/img/icons/lineal/startup.svg
+      tabsvg_src: ./assets/img/icons/lineal/startup.svg
       svg_class: svg-inject icon-svg icon-svg-md text-red me-4
       div_class: tab-pane fade
-      title: Secure Payments
+      title: Innovation
       summary: Vestibulum ligula porta felis maecenas faucibus mollis.
       tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
       text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
