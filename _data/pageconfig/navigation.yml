@@ -7,6 +7,113 @@
   multi_column: false
 
 -
+  name: Solutions
+  url: /solutions/
+  current: false
+  enabled: true
+  has_children: false
+  multi_column: false
+  has_subchildren: false
+  is_mega_dropdown: true
+  children:
+    -
+      name: Technical Training
+      url: "#technical-training"
+      enabled: true
+      children:
+        -
+          name: Quantitative R&D
+          url: "#quantitative-research-development"
+          enabled: true
+        -
+          name: DevOps Automation
+          url: "#devops-sdlc-automation"
+          enabled: true
+        -
+          name: Event-Driven Architecture
+          url: "#event-driven-architecture"
+          enabled: true
+        -
+          name: Monitoring & Observability
+          url: "#cloud-monitoring-observability"
+          enabled: true
+        -
+          name: Configuration Management
+          url: "#cloud-configuration-management"
+          enabled: true
+        -
+          name: Infrastructure Automation
+          url: "#cloud-infrastructure-as-code-iac"
+          enabled: true
+    -
+      name: CRM & ERP Consulting
+      url: "#crm-erp-consulting"
+      enabled: true
+      children:
+        -
+          name: CRM Data Migrations
+          url: "#crm-data-migrations"
+          enabled: true
+        -
+          name: CRM Data Integrations
+          url: "#crm-data-integrations"
+          enabled: true
+        -
+          name: Bespoke CRM Solutions
+          url: "#bespoke-crm-solutions"
+          enabled: true
+        -
+          name: Salesforce Development
+          url: "#salesforce-development"
+          enabled: true
+        -
+          name: HubSpot Implementation
+          url: "#hubspot-crm-implementation"
+          enabled: true
+    -
+      name: Strategic Advisory
+      url: "#strategic-advisory-services"
+      enabled: true
+      children:
+        -
+          name: Business Analysis
+          url: "#business-analysis"
+          enabled: true
+        -
+          name: Project Management
+          url: "#project-management"
+          enabled: true
+        -
+          name: Technical Recruitment
+          url: "#technical-recruitment"
+          enabled: true
+        -
+          name: Workforce Optimisation
+          url: "#workforce-optimisation"
+          enabled: true
+    -
+      name: Engagement Models
+      url: "#engagement-models"
+      enabled: true
+      children:
+        -
+          name: On Shore
+          url: "#on-shore"
+          enabled: true
+        -
+          name: Off Shore
+          url: "#off-shore"
+          enabled: true
+        -
+          name: Embedded
+          url: "#embedded"
+          enabled: true
+        -
+          name: Client Benefits
+          url: "#client-benefits"
+          enabled: true
+          
+-
   name: Technologies
   url: /technologies/
   current: false
@@ -122,113 +229,6 @@
           enabled: true
 
 -
-  name: Solutions
-  url: /solutions/
-  current: false
-  enabled: true
-  has_children: false
-  multi_column: false
-  has_subchildren: false
-  is_mega_dropdown: true
-  children:
-    -
-      name: Technical Training
-      url: "#technical-training"
-      enabled: true
-      children:
-        -
-          name: Quantitative R&D
-          url: "#quantitative-research-development"
-          enabled: true
-        -
-          name: DevOps Automation
-          url: "#devops-sdlc-automation"
-          enabled: true
-        -
-          name: Event-Driven Architecture
-          url: "#event-driven-architecture"
-          enabled: true
-        -
-          name: Monitoring & Observability
-          url: "#cloud-monitoring-observability"
-          enabled: true
-        -
-          name: Configuration Management
-          url: "#cloud-configuration-management"
-          enabled: true
-        -
-          name: Infrastructure Automation
-          url: "#cloud-infrastructure-as-code-iac"
-          enabled: true
-    -
-      name: CRM & ERP Consulting
-      url: "#crm-erp-consulting"
-      enabled: true
-      children:
-        -
-          name: CRM Data Migrations
-          url: "#crm-data-migrations"
-          enabled: true
-        -
-          name: CRM Data Integrations
-          url: "#crm-data-integrations"
-          enabled: true
-        -
-          name: Bespoke CRM Solutions
-          url: "#bespoke-crm-solutions"
-          enabled: true
-        -
-          name: Salesforce Development
-          url: "#salesforce-development"
-          enabled: true
-        -
-          name: HubSpot Implementation
-          url: "#hubspot-crm-implementation"
-          enabled: true
-    -
-      name: Strategic Advisory
-      url: "#strategic-advisory-services"
-      enabled: true
-      children:
-        -
-          name: Business Analysis
-          url: "#business-analysis"
-          enabled: true
-        -
-          name: Project Management
-          url: "#project-management"
-          enabled: true
-        -
-          name: Technical Recruitment
-          url: "#technical-recruitment"
-          enabled: true
-        -
-          name: Workforce Optimisation
-          url: "#workforce-optimisation"
-          enabled: true
-    -
-      name: Engagement Models
-      url: "#engagement-models"
-      enabled: true
-      children:
-        -
-          name: On Shore
-          url: "#on-shore"
-          enabled: true
-        -
-          name: Off Shore
-          url: "#off-shore"
-          enabled: true
-        -
-          name: Embedded
-          url: "#embedded"
-          enabled: true
-        -
-          name: Client Benefits
-          url: "#client-benefits"
-          enabled: true
-
--
   name: Case Studies
   url: /case-studies/
   current: false
@@ -290,7 +290,7 @@
           name: DevOps 2
           url: "#devops2"
           enabled: true
-          
+
 -
   name: About Us
   url: /about-us/
