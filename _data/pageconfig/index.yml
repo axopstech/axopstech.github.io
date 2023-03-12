@@ -48,10 +48,10 @@ why_choose_us_section:
       summary: Rapidly and reliably build products and manage operations at scale.
       tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
       text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      image1_src: ./assets/img/photos/about2.jpg
-      image1_srcset: ./assets/img/photos/about2@2x.jpg 2x
-      image2_src: ./assets/img/photos/about3.jpg
-      image2_srcset: ./assets/img/photos/about3@2x.jpg 2x
+      image1_src: ./assets/img/photos/home/operational-efficiency-2a.jpg
+      image1_srcset: ./assets/img/photos/home/operational-efficiency-2a.jpg 2x
+      image2_src: ./assets/img/photos/home/operational-efficiency-1.jpg
+      image2_srcset: ./assets/img/photos/home/operational-efficiency-1.jpg 2x
       bullets:
         -
           - Aenean eu leo quam ornare curabitur blandit tempus.
@@ -70,10 +70,10 @@ why_choose_us_section:
       summary: Reduce risk, retire technical debt, and focus on drivers that matter.
       tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
       text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      image1_src: ./assets/img/photos/about2.jpg
-      image1_srcset: ./assets/img/photos/about2@2x.jpg 2x
-      image2_src: ./assets/img/photos/about3.jpg
-      image2_srcset: ./assets/img/photos/about3@2x.jpg 2x
+      image1_src: ./assets/img/photos/home/innovation-2.jpg
+      image1_srcset: ./assets/img/photos/home/innovation-2.jpg 2x
+      image2_src: ./assets/img/photos/home/innovation-3.jpg
+      image2_srcset: ./assets/img/photos/home/innovation-3.jpg 2x
       bullets:
         -
           - Aenean eu leo quam ornare curabitur blandit tempus.
