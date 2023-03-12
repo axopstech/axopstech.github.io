@@ -12,7 +12,8 @@ button_cta2_url: #
 why_choose_us_section:
   enabled: true
   intro_tagline: “When done well, software is invisible.” - Bjarne Stroustrup
-  main_tagline: 'Taming operational inefficiencies empowers <span class="underline-3 style-2 green">transformation</span>.'
+  main_tagline: 'Taming operational <span class="underline">inefficiencies</span> empowers <span class="underline-3 style-2 green">transformation</span> &#128161;'
+  outro_tagline: 'Literally <span class="underline-3 style-2 yellow">everything</span> we do at AxOps&#8482; involves optimising:'
   tabs:
     -
       id: tab-1
@@ -22,7 +23,7 @@ why_choose_us_section:
       svg_class: svg-inject icon-svg icon-svg-md text-yellow me-4
       div_class: tab-pane fade show active
       title: Cost of Ownership
-      summary: Duis mollis commodo luctus cursus commodo tortor mauris.
+      summary: Leverage the Cloud to reduce CapEx and optimise OpEx at scale.
       tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
       text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
       image1_src: ./assets/img/photos/about2.jpg
@@ -44,7 +45,7 @@ why_choose_us_section:
       svg_class: svg-inject icon-svg icon-svg-md text-green me-4
       div_class: tab-pane fade
       title: Resource Velocity
-      summary: Vivamus sagittis lacus augue fusce dapibus tellus nibh.
+      summary: Rapidly and reliably build products and operations in the Cloud.
       tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
       text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
       image1_src: ./assets/img/photos/about2.jpg
@@ -66,7 +67,7 @@ why_choose_us_section:
       svg_class: svg-inject icon-svg icon-svg-md text-red me-4
       div_class: tab-pane fade
       title: Innovation
-      summary: Vestibulum ligula porta felis maecenas faucibus mollis.
+      summary: Reduce risk, retire technical debt, and focus on creating value.
       tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
       text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
       image1_src: ./assets/img/photos/about2.jpg

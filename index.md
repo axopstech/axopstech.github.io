@@ -91,6 +91,7 @@ og_image_url: https://this-is-an-og-image-url.com/image.png
           <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
             <h2 class="fs-15 text-uppercase text-muted mb-3">{{ config.why_choose_us_section.intro_tagline }}</h2>
             <h3 class="display-4 mb-10 px-xl-10 px-xxl-15">{{ config.why_choose_us_section.main_tagline }}</h3>
+            <h2 class="fs-15 text-uppercase text-muted mb-3">{{ config.why_choose_us_section.outro_tagline }}</h2>
           </div>
           <!-- /column -->
         </div>
