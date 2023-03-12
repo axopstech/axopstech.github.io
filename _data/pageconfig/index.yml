@@ -46,7 +46,7 @@ why_choose_us_section:
       div_class: tab-pane fade
       title: Operational Efficiency
       summary: Rapidly and reliably build products and manage operations at scale.
-      tagline: Execute workloads efficiently, obtain valuable operational insights, and continuously refine operations to deliver value.
+      tagline: Execute workloads efficiently, obtain valuable operational insights, and continuously refine operations to <span class="underline-3 style-2 green">deliver value</span>.
       text: "To achieve operational efficiency, it's essential to understand your workloads and their operating behaviours in detail. We'll help you:"
       image1_src: ./assets/img/photos/home/operational-efficiency-2a.jpg
       image1_srcset: ./assets/img/photos/home/operational-efficiency-2a.jpg 2x
@@ -68,19 +68,19 @@ why_choose_us_section:
       div_class: tab-pane fade
       title: Innovation
       summary: Reduce risk, retire technical debt, and focus on drivers that matter.
-      tagline: We are a digital and branding company that believes in the power of creative strategy and along with great design.
-      text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      tagline: Streamline your business for greater efficiency and faster turnaround times, so you can focus on <span class="underline-3 style-2 yellow">differentiation</span> &#128161;
+      text: "Whatever your innovation goals, adopting the Cloud can increase your chances of success by enabling you to deliver more in less time. We'll assist you with:"
       image1_src: ./assets/img/photos/home/innovation-2.jpg
       image1_srcset: ./assets/img/photos/home/innovation-2.jpg 2x
       image2_src: ./assets/img/photos/home/innovation-3.jpg
       image2_srcset: ./assets/img/photos/home/innovation-3.jpg 2x
       bullets:
         -
-          - Aenean eu leo quam ornare curabitur blandit tempus.
-          - Nullam quis risus eget urna mollis ornare donec elit.
+          - Evaluating your environments with a view to establish better, more creative ways of operating.
+          - Lowering expenditure, retiring technical debt, and speeding up product development cycles.
         -
-          - Etiam porta sem malesuada magna mollis euismod.
-          - Fermentum massa vivamus faucibus amet euismod.
+          - Using Cloud technology for developing processes to enhance your customers' experiences.
+          - Leveraging economies of scale to make a meaningful impact with your products and services.
 
 client_logos_section:
   enabled: false
