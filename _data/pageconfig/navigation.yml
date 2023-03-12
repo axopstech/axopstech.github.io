@@ -17,6 +17,47 @@
   is_mega_dropdown: true
   children:
     -
+      name: Technology Consulting
+      url: "#technology-consulting"
+      enabled: true
+      children:
+        -
+          name: Cloud Solutions
+          url: "#crm-data-migrations"
+          enabled: true
+        -
+          name: Business Analytics
+          url: "#business-analytics"
+          enabled: true
+        -
+          name: CRM Data Migrations
+          url: "#crm-data-migrations"
+          enabled: true
+        -
+          name: CRM Data Integrations
+          url: "#crm-data-integrations"
+          enabled: true
+        -
+          name: Digital Transformation
+          url: "#digital-transformation"
+          enabled: true
+        -
+          name: Bespoke CRM Solutions
+          url: "#bespoke-crm-solutions"
+          enabled: true
+        -
+          name: Application Engineering
+          url: "#application-engineering"
+          enabled: true
+        -
+          name: Salesforce Development
+          url: "#salesforce-development"
+          enabled: true
+        -
+          name: HubSpot Implementation
+          url: "#hubspot-crm-implementation"
+          enabled: true
+    -
       name: Technical Training
       url: "#technical-training"
       enabled: true
@@ -44,31 +85,6 @@
         -
           name: Infrastructure Automation
           url: "#cloud-infrastructure-as-code-iac"
-          enabled: true
-    -
-      name: CRM & ERP Consulting
-      url: "#crm-erp-consulting"
-      enabled: true
-      children:
-        -
-          name: CRM Data Migrations
-          url: "#crm-data-migrations"
-          enabled: true
-        -
-          name: CRM Data Integrations
-          url: "#crm-data-integrations"
-          enabled: true
-        -
-          name: Bespoke CRM Solutions
-          url: "#bespoke-crm-solutions"
-          enabled: true
-        -
-          name: Salesforce Development
-          url: "#salesforce-development"
-          enabled: true
-        -
-          name: HubSpot Implementation
-          url: "#hubspot-crm-implementation"
           enabled: true
     -
       name: Strategic Advisory
