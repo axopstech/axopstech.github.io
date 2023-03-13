@@ -8,7 +8,7 @@
 
 -
   name: Solutions
-  url: /solutions/
+  url: /solutions
   current: false
   enabled: true
   has_children: false
@@ -18,16 +18,16 @@
   children:
     -
       name: Technology Consulting
-      url: "#technology-consulting"
+      url: "/technology-consulting"
       enabled: true
       children:
         -
           name: Cloud Solutions
-          url: "#crm-data-migrations"
+          url: /cloud-solutions
           enabled: true
         -
           name: Business Analytics
-          url: "#business-analytics"
+          url: "/business-analytics"
           enabled: true
         -
           name: CRM Data Migrations
@@ -64,7 +64,7 @@
 
     -
       name: Technical Training
-      url: "#technical-training"
+      url: /technical-training
       enabled: true
       children:
         -
@@ -97,7 +97,7 @@
           enabled: true
     -
       name: Strategic Advisory
-      url: "#strategic-advisory-services"
+      url: /strategic-advisory-services
       enabled: true
       children:
         -
@@ -118,7 +118,7 @@
           enabled: true
     -
       name: Engagement Models
-      url: "#engagement-models"
+      url: /engagement-models
       enabled: true
       children:
         -
@@ -140,7 +140,7 @@
           
 -
   name: Technologies
-  url: /technologies/
+  url: /technologies
   current: false
   enabled: true
   has_children: true
@@ -150,7 +150,7 @@
   children:
     -
       name: Cloud & Infrastructure
-      url: "#cloud-infrastructure"
+      url: /cloud-infrastructure
       enabled: true
       children:
         -
@@ -188,7 +188,7 @@
 
     -
       name: 'Application Engineering    <span style="visibility: hidden">.</span>'
-      url: "#application-engineering"
+      url: /application-engineering
       enabled: true
       children:
         -
@@ -217,7 +217,7 @@
           enabled: true
     -
       name: Digital Transformation
-      url: "#digital-transformation"
+      url: /digital-transformation
       enabled: true
       children:
         -
@@ -238,7 +238,7 @@
           enabled: true
     -
       name: Business Analytics
-      url: "#business-analytics"
+      url: /business-analytics
       enabled: true
       children:
         -
@@ -260,7 +260,7 @@
 
 -
   name: Case Studies
-  url: /case-studies/
+  url: /case-studies
   current: false
   enabled: true
   has_children: true
@@ -270,7 +270,7 @@
   children:
     -
       name: Cloud Migration
-      url: "#cloud-migration"
+      url: /cloud-migration
       enabled: true
       children:
         -
@@ -283,7 +283,7 @@
           enabled: true
     -
       name: CRM Integration
-      url: "#crm-integration"
+      url: /crm-integration
       enabled: true
       children:
         -
@@ -296,7 +296,7 @@
           enabled: true
     -
       name: 'Hybrid Architecture    <span style="visibility: hidden">.</span>'
-      url: "#crm-integration"
+      url: /crm-integration
       enabled: true
       children:
         -
@@ -309,7 +309,7 @@
           enabled: true
     -
       name: 'Continuous Delivery    <span style="visibility: hidden">.</span>'
-      url: "#devops"
+      url: /devops
       enabled: true
       children:
         -
@@ -323,7 +323,7 @@
 
 -
   name: About Us
-  url: /about-us/
+  url: /about-us
   current: false
   enabled: true
   has_children: true
@@ -332,13 +332,13 @@
   children:
     -
       name: Our Vision
-      url: "#company-vision"
+      url: /company-vision
       enabled: true
     -
       name: The Team
-      url: "meet-the-team"
+      url: /meet-the-team
       enabled: true
     -
       name: Careers
-      url: "#careers"
+      url: /careers
       enabled: true

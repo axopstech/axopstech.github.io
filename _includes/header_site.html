@@ -18,6 +18,7 @@
             <ul class="navbar-nav">
               {% for item in site.data.pageconfig.navigation %}
                 {% if item.enabled %}
+                  {% assign item_url = item.url %}
                   {% if item.is_mega_dropdown %}
                   <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">{{ item.name }}</a>
                     <ul class="dropdown-menu mega-menu">
@@ -30,7 +31,7 @@
                             <ul class="list-unstyled">
                               {% for child in subitem.children %}
                               {% if child.enabled %}
-                              <li><a class="dropdown-item" href="{{ child.url }}">{{ child.name }}</a></li>
+                              <li><a class="dropdown-item" href="{{ item_url | append: child.url }}">{{ child.name }}</a></li>
                               {% endif %}
                               {% endfor %}
                             </ul>
