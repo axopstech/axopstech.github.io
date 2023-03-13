@@ -26,18 +26,18 @@ og_image_url: https://this-is-an-og-image-url.com/image.png
           <div class="col-lg-7">
             <div class="row">
               <div class="col-3 offset-1 offset-lg-0 col-lg-4 d-flex flex-column" data-cues="zoomIn" data-group="col-start" data-delay="300">
-                <div class="ms-auto mt-auto"><img class="img-fluid rounded shadow-lg" src="./assets/img/photos/sa20.jpg" srcset="./assets/img/photos/sa20@2x.jpg 2x" alt="" /></div>
-                <div class="ms-auto mt-5 mb-10"><img class="img-fluid rounded shadow-lg" src="./assets/img/photos/sa18.jpg" srcset="./assets/img/photos/sa18@2x.jpg 2x" alt="" /></div>
+                <div class="ms-auto mt-auto"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-top }}" srcset="{{ config.above_the_fold_images.left-top-srcset }}" alt="" /></div>
+                <div class="ms-auto mt-5 mb-10"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-bottom }}" srcset="{{ config.above_the_fold_images.left-bottom-srcset }}" alt="" /></div>
               </div>
               <!-- /column -->
               <div class="col-4 col-lg-5" data-cue="zoomIn">
-                <div><img class="w-100 img-fluid rounded shadow-lg" src="./assets/img/photos/sa16.jpg" srcset="./assets/img/photos/sa16@2x.jpg 2x" alt="" /></div>
+                <div><img class="w-100 img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.middle }}" srcset="{{ config.above_the_fold_images.middle-srcset }}" alt="" /></div>
               </div>
               <!-- /column -->
               <div class="col-3 d-flex flex-column" data-cues="zoomIn" data-group="col-end" data-delay="300">
-                <div class="mt-auto"><img class="img-fluid rounded shadow-lg" src="./assets/img/photos/sa21.jpg" srcset="./assets/img/photos/sa21@2x.jpg 2x" alt="" /></div>
-                <div class="mt-5"><img class="img-fluid rounded shadow-lg" src="./assets/img/photos/sa19.jpg" srcset="./assets/img/photos/sa19@2x.jpg 2x" alt="" /></div>
-                <div class="mt-5 mb-10"><img class="img-fluid rounded shadow-lg" src="./assets/img/photos/sa17.jpg" srcset="./assets/img/photos/sa17@2x.jpg 2x" alt="" /></div>
+                <div class="mt-auto"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-top }}" srcset="{{ config.above_the_fold_images.right-top-srcset }}" alt="" /></div>
+                <div class="mt-5"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-middle }}" srcset="{{ config.above_the_fold_images.right-middle-srcset }}" alt="" /></div>
+                <div class="mt-5 mb-10"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-bottom }}" srcset="{{ config.above_the_fold_images.right-bottom-srcset }}" alt="" /></div>
               </div>
               <!-- /column -->
             </div>

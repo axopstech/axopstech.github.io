@@ -9,6 +9,20 @@ button_cta1_url: #
 button_cta2_text: Let's Talk!
 button_cta2_url: #
 
+above_the_fold_images:
+  left-top: ./assets/img/photos/home/left-top-eriz.jpg
+  left-top-srcset: ./assets/img/photos/home/left-top-eriz@2x.jpg 2x
+  left-bottom: ./assets/img/photos/home/left-bottom-ali.jpg
+  left-bottom-srcset: ./assets/img/photos/home/left-bottom-ali@2x.jpg 2x
+  middle: ./assets/img/photos/home/middle-2-axops.jpg
+  middle-srcset: ./assets/img/photos/home/middle-2-axops@2x.jpg 2x
+  right-top: ./assets/img/photos/home/right-top-1.jpg
+  right-top-srcset: ./assets/img/photos/home/right-top-1@2x.jpg 2x
+  right-middle: ./assets/img/photos/home/right-middle-moira.jpg
+  right-middle-srcset: ./assets/img/photos/home/right-middle-moira@2x.jpg 2x
+  right-bottom: ./assets/img/photos/home/right-bottom-marti.jpg
+  right-bottom-srcset: ./assets/img/photos/home/right-bottom-marti@2x.jpg 2x
+
 why_choose_us_section:
   enabled: true
   intro_tagline: “When done well, software is invisible.” - Bjarne Stroustrup
