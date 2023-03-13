@@ -50,13 +50,18 @@
           url: "#application-engineering"
           enabled: true
         -
+          name: Blockchain Development
+          url: "#blockchain-development"
+          enabled: true
+        -
           name: Salesforce Development
           url: "#salesforce-development"
           enabled: true
         -
-          name: HubSpot Implementation
+          name: HubSpot CRM Optimisation
           url: "#hubspot-crm-implementation"
           enabled: true
+
     -
       name: Technical Training
       url: "#technical-training"
@@ -71,8 +76,16 @@
           url: "#devops-sdlc-automation"
           enabled: true
         -
+          name: Blockchain Development
+          url: "#blockchain-development"
+          enabled: true
+        -
           name: Event-Driven Architecture
           url: "#event-driven-architecture"
+          enabled: true
+        -
+          name: Infrastructure Automation
+          url: "#cloud-infrastructure-as-code-iac"
           enabled: true
         -
           name: Monitoring & Observability
@@ -81,10 +94,6 @@
         -
           name: Configuration Management
           url: "#cloud-configuration-management"
-          enabled: true
-        -
-          name: Infrastructure Automation
-          url: "#cloud-infrastructure-as-code-iac"
           enabled: true
     -
       name: Strategic Advisory
@@ -145,10 +154,6 @@
       enabled: true
       children:
         -
-          name: DevOps
-          url: "#devops"
-          enabled: true
-        -
           name: Data Lakes
           url: "#data-lakes"
           enabled: true
@@ -176,6 +181,11 @@
           name: Serverless Computing
           url: "#serverless-computing"
           enabled: true
+        -
+          name: Continuous Delivery Pipelines
+          url: "#continuous-delivery"
+          enabled: true
+
     -
       name: 'Application Engineering    <span style="visibility: hidden">.</span>'
       url: "#application-engineering"
@@ -200,6 +210,10 @@
         -
           name: Full-Stack Development
           url: "#full-stack-development"
+          enabled: true
+        -
+          name: Blockchain Development
+          url: "#blockchain-development"
           enabled: true
     -
       name: Digital Transformation
