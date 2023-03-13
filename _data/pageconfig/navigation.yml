@@ -18,7 +18,7 @@
   children:
     -
       name: Technology Consulting
-      url: "/technology-consulting"
+      url: /technology-consulting
       enabled: true
       children:
         -
@@ -27,39 +27,39 @@
           enabled: true
         -
           name: Business Analytics
-          url: "/business-analytics"
+          url: /business-analytics
           enabled: true
         -
           name: CRM Data Migrations
-          url: "#crm-data-migrations"
+          url: /crm-data-migrations
           enabled: true
         -
           name: CRM Data Integrations
-          url: "#crm-data-integrations"
+          url: /crm-data-integrations
           enabled: true
         -
           name: Digital Transformation
-          url: "#digital-transformation"
+          url: /digital-transformation
           enabled: true
         -
           name: Bespoke CRM Solutions
-          url: "#bespoke-crm-solutions"
+          url: /bespoke-crm-solutions
           enabled: true
         -
           name: Application Engineering
-          url: "#application-engineering"
+          url: /application-engineering
           enabled: true
         -
           name: Blockchain Development
-          url: "#blockchain-development"
+          url: /blockchain-development
           enabled: true
         -
           name: Salesforce Development
-          url: "#salesforce-development"
+          url: /salesforce-development
           enabled: true
         -
           name: HubSpot CRM Optimisation
-          url: "#hubspot-crm-implementation"
+          url: /hubspot-crm-implementation
           enabled: true
 
     -
@@ -69,31 +69,31 @@
       children:
         -
           name: Quantitative R&D
-          url: "#quantitative-research-development"
+          url: /quantitative-research-development
           enabled: true
         -
           name: DevOps Automation
-          url: "#devops-sdlc-automation"
+          url: /devops-sdlc-automation
           enabled: true
         -
           name: Blockchain Development
-          url: "#blockchain-development"
+          url: /blockchain-development
           enabled: true
         -
           name: Event-Driven Architecture
-          url: "#event-driven-architecture"
+          url: /event-driven-architecture
           enabled: true
         -
           name: Infrastructure Automation
-          url: "#cloud-infrastructure-as-code-iac"
+          url: /cloud-infrastructure-as-code-iac
           enabled: true
         -
           name: Monitoring & Observability
-          url: "#cloud-monitoring-observability"
+          url: /cloud-monitoring-observability
           enabled: true
         -
           name: Configuration Management
-          url: "#cloud-configuration-management"
+          url: /cloud-configuration-management
           enabled: true
     -
       name: Strategic Advisory
@@ -102,19 +102,19 @@
       children:
         -
           name: Business Analysis
-          url: "#business-analysis"
+          url: /business-analysis
           enabled: true
         -
           name: Project Management
-          url: "#project-management"
+          url: /project-management
           enabled: true
         -
           name: Technical Recruitment
-          url: "#technical-recruitment"
+          url: /technical-recruitment
           enabled: true
         -
           name: Workforce Optimisation
-          url: "#workforce-optimisation"
+          url: /workforce-optimisation
           enabled: true
     -
       name: Engagement Models
@@ -123,19 +123,19 @@
       children:
         -
           name: On Shore
-          url: "#on-shore"
+          url: /on-shore
           enabled: true
         -
           name: Off Shore
-          url: "#off-shore"
+          url: /off-shore
           enabled: true
         -
           name: Embedded
-          url: "#embedded"
+          url: /embedded
           enabled: true
         -
           name: Client Benefits
-          url: "#client-benefits"
+          url: /client-benefits
           enabled: true
           
 -
@@ -155,35 +155,35 @@
       children:
         -
           name: Data Lakes
-          url: "#data-lakes"
+          url: /data-lakes
           enabled: true
         -
           name: Cloud Migration
-          url: "#cloud-migration"
+          url: /cloud-migration
           enabled: true
         -
           name: Edge Computing
-          url: "#edge-computing"
+          url: /edge-computing
           enabled: true
         -
           name: Backup & Archival
-          url: "#backup-archival"
+          url: /backup-archival
           enabled: true
         -
           name: Disaster Recovery
-          url: "#disaster-recovery"
+          url: /disaster-recovery
           enabled: true
         -
           name: Hybrid Architecture
-          url: "#hybrid-architecture"
+          url: /hybrid-architecture
           enabled: true
         -
           name: Serverless Computing
-          url: "#serverless-computing"
+          url: /serverless-computing
           enabled: true
         -
           name: Continuous Delivery Pipelines
-          url: "#continuous-delivery"
+          url: /continuous-delivery
           enabled: true
 
     -
@@ -193,27 +193,27 @@
       children:
         -
           name: API Development
-          url: "#api-development"
+          url: /api-development
           enabled: true
         -
           name: SaaS Development
-          url: "#saas-development"
+          url: /saas-development
           enabled: true
         -
           name: Cloud Engineering
-          url: "#cloud-engineering"
+          url: /cloud-engineering
           enabled: true
         -
           name: DevOps Optimisation
-          url: "#devops-optimisation"
+          url: /devops-optimisation
           enabled: true
         -
           name: Full-Stack Development
-          url: "#full-stack-development"
+          url: /full-stack-development
           enabled: true
         -
           name: Blockchain Development
-          url: "#blockchain-development"
+          url: /blockchain-development
           enabled: true
     -
       name: Digital Transformation
@@ -222,19 +222,19 @@
       children:
         -
           name: Domain Transformation
-          url: '#domain-transformation'
+          url: /domain-transformation
           enabled: true
         -
           name: Process Transformation
-          url: "#process-transformation"
+          url: /process-transformation
           enabled: true
         -
           name: Organisation Transformation
-          url: '#organisation-transformation'
+          url: /organisation-transformation
           enabled: true
         -
           name: Business Model Transformation
-          url: "#business-model-transformation"
+          url: /business-model-transformation
           enabled: true
     -
       name: Business Analytics
@@ -243,19 +243,19 @@
       children:
         -
           name: Data Analytics
-          url: "#data-analytics"
+          url: /data-analytics
           enabled: true
         -
           name: Data Architecture
-          url: "#data-architecture"
+          url: /data-architecture
           enabled: true
         -
           name: Data Management
-          url: "#data-management"
+          url: /data-management
           enabled: true
         -
           name: Information Delivery
-          url: "#information-delivery"
+          url: /information-delivery
           enabled: true
 
 -
@@ -275,11 +275,11 @@
       children:
         -
           name: Cloud Migration 1
-          url: "#cloud-migration1"
+          url: /cloud-migration1
           enabled: true
         -
           name: Cloud Migration 2
-          url: "#cloud-migration2"
+          url: /cloud-migration2
           enabled: true
     -
       name: CRM Integration
@@ -288,11 +288,11 @@
       children:
         -
           name: CRM Migration 1
-          url: "#cloud-migration1"
+          url: /cloud-migration1
           enabled: true
         -
           name: CRM Migration 2
-          url: "#cloud-migration2"
+          url: /cloud-migration2
           enabled: true
     -
       name: 'Hybrid Architecture    <span style="visibility: hidden">.</span>'
@@ -301,11 +301,11 @@
       children:
         -
           name: Hybrid 1
-          url: "#cloud-migration1"
+          url: /cloud-migration1
           enabled: true
         -
           name: Hybrid 2
-          url: "#cloud-migration2"
+          url: /cloud-migration2
           enabled: true
     -
       name: 'Continuous Delivery    <span style="visibility: hidden">.</span>'
@@ -314,11 +314,11 @@
       children:
         -
           name: DevOps 1
-          url: "#devops1"
+          url: /devops1
           enabled: true
         -
           name: DevOps 2
-          url: "#devops2"
+          url: /devops2
           enabled: true
 
 -
