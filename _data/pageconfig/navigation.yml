@@ -97,7 +97,7 @@
           enabled: true
     -
       name: Strategic Advisory
-      url: /strategic-advisory-services
+      url: /strategic-advisory
       enabled: true
       children:
         -
