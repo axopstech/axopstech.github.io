@@ -1,7 +1,7 @@
 ---
 layout: default
 title: this is a template title
-permalink: /meet-the-team
+permalink: /about-us/meet-the-team
 description: this is a template description
 og_image_url: https://this-is-an-og-image-url.com/image.png
 ---

@@ -336,7 +336,7 @@
       enabled: true
     -
       name: The Team
-      url: "#meet-the-team"
+      url: "meet-the-team"
       enabled: true
     -
       name: Careers
