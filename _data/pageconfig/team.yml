@@ -1,0 +1,33 @@
+tagline_intro: Meet the AXOPS&#8482; Team
+tagline_main: Our battle-tested, international, multi-disciplinary talent pool.
+
+members:
+  -
+    name: Eriz Zárate
+    image_src: ./assets/img/photos/team/eriz-zarate.jpg
+    image_srcset: ./assets/img/photos/team/eriz-zarate.jpg 2x
+    role: Blockchain Architect
+
+  -
+    name: Moira Khan
+    image_src: ./assets/img/photos/team/moira-khan.jpg
+    image_srcset: ./assets/img/photos/team/moira-khan.jpg 2x
+    role: PMO / Project Manager
+  
+  -
+    name: Alain Porto
+    image_src: ./assets/img/photos/team/alain-porto-1.jpg
+    image_srcset: ./assets/img/photos/team/alain-porto-1.jpg 2x
+    role: DevOps Architect
+  
+  -
+    name: Martí Castany
+    image_src: ./assets/img/photos/team/marti-castany.jpg
+    image_srcset: ./assets/img/photos/team/marti-castany.jpg 2x
+    role: Quant R&D Consultant
+
+  -
+    name: Ali Saif
+    image_src: ./assets/img/photos/team/ali-saif.jpg
+    image_srcset: ./assets/img/photos/team/ali-saif.jpg 2x
+    role: Rallier of the Troops
