@@ -1,0 +1,14 @@
+pages:
+  cloud-solutions.md:
+    title: Cloud Solutions
+    tagline: Empowering your business with limitless possibilities, one cloud solution at a time.
+    description: Innovative cloud solutions for a seamless digital transformation.
+    main_image_src: /assets/img/photos/about7.jpg
+    main_image_srcset: /assets/img/photos/about7@2x.jpg 2x
+  
+  business-analytics.md:
+    title: Business Analytics
+    tagline: Empowering your business with limitless possibilities, one cloud solution at a time.
+    description: Innovative cloud solutions for a seamless digital transformation.
+    main_image_src: /assets/img/photos/about7.jpg
+    main_image_srcset: /assets/img/photos/about7@2x.jpg 2x
