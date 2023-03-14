@@ -2,7 +2,7 @@ pages:
   crm-data-migrations.md:
     business-analytics.md:
     title: CRM Data Migrations
-    tagline: "Seamlessly migrate your data with AxOps&#8482; CRM Data Migration solutions"
+    tagline: "Seamlessly migrate your data with AxOps&#8482; CRM Data Migration Solutions"
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
@@ -10,7 +10,7 @@ pages:
       - category: Seamless Data Migration
         description: Migrate your CRM data seamlessly and efficiently to a new system or platform with minimal downtime.
         
-      - category: Customized Migration Solutions
+      - category: Bespoke Configurations
         description: Get a customized migration solution tailored to your specific business needs and objectives.
         
       - category: Data Accuracy & Integrity
