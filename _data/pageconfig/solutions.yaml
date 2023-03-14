@@ -2,10 +2,11 @@ pages:
   business-analytics.md:
     title: Business Analytics
     tagline: "Unlock the Power of Your Data with AxOps&#8482; Business Analytics Solutions"
+    outcome_image: /assets/img/icons/lineal/target.svg
+    obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
       - 
-        image: /assets/img/icons/lineal/target.svg
         category: Data Visualization
         description: >
           Clear and concise presentation of complex data,
@@ -13,7 +14,6 @@ pages:
           to inform decision-making for business growth.
 
       - 
-        image: /assets/img/icons/lineal/target.svg
         category: Predictive Analytics
         description: >
           Accurate forecasting of trends and patterns,
@@ -21,7 +21,6 @@ pages:
           to optimise business processes and decision-making.
 
       - 
-        image: /assets/img/icons/lineal/target.svg
         category: Data Warehousing
         description: >
           Improved data management and organisation,
@@ -29,7 +28,6 @@ pages:
           faster and more efficient analysis of large datasets.
 
       - 
-        image: /assets/img/icons/lineal/target.svg
         category: Data Mining
         description: >
           Identification of hidden patterns and relationships in data,
@@ -37,7 +35,6 @@ pages:
           to inform business strategy.
 
       -  
-        image: /assets/img/icons/lineal/target.svg
         category: Performance Management
         description: >
           Improved tracking and monitoring of KPIs,
@@ -45,7 +42,6 @@ pages:
           improved alignment of goals and objectives across the organisation.
 
       - 
-        image: /assets/img/icons/lineal/target.svg
         category: Reporting and Dashboards
         description: >
           Quick and easy access to critical business data and insights,
@@ -54,27 +50,21 @@ pages:
 
     common_obstacles:
       - 
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Data Quality
         description: Poor data quality often leads to inaccurate insights and impacts decision making negatively.
       - 
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Technical Complexity
         description: Lack of technical skills or complex tools hinder the ability to analyze data effectively.
       - 
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Data Privacy & Security
         description: Concerns around data privacy and security prevent organizations from sharing or storing data in the cloud.
       - 
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Limited Resources
         description: Lack of budget, time, or sufficiently qualified personnel to invest in business analytics initiatives.
       - 
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Data Silos
         description: Data being stored in multiple locations, different formats or applications, makes it difficult to integrate and analyze.
       - 
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Resistance to Change
         description: Resistance to change or fear of disruption to existing processes prevents adoption of new tools and processes.
 
@@ -131,48 +121,40 @@ pages:
   cloud-solutions.md:
     title: Cloud Solutions
     tagline: "Unlock Your Business's Full Potential with AxOps&#8482; Cloud Solutions"
+    outcome_image: /assets/img/icons/lineal/target.svg
+    obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
       - 
-        image: /assets/img/icons/lineal/target.svg
         category: High Availability & Elasticity
         description: "The ability to easily scale up or down resources as needed and quickly adapt to changing business requirements."
       - 
-        image: /assets/img/icons/lineal/target.svg
         category: Cost Efficiency
         description: "Reduce capital expenditure on hardware and infrastructure and move to a pay-as-you-go model."
       - 
-        image: /assets/img/icons/lineal/target.svg
         category: Security & Compliance
         description: "Access to robust security features and compliance frameworks to ensure data protection and regulatory compliance."
       - 
-        image: /assets/img/icons/lineal/target.svg
         category: Increased Productivity
         description: "Access to powerful tools and automation to streamline workflows and improve productivity."
       - 
-        image: /assets/img/icons/lineal/target.svg
         category: Innovation & Agility
         description: "Access to cutting-edge technology and resources to drive innovation and stay ahead of the competition."
 
     common_obstacles:
       -
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Security Concerns
         description: "Some customers may be hesitant to move their data and applications to the cloud due to concerns about data security, regulatory compliance, and privacy."
       -
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Lack of In-House Expertise
         description: "Adopting and managing cloud solutions often require specialized skills and knowledge that may not be available in-house, resulting in errors and delays."
       -
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Integration Issues
         description: "Customers may face challenges when trying to integrate cloud solutions with their existing IT infrastructure, operations, and applications."
       -
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Cost Uncertainty
         description: "Although cloud solutions can provide significant savings in CapEx, variability in OpEx is harder to forecast, and hence a barrier to entry for some customers."
       -
-        image: /assets/img/icons/lineal/puzzle.svg
         category: Limited Customization
         description: "Cloud solutions may have limitations in terms of customization and flexibility, which may not meet the specific needs of certain customers."
 
