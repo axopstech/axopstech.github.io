@@ -6,13 +6,13 @@ members:
     name: Eriz Zárate
     image_src: &site_url /assets/img/photos/team/eriz-zarate.jpg
     image_srcset: &site_url /assets/img/photos/team/eriz-zarate.jpg 2x
-    role: Blockchain Architect
+    role: Blockchain Solution Architect
 
   -
     name: Moira Khan
     image_src: &site_url /assets/img/photos/team/moira-khan.jpg
     image_srcset: &site_url /assets/img/photos/team/moira-khan.jpg 2x
-    role: PMO / Project Manager
+    role: PMO / IT Project Manager
   
   -
     name: Alain Porto
@@ -24,10 +24,10 @@ members:
     name: Martí Castany
     image_src: &site_url /assets/img/photos/team/marti-castany.jpg
     image_srcset: &site_url /assets/img/photos/team/marti-castany.jpg 2x
-    role: Quant R&D Consultant
+    role: Quantitative R&D Consultant
 
   -
     name: Ali Saif
     image_src: &site_url /assets/img/photos/team/ali-saif.jpg
     image_srcset: &site_url /assets/img/photos/team/ali-saif.jpg 2x
-    role: Rallier of the Troops
+    role: Technical TeamOps Architect
