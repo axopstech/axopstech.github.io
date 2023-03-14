@@ -26,7 +26,7 @@
                   <img src="{{ site.url }}{{ outcome.image }}" class="svg-inject icon-svg icon-svg-sm text-aqua me-4" alt="" />
                 </div>
                 <div>
-                  <h4 class="mb-1">{{ outcome.title }}</h4>
+                  <h4 class="mb-1">{{ outcome.category }}</h4>
                   <p class="mb-0">{{ outcome.description }}</p>
                 </div>
               </div>
@@ -56,7 +56,7 @@
                   <img src="{{ site.url }}{{ obstacle.image }}" class="svg-inject icon-svg icon-svg-sm text-aqua me-4" alt="" />
                 </div>
                 <div>
-                  <h4 class="mb-1">{{ obstacle.title }}</h4>
+                  <h4 class="mb-1">{{ obstacle.category }}</h4>
                   <p class="mb-0">{{ obstacle.description }}</p>
                 </div>
               </div>
@@ -79,7 +79,7 @@
                 {% for ovp in pageconfig.outcomes_vs_painpoints %}
                 <div class="card accordion-item">
                   <div class="card-header" id="accordion-heading-1-{{ ovp.priority }}">
-                    <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-{{ ovp.priority }}" aria-expanded="false" aria-controls="accordion-collapse-1-{{ ovp.priority }}">Idealised Goal: {{ ovp.outcome }}</button>
+                    <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-{{ ovp.priority }}" aria-expanded="false" aria-controls="accordion-collapse-1-{{ ovp.priority }}">Idealised Goal: {{ ovp.category }}</button>
                   </div>
                   <!-- /.card-header -->
                   <div id="accordion-collapse-1-{{ ovp.priority }}" class="collapse" aria-labelledby="accordion-heading-1-{{ ovp.priority }}" data-bs-target="#accordion-1">
