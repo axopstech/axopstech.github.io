@@ -1,14 +1,82 @@
 pages:
   cloud-solutions.md:
     title: Cloud Solutions
-    tagline: Empowering your business with limitless possibilities, one cloud solution at a time.
-    description: Innovative cloud solutions for a seamless digital transformation.
+    tagline: "Unlock Your Business's Full Potential with AxOps&#8482; Cloud Solutions"
     main_image_src: /assets/img/photos/about7.jpg
     main_image_srcset: /assets/img/photos/about7@2x.jpg 2x
-  
-  business-analytics.md:
-    title: Business Analytics
-    tagline: Empowering your business with limitless possibilities, one cloud solution at a time.
-    description: Innovative cloud solutions for a seamless digital transformation.
-    main_image_src: /assets/img/photos/about7.jpg
-    main_image_srcset: /assets/img/photos/about7@2x.jpg 2x
+
+    desired_outcomes:
+      - 
+        image: /assets/img/icons/lineal/target.svg
+        title: Availability & Elasticity
+        description: "The ability to easily scale up or down resources as needed and quickly adapt to changing business requirements."
+      - 
+        image: /assets/img/icons/lineal/target.svg
+        title: Cost Efficiency
+        description: "Reduce capital expenditure on hardware and infrastructure and move to a pay-as-you-go model."
+      - 
+        image: /assets/img/icons/lineal/target.svg
+        title: Security & Compliance
+        description: "Access to robust security features and compliance frameworks to ensure data protection and regulatory compliance."
+      - 
+        image: /assets/img/icons/lineal/target.svg
+        title: Increased Productivity
+        description: "Access to powerful tools and automation to streamline workflows and improve productivity."
+      - 
+        image: /assets/img/icons/lineal/target.svg
+        title: Innovation & Agility
+        description: "Access to cutting-edge technology and resources to drive innovation and stay ahead of the competition."
+
+    common_obstacles:
+      - "Security concerns: Some customers may be hesitant to move their data and applications to the cloud due to concerns about data security and privacy."
+      - "Lack of expertise: Adopting and managing cloud solutions often require specialized skills and knowledge that may not be available in-house. This can result in delays or mistakes during implementation and ongoing management."
+      - "Integration issues: Customers may face challenges when trying to integrate cloud solutions with their existing IT infrastructure and applications."
+      - "Cost: Although cloud solutions can provide cost savings in the long term, the upfront costs and ongoing subscription fees may be a barrier for some customers."
+      - "Limited customization: Some cloud solutions may have limitations in terms of customization and flexibility, which may not meet the specific needs of certain customers."
+
+    outcomes_vs_painpoints:
+      - 
+        outcome: Achieve cost savings through efficient resource utilization and pay-as-you-go pricing
+        priority: 1
+        painpoints:
+          - Difficulty in accurately predicting resource needs, leading to overprovisioning and wasted resources
+          - Complex pricing models and hidden costs that make it difficult to manage expenses effectively
+
+      - 
+        outcome: Improve scalability and agility to support business growth and change
+        priority: 2
+        painpoints:
+          - Legacy IT infrastructure that is difficult to scale and adapt to changing business needs
+          - Time-consuming and resource-intensive deployment and management processes that hinder agility
+
+      - 
+        outcome: Enhance data security and compliance
+        priority: 3
+        painpoints:
+          - Security risks associated with managing and securing data in-house
+          - Complex and evolving regulatory compliance requirements that are difficult to navigate and keep up with
+
+      - 
+        outcome: Increase operational efficiency and productivity
+        priority: 4
+        painpoints:
+          - Inefficient and manual IT processes that lead to errors, delays, and increased costs
+          - Lack of visibility and control over IT infrastructure and operations, leading to reduced productivity
+
+      - 
+        outcome: Drive innovation and competitive advantage through access to advanced cloud technologies and services
+        priority: 5
+        painpoints:
+          - Limited in-house expertise and resources to adopt and integrate new cloud technologies
+          - Difficulty in identifying and selecting the right cloud solutions and services to meet specific business needs
+
+    pitch: >
+      <p>At AxOps&#8482;, we are committed to helping businesses achieve their desired outcomes through innovative cloud solutions. Our expert team is here to provide you with customized solutions that can help you overcome your business challenges and reach your goals.</p>
+
+      <p>With our cloud solutions, you can expect to see an increase in productivity, efficiency, and scalability. Whether you are looking to lower your costs and turnaround times, improve your product development cycles, or enhance your customer experience, we have the solutions that can help.</p>
+
+      <p>However, we understand that achieving these outcomes can come with challenges. Our team is equipped to tackle these challenges head-on, including security concerns, data management, and compliance issues. We are here to guide you through the process and help you make informed decisions.</p>
+
+      <p>Our services include a comprehensive assessment of your current infrastructure and workflows, customized cloud solution design, implementation and migration, as well as ongoing management and support. Our goal is to provide you with a seamless and stress-free experience that maximizes your chances of success.</p>
+
+      <p>Contact us today to learn more about how our Cloud Solutions Services can help your business reach its full potential.</p>
