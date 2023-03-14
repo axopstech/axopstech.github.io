@@ -1,4 +1,97 @@
 pages:
+  crm-data-migrations.md:
+    business-analytics.md:
+    title: CRM Data Migrations
+    tagline: "Seamlessly migrate your data with AxOps&#8482; CRM Data Migration solutions"
+    outcome_image: /assets/img/icons/lineal/target.svg
+    obstacle_image: /assets/img/icons/lineal/puzzle.svg
+
+    desired_outcomes:
+      - category: Seamless Data Migration
+        description: Migrate your CRM data seamlessly and efficiently to a new system or platform with minimal downtime.
+        
+      - category: Customized Migration Solutions
+        description: Get a customized migration solution tailored to your specific business needs and objectives.
+        
+      - category: Data Accuracy & Integrity
+        description: Ensure the accuracy and integrity of your data during the migration process to avoid any data loss or corruption.
+
+      - category: Improved Data Management
+        description: Streamline your data management processes by consolidating data from multiple sources into a single, unified CRM system.
+
+      - category: Enhanced Data Security
+        description: Improve your data security measures during the migration process to minimize the risk of data breaches and protect your sensitive information.
+
+      - category: Expert Guidance & Support
+        description: Receive expert guidance and support from experienced professionals throughout the migration process to ensure a successful outcome.
+
+    common_obstacles:
+      - category: Data Inconsistencies
+        description: Inconsistent, incomplete or duplicate data across multiple sources can hamper migration process
+      - category: Technical Complexity
+        description: Complexity due to differences in data schema, APIs, and other technical factors can cause delays or errors in migration
+      - category: Integration Issues
+        description: Difficulty integrating with other systems, applications, and processes can hinder the migration process
+      - category: Data Privacy & Security Concerns
+        description: Concerns around data privacy, confidentiality, and security can impact the migration process and data quality
+      - category: User Adoption & Training
+        description: Lack of user adoption and training can impact the effectiveness of the migration and user experience
+      - category: Cost & Time Constraints
+        description: Constraints around budget and time can pose significant challenges for the migration process
+
+    outcomes_vs_painpoints:
+      - 
+        category: Accurate Data Transfer
+        priority: 1
+        painpoints:
+          - Incomplete or inconsistent data in the legacy system
+          - Lack of knowledge of the new system and its requirements
+          - Limited resources to perform data mapping and cleansing
+
+      - 
+        category: Minimal Business Disruption
+        priority: 2
+        painpoints:
+          - Downtime during migration affecting productivity
+          - Unavailability of critical data during migration
+          - Disruption to workflows and business processes
+
+      - 
+        category: Data Security & Privacy
+        priority: 3
+        painpoints:
+          - Risk of data loss or corruption during migration
+          - Ensuring compliance with data protection regulations
+          - Maintaining data confidentiality during migration
+
+      - 
+        category: Integration with other Systems
+        priority: 4
+        painpoints:
+          - Compatibility issues with other systems
+          - Ensuring data consistency across all integrated systems
+          - Complexity of integrating different systems
+
+      - 
+        category: Training & Support
+        priority: 5
+        painpoints:
+          - Lack of training on the new system for employees
+          - Limited resources to provide adequate support during migration
+          - Need for ongoing training and support after migration
+
+      - 
+        category: Cost & Time Management
+        priority: 6
+        painpoints:
+          - Limited budget for migration
+          - Need for efficient time management to minimize disruption
+          - Difficulty in accurately estimating the time and resources required for migration
+
+
+    pitch: >
+      <p></p>
+
   business-analytics.md:
     title: Business Analytics
     tagline: "Unlock the Power of Your Data with AxOps&#8482; Business Analytics Solutions"
