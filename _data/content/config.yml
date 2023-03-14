@@ -1,6 +1,6 @@
 # Example thumbnail URL: https://i3.ytimg.com/vi/RjTpi7djKsI/maxresdefault.jpg or http://i3.ytimg.com/vi/RjTpi7djKsI/hqdefault.jpg
 # Note: When loading videos, we can leave the video URLs as they are and just split on '/' with "{{ url | split:'/' | first }}" or {{ url | split:'/' | last }}?
-name: AxOps
+name: AxOps&#8482;
 description: This will be the og:description text in PROD.
 profile_image: /assets/img/axops-600x600.png
 item_types:

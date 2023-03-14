@@ -8,7 +8,7 @@ pages:
     desired_outcomes:
       - 
         image: /assets/img/icons/lineal/target.svg
-        title: Availability & Elasticity
+        title: High Availability & Elasticity
         description: "The ability to easily scale up or down resources as needed and quickly adapt to changing business requirements."
       - 
         image: /assets/img/icons/lineal/target.svg
@@ -28,43 +28,58 @@ pages:
         description: "Access to cutting-edge technology and resources to drive innovation and stay ahead of the competition."
 
     common_obstacles:
-      - "Security concerns: Some customers may be hesitant to move their data and applications to the cloud due to concerns about data security and privacy."
-      - "Lack of expertise: Adopting and managing cloud solutions often require specialized skills and knowledge that may not be available in-house. This can result in delays or mistakes during implementation and ongoing management."
-      - "Integration issues: Customers may face challenges when trying to integrate cloud solutions with their existing IT infrastructure and applications."
-      - "Cost: Although cloud solutions can provide cost savings in the long term, the upfront costs and ongoing subscription fees may be a barrier for some customers."
-      - "Limited customization: Some cloud solutions may have limitations in terms of customization and flexibility, which may not meet the specific needs of certain customers."
+      -
+        image: /assets/img/icons/lineal/target.svg
+        title: Security Concerns
+        description: "Some customers may be hesitant to move their data and applications to the cloud due to concerns about data security, regulatory compliance, and privacy."
+      -
+        image: /assets/img/icons/lineal/target.svg
+        title: Lack of In-House Expertise
+        description: "Adopting and managing cloud solutions often require specialized skills and knowledge that may not be available in-house, resulting in errors and delays."
+      -
+        image: /assets/img/icons/lineal/target.svg
+        title: Integration Issues
+        description: "Customers may face challenges when trying to integrate cloud solutions with their existing IT infrastructure, operations, and applications."
+      -
+        image: /assets/img/icons/lineal/target.svg
+        title: Cost Uncertainty
+        description: "Although cloud solutions can provide significant savings in CapEx, variability in OpEx is harder to forecast, and hence a barrier to entry for some customers."
+      -
+        image: /assets/img/icons/lineal/target.svg
+        title: Limited Customization
+        description: "Cloud solutions may have limitations in terms of customization and flexibility, which may not meet the specific needs of certain customers."
 
     outcomes_vs_painpoints:
       - 
-        outcome: Achieve cost savings through efficient resource utilization and pay-as-you-go pricing
+        outcome: Achieve Cost Savings via Efficient Resource Utilization and Flexible Pricing
         priority: 1
         painpoints:
           - Difficulty in accurately predicting resource needs, leading to overprovisioning and wasted resources
           - Complex pricing models and hidden costs that make it difficult to manage expenses effectively
 
       - 
-        outcome: Improve scalability and agility to support business growth and change
+        outcome: Improve Scalability and Agility to Support Business Growth
         priority: 2
         painpoints:
           - Legacy IT infrastructure that is difficult to scale and adapt to changing business needs
           - Time-consuming and resource-intensive deployment and management processes that hinder agility
 
       - 
-        outcome: Enhance data security and compliance
+        outcome: Enhance Data Security and Regulatory Compliance
         priority: 3
         painpoints:
           - Security risks associated with managing and securing data in-house
           - Complex and evolving regulatory compliance requirements that are difficult to navigate and keep up with
 
       - 
-        outcome: Increase operational efficiency and productivity
+        outcome: Increase Operational Efficiency and Productivity
         priority: 4
         painpoints:
           - Inefficient and manual IT processes that lead to errors, delays, and increased costs
           - Lack of visibility and control over IT infrastructure and operations, leading to reduced productivity
 
       - 
-        outcome: Drive innovation and competitive advantage through access to advanced cloud technologies and services
+        outcome: Drive Innovation and Competitive Advantage via Advanced Cloud Technologies and Services
         priority: 5
         painpoints:
           - Limited in-house expertise and resources to adopt and integrate new cloud technologies
