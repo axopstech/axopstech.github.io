@@ -1,4 +1,86 @@
 pages:
+  salesforce-development.md:
+    title: Salesforce Development
+    tagline: "Elevate Your Salesforce Journey: Bespoke Development Solutions"
+    outcome_image: /assets/img/icons/lineal/target.svg
+    obstacle_image: /assets/img/icons/lineal/puzzle.svg
+
+    desired_outcomes:
+      - category: Streamlined Integrations
+        description: Effortlessly connect diverse systems with tailored Salesforce solutions, enhancing collaboration and data flow.
+      - category: Robust Customisations
+        description: Empower your organisation with bespoke Salesforce applications, tailored to your unique business requirements.
+      - category: Increased Productivity
+        description: Optimise workflows and automate processes to save time, increase efficiency, and boost overall performance.
+      - category: Enhanced User Experience
+        description: Deliver a seamless and engaging user experience by harnessing Salesforce's cutting-edge development capabilities.
+      - category: Scalable Solutions
+        description: Build future-proof Salesforce applications that grow with your business, ensuring long-term success and adaptability.
+      - category: Data-Driven Insights
+        description: Leverage Salesforce analytics to make informed decisions, drive innovation, and unlock new opportunities.
+
+    common_obstacles:
+      - category: Inadequate Technical Expertise
+        description: Limited knowledge of Salesforce development languages and tools can hinder the implementation of effective solutions.
+      - category: Data Integration Challenges
+        description: Complex data structures and disparate systems can make it difficult to seamlessly integrate Salesforce with existing applications.
+      - category: Security & Compliance Concerns
+        description: Ensuring the safety of sensitive data and meeting regulatory requirements can be a significant obstacle in Salesforce development.
+      - category: Limited Resources
+        description: Time and budget constraints can impede the successful completion of Salesforce projects and the realisation of desired outcomes.
+      - category: Ambiguous Requirements
+        description: Unclear or constantly changing business requirements can lead to delays and inefficiencies in the development process.
+      - category: Resistance to Change
+        description: Internal stakeholders may be reluctant to adopt new technologies or processes, hindering the success of Salesforce implementation.
+
+    outcomes_vs_painpoints:
+      - category: Streamlined Integrations
+        priority: 1
+        painpoints:
+          - Managing data consistency across multiple systems
+          - Overcoming API limitations and performance bottlenecks
+          - Ensuring seamless communication between Salesforce and external applications
+
+      - category: Robust Customisations
+        priority: 2
+        painpoints:
+          - Identifying the optimal development approach for specific business needs
+          - Maintaining customisations during Salesforce updates and migrations
+          - Balancing custom functionality with maintainability and performance
+
+      - category: Increased Productivity
+        priority: 3
+        painpoints:
+          - Identifying and automating manual, repetitive tasks
+          - Streamlining complex workflows and reducing process inefficiencies
+          - Measuring and tracking productivity improvements
+
+      - category: Enhanced User Experience
+        priority: 4
+        painpoints:
+          - Designing intuitive and user-friendly interfaces
+          - Ensuring consistent branding and user experience across all applications
+          - Adapting to evolving user expectations and industry standards
+
+      - category: Scalable Solutions
+        priority: 5
+        painpoints:
+          - Anticipating future business needs and building adaptable solutions
+          - Managing technical debt and ensuring maintainable codebases
+          - Ensuring optimal performance as user base and data volumes grow
+
+      - category: Data-Driven Insights
+        priority: 6
+        painpoints:
+          - Collecting and consolidating data from various sources
+          - Analysing complex data sets to derive actionable insights
+          - Visualising and presenting data effectively to support decision-making
+
+    pitch: >
+      <p>At AxOps&#8482;, we specialise in delivering end-to-end Salesforce Development services designed to help your organisation unlock the full potential of the Salesforce platform. We're well-versed in addressing the most pressing challenges and ensuring seamless integrations, robust customisations, and increased productivity for your business.</p>
+      <p>Understanding the obstacles that can arise during Salesforce implementation, such as data integration challenges, security and compliance concerns, and resistance to change, is at the core of our approach. Our extensive industry experience allows us to anticipate and navigate these challenges, ensuring that your organisation achieves the desired outcomes while minimising any potential roadblocks.</p>
+      <p>Our solutions are tailored to enhance the user experience, making it easier for your team to adopt and fully utilise the Salesforce platform. We prioritise scalability, ensuring that our applications grow with your business and remain adaptable to ever-evolving requirements. By leveraging data-driven insights, we empower your organisation to make informed decisions, drive innovation, and unlock its true potential.</p>
+      <p>Choose AxOps&#8482; for your Salesforce Development needs, and rest assured that our commitment to excellence, deep industry knowledge, and client-centric approach will propel your organisation towards success. Let us help you transform your Salesforce journey and create a lasting impact on your business operations.</p>
 
   blockchain-development.md:
     title: Blockchain Development
