@@ -1,9 +1,104 @@
 pages:
 
+  bespoke-crm-solutions.md:
+    title: Bespoke CRM Solutions
+    tagline: "Elevate Your Business: Bespoke CRM Solutions that Drive Results"
+    outcome_image: /assets/img/icons/lineal/target.svg
+    obstacle_image: /assets/img/icons/lineal/puzzle.svg
+
+    desired_outcomes:
+      - category: Streamlined Customer Engagement
+        description: Unify your customer touchpoints for seamless interactions and enriched relationships.
+
+      - category: Efficient Task Automation
+        description: Save time and resources with tailored automation features that enhance productivity.
+
+      - category: Data-driven Insights
+        description: Empower your decision-making with personalised analytics and actionable intelligence.
+
+      - category: Customisable Workflows
+        description: Design your CRM to match your unique business processes for maximised efficiency.
+
+      - category: Robust Security & Compliance
+        description: Safeguard sensitive data with industry-leading security measures and privacy standards.
+
+      - category: Scalable & Adaptable Solutions
+        description: Future-proof your business with a flexible CRM that grows alongside your company's needs.
+
+    common_obstacles:
+      - category: Inadequate Integration
+        description: Difficulty in connecting and synchronising data across multiple platforms and tools.
+
+      - category: Limited Customisation
+        description: CRM solutions with inflexible design can limit your ability to adapt to specific business needs.
+
+      - category: Poor User Adoption
+        description: Complex and unintuitive user interfaces can lead to low adoption rates and hinder efficiency.
+
+      - category: Data Quality & Management
+        description: Inconsistent and inaccurate data entry can negatively impact decision-making and insights.
+
+      - category: Insufficient Training & Support
+        description: A lack of proper training and ongoing support can hamper CRM utilisation and effectiveness.
+
+      - category: High Costs & ROI Concerns
+        description: Steep investment in CRM solutions without clear returns can deter businesses from adoption.
+
+    outcomes_vs_painpoints:
+      - category: Streamlined Customer Engagement
+        priority: 1
+        painpoints:
+          - Inconsistent communication channels
+          - Limited visibility of customer interactions
+          - Difficulty in personalising customer experiences
+
+      - category: Efficient Task Automation
+        priority: 2
+        painpoints:
+          - Time-consuming manual processes
+          - Inaccurate or delayed task completion
+          - High operational costs
+
+      - category: Data-driven Insights
+        priority: 3
+        painpoints:
+          - Inability to make informed decisions
+          - Lack of actionable data
+          - Limited understanding of customer behaviour
+
+      - category: Customisable Workflows
+        priority: 4
+        painpoints:
+          - Inflexible business processes
+          - Difficulty in adapting to changing requirements
+          - Decreased employee productivity
+
+      - category: Robust Security & Compliance
+        priority: 5
+        painpoints:
+          - Data breaches and vulnerabilities
+          - Non-compliance with industry regulations
+          - Loss of customer trust
+
+      - category: Scalable & Adaptable Solutions
+        priority: 6
+        painpoints:
+          - Challenges in managing business growth
+          - Obsolete systems and technologies
+          - Expensive and time-consuming upgrades
+
+    pitch: >
+      <p>At AxOps&#8482;, we understand the importance of streamlined customer engagement and the challenges businesses face in maintaining consistent communication channels, visibility of customer interactions, and personalising customer experiences. Our tailored CRM solutions address these pain points and empower businesses with the tools they need to build enriched relationships.</p>
+      <p>Efficient task automation is crucial for modern businesses, and we help you overcome time-consuming manual processes, inaccurate or delayed task completion, and high operational costs. Our customised CRM solutions enable you to automate routine tasks and enhance productivity throughout your organisation.</p>
+      <p>Our data-driven insights tackle the inability to make informed decisions, the lack of actionable data, and limited understanding of customer behaviour. With personalised analytics and actionable intelligence, your business will be better equipped to make strategic decisions that drive growth and customer satisfaction.</p>
+      <p>Customisable workflows are essential to adapt to your unique business processes and changing requirements. Our CRM solutions offer flexibility in designing workflows, overcoming inflexible business processes, and increasing employee productivity to ensure your operations run smoothly and efficiently.</p>
+      <p>Robust security and compliance are paramount in today's digital landscape. Our industry-leading security measures and privacy standards help safeguard sensitive data, ensuring compliance with industry regulations, and maintaining customer trust, protecting your business from data breaches and vulnerabilities.</p>
+      <p>Finally, we understand the need for scalable and adaptable solutions that grow with your business. Our personalised CRM solutions are designed to accommodate growth, addressing challenges in managing business expansion, obsolete systems and technologies, and expensive and time-consuming upgrades.</p>
+      <p>With our extensive industry experience, we are committed to delivering solutions that address your unique business needs and help you overcome the obstacles to success. Let us partner with you to elevate your business to new heights!</p>
+
   digital-transformation.md:
     title: Digital Transformation
     tagline: "Empower Your Future: Unleash the Potential of Digital Transformation"
-
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
