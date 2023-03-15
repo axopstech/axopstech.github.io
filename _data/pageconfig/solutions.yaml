@@ -90,7 +90,15 @@ pages:
 
 
     pitch: >
-      <p></p>
+      <p>At AxOps&#8482;, we understand that CRM data migration can be a challenging and complex process for businesses. With our expertise and experience, we are committed to helping you overcome the hurdles and achieve the best possible outcomes. Our range of services are designed to assist you in streamlining the data migration process, optimising performance, and ensuring the continuity of your critical business operations.</p>
+      <p>CRM data migration can bring a myriad of benefits to your organisation, including improved data quality, enhanced customer insights, and better team collaboration. However, the process can also present a range of challenges, such as data loss, extended downtime, and compatibility issues. At AxOps&#8482;, we take a holistic approach to address these concerns and ensure a seamless data migration experience.</p>
+      <p>Our CRM Data Migration Services include:</p>
+      <p><strong>Data Assessment & Strategy:</strong> We begin by conducting a thorough assessment of your existing CRM data to identify potential issues and develop a comprehensive migration strategy tailored to your unique business needs.</p>
+      <p><strong>Data Cleansing & Preparation:</strong> Our team of experts will clean and prepare your data, ensuring that it is free from duplicates, inconsistencies, and inaccuracies. This not only helps in achieving a smooth migration but also improves the quality of your CRM data.</p>
+      <p><strong>Customization & Integration:</strong> We understand that every business has unique requirements, which is why we offer bespoke CRM data migration solutions, including custom field mapping and integration with third-party applications, to ensure a seamless transition.</p>
+      <p><strong>Testing & Validation:</strong> Our rigorous testing and validation processes are designed to identify and resolve any issues before the migration is finalized, minimizing the risk of data loss and ensuring the accuracy of the transferred data.</p>
+      <p><strong>Training & Support:</strong> We're available to provide training, guidance, and assistance throughout the data migration process, ensuring that your team is well-equipped to manage the new CRM system.</p>
+      <p>At AxOps&#8482;, we are committed to delivering a successful CRM data migration that empowers your business to make data-driven decisions, enhance customer relationships, and drive growth. Let us help you unlock the full potential of your CRM system with our comprehensive and reliable data migration services.</p>
 
   business-analytics.md:
     title: Business Analytics
@@ -131,7 +139,7 @@ pages:
         category: Performance Management
         description: >
           Improved tracking and monitoring of KPIs,
-          optimization of business performance and profitability,
+          optimisation of business performance and profitability,
           improved alignment of goals and objectives across the organisation.
 
       - 
@@ -150,7 +158,7 @@ pages:
         description: Lack of technical skills or complex tools hinder the ability to analyze data effectively.
       - 
         category: Data Privacy & Security
-        description: Concerns around data privacy and security prevent organizations from sharing or storing data in the cloud.
+        description: Concerns around data privacy and security prevent organisations from sharing or storing data in the cloud.
       - 
         category: Limited Resources
         description: Lack of budget, time, or sufficiently qualified personnel to invest in business analytics initiatives.
@@ -177,7 +185,7 @@ pages:
           - Manual data entry processes
           - Lack of standardization in data formats and definitions
 
-      - category: Optimized Marketing and Sales
+      - category: optimised Marketing and Sales
         priority: 3
         painpoints:
           - Difficulty in tracking customer behavior
@@ -207,7 +215,7 @@ pages:
 
     pitch: >
       <p>At AxOps&#8482;, we provide business analytics solutions that can help you unlock the full potential of your data. Our team of experts is dedicated to helping you achieve your desired outcomes by providing customized solutions tailored to your specific business needs. </p>
-      <p>Whether you are looking to improve your decision-making process, optimize your operations, or enhance your customer experience, our business analytics solutions can help you get there. By leveraging the power of data, we can help you identify new opportunities for growth and innovation, and make data-driven decisions that can help you stay ahead of the competition. </p>
+      <p>Whether you are looking to improve your decision-making process, optimise your operations, or enhance your customer experience, our business analytics solutions can help you get there. By leveraging the power of data, we can help you identify new opportunities for growth and innovation, and make data-driven decisions that can help you stay ahead of the competition. </p>
       <p>However, we understand that achieving these outcomes can come with challenges. That's why our team is equipped to tackle these challenges head-on, including data management, data quality, and data governance. We are here to guide you through the process and help you make informed decisions that can maximize the value of your data. </p>
       <p>Our services include a comprehensive assessment of your current data infrastructure and workflows, customized business analytics solution design, implementation and migration, as well as ongoing management and support. We are committed to providing you with a seamless and stress-free experience that can help you achieve your desired outcomes. </p>
   
