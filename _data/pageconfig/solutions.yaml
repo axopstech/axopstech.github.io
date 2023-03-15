@@ -1,5 +1,100 @@
 pages:
 
+  application-engineering.md:
+    title: Application Engineering
+    tagline: "Empowering Innovation: Engineering Applications for Tomorrow's Success"
+    outcome_image: /assets/img/icons/lineal/target.svg
+    obstacle_image: /assets/img/icons/lineal/puzzle.svg
+
+    desired_outcomes:
+      - category: System Integration
+        description: Seamless integration of applications into the customer's existing infrastructure, ensuring smooth data flow and maximising compatibility.
+
+      - category: Customisation
+        description: Tailoring applications to meet the unique requirements of each customer, focusing on enhancing user experience and achieving specific business goals.
+
+      - category: Scalability
+        description: Designing applications to accommodate future growth in user base, traffic, and features, enabling customers to expand their operations without disruptions.
+
+      - category: Security
+        description: Implementing robust security measures to protect customer data and application functionality, minimising the risk of breaches and unauthorised access.
+
+      - category: Performance Optimisation
+        description: Ensuring applications run efficiently and with minimal latency, providing users with a responsive and enjoyable experience.
+
+      - category: Maintenance & Support
+        description: Offering ongoing technical support and regular updates to keep applications running smoothly and adapting to evolving demands and industry trends.
+
+    common_obstacles:
+      - category: Technical Complexity
+        description: Navigating intricate systems and diverse technologies, which can impede the development of efficient, tailored solutions.
+
+      - category: Resource Constraints
+        description: Limited availability of skilled personnel, time, or financial resources, hindering the ability to achieve desired outcomes.
+
+      - category: Security Concerns
+        description: Addressing vulnerabilities and ensuring data protection, which can pose challenges in maintaining a secure application environment.
+
+      - category: Integration Issues
+        description: Overcoming potential incompatibilities between new and existing systems, which can create obstacles in seamless data exchange and workflows.
+
+      - category: Lack of Scalability
+        description: Anticipating and accommodating growth in the face of rigid or inflexible application architecture, potentially limiting future expansion.
+
+      - category: Inadequate Support
+        description: Ensuring access to reliable technical assistance and maintenance services, crucial for long-term application performance and stability.
+
+    outcomes_vs_painpoints:
+      - category: System Integration
+        priority: 1
+        painpoints:
+          - Incompatible systems hindering seamless data exchange.
+          - Difficulty in consolidating various platforms and tools.
+          - Time-consuming and costly manual data management.
+
+      - category: Customisation
+        priority: 2
+        painpoints:
+          - Inability to accommodate unique business requirements.
+          - Limited user satisfaction due to generic solutions.
+          - Reduced efficiency and productivity from inflexible applications.
+
+      - category: Scalability
+        priority: 3
+        painpoints:
+          - Inability to handle increased traffic, users, or features.
+          - Stunted growth due to rigid application architecture.
+          - Unsustainable costs associated with system overhauls.
+
+      - category: Security
+        priority: 4
+        painpoints:
+          - Vulnerability to data breaches and unauthorised access.
+          - Compliance issues with industry-specific regulations.
+          - Loss of customer trust and potential legal repercussions.
+
+      - category: Performance Optimisation
+        priority: 5
+        painpoints:
+          - Slow and unresponsive applications causing user frustration.
+          - Increased system downtime impacting productivity.
+          - Excessive resource consumption leading to higher costs.
+
+      - category: Maintenance & Support
+        priority: 6
+        painpoints:
+          - Lack of timely assistance for technical issues.
+          - Inability to adapt to evolving customer needs and industry trends.
+          - Increased costs and resource allocation for self-maintenance.
+
+    pitch: >
+      <p>At AxOps&#8482;, we understand the crucial role Application Engineering plays in modern business environments. Our experienced team of professionals is committed to delivering tailored software solutions that address the specific needs and challenges of our clients. By collaborating closely with engineering, sales, and customer service departments, we ensure a seamless integration of diverse perspectives and expertise.</p>
+      <p>Our Application Engineers attempt to meticulously understand our clients' unique requirements and incorporating user feedback into every aspect of application design. We recognise that customised software programs are vital for businesses to remain competitive in today's fast-paced digital landscape. As such, our team is dedicated to providing solutions that truly make a difference.</p>
+      <p>We acknowledge the challenges that businesses face in achieving their desired outcomes, such as technical complexity, resource constraints, and security concerns. Our team works diligently to navigate these obstacles and create software applications that are robust, scalable, and secure. We are committed to addressing integration issues, ensuring seamless data exchange, and offering ongoing maintenance and support for our clients.</p>
+      <p>By prioritising performance optimisation, our Application Engineers create responsive and efficient software solutions that contribute to a positive user experience. Our focus on scalability ensures that our clients can adapt and grow as their business evolves. We are dedicated to providing a comprehensive service, from writing code to testing, deploying, and maintaining applications.</p>
+      <p>In every project we undertake, our primary goal is to empower our clients' businesses through innovative and customised software solutions. We approach each challenge with a "can-do" attitude, leveraging our extensive industry experience to deliver results that truly matter.</p>
+
+
   bespoke-crm-solutions.md:
     title: Bespoke CRM Solutions
     tagline: "Elevate Your Business: Bespoke CRM Solutions that Drive Results"
