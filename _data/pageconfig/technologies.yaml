@@ -2,8 +2,7 @@ pages:
   technologies-application-engineering.md:
     title: Application Engineering
     tagline: "Empower Innovation with AxOps&#8482;: Engineer Applications with Confidence"
-    outro: "See below for the specific Application Engineering domains we support"
-
+    
     programmes:
       api-development:
         title: API Development
