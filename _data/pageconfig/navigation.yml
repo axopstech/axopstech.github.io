@@ -107,7 +107,7 @@
         -
           name: Technical Recruitment
           url: /technical-recruitment
-          enabled: true
+          enabled: false
         -
           name: Workforce Optimisation
           url: /workforce-optimisation
