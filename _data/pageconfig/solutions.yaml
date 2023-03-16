@@ -1,4 +1,93 @@
 pages:
+  project-management.md:
+    title: Project Management
+    tagline: "AxOps&#8482; Project Management Services: Streamlined Projects, Realised Visions &#127919;"
+    outcome_image: /assets/img/icons/lineal/target.svg
+    obstacle_image: /assets/img/icons/lineal/puzzle.svg
+
+    desired_outcomes:
+      - category: Strategic Planning
+        description: Expert guidance to define and refine your project's goals and roadmap for success.
+      - category: Effective Communication
+        description: Streamlined channels for clear, concise, and timely information sharing among stakeholders.
+      - category: Time Management
+        description: Effectively prioritise milestones, optimise resources, and deliver projects on schedule.
+      - category: Risk Mitigation
+        description: Proactively identify and address potential challenges to ensure project resilience and stability.
+      - category: Team Collaboration
+        description: Foster a cooperative environment that boosts productivity and nurtures project success.
+      - category: Performance Tracking
+        description: Implement data-driven strategies to monitor progress and drive continuous improvement.
+
+    common_obstacles:
+      - category: Scope Creep
+        description: Uncontrolled changes or continuous growth in a project's objectives, which can lead to delays, cost overruns, and reduced overall quality.
+
+      - category: Inadequate Communication
+        description: Poor communication among team members, stakeholders, and clients resulting in misunderstandings, misaligned expectations, and reduced efficiency.
+
+      - category: Limited Resources
+        description: Insufficient financial, human, or technological resources hindering the project's progress and limiting the ability to achieve desired outcomes.
+
+      - category: Unclear Objectives
+        description: Ambiguity in project goals or a lack of clarity on desired outcomes, making it challenging to plan, execute, and measure success effectively.
+
+      - category: Ineffective Time Management
+        description: Struggling to prioritise tasks, balance workload, and meet deadlines, causing project delays and reduced productivity.
+
+      - category: Risk Management
+        description: Inability to identify, assess, and address potential risks, leading to unexpected issues, project disruptions, and compromised outcomes.
+
+    outcomes_vs_painpoints:
+      - category: Strategic Planning
+        priority: 1
+        painpoints:
+          - Inability to set realistic goals and objectives
+          - Struggling with resource allocation and prioritisation
+          - Failing to align project goals with organisational objectives
+
+      - category: Team Collaboration
+        priority: 2
+        painpoints:
+          - Difficulty in fostering trust and open communication among team members
+          - Challenges in managing remote or cross-functional teams
+          - Ineffective delegation and decision-making processes
+
+      - category: Risk Management
+        priority: 3
+        painpoints:
+          - Insufficient risk identification and assessment techniques
+          - Lack of proactive risk mitigation strategies
+          - Inadequate contingency planning and crisis management
+
+      - category: Time Management
+        priority: 4
+        painpoints:
+          - Inability to estimate accurate project timelines
+          - Struggling to balance workload and multitasking
+          - Failing to meet deadlines and ensure timely deliverables
+
+      - category: Quality Assurance
+        priority: 5
+        painpoints:
+          - Inefficient processes for monitoring and evaluating project quality
+          - Difficulty in maintaining consistency and meeting stakeholder expectations
+          - Lack of a robust feedback mechanism for continuous improvement
+
+      - category: Stakeholder Management
+        priority: 6
+        painpoints:
+          - Difficulty in identifying and engaging key stakeholders
+          - Challenges in managing stakeholder expectations and communication
+          - Inability to address stakeholder concerns and maintain support
+
+    pitch: >
+      <p>Our comprehensive project management services are designed to help you overcome the challenges and achieve the desired outcomes crucial to your organisation's success. With extensive experience in the industry, we understand the importance of strategic planning, team collaboration, risk management, time management, quality assurance, and stakeholder management.</p>
+      <p>Our expertise in strategic planning enables us to set clear objectives, prioritise tasks, and allocate resources efficiently to ensure your projects align with your organisation's goals. We focus on fostering open communication and trust within your team, managing remote or cross-functional groups, and implementing effective delegation and decision-making processes for seamless collaboration.</p>
+      <p>Effective risk management is essential to any project's success. Our proven techniques for risk identification, assessment, and mitigation, combined with robust contingency planning, equip your team to tackle unexpected challenges head-on. Time management is another crucial aspect we address, helping you estimate accurate timelines, balance workloads, and meet deadlines consistently.</p>
+      <p>Our quality assurance processes monitor and evaluate project quality, maintain consistency, and meet stakeholder expectations while enabling continuous improvement through feedback. We excel in stakeholder management, ensuring your key stakeholders are engaged, their expectations are managed, and their concerns are addressed to maintain ongoing support.</p>
+      <p>By partnering with us, you can rest assured that your projects are in capable hands. We tailor everything to your specific requirements, empowering your team to navigate obstacles and achieve desired results on time and within budget.</p>
+
   hubspot-crm-optimisation.md:
     title: HubSpot CRM Optimisation
     tagline: "Empower Your Growth: Unlock HubSpot's Full Potential & Drive Results!"
@@ -372,7 +461,7 @@ pages:
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
-      - category: Streamlined Customer Engagement
+      - category: Streamlined Engagement
         description: Unify your customer touchpoints for seamless interactions and enriched relationships.
 
       - category: Efficient Task Automation
