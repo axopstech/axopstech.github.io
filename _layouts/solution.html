@@ -41,9 +41,11 @@
     <!-- /section -->
     <section class="wrapper bg-light wrapper-border">
         <div class="container py-14 py-md-12">
+          <h2 class="display-4 mb-3 text-center">Why choose {{ site.data.content.config.name }} as your {{ pageconfig.title }} partner? &#129309;</h2>
+          <p class="lead text-center mb-10 px-md-16 px-lg-0">We leverage our experience in the industry to help you you both <span class="underline-3 style-2 yellow">navigate</span> <strong>and</strong> <span class="underline-3 style-2 blue">overcome</span> challenges <span class="underline-3 style-2 green">cost-effectively</span> 🎯</p>
           <div class="row text-center">
             <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-              <h3 class="display-4 mb-9 px-xl-11">Common <span class="underline-3 style-2 red">Obstacles</span> to Adoption</h3>
+              <h3 class="display-6 mb-9 px-xl-11">Clients often experience the following <span class="underline-3 style-2 red">problems</span>:</h3>
             </div>
             <!-- /column -->
           </div>
@@ -65,15 +67,11 @@
             {% endfor %}
           </div>
           <!--/.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-light wrapper-border">
-        <div class="container py-14 py-md-12">
-          <h2 class="display-4 mb-3 text-center">Why choose {{ site.data.content.config.name }} as your {{ pageconfig.title }} partner? &#129309;</h2>
-          <p class="lead text-center mb-10 px-md-16 px-lg-0">We have extensive experience resolving the above and more, having worked with clients across many different industries. We pride ourselves in being able to help you both <span class="underline-3 style-2 yellow">navigate</span> <strong>and</strong> <span class="underline-3 style-2 blue">overcome</span> adoption challenges <span class="underline-3 style-2 green">cost-effectively</span> 🎯</p>
           <div class="row">
+            <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
+              <br /><br />
+              <h3 class="display-6 mb-9 px-xl-11">We're <span class="underline">our own clients</span> first, intimately familiar with <span class="underline-3 style-2 blue">idealised</span> goals and their respective <span class="underline-3 style-2 yellow">challenges</span> &#128161;</h3>
+            </div>
             <div style="margin: 0 auto;" class="col-lg-9 mb-0">
               <div id="accordion-1" class="accordion-wrapper">
                 {% for ovp in pageconfig.outcomes_vs_painpoints %}
@@ -103,15 +101,9 @@
             <!--/column -->
           </div>
           <!--/.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-light wrapper-border">
-        <div class="container py-14 py-md-8">
           <div class="row mt-8 mt-md-12">
             <div class="col-md-10 offset-md-1 text-justify">
-              <h2 class="display-4 mb-9 px-xl-11 text-center"><span class="underline-3 style-2 green">The Solution</span>: Partnering with the {{ site.data.content.config.name }} Team! &#128588;</h2>
+              <h2 class="display-4 mb-9 px-xl-11 text-center"><span class="underline-3 style-2 green">Your Solution</span>: Partnering with the {{ site.data.content.config.name }} Team! &#128588;</h2>
               {{ pageconfig.pitch }}
             </div>
             <!-- /column -->
