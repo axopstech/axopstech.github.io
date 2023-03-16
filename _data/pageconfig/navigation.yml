@@ -101,10 +101,6 @@
       enabled: true
       children:
         -
-          name: Business Analysis
-          url: /business-analysis
-          enabled: true
-        -
           name: Project Management
           url: /project-management
           enabled: true
