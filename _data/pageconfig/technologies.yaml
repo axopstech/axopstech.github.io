@@ -1,26 +1,24 @@
 pages:
-  technical-training.md:
-    title: Technical Training
-    tagline: 'Maximise Productivity with AxOps&#8482; Workforce <span class="underline-3 style-2 yellow">TeamOps</span> Solutions'
-    outcome_image: /assets/img/icons/lineal/target.svg
-    obstacle_image: /assets/img/icons/lineal/puzzle.svg
+  technologies-application-engineering.md:
+    title: Application Engineering
+    tagline: "Empower Innovation with AxOps&#8482;: Engineer Applications with Confidence"
+    outro: "See below for the specific Application Engineering domains we support"
 
     programmes:
       api-development:
-        - category: Introduction to API Development
-          description: Discover the essentials of APIs, their purpose in software development, and the various API types, setting a strong foundation for your API development journey.
+        title: API Development
+        description: API development, an essential component of modern software architecture, entails crafting interfaces for seamless communication between diverse applications. Partnering with AxOps&#8482; for your API Development needs ensures adherence to industry best practices for robustness, security, and interoperability.
+        benefits:
+          - Enhance system interoperability
+          - Facilitate seamless data exchange
+          - Enable third-party integrations
+          - Promote reusable code components
 
-        - category: RESTful API Development
-          description: Delve into the world of RESTful APIs, exploring CRUD operations, endpoint design, error handling, versioning, and security to create robust and maintainable APIs.
-
-        - category: GraphQL API Development
-          description: Learn the intricacies of GraphQL, from schema design and type systems to queries, mutations, subscriptions, and performance optimisations for efficient and flexible APIs.
-
-        - category: API Documentation and Testing
-          description: Understand the importance of thorough API documentation, and master testing techniques to ensure API reliability, maintainability, and seamless integration.
-
-        - category: API Security and Authentication
-          description: Equip yourself with the knowledge to secure your APIs using various authentication and authorisation mechanisms, safeguarding data and ensuring compliance.
-
-        - category: Building Scalable and High-Performance APIs
-          description: Uncover strategies to build scalable and high-performance APIs that can handle increased workloads and deliver a seamless user experience.
+      saas-development:
+        title: SaaS Development
+        description: Software-as-a-Service (SaaS) Development refers to the process of creating and maintaining web-based applications, which are delivered over the internet on a subscription basis. AxOps&#8482; has extensive experience building SaaS applications across several industry verticals, and adheres strictly to industry best practices through every stage of the project lifecycle.
+        benefits:
+          - Cost-effective deployments
+          - Simplified application management
+          - Seamless scalability and flexibility
+          - Enhanced data security and compliance

@@ -30,4 +30,4 @@ members:
     name: Ali Saif
     image_src: &site_url /assets/img/photos/team/ali-saif.jpg
     image_srcset: &site_url /assets/img/photos/team/ali-saif.jpg 2x
-    role: Technical TeamOps Architect
+    role: Technical Architect
