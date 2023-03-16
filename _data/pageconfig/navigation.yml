@@ -193,23 +193,23 @@
           enabled: true
         -
           name: SaaS Development
-          url: /saas-development
+          url: "#saas-development"
           enabled: true
         -
           name: Cloud Engineering
-          url: /cloud-engineering
+          url: "#cloud-engineering"
           enabled: true
         -
           name: DevOps Optimisation
-          url: /devops-optimisation
+          url: "#devops-optimisation"
           enabled: true
         -
           name: Full-Stack Development
-          url: /full-stack-development
+          url: "#full-stack-development"
           enabled: true
         -
           name: Blockchain Development
-          url: /blockchain-development
+          url: "#blockchain-development"
           enabled: true
     -
       name: Digital Transformation
