@@ -150,36 +150,36 @@
       enabled: true
       children:
         -
-          name: Data Lakes
-          url: /data-lakes
+          name: Data Lake Solutions
+          url: "#data-lake-solutions"
           enabled: true
         -
           name: Cloud Migration
-          url: /cloud-migration
+          url: "#cloud-migration"
           enabled: true
         -
           name: Edge Computing
-          url: /edge-computing
+          url: "#edge-computing"
           enabled: true
         -
           name: Backup & Archival
-          url: /backup-archival
+          url: "#backup-archival"
           enabled: true
         -
           name: Disaster Recovery
-          url: /disaster-recovery
+          url: "#disaster-recovery"
           enabled: true
         -
           name: Hybrid Architecture
-          url: /hybrid-architecture
+          url: "#hybrid-architecture"
           enabled: true
         -
           name: Serverless Computing
-          url: /serverless-computing
+          url: "#serverless-computing"
           enabled: true
         -
           name: Continuous Delivery Pipelines
-          url: /continuous-delivery
+          url: "#continuous-delivery"
           enabled: true
 
     -
