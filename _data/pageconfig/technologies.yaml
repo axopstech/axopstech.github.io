@@ -48,7 +48,15 @@ pages:
           - "Cost-effective utilisation of computing resources"
           - "Improved compliance with regulatory requirements"
           - "Supports legacy infrastructure and mission-critical applications"
-        
+      
+      serverless-computing:
+        title: Serverless Computing
+        description: "Serverless computing enables developers to create, manage, and deploy applications without the need to manage infrastructure. Benefit from auto-scaling, built-in high availability, and pay-as-you-go pricing for cost efficiency. By eliminating infrastructure management tasks, such as capacity provisioning and patching, going serverless allows your teams to focus on tasks that deliver actual value and drive business growth."
+        benefits:
+          - "Accelerate time-to-market with reduced operational overhead."
+          - "Optimise operating costs with pay-as-you-go pricing."
+          - "Easily adapt to changing demands through automatic scaling."
+          - "Streamline development by using cloud-native service integrations."
 
   technologies-application-engineering.md:
     title: Application Engineering
