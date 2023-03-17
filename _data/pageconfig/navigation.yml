@@ -158,8 +158,8 @@
           url: "#cloud-migration"
           enabled: true
         -
-          name: Backup & Archival
-          url: "#backup-archival"
+          name: Data Backup & Archival
+          url: "#data-backup-archival"
           enabled: true
         -
           name: Disaster Recovery
@@ -184,14 +184,6 @@
       enabled: true
       children:
         -
-          name: API Development
-          url: "#api-development"
-          enabled: true
-        -
-          name: SaaS Development
-          url: "#saas-development"
-          enabled: true
-        -
           name: Cloud Engineering
           url: "#cloud-engineering"
           enabled: true
@@ -202,6 +194,14 @@
         -
           name: Full-Stack Development
           url: "#full-stack-development"
+          enabled: true
+        -
+          name: API Development
+          url: "#api-development"
+          enabled: true
+        -
+          name: SaaS Development
+          url: "#saas-development"
           enabled: true
         -
           name: Blockchain Development

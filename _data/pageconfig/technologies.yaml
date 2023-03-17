@@ -30,6 +30,15 @@ pages:
         - "Cost-effective solutions with flexible pricing models."
         - "Seamless integration with existing data infrastructure."
         - "Reliable long-term data retention, security, and on-demand retrieval."
+      
+      disaster-recovery:
+        title: Disaster Recovery
+        description: "We design and implement robust, resilient, and scalable disaster recovery strategies to safeguard your critical business data, infrastructure, and applications. Our approach focuses on minimising downtime, ensuring business continuity, and preserving data integrity. Leverage the AxOps&#8482; team's field experience to confidently navigate unforeseen events, maintain operational resilience, high availability, and overall business continuity."
+        benefits:
+          - "Robust and resilient disaster recovery solutions."
+          - "Minimised downtime and ensured business continuity."
+          - "Preserved data integrity and security during disruptive events."
+          - "Fault-tolerant and cloud-native disaster recovery infrastructure."
         
 
   technologies-application-engineering.md:
