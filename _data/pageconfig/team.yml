@@ -25,6 +25,12 @@ members:
     image_src: &site_url /assets/img/photos/team/marti-castany.jpg
     image_srcset: &site_url /assets/img/photos/team/marti-castany.jpg 2x
     role: Quantitative R&D Consultant
+  
+  -
+    name: Tiniki
+    image_src: &site_url /assets/img/photos/team/tiniki.jpg
+    image_srcset: &site_url /assets/img/photos/team/tiniki.jpg 2x
+    role: Algorithmic Creative Director
 
   -
     name: Ali Saif
