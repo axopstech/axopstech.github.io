@@ -173,10 +173,6 @@
           name: Serverless Computing
           url: "#serverless-computing"
           enabled: true
-        -
-          name: Continuous Delivery Pipelines
-          url: "#continuous-delivery"
-          enabled: true
 
     -
       name: 'Application Engineering    <span style="visibility: hidden">.</span>'
@@ -208,25 +204,17 @@
           url: "#blockchain-development"
           enabled: true
     -
-      name: Digital Transformation
-      url: /digital-transformation
+      name: Data Management
+      url: /data-analytics
       enabled: true
       children:
         -
-          name: Domain Transformation
-          url: /domain-transformation
+          name: Database Migration
+          url: "#database-migration-services"
           enabled: true
         -
-          name: Process Transformation
-          url: /process-transformation
-          enabled: true
-        -
-          name: Organisation Transformation
-          url: /organisation-transformation
-          enabled: true
-        -
-          name: Business Model Transformation
-          url: /business-model-transformation
+          name: Visualisation & Reporting
+          url: "#data-visualisation-reporting-solutions"
           enabled: true
     -
       name: Business Analytics
@@ -234,22 +222,14 @@
       enabled: true
       children:
         -
-          name: Data Analytics
-          url: /data-analytics
+          name: Data Science Solutions
+          url: /data-science-consulting-solutions
           enabled: true
         -
-          name: Data Architecture
-          url: /data-architecture
+          name: Predictive Analytics
+          url: /prescriptive-analytics
           enabled: true
-        -
-          name: Data Management
-          url: /data-management
-          enabled: true
-        -
-          name: Information Delivery
-          url: /information-delivery
-          enabled: true
-
+        
 -
   name: Case Studies
   url: /case-studies
