@@ -1,10 +1,20 @@
 pages:
+  technologies-cloud-infrastructure.md:
+    title: Cloud & Infrastructure
+    tagline: "Empowering Your Digital Evolution: AxOps™ Cloud & Infrastructure Solutions"
+
+    services:
+      data-lakes:
+        title:
+        description:
+        benefits:
+
+        
   technologies-application-engineering.md:
     title: Application Engineering
     tagline: "Empower Innovation with AxOps&#8482;: Engineer Applications with Confidence"
 
-    programmes:
-      
+    services:
       cloud-engineering:
         title: Cloud Engineering
         description: Our team of vendor-certified Cloud professionals provide a comprehensive cloud engineering service focused on solution design, implementation, delivery and management of cloud-based infrastructure and applications. AxOps™ brings extensive field and subject matter Cloud expertise to your table, our approach ensuring optimal performance, security, and scalability in line with your organisation's needs.
@@ -22,6 +32,15 @@ pages:
           - Increased deployment frequency, accelerating time to market for new features and improvements.
           - Reduction in failure rates and quick recovery times, enhancing overall solution reliability.
           - Optimised resource utilisation, leading to cost savings and improved operational efficiency.
+
+      full-stack-development:
+        title: Full-Stack Development
+        description: Our Full-Stack Software Engineering service encompasses front-end, back-end, and infrastructure development, utilising industry best practices to deliver robust, scalable solutions. We employ cutting-edge technologies, methodologies, and tools, while continuously refining our processes to ensure optimal results and deliver high-quality software products.
+        benefits:
+          - Development of reliable and maintainable software that can adapt to changing needs.
+          - Streamlined project workflows and agile approach to deliver timely, cost-effective solutions.
+          - Optimised resource allocation and modular architecture reduce time-to-market.
+          - Covers all aspects of the project lifecycle, ensuring visibility and consistency across the board.
 
       api-development:
         title: API Development
@@ -41,15 +60,6 @@ pages:
           - Scalable and flexible architecture to support growth and adaptation to evolving project requirements
           - Robust security and compliance with industry standards, ensuring data protection and privacy
 
-      full-stack-development:
-        title: Full-Stack Development
-        description: Our Full-Stack Software Engineering service encompasses front-end, back-end, and infrastructure development, utilising industry best practices to deliver robust, scalable solutions. We employ cutting-edge technologies, methodologies, and tools, while continuously refining our processes to ensure optimal results and deliver high-quality software products.
-        benefits:
-          - Development of reliable and maintainable software that can adapt to changing needs.
-          - Streamlined project workflows and agile approach to deliver timely, cost-effective solutions.
-          - Optimised resource allocation and modular architecture reduce time-to-market.
-          - Covers all aspects of the project lifecycle, ensuring visibility and consistency across the board.
-      
       blockchain-development:
         title: Blockchain Development
         description: Blockchain Application Development involves the design, implementation, and deployment of decentralised applications using blockchain technology. Leverage the AxOps™ team's extensive experience in releasing large-scale Blockchain engineering projects (see Case Studies).
