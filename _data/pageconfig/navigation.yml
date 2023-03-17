@@ -200,8 +200,8 @@
           url: "#cloud-engineering"
           enabled: true
         -
-          name: DevOps Optimisation
-          url: "#devops-optimisation"
+          name: DevOps Automation
+          url: "#devops-automation"
           enabled: true
         -
           name: Full-Stack Development

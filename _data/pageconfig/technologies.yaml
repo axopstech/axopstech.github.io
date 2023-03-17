@@ -2,7 +2,7 @@ pages:
   technologies-application-engineering.md:
     title: Application Engineering
     tagline: "Empower Innovation with AxOps&#8482;: Engineer Applications with Confidence"
-    
+
     programmes:
       api-development:
         title: API Development
@@ -21,3 +21,33 @@ pages:
           - Simplified application management
           - Seamless scalability and flexibility
           - Enhanced data security and compliance
+      
+      cloud-engineering:
+        title: Cloud Engineering
+        description: Cloud Engineering refers to the design, development, and management of computing resources and services in a cloud-based environment. AxOps™ brings extensive field and subject matter Cloud expertise to your table, always adhering to industry best practices through every stage of the project lifecycle.
+        benefits:
+          - Infinite elasticity, cost-efficiency, and global availability
+          - Pay-as-you-go as opposed to fixed on-premise overheads
+          - Automated IT infrastructure deployment & maintenance
+          - Benefit from economies of scale in the Cloud
+
+      devops-automation:
+        title: DevOps Automation
+        description: DevOps Automation encompasses the integration and streamlining of development, testing, and deployment processes to facilitate rapid software release cycles while adhering to industry best practices. Robust DevOps implementation is crucial for efficient, consistent, and reliable software delivery.
+        benefits:
+          - Accelerated software delivery
+          - Improved collaboration and communication
+          - Consistent & reliable deployments
+          - Enhanced monitoring and incident response
+
+      full-stack-development:
+        title: Full-Stack Development
+        description: ...
+        benefits:
+      
+      blockchain-development:
+        title: Blockchain Development
+        description: ...
+        benefits:
+        
+
