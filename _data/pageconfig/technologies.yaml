@@ -4,6 +4,25 @@ pages:
     tagline: "Empower Innovation with AxOps&#8482;: Engineer Applications with Confidence"
 
     programmes:
+      
+      cloud-engineering:
+        title: Cloud Engineering
+        description: Our team of vendor-certified Cloud professionals provide a comprehensive cloud engineering service focused on solution design, implementation, delivery and management of cloud-based infrastructure and applications. AxOps™ brings extensive field and subject matter Cloud expertise to your table, our approach ensuring optimal performance, security, and scalability in line with your organisation's needs.
+        benefits:
+          - Infinite elasticity, cost-efficiency, and global availability
+          - Pay-as-you-go as opposed to fixed on-premise overheads
+          - Automated IT infrastructure deployment & maintenance
+          - Benefit from economies of scale in the Cloud
+
+      devops-automation:
+        title: DevOps Automation
+        description: We employ proven methodologies and cutting-edge tools to streamline software development and operations. Our approach facilitates rapid, high-quality deployments, minimising manual intervention and maximising efficiency. We adhere to industry best practices, ensuring optimal integration of the development and operations functions for robust and reliable deployments.
+        benefits:
+          - Agile collaboration between development and operations teams fosters innovation.
+          - Increased deployment frequency, accelerating time to market for new features and improvements.
+          - Reduction in failure rates and quick recovery times, enhancing overall solution reliability.
+          - Optimised resource utilisation, leading to cost savings and improved operational efficiency.
+
       api-development:
         title: API Development
         description: We provide a comprehensive API development service, employing industry-standard methodologies and cutting-edge tools to create robust, scalable, and secure APIs. Our approach incorporates meticulous planning, design, and documentation to ensure seamless integration with existing systems and optimal performance. Partnering with AxOps&#8482; ensures delivery that adheres strictly to industry best practices for robustness, security, and interoperability.
@@ -22,36 +41,14 @@ pages:
           - Scalable and flexible architecture to support growth and adaptation to evolving project requirements
           - Robust security and compliance with industry standards, ensuring data protection and privacy
 
-      
-      cloud-engineering:
-        title: Cloud Engineering
-        description: Our team of vendor-certified Cloud professionals provide a comprehensive cloud engineering service focused on solution design, implementation, delivery and management of cloud-based infrastructure and applications. AxOps™ brings extensive field and subject matter Cloud expertise to your table, our approach ensuring optimal performance, security, and scalability in line with your organisation's needs.
-        benefits:
-          - Infinite elasticity, cost-efficiency, and global availability
-          - Pay-as-you-go as opposed to fixed on-premise overheads
-          - Automated IT infrastructure deployment & maintenance
-          - Benefit from economies of scale in the Cloud
-
-      devops-automation:
-        title: DevOps Automation
-        description: DevOps Automation encompasses the integration and streamlining of development, testing, and deployment processes to facilitate rapid software release cycles while adhering to industry best practices. Robust DevOps implementation is crucial for efficient, consistent, and reliable software delivery.
-        benefits:
-          - Accelerated software delivery
-          - Improved collaboration and communication
-          - Consistent & reliable deployments
-          - Enhanced monitoring and incident response
-
       full-stack-development:
         title: Full-Stack Development
-        description: Our Full-Stack Software Engineering service encompasses front-end, back-end, and infrastructure development, utilising industry best practices to deliver robust, scalable solutions.
+        description: Our Full-Stack Software Engineering service encompasses front-end, back-end, and infrastructure development, utilising industry best practices to deliver robust, scalable solutions. We employ cutting-edge technologies, methodologies, and tools, while continuously refining our processes to ensure optimal results and deliver high-quality software products.
         benefits:
-          - Streamlined development process reduces time-to-market
-          - Enhanced system maintainability with modular architecture
-          - Optimised resource allocation for improved efficiency
-          - Unified technology stack ensures seamless integration
-
-
-
+          - Development of reliable and maintainable software that can adapt to changing needs.
+          - Streamlined project workflows and agile approach to deliver timely, cost-effective solutions.
+          - Optimised resource allocation and modular architecture reduce time-to-market.
+          - Covers all aspects of the project lifecycle, ensuring visibility and consistency across the board.
       
       blockchain-development:
         title: Blockchain Development
