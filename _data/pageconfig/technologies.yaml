@@ -1,4 +1,14 @@
 pages:
+
+  technologies-data-management.md:
+    title: Data Management
+    tagline: "AxOps&#8482; Data Management: Secure, Agile, and Efficient Cloud Solutions"
+
+    services:
+      database-migration:
+        title: Database Migration
+        
+
   technologies-cloud-infrastructure.md:
     title: Cloud & Infrastructure
     tagline: "Empowering Your Digital Evolution: AxOps™ Cloud & Infrastructure Solutions"
@@ -44,10 +54,10 @@ pages:
         title: Hybrid Architecture
         description: Our hybrid architecture solutions enable your organisation to scale its compute and storage capacity into the public cloud on demand and cost-effectively. This unified IT infrastructure permits scaling efficiently in response to changing demands on a pay-as-you-go basis, instead of via increases in fixed CapEx.
         benefits:
-          - "Enhanced scalability for fluctuating workloads"
-          - "Cost-effective utilisation of computing resources"
-          - "Improved compliance with regulatory requirements"
-          - "Supports legacy infrastructure and mission-critical applications"
+          - "Enhanced scalability for fluctuating workloads."
+          - "Cost-effective utilisation of computing resources."
+          - "Improved compliance with regulatory requirements."
+          - "Supports legacy infrastructure and mission-critical applications."
       
       serverless-computing:
         title: Serverless Computing

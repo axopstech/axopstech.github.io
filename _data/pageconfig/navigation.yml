@@ -205,7 +205,7 @@
           enabled: true
     -
       name: Data Management
-      url: /data-analytics
+      url: /data-management
       enabled: true
       children:
         -
