@@ -158,10 +158,6 @@
           url: "#cloud-migration"
           enabled: true
         -
-          name: Edge Computing
-          url: "#edge-computing"
-          enabled: true
-        -
           name: Backup & Archival
           url: "#backup-archival"
           enabled: true

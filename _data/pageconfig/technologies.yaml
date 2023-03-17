@@ -22,7 +22,15 @@ pages:
           - Leverage vendor-maintained physical Cloud security and focus on building your solutions.
           - Streamline operations and improve performance by using cloud-native services.
 
-
+      data-backup-archival:
+        title: Data Backup & Archival
+        description: "AxOps&#8482; provides comprehensive data backup and archival solutions in the cloud, in accordance with industry best practices to ensure data integrity, protection, and availability for your organisation. We leverage Cloud technologies to deliver a scalable, secure, and cost-effective solution for safeguarding your critical business data. Our solutions integrate seamlessly with your existing on-premise, hybrid, or public infrastructure while delivering reliable long-term data retention, security, and regulatory compliance."
+        benefits:
+        - "Scalable and secure cloud storage for data backup."
+        - "Cost-effective solutions with flexible pricing models."
+        - "Seamless integration with existing data infrastructure."
+        - "Reliable long-term data retention, security, and on-demand retrieval."
+        
 
   technologies-application-engineering.md:
     title: Application Engineering
