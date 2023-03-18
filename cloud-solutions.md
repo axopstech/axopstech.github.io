@@ -1,5 +1,5 @@
 ---
-layout: solution
+layout: solution-2
 title: Cloud Solutions
 permalink: /solutions/technology-consulting/cloud-solutions
 description: Unlock Your Business's Full Potential with AxOps&#8482; Cloud Solutions

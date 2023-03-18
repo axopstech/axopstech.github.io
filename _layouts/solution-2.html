@@ -1,0 +1,132 @@
+{% include header.html %}
+
+<!-- Header -->
+{% include header_site.html %}
+<!-- /header -->
+
+{% assign pageconfig = site.data.pageconfig.solutions.pages | map: page.name | first %}
+
+<div class="content-wrapper">
+    <!-- .content-wrapper -->
+    <section class="wrapper bg-light wrapper-border">
+      <div class="container py-14 py-md-16">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-0 align-items-center">
+          <div class="col-lg-6 position-relative">
+            <div class="shape bg-line blue rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="top: -2rem; right: -0.6rem;"></div>
+            <div class="shape bg-line blue rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="bottom: -2rem; left: -0.4rem;"></div>
+            <figure class="rounded mb-0"><img src="{{ site.url }}{{ pageconfig.main_image }}" srcset="{{ site.url }}{{ pageconfig.main_image }} 2x" alt=""></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-6">
+            <!-- <h3 class="display-4 mb-4">{{ pageconfig.title }}</h3> -->
+            <p class="display-5 mb-5">{{ pageconfig.tagline }}</p>
+            <div class="row gy-3">
+              {% assign dos = pageconfig.desired_outcomes %}
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-primary mb-0">
+                  <li><span><i class="uil uil-check"></i></span><span><strong>{{ dos[0].category }}:</strong><br />{{ dos[0].description }}</span></li>
+                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span><strong>{{ dos[1].category }}:</strong><br />{{ dos[1].description }}</span></li>
+                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span><strong>{{ dos[2].category }}:</strong><br />{{ dos[2].description }}</span></li>
+                </ul>
+              </div>
+              <!--/column -->
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-primary mb-0">
+                  <li><span><i class="uil uil-check"></i></span><span><strong>{{ dos[3].category }}:</strong><br />{{ dos[3].description }}</span></li>
+                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span><strong>{{ dos[4].category }}:</strong><br />{{ dos[4].description }}</span></li>
+                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span><strong>{{ dos[5].category }}:</strong><br />{{ dos[5].description }}</span></li>
+                </ul>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light wrapper-border">
+        <div class="container py-14 py-md-12">
+          <h2 class="display-4 mb-3 text-center">Why choose {{ site.data.content.config.name }} as your {{ pageconfig.title }} partner? &#129309;</h2>
+          <p class="lead text-center mb-10 px-md-16 px-lg-0">We leverage our experience in the industry to help you you both <span class="underline-3 style-2 yellow">navigate</span> <strong>and</strong> <span class="underline-3 style-2 blue">overcome</span> challenges <span class="underline-3 style-2 green">cost-effectively</span> 🎯</p>
+          <div class="row text-center">
+            <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+              <h3 class="display-6 mb-9 px-xl-11">Clients often experience the following <span class="underline-3 style-2 red">problems</span>:</h3>
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+          <div class="row gx-lg-8 gx-xl-12 gy-8">
+            {% for obstacle in pageconfig.common_obstacles %}
+            <div class="col-md-6 col-lg-4">
+              <div class="d-flex flex-row">
+                <div>
+                  <img src="{{ site.url }}{{ pageconfig.obstacle_image }}" class="svg-inject icon-svg icon-svg-sm text-aqua me-4" alt="" />
+                </div>
+                <div>
+                  <h4 class="mb-1">{{ obstacle.category }}</h4>
+                  <p class="mb-0">{{ obstacle.description }}</p>
+                </div>
+              </div>
+            </div>
+            <!--/column -->
+            {% endfor %}
+          </div>
+          <!--/.row -->
+          <div class="row">
+            <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
+              <br /><br />
+              <h3 class="display-6 mb-9 px-xl-11">We're <span class="underline">our own clients</span> first, intimately familiar with <span class="underline-3 style-2 blue">idealised</span> goals and their respective <span class="underline-3 style-2 yellow">challenges</span> &#128161;</h3>
+            </div>
+            <div style="margin: 0 auto;" class="col-lg-9 mb-0">
+              <div id="accordion-1" class="accordion-wrapper">
+                {% for ovp in pageconfig.outcomes_vs_painpoints %}
+                <div class="card accordion-item">
+                  <div class="card-header" id="accordion-heading-1-{{ ovp.priority }}">
+                    <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-{{ ovp.priority }}" aria-expanded="false" aria-controls="accordion-collapse-1-{{ ovp.priority }}">Idealised Goal: {{ ovp.category }}</button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div id="accordion-collapse-1-{{ ovp.priority }}" class="collapse" aria-labelledby="accordion-heading-1-{{ ovp.priority }}" data-bs-target="#accordion-1">
+                    <div class="card-body">
+                        <p><strong>Obstacles to overcome:</strong></p>
+                        <ul>
+                            {% for pp in ovp.painpoints %}
+                            <li>{{ pp }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+                <!-- /.card -->
+                {% endfor %}
+              </div>
+              <!-- /.accordion-wrapper -->
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+          <div class="row mt-8 mt-md-12">
+            <div class="col-md-10 offset-md-1 text-justify">
+              <h2 class="display-4 mb-9 px-xl-11 text-center"><span class="underline-3 style-2 green">Your Solution</span>: Partnering with the {{ site.data.content.config.name }} Team &#128588;</h2>
+              {{ pageconfig.pitch }}
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /section -->
+    {% include solution-process.html %}
+    {% include contact-form.html %}
+</div>
+<!-- /.content-wrapper -->
+
+<!-- Footer -->
+{% include footer.html %}
+<!-- /footer -->
