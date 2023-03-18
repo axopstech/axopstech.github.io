@@ -1158,25 +1158,29 @@ pages:
   cloud-solutions.md:
     title: Cloud Solutions
     tagline: "Unlock Your Business's Full Potential with AxOps&#8482; Cloud Solutions"
+    main_image: /assets/img/illustrations/custom/solutions-cloud-solutions.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
       - 
         category: High Availability & Elasticity
-        description: "The ability to easily scale up or down resources as needed and quickly adapt to changing business requirements."
+        description: "Easily scale up or down resources as needed and quickly adapt to changing business requirements."
       - 
         category: Cost Efficiency
         description: "Reduce capital expenditure on hardware and infrastructure and move to a pay-as-you-go model."
       - 
         category: Security & Compliance
-        description: "Access to robust security features and compliance frameworks to ensure data protection and regulatory compliance."
+        description: "Robust security and compliance features for data protection and regulatory compliance."
       - 
         category: Increased Productivity
-        description: "Access to powerful tools and automation to streamline workflows and improve productivity."
+        description: "Access to tools and automation to streamline workflows and improve productivity."
       - 
         category: Innovation & Agility
-        description: "Access to cutting-edge technology and resources to drive innovation and stay ahead of the competition."
+        description: "Access cutting-edge technology to drive innovation and stay ahead of the competition."
+      - 
+        category: Economies of Scale
+        description: "Vendor per-unit cost efficiencies enable accelerated innovation and support your growth."  
 
     common_obstacles:
       -
