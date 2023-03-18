@@ -1039,6 +1039,7 @@ pages:
   business-analytics.md:
     title: Business Analytics
     tagline: "Unlock the Power of Your Data with AxOps&#8482; Business Analytics Solutions"
+    main_image: /assets/img/illustrations/custom/solutions-business-analytics.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
@@ -1046,44 +1047,38 @@ pages:
       - 
         category: Data Visualization
         description: >
-          Clear and concise presentation of complex data,
-          easy identification of patterns, trends, and insights
-          to inform decision-making for business growth.
+          Identify patterns, trends, and extract insights from your data
+          to inform decision-making.
 
       - 
         category: Predictive Analytics
         description: >
-          Accurate forecasting of trends and patterns,
-          proactive identification of opportunities
-          to optimise business processes and decision-making.
+          Proactively identify opportunities
+          to optimise business processes and forecast growth.
 
       - 
         category: Data Warehousing
         description: >
-          Improved data management and organisation,
-          integration of data from various sources, 
-          faster and more efficient analysis of large datasets.
+          Aggregate data from various sources for 
+          fast and efficient analysis of growth drivers.
 
       - 
         category: Data Mining
         description: >
-          Identification of hidden patterns and relationships in data,
-          improved understanding of customer behaviors and preferences,
-          to inform business strategy.
+          Identify hidden patterns and relationships in data
+          to better understand customer behaviors.
 
       -  
         category: Performance Management
         description: >
-          Improved tracking and monitoring of KPIs,
-          optimisation of performance and profitability,
-          improved alignment of goals and objectives across the organisation.
+          Track and monitor KPIs, optimise performance, and
+          confidently evaluate firm-wide results.
 
       - 
         category: Reporting and Dashboards
         description: >
-          Quick and easy access to critical business data and insights,
-          reliable reporting of metrics and KPIs,
-          improved decision-making based on the latest intelligence.
+          Reliably evaluate critical business data and insights,
+          based on the latest available intelligence.
 
     common_obstacles:
       - 
