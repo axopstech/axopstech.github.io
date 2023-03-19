@@ -938,28 +938,29 @@ pages:
 
   crm-data-migrations.md:
     title: CRM Data Migrations
-    tagline: "Seamlessly migrate your data with AxOps&#8482; CRM Data Migration Solutions"
+    tagline: "Seamlessly migrate your CRM with AxOps&#8482; Data Migration Solutions"
+    main_image: /assets/img/illustrations/custom/solutions-crm-data-migrations.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
       - category: Seamless Data Migration
-        description: Migrate your CRM data seamlessly and efficiently to a new system or platform with minimal downtime.
+        description: Migrate your CRM data efficiently to a new system or platform with minimal downtime.
         
       - category: Bespoke Configurations
         description: Get a customized migration solution tailored to your specific business needs and objectives.
         
       - category: Data Accuracy & Integrity
-        description: Ensure the accuracy and integrity of your data during the migration process to avoid any data loss or corruption.
+        description: Ensured accuracy and integrity of your data during migration to avoid any data loss or corruption.
 
       - category: Improved Data Management
-        description: Streamline your data management processes by consolidating data from multiple sources into a single, unified CRM system.
+        description: Streamlined consolidation of data from multiple sources into a single, unified CRM system.
 
       - category: Enhanced Data Security
-        description: Improve your data security measures during the migration process to minimize the risk of data breaches and protect your sensitive information.
+        description: Data encryption during and after migration to protect all sensitive data in transit and at rest.
 
       - category: Expert Guidance & Support
-        description: Receive expert guidance and support from experienced professionals throughout the migration process to ensure a successful outcome.
+        description: Round-the-clock guidance and support throughout migration to ensure successful delivery.
 
     common_obstacles:
       - category: Data Inconsistencies
