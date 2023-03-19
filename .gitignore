@@ -3,6 +3,10 @@ _posts
 _drafts
 docs
 assets/img/photos/custom
+assets/img/photos/team/*.psd
+assets/img/photos/team/*.png
+assets/img/illustrations/custom/*.psd
+assets/img/illustrations/custom/*.png
 assets/img/illustrations/custom/original
 .jekyll-cache
 .jekyll-metadata
