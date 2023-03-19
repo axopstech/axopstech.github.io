@@ -839,34 +839,35 @@ pages:
 
   crm-data-integrations.md:
     title: CRM Data Integrations
-    tagline: "Unify Your Data, Empower Your Success: CRM Integrations Made Seamless!"
+    tagline: "Unify Your Data Seamlessly with AxOps&#8482; CRM Integration Solutions"
+    main_image: /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
       - 
         category: Streamlined Workflows
-        description: Simplify your business processes by integrating all your data sources into one powerful CRM system.
+        description: Simplify your business processes, integrate all your data sources into one unified CRM system.
 
       - 
         category: Enhanced Decision Making
-        description: Gain deeper insights into your customer data, enabling smarter decisions and more targeted strategies.
+        description: Gain deeper insights into customer data, inform decisions and more targeted strategies.
 
       - 
         category: Time & Cost Efficiency
-        description: Reduce time spent on manual data entry and minimize errors, freeing up resources to focus on core business tasks.
+        description: Reduce time spent on manual data tasks, free up resources to focus on creating value.
 
       - 
         category: Improved Customer Experience
-        description: Better understand your customers and provide personalized experiences that drive loyalty and retention.
+        description: Better understand your customers and engineer more personalised experiences.
 
       - 
         category: Scalable Growth
-        description: Future-proof your business with a CRM system that can adapt and expand alongside your evolving data needs.
+        description: Future-proof your business with CRM systems that adapt and grow as your data evolves.
 
       - 
         category: Data Security & Compliance
-        description: Safeguard your customer information with security and data management that ensure regulatory compliance.
+        description: Safeguard customer information with secure data management to ensure regulatory compliance.
 
     common_obstacles:
       - category: Disparate Data Sources
