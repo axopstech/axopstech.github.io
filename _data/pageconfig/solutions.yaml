@@ -283,28 +283,29 @@ pages:
 
   hubspot-crm-optimisation.md:
     title: HubSpot CRM Optimisation
-    tagline: "Empower Your Growth: Unlock HubSpot's Full Potential & Drive Results"
+    tagline: "Unlock HubSpot's Full Potential with AxOps&#8482; CRM Optimisation Solutions"
+    main_image: /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
       - category: Data Management Efficiency
-        description: Streamline your sales and marketing efforts with accurate contact data for seamless campaign execution and improved user experience.
+        description: Streamline sales and marketing with accurate contact data for improved campaign performance measurement.
 
       - category: Customised Deal Flows
-        description: Tailor deal stages and sales processes to your unique business needs for a more efficient and effective conversion strategy.
+        description: Tailor deal stages and sales processes to unique business goals for more effective conversion strategies.
 
       - category: Enhanced Communication
-        description: Utilise HubSpot's tools to log, track, and manage conversations, ensuring clear communication and task delegation among team members.
+        description: Log, track, and manage conversations effectively, improving communication and task delegation among users.
 
       - category: Intelligent Lead Capturing
-        description: Maximise lead capture and engagement using personalised messaging, forms, and chatbot conversations to drive prospects further down the sales funnel.
+        description: Personalise messages, forms, and chatbot conversations to drive prospects down your marketing funnel effectively.
 
       - category: Workflow Automation
         description: Save time and resources by automating sales and marketing workflows, enabling your business to work smarter, not harder.
 
       - category: Integrated Solutions
-        description: Harness the power of HubSpot's integrations to streamline your workflow, optimise SEO, and make data-driven decisions for business growth.
+        description: Leverage integrations to streamline your workflow, optimise SEO, and inform data-driven decision-making.
 
     common_obstacles:
       - category: Inefficient Data Management
