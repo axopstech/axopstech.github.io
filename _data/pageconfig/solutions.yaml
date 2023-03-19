@@ -745,28 +745,29 @@ pages:
 
   digital-transformation.md:
     title: Digital Transformation
-    tagline: "Empower Your Future: Unleash the Potential of Digital Transformation"
+    tagline: "Optimise Your Business with AxOps™ Digital Transformation Solutions"
+    main_image: /assets/img/illustrations/custom/solutions-digital-transformation.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
       - category: Operational Efficiency
-        description: "Streamlining processes and workflows to maximise productivity, reduce costs, and optimise resource utilisation."
+        description: "Streamline business processes and workflows, maximise productivity, and reduce costs."
 
       - category: Enhanced Customer Experience
-        description: "Leveraging digital technologies to personalise interactions, improve service quality, and foster customer loyalty."
+        description: "Leverage digital technology to personalise interactions, improve service quality, and foster loyalty."
 
       - category: Data-Driven Decision Making
-        description: "Utilising data analytics and insights to make informed strategic choices and drive business growth."
+        description: "Data analytics and insights to facilitate informed decision-making and drive growth."
 
       - category: Innovation & Agility
-        description: "Adopting a proactive approach to identify new opportunities, adapt to market changes, and maintain a competitive edge."
+        description: "Proactivly dentify new business opportunities, evolve, grow, and maintain your competitive edge."
 
       - category: Workforce Empowerment
-        description: "Investing in upskilling and reskilling programmes to develop a future-ready workforce that thrives in the digital landscape."
+        description: "Invest in upskilling and reskilling programmes to develop a future-ready, competitive workforce."
 
       - category: Scalable & Sustainable Growth
-        description: "Creating a robust digital infrastructure to support long-term expansion and adaptability, whilst ensuring environmental and social responsibility."
+        description: "Create robust infrastructure that supports growth whilst ensuring environmental responsibility."
 
     common_obstacles:
       - category: Technical Issues
