@@ -462,28 +462,29 @@ pages:
 
   blockchain-development.md:
     title: Blockchain Development
-    tagline: "Unleashing Trust, Transparency, and Security with Blockchain Technology"
+    tagline: "Trust, Traceability & Transparency with AxOps&#8482; Blockchain Solutions"
+    main_image: /assets/img/illustrations/custom/solutions-blockchain-development.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
       - category: Enhanced Security
-        description: Experience unparalleled protection with tamperproof, cryptography-based transaction records.
+        description: Prevent fraud and unauthorised activity with immutable records and end-to-end encryption.
 
       - category: Improved Transparency
         description: Foster trust among network members with a shared, real-time updated digital ledger.
 
       - category: Streamlined Efficiency
-        description: Accelerate data sharing and reduce manual processes with a decentralised, peer-to-peer database.
+        description: Accelerate data sharing and reduce manual tasks with fast, and decentralised settlement.
 
       - category: Reduced Costs
         description: Minimise intermediaries and administrative overheads by leveraging a self-verifying system.
 
       - category: Traceability and Tracking
-        description: Monitor asset movements with ease, ensuring authenticity and combating fraud.
+        description: Monitor transaction movements with ease, ensuring authenticity and combating fraud.
 
-      - category: Cross-industry Applications
-        description: Discover the versatility of blockchain technology, revolutionising diverse sectors from finance to supply chains.
+      - category: Automation
+        description: Automate transactions with “Smart Contracts” for improved performance and efficiency.
 
     common_obstacles:
       - category: Technical Complexity
