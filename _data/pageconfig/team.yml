@@ -33,7 +33,13 @@ members:
     role: Algorithmic Creative Director
 
   -
+    name: Saad Hashmi
+    image_src: &site_url /assets/img/photos/team/saad-hashmi-1.jpg
+    image_srcset: &site_url /assets/img/photos/team/saad-hashmi-1.jpg 2x
+    role: Business Strategy & Presales
+
+  -
     name: Ali Saif
-    image_src: &site_url /assets/img/photos/team/ali-saif.jpg
-    image_srcset: &site_url /assets/img/photos/team/ali-saif.jpg 2x
+    image_src: &site_url /assets/img/photos/team/ali-saif-1.jpg
+    image_srcset: &site_url /assets/img/photos/team/ali-saif-1.jpg 2x
     role: Technical Architect
