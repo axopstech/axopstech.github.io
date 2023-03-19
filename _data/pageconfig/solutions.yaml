@@ -554,28 +554,29 @@ pages:
 
   application-engineering.md:
     title: Application Engineering
-    tagline: "Empowering Innovation: Engineering Applications for Tomorrow's Success"
+    tagline: "Empowering Innovation: AxOps&#8482; Application Engineering Services"
+    main_image: /assets/img/illustrations/custom/solutions-application-engineering.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
-      - category: System Integration
-        description: Seamless integration of applications into the customer's existing infrastructure, ensuring smooth data flow and maximising compatibility.
+      - category: Systems Integration
+        description: Reliable integration of systems across the organisation, bridging operations and visibility.
 
       - category: Customisation
-        description: Tailoring applications to meet the unique requirements of each customer, focusing on enhancing user experience and achieving specific business goals.
+        description: Tailored application experiences to meet your organisation and customers' requirements.
 
       - category: Scalability
-        description: Designing applications to accommodate future growth in user base, traffic, and features, enabling customers to expand their operations without disruptions.
+        description: Solutions designed to accommodate future growth, mitigating risk of disruption.
 
       - category: Security
-        description: Implementing robust security measures to protect customer data and application functionality, minimising the risk of breaches and unauthorised access.
+        description: Robust security implementations to protect sensitive data and application functionality.
 
       - category: Performance Optimisation
-        description: Ensuring applications run efficiently and with minimal latency, providing users with a responsive and enjoyable experience.
+        description: Applications optimised to minimise latency, facilitating responsive and enjoyable UX.
 
       - category: Maintenance & Support
-        description: Offering ongoing technical support and regular updates to keep applications running smoothly and adapting to evolving demands and industry trends.
+        description: Ongoing technical support and regular communciation to ensure smooth running operations.
 
     common_obstacles:
       - category: Technical Complexity
@@ -649,7 +650,8 @@ pages:
 
   bespoke-crm-solutions.md:
     title: Bespoke CRM Solutions
-    tagline: "Elevate Your Business: Bespoke CRM Solutions that Drive Results"
+    tagline: 'Technology Built Exclusively For <span class="underline">You</span>: AxOps&#8482; Bespoke CRM Solutions'
+    main_image: /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 

@@ -1,5 +1,5 @@
 ---
-layout: solution
+layout: solution-2
 title: Application Engineering
 permalink: /solutions/technology-consulting/application-engineering
 description: "Empowering Innovation: Engineering Applications for Tomorrow's Success"
