@@ -2,27 +2,28 @@ pages:
   workforce-optimisation.md:
     title: Workforce Optimisation
     tagline: 'Maximise Productivity with AxOps&#8482; Workforce <span class="underline-3 style-2 yellow">TeamOps</span> Solutions'
+    main_image: /assets/img/illustrations/custom/solutions-workforce-optimisation.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
 
     desired_outcomes:
       - category: Enhanced Efficiency
-        description: Streamline processes and reduce operational bottlenecks, enabling your workforce to achieve optimal productivity.
+        description: Streamline processes and improve operational efficiency, driving workforce productivity.
 
       - category: Improved Communication
         description: Facilitate seamless collaboration and information sharing, fostering a cohesive working environment.
 
       - category: Cost Reduction
-        description: Data-driven strategies to optimise resource allocation, lowering costs without sacrificing performance.
+        description: Optimise resources with data-driven strategies, lowering costs without sacrificing performance.
 
       - category: Skilled Workforce
-        description: Training and development programmes empowering employees to excel in their roles and contribute meaningfully.
+        description: Train and develop talent in-house, empowering employees to excel and contribute meaningfully.
 
       - category: Informed Decision-Making
-        description: Leverage analytics and insights to make data-driven decisions, enhancing operational effectiveness and growth.
+        description: Glean actionable insights via data analytics, enhancing operational effectiveness and growth.
 
       - category: Employee Satisfaction
-        description: Foster a positive work culture and environment, boosting morale, engagement, and employee retention.
+        description: Foster a positive work culture, boosting employee morale, engagement, and retention.
 
     common_obstacles:
       - category: Inefficient Processes

@@ -1,5 +1,5 @@
 ---
-layout: solution
+layout: solution-2
 title: Workforce Optimisation
 permalink: /solutions/strategic-advisory/workforce-optimisation
 description: "Empower Your Team, Maximise Productivity: The Future of Workforce Optimisation"
