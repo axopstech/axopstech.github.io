@@ -16,8 +16,8 @@ members:
   
   -
     name: Alain Porto
-    image_src: &site_url /assets/img/photos/team/alain-porto-1.jpg
-    image_srcset: &site_url /assets/img/photos/team/alain-porto-1.jpg 2x
+    image_src: &site_url /assets/img/photos/team/alain-porto-2.jpg
+    image_srcset: &site_url /assets/img/photos/team/alain-porto-2.jpg 2x
     role: DevOps Architect
   
   -
