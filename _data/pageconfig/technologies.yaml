@@ -7,7 +7,7 @@ pages:
     services:
       database-migration:
         title: Database Migration
-        description: AxOps™ provides an end-to-end database migration service, ensuring seamless transition from legacy to modern, scalable, hybrid or fully public architectures. Our methodology incorporates comprehensive analysis of your unique requirements, gap identification, in compliance with industry best practices. Our approach is tailored to your organisation, and focuses on mitigating risks, minimising downtime, and optimising performance throughout the migration.
+        description: Our comprehensive database migration service ensures a reliable transition from legacy to modern, scalable, hybrid or fully public data architectures. Our methodology incorporates detailed analysis of your unique requirements, gap identification, and due diligence in compliance with industry best practices. Solution delivery is tailored to your organisation, focusing on mitigating risk, minimising downtime, and optimising performance throughout the migration.
         benefits:
           - Enhanced performance and scalability at cloud scale
           - Reduced costs via flexible, cloud-native pay-as-you-go pricing
@@ -16,7 +16,7 @@ pages:
       
       visualisation-reporting:
         title: Data Visualisation & Reporting
-        description: AxOps™ provides an end-to-end data visualisation and reporting service. We'll analyse your specific business requirements, conduct thorough gap assessments, and implement appropriate data visualisation tools and reporting frameworks accordingly. Our expertise in design, integration, and optimisation ensures seamless data representation in unified interfaces, enhancing decision-making processes across the enterprise.
+        description: AxOps™ provides an end-to-end data visualisation and reporting service. We'll analyse your specific business requirements, conduct thorough gap assessments, and implement appropriate data visualisation tools and reporting frameworks accordingly. Our expertise in design, integration, and optimisation ensures reliable aggregation of data from disparate sources into unified interfaces, enhancing decision-making with meaningful insights gleaned from activity across your enterprise.
         benefits:
         - Improved decision-making with accurate and timely insights
         - Comprehensive data exploration features for diverse stakeholders
