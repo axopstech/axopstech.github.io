@@ -16,10 +16,10 @@ pages:
       
       visualisation-reporting:
         title: Data Visualisation & Reporting
-        description: AxOps™ provides an end-to-end data visualisation and reporting service adhering to industry best practices. Our solution encompasses the analysis of business requirements, gap assessment, and implementation of appropriate data visualisation tools and reporting frameworks. Our expertise in design, integration, and optimisation ensures seamless data representation, enhancing decision-making processes across the enterprise.
+        description: AxOps™ provides an end-to-end data visualisation and reporting service. We'll analyse your specific business requirements, conduct thorough gap assessments, and implement appropriate data visualisation tools and reporting frameworks accordingly. Our expertise in design, integration, and optimisation ensures seamless data representation in unified interfaces, enhancing decision-making processes across the enterprise.
         benefits:
         - Improved decision-making with accurate and timely insights
-        - Enhanced data exploration capabilities for diverse stakeholders
+        - Comprehensive data exploration features for diverse stakeholders
         - Improved communication of insights via visual storytelling
         - Scalable and adaptable solutions for evolving enterprise needs
 
