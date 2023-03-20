@@ -222,8 +222,8 @@
       enabled: true
       children:
         -
-          name: Data Science Solutions
-          url: /data-science-consulting-solutions
+          name: Data Science Consulting
+          url: /data-science-consulting
           enabled: true
         -
           name: Predictive Analytics
