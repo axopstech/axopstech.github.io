@@ -2,21 +2,23 @@ pages:
 
   technologies-business-analytics.md:
     title: Business Analytics
-    tagline: Transform Insights into Impact with AxOps&#8482 Business Analytics Solutions
+    tagline: "Transform Insights into Impact: with AxOps&#8482 Business Analytics Solutions"
 
     services:
       data-science-consulting:
         title: Data Science Consulting
         description: "Several AxOps&#8482 team members have extensive field experience in senior data science and quantitative research roles, specialising in delivering robust and sophisticated data-driven solutions. We employ cutting-edge statistical methods and machine learning techniques, always delivering solutions to the highest industry standards to ensure that clients receive reliable, actionable intelligence tailored to their organisation's specific needs."
         benefits:
-          - Enhanced decision-making through evidence-based insights
-          - Optimised operational efficiency and reduced costs
-          - Streamlined processes with bespoke data-driven strategies
-          - Fostered innovation and competitive advantage
+          - Enhance decision-making with evidence-based insights
+          - Optimise operational efficiency, reduce costs, and drive growth
+          - Streamline processes with bespoke data-driven strategies
+          - Leverage insights to foster productivity and innovation
       
-      predictive-analytics:
+      predictive-analytics-solutions:
         title: Predictive Analytics Solutions
-        
+        description:
+        benefits:
+
 
 
 
