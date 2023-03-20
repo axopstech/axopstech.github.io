@@ -16,11 +16,12 @@ pages:
       
       predictive-analytics-solutions:
         title: Predictive Analytics Solutions
-        description:
+        description: We specialise in data-driven decision-making solutions for organisations of any size, at any scale. Our team has extensive experience in utilising advanced statistical methods, machine learning algorithms, and industry best practices to deliver predictive analytics solutions tailored to your specific requirements.
         benefits:
-
-
-
+          - Leverage your data to make high-probability predictions for more informed, data-backed decisions
+          - Anticipate demand and allocate resources effectively to maximise efficiency and reduce costs
+          - Identify and mitigate risks with near real-time intelligence, and proactively safeguard operations
+          - Leverage predictive analytics to identify trends and opportunities, staying ahead of the competition
 
   technologies-data-management.md:
     title: Data Management

@@ -223,11 +223,11 @@
       children:
         -
           name: Data Science Consulting
-          url: /data-science-consulting
+          url: '#data-science-consulting'
           enabled: true
         -
           name: Predictive Analytics
-          url: /predictive-analytics
+          url: '#predictive-analytics-solutions'
           enabled: true
         
 -
