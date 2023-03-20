@@ -7,7 +7,21 @@ pages:
     services:
       database-migration:
         title: Database Migration
-        
+        description: AxOps™ provides an end-to-end database migration service, ensuring seamless transition from legacy to modern, scalable, hybrid or fully public architectures. Our methodology incorporates comprehensive analysis of your unique requirements, gap identification, in compliance with industry best practices. Our approach is tailored to your organisation, and focuses on mitigating risks, minimising downtime, and optimising performance throughout the migration.
+        benefits:
+          - Enhanced performance and scalability at cloud scale
+          - Reduced costs via flexible, cloud-native pay-as-you-go pricing
+          - Minimised downtime and zero data loss during migrations
+          - Migrate databases of any complexity securely and reliably
+      
+      visualisation-reporting:
+        title: Data Visualisation & Reporting
+        description: AxOps™ provides an end-to-end data visualisation and reporting service adhering to industry best practices. Our solution encompasses the analysis of business requirements, gap assessment, and implementation of appropriate data visualisation tools and reporting frameworks. Our expertise in design, integration, and optimisation ensures seamless data representation, enhancing decision-making processes across the enterprise.
+        benefits:
+        - Improved decision-making with accurate and timely insights
+        - Enhanced data exploration capabilities for diverse stakeholders
+        - Improved communication of insights via visual storytelling
+        - Scalable and adaptable solutions for evolving enterprise needs
 
   technologies-cloud-infrastructure.md:
     title: Cloud & Infrastructure
