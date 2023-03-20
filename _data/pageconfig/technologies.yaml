@@ -7,7 +7,7 @@ pages:
     services:
       data-science-consulting:
         title: Data Science Consulting
-        description: "Several AxOps&#8482 team members have extensive field experience in senior data science and quantitative research roles, specialising in delivering robust and sophisticated data-driven solutions. We employ cutting-edge statistical methods and machine learning techniques, always delivering solutions to the highest industry standards to ensure that clients receive reliable, actionable intelligence tailored to their organisation's specific needs."
+        description: "AxOps&#8482 consultants have extensive field experience in senior data science and quantitative research roles, specialising in delivering robust and sophisticated data-driven solutions. We employ cutting-edge statistical methods and machine learning techniques, always delivering solutions to the highest industry standards to ensure that clients receive reliable, actionable intelligence tailored to their organisation's specific needs."
         benefits:
           - Enhance decision-making with evidence-based insights
           - Optimise operational efficiency, reduce costs, and drive growth
@@ -55,14 +55,14 @@ pages:
         title: Data Lake Solutions
         description: Our Data Lake consulting and development solutions enable clients to efficiently store, manage, and process vast amounts of structured and unstructured data. We leverage industry best practices to design and implement scalable, secure, and compliant data lakes, tailored to your organisation's unique requirements.
         benefits:
-          - "Centralise and consolidate disparate data sources for improved accessibility."
-          - "Unlock valuable insights with advanced analytics, machine learning, and AI."
-          - "Seamlessly scale storage and processing capabilities while optimising costs."
-          - "Ensure data compliance, security, and quality through well-defined policies and processes."
+          - "Centralise and consolidate disparate data sources for improved accessibility"
+          - "Unlock valuable insights with advanced analytics, machine learning, and AI"
+          - "Seamlessly scale storage and processing capabilities while optimising costs"
+          - "Ensure data compliance, security, and quality through well-defined policies and processes"
 
       cloud-migration:
         title: Cloud Migration
-        description: Our cloud migration solutions are tailored to meet your organisation's unique requirements. We work closely with our clients to ensure seamless migration of applications, data, and on-premise infrastructure to the cloud, enabling them to reap the benefits of the Cloud's economies of scale and global availability.
+        description: Our cloud migration solutions are tailored to meet your organisation's unique requirements. On-prem, hybrid, or public, we'll ensure seamless migration of applications, data, and infrastructure to your IT architecture of choice, enabling you to benefit from the Cloud's economies of scale and global availability.
         benefits:
           - Reduce high CapEx and optimise OpEx with a tailored hybrid or public Cloud strategy.
           - Benefit from near-infinite availability of Compute and Storage as you evolve.
@@ -73,37 +73,37 @@ pages:
         title: Data Backup & Archival
         description: "AxOps&#8482; provides comprehensive data backup and archival solutions in the cloud, in accordance with industry best practices to ensure data integrity, protection, and availability for your organisation. We leverage Cloud technologies to deliver a scalable, secure, and cost-effective solution for safeguarding your critical business data. Our solutions integrate seamlessly with your existing on-premise, hybrid, or public infrastructure while delivering reliable long-term data retention, security, and regulatory compliance."
         benefits:
-        - "Scalable and secure cloud storage for data backup."
-        - "Cost-effective solutions with flexible pricing models."
-        - "Seamless integration with existing data infrastructure."
-        - "Reliable long-term data retention, security, and on-demand retrieval."
+        - "Scalable and secure cloud storage for data backup"
+        - "Cost-effective solutions with flexible pricing models"
+        - "Seamless integration with existing data infrastructure"
+        - "Reliable long-term data retention, security, and on-demand retrieval"
       
       disaster-recovery:
         title: Disaster Recovery
         description: "We design and implement robust, resilient, and scalable disaster recovery strategies to safeguard your critical business data, infrastructure, and applications. Our approach focuses on minimising downtime, ensuring business continuity, and preserving data integrity. Leverage the AxOps&#8482; team's field experience to confidently navigate unforeseen events, maintain operational resilience, high availability, and overall business continuity."
         benefits:
-          - "Robust and resilient disaster recovery solutions."
-          - "Minimised downtime and ensured business continuity."
-          - "Preserved data integrity and security during disruptive events."
-          - "Fault-tolerant and cloud-native disaster recovery infrastructure."
+          - "Robust and resilient disaster recovery solutions"
+          - "Minimised downtime and ensured business continuity"
+          - "Preserved data integrity and security during disruptive events"
+          - "Fault-tolerant and cloud-native disaster recovery infrastructure"
 
       hybrid-architecture:
         title: Hybrid Architecture
         description: Our hybrid architecture solutions enable your organisation to scale its compute and storage capacity into the public cloud on demand and cost-effectively. This unified IT infrastructure permits scaling efficiently in response to changing demands on a pay-as-you-go basis, instead of via increases in fixed CapEx.
         benefits:
-          - "Enhanced scalability for fluctuating workloads."
-          - "Cost-effective utilisation of computing resources."
-          - "Improved compliance with regulatory requirements."
-          - "Supports legacy infrastructure and mission-critical applications."
+          - "Enhanced scalability for fluctuating workloads"
+          - "Cost-effective, flexible utilisation of compute and storage"
+          - "Improved compliance with regulatory requirements"
+          - "Supports legacy infrastructure and mission-critical applications"
       
       serverless-computing:
         title: Serverless Computing
         description: "AxOps™ can both actively assist and train your development teams to create, manage, and deploy applications in the Cloud without the need to manage infrastructure. Benefits include auto-scaling, built-in high availability, and pay-as-you-go pricing for cost efficiency. By eliminating infrastructure management tasks, such as capacity provisioning and patching, going serverless allows your teams to focus on tasks that deliver actual value and drive business growth."
         benefits:
-          - "Accelerate time-to-market with reduced operational overhead."
-          - "Optimise operating costs with pay-as-you-go pricing."
-          - "Easily adapt to changing demands through automatic scaling."
-          - "Streamline development by using cloud-native service integrations."
+          - "Accelerate time-to-market with reduced operational overhead"
+          - "Optimise operating costs with pay-as-you-go pricing"
+          - "Easily adapt to changing demands through automatic scaling"
+          - "Streamline development by using cloud-native service integrations"
 
   technologies-application-engineering.md:
     title: Application Engineering
@@ -121,21 +121,21 @@ pages:
 
       devops-automation:
         title: DevOps Automation
-        description: We employ proven methodologies and cutting-edge CI/CD tooling to streamline software development and operations. Our approach facilitates rapid, high-quality deployments, minimising manual intervention and maximising efficiency. We adhere to industry best practices, ensuring optimal integration of the development and operations functions for robust and reliable deployments.
+        description: We employ proven methodologies and cutting-edge CI/CD tooling to streamline software development and operations. Our approach facilitates agility across your technical orgs, minimising manual intervention and maximising efficiency. We adhere to industry best practices, ensuring optimal integration of the development and operations functions for robust and reliable deployments.
         benefits:
-          - Agile collaboration between development and operations teams fosters innovation.
-          - Increased deployment frequency, accelerating time to market for new features and improvements.
-          - Reduction in failure rates and quick recovery times, enhancing overall solution reliability.
-          - Optimised resource utilisation, leading to cost savings and improved operational efficiency.
+          - Agile collaboration between development and operations teams fosters innovation
+          - Increased deployment frequency, accelerating time to market for new features and improvements
+          - Reduction in failure rates and quick recovery times, enhancing overall solution reliability
+          - Optimised resource utilisation, leading to cost savings and improved operational efficiency
 
       full-stack-development:
         title: Full-Stack Development
         description: Our Full-Stack Software Engineering service encompasses front-end, back-end, and infrastructure development, utilising industry best practices to deliver robust, scalable solutions. We employ proprietary methodologies and development tools, our approach tailored to your organisation's specific needs for reliable delivery and consistent release cycles.
         benefits:
-          - Development of reliable and maintainable software that can adapt to changing needs.
-          - Streamlined project workflows and agile approach to deliver timely, cost-effective solutions.
-          - Optimised resource allocation and modular architecture reduce time-to-market.
-          - Covers all aspects of the project lifecycle, ensuring visibility and consistency across the board.
+          - Development of reliable and maintainable software that can adapt to changing needs
+          - Streamlined project workflows and agile approach to deliver timely, cost-effective solutions
+          - Optimised resource allocation and modular architecture reduce time-to-market
+          - Covers all aspects of the project lifecycle, ensuring visibility and consistency across the board
 
       api-development:
         title: API Development
