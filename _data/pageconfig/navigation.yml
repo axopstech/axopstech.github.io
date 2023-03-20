@@ -210,11 +210,11 @@
       children:
         -
           name: Database Migration
-          url: "#database-migration-services"
+          url: "#database-migration"
           enabled: true
         -
           name: Visualisation & Reporting
-          url: "#data-visualisation-reporting-solutions"
+          url: "#data-visualisation-reporting"
           enabled: true
     -
       name: Business Analytics
@@ -227,7 +227,7 @@
           enabled: true
         -
           name: Predictive Analytics
-          url: /prescriptive-analytics
+          url: /predictive-analytics
           enabled: true
         
 -
@@ -311,6 +311,6 @@
       url: /meet-the-team
       enabled: true
     -
-      name: Careers
-      url: /careers
+      name: Our Partners
+      url: /partners
       enabled: true

@@ -36,7 +36,7 @@ pages:
           - Minimised downtime and zero data loss during migrations
           - Migrate databases of any complexity securely and reliably
       
-      visualisation-reporting:
+      data-visualisation-reporting:
         title: Data Visualisation & Reporting
         description: AxOps™ provides an end-to-end data visualisation and reporting service. We'll analyse your specific business requirements, conduct thorough gap assessments, and implement appropriate data visualisation tools and reporting frameworks accordingly. Our expertise in design, integration, and optimisation ensures reliable aggregation of data from disparate sources into unified interfaces, enhancing decision-making with meaningful insights gleaned from activity across your enterprise.
         benefits:
