@@ -1,0 +1,18 @@
+tagline_intro: Our Solutions
+tagline_main: AxOps™ Strategic Advisory
+site_url: https://localhost:4000
+members:
+  -
+    name: Project Management
+    image_src: &site_url /assets/img/illustrations/custom/solutions-project-management.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-project-management.jpg 2x
+    url: &site_url /our-solutions/strategic-advisory/project-management
+    role: Ask, and consider it done &#127919;
+
+  -
+    name: Workflow Optimisation
+    image_src: &site_url /assets/img/illustrations/custom/solutions-workforce-optimisation.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-workforce-optimisation.jpg 2x
+    url: &site_url /our-solutions/strategic-advisory/workforce-optimisation
+    role: Upskill with confidence &#128588;
+  
