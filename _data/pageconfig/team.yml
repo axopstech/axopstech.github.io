@@ -42,7 +42,7 @@ members:
     name: Ali Saif
     image_src: &site_url /assets/img/photos/team/ali-saif-1.jpg
     image_srcset: &site_url /assets/img/photos/team/ali-saif-1.jpg 2x
-    role: Technical Architect
+    role: Founder | Technical Architect
 
   -
     name: Squirrel (Generative AI)
