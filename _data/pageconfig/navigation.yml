@@ -72,21 +72,26 @@
           url: "#devops-engineering"
           enabled: true
         -
-          name: Blockchain Development
-          url: "#blockchain-development"
-          enabled: true
-        -
           name: Event-Driven Architecture
           url: "#event-driven-architecture"
           enabled: true
         -
+          name: Blockchain Development
+          url: "#blockchain-development"
+          enabled: true
+        -
           name: Infrastructure Automation
-          url: "#cloud-infrastructure-as-code-iac"
+          url: "#infrastructure-automation"
           enabled: true
         -
           name: Monitoring & Observability
-          url: "#cloud-monitoring-observability"
+          url: "#monitoring-observability"
           enabled: true
+    -
+      name: Quantitative R&D Training
+      url: /quantitative-training
+      enabled: true
+      children:
         -
           name: Quantitative Research
           url: "#quantitative-research"
@@ -95,7 +100,6 @@
           name: Quantitative Development
           url: "#quantitative-development"
           enabled: true
-
     -
       name: Strategic Advisory
       url: /strategic-advisory
@@ -106,33 +110,8 @@
           url: /project-management
           enabled: true
         -
-          name: Technical Recruitment
-          url: /technical-recruitment
-          enabled: false
-        -
           name: Workforce Optimisation
           url: /workforce-optimisation
-          enabled: true
-    -
-      name: Engagement Models
-      url: /engagement-models
-      enabled: true
-      children:
-        -
-          name: On Shore
-          url: /on-shore
-          enabled: true
-        -
-          name: Off Shore
-          url: /off-shore
-          enabled: true
-        -
-          name: Embedded
-          url: /embedded
-          enabled: true
-        -
-          name: Client Benefits
-          url: /client-benefits
           enabled: true
           
 -

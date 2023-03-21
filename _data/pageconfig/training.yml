@@ -1,4 +1,26 @@
 pages:
+  solutions-quantitative-training.md:
+    title: Quantitative R&D Training
+    tagline: "Advance Your Decision Intelligence with AxOps&#8482; Quantitative R&D Training"
+
+    services:
+      quantitative-research:
+        title: Quantitative Research
+        description: As a senior data science and quantitative researcher, we present an in-depth training programme on quantitative research methods, focusing on the application of rigorous mathematical and statistical techniques to extract valuable insights from data. Our comprehensive curriculum will guide you through the essential aspects of data acquisition, preprocessing, analysis, and interpretation, equipping you with the skills to make informed decisions in various industry settings.
+        benefits:
+          - "Data Acquisition and Management: Fundamentals of data collection and storage"
+          - "Statistical Modelling and Hypothesis Testing: Rigorous analysis techniques"
+          - "Machine Learning Algorithms: Advanced predictive and classification models"
+          - "Data Visualization and Interpretation: Effective communication of results"
+
+      quantitative-development:
+        title: Quantitative Development
+        description: In this rigorous training programme, our team of seasoned data scientists and quantitative developers will guide participants through the intricacies of quantitative development. The curriculum encompasses essential concepts and tools required for designing, implementing, and testing quantitative models used in various financial domains, including algorithmic trading, risk management, and portfolio optimisation. With a strong focus on mathematical theory, statistical methods, and computational techniques, participants will acquire the knowledge and skills needed to excel in the competitive field of quantitative finance.
+        benefits:
+          - "Foundations of Quantitative Finance: Probability, Stochastic Processes & Time Series"
+          - "Advanced Statistical Inference & Machine Learning in Quantitative Finance"
+          - "Algorithmic Trading Strategies: Design, Backtesting & Execution"
+          - "Risk Management & Portfolio Optimisation: Techniques and Applications"
 
   solutions-technical-training.md:
     title: Technical Training
@@ -49,21 +71,3 @@ pages:
           - Tools and Techniques for Effective Monitoring
           - Proactive Alerting and Incident Management
           - Performance Analysis and Continuous Improvement
-
-      quantitative-research:
-        title: Quantitative Research
-        description: As a senior data science and quantitative researcher, we present an in-depth training programme on quantitative research methods, focusing on the application of rigorous mathematical and statistical techniques to extract valuable insights from data. Our comprehensive curriculum will guide you through the essential aspects of data acquisition, preprocessing, analysis, and interpretation, equipping you with the skills to make informed decisions in various industry settings.
-        benefits:
-          - "Data Acquisition and Management: Fundamentals of data collection and storage"
-          - "Statistical Modelling and Hypothesis Testing: Rigorous analysis techniques"
-          - "Machine Learning Algorithms: Advanced predictive and classification models"
-          - "Data Visualization and Interpretation: Effective communication of results"
-
-      quantitative-development:
-        title: Quantitative Development
-        description: In this rigorous training programme, our team of seasoned data scientists and quantitative developers will guide participants through the intricacies of quantitative development. The curriculum encompasses essential concepts and tools required for designing, implementing, and testing quantitative models used in various financial domains, including algorithmic trading, risk management, and portfolio optimisation. With a strong focus on mathematical theory, statistical methods, and computational techniques, participants will acquire the knowledge and skills needed to excel in the competitive field of quantitative finance.
-        benefits:
-          - "Foundations of Quantitative Finance: Probability, Stochastic Processes & Time Series"
-          - "Advanced Statistical Inference & Machine Learning in Quantitative Finance"
-          - "Algorithmic Trading Strategies: Design, Backtesting & Execution"
-          - "Risk Management & Portfolio Optimisation: Techniques and Applications"
