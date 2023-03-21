@@ -68,33 +68,34 @@
       enabled: true
       children:
         -
-          name: Quantitative R&D
-          url: /quantitative-research-development
-          enabled: true
-        -
-          name: DevOps Automation
-          url: /devops-sdlc-automation
+          name: DevOps Engineering
+          url: "#devops-engineering"
           enabled: true
         -
           name: Blockchain Development
-          url: /blockchain-development
+          url: "#blockchain-development"
           enabled: true
         -
           name: Event-Driven Architecture
-          url: /event-driven-architecture
+          url: "#event-driven-architecture"
           enabled: true
         -
           name: Infrastructure Automation
-          url: /cloud-infrastructure-as-code-iac
+          url: "#cloud-infrastructure-as-code-iac"
           enabled: true
         -
           name: Monitoring & Observability
-          url: /cloud-monitoring-observability
+          url: "#cloud-monitoring-observability"
           enabled: true
         -
-          name: Configuration Management
-          url: /cloud-configuration-management
+          name: Quantitative Research
+          url: "#quantitative-research"
           enabled: true
+        -
+          name: Quantitative Development
+          url: "#quantitative-development"
+          enabled: true
+
     -
       name: Strategic Advisory
       url: /strategic-advisory
@@ -312,5 +313,5 @@
       enabled: true
     -
       name: Our Partners
-      url: /partners
+      url: /our-partners
       enabled: true
