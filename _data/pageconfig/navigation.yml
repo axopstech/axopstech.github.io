@@ -284,7 +284,7 @@
   children:
     -
       name: Our Vision
-      url: /company-vision
+      url: /our-vision
       enabled: true
     -
       name: The Team
