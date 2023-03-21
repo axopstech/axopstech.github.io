@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Meet the AxOps™ Team
-permalink: /about-us/meet-the-team
-description: Our battle-tested, international, multi-disciplinary talent pool.
+title: Our Solutions
+permalink: /our-solutions
+description: Unlock Your Business's Full Potential with AxOps™
 og_image_url: https://this-is-an-og-image-url.com/image.png
 ---
 {% assign content_config = site.data.content.config %}
 {% assign current_page = site.data.pageconfig %}
-{% assign config = current_page.team %}
+{% assign config = current_page.our-solutions %}
 
   <div class="content-wrapper">
     <!-- .content-wrapper -->
@@ -27,7 +27,7 @@ og_image_url: https://this-is-an-og-image-url.com/image.png
                     <div class="position-relative">
                     <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
                     <div class="card">
-                        <figure class="card-img-top"><img class="img-fluid" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt="" /></figure>
+                        <a href="{{ member.url }}"><figure class="card-img-top"><img class="img-fluid" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt="" /></figure></a>
                         <div class="card-body px-6 py-5">
                         <h4 class="mb-1">{{ member.name }}</h4>
                         <p class="mb-0">{{ member.role }}</p>

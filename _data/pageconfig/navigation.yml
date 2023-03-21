@@ -8,7 +8,7 @@
 
 -
   name: Solutions
-  url: /solutions
+  url: /our-solutions
   current: false
   enabled: true
   has_children: false
@@ -136,7 +136,7 @@
           
 -
   name: Technologies
-  url: /technologies
+  url: /supported-technologies
   current: false
   enabled: true
   has_children: true

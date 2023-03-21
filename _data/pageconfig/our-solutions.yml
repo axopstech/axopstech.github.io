@@ -1,0 +1,31 @@
+tagline_intro: Our Solutions
+tagline_main: Unlock Your Organisation's Full Potential with AxOps™ Solutions
+site_url: https://localhost:4000
+members:
+  -
+    name: Technology Consulting
+    image_src: &site_url /assets/img/illustrations/custom/data-science-consulting.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/data-science-consulting.jpg 2x
+    url: &site_url /solutions/technology-consulting-solutions
+    role: Ask, and consider it done &#127919;
+
+  -
+    name: Technical Training
+    image_src: &site_url /assets/img/illustrations/custom/full-stack-development.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/full-stack-development.jpg 2x
+    url: &site_url /solutions/technical-training-solutions
+    role: Upskill with confidence &#128588;
+  
+  -
+    name: Strategic Advisory
+    image_src: &site_url /assets/img/illustrations/custom/solutions-workforce-optimisation.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-workforce-optijmisation.jpg 2x
+    url: &site_url /solutions/strategic-advisory-solutions
+    role: Leverage our experience &#129417;
+  
+  -
+    name: Engagement Models
+    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg 2x
+    url: &site_url /solutions/engagement-models
+    role: How we work with clients &#129309;

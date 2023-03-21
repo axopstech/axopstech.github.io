@@ -1,0 +1,31 @@
+tagline_intro: Supported Technologies
+tagline_main: Unlock Productivity & Performance with AxOps™ Technologies
+site_url: https://localhost:4000
+members:
+  -
+    name: Cloud & Infrastructure
+    image_src: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions.jpg 2x
+    url: &site_url /supported-technologies/cloud-infrastructure
+    role: 
+
+  -
+    name: Application Engineering
+    image_src: &site_url /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg 2x
+    url: &site_url /supported-technologies/application-engineering
+    role: 
+  
+  -
+    name: Data Management
+    image_src: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg 2x
+    url: &site_url /supported-technologies/data-management
+    role: 
+  
+  -
+    name: Business Analytics
+    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg 2x
+    url: &site_url /supported-technologies/business-analytics
+    role: 
