@@ -6,21 +6,21 @@ pages:
     services:
       quantitative-research:
         title: Quantitative Research
-        description: As a senior data science and quantitative researcher, we present an in-depth training programme on quantitative research methods, focusing on the application of rigorous mathematical and statistical techniques to extract valuable insights from data. Our comprehensive curriculum will guide you through the essential aspects of data acquisition, preprocessing, analysis, and interpretation, equipping you with the skills to make informed decisions in various industry settings.
+        description: We provide an in-depth training programme on quantitative research methods, focusing on the application of rigorous mathematical and statistical techniques to extract valuable insights from data. Our comprehensive curriculum will guide you through data acquisition, preprocessing, analysis, and interpretation, equipping you with the skills to make informed, data-driven decisions.
         benefits:
-          - "Data Acquisition and Management: Fundamentals of data collection and storage"
-          - "Statistical Modelling and Hypothesis Testing: Rigorous analysis techniques"
-          - "Machine Learning Algorithms: Advanced predictive and classification models"
-          - "Data Visualization and Interpretation: Effective communication of results"
+          - "Learn efficient data acquisition, secure storage, archival, and management techniques"
+          - "Statistical modelling and case-driven hypothesis testing for rigorous decision-making"
+          - "Machine learning algorithms, advanced predictive and classification modelling"
+          - "Data visualization, context-driven interpretation, and effective communication of results"
 
       quantitative-development:
         title: Quantitative Development
-        description: In this rigorous training programme, our team of seasoned data scientists and quantitative developers will guide participants through the intricacies of quantitative development. The curriculum encompasses essential concepts and tools required for designing, implementing, and testing quantitative models used in various financial domains, including algorithmic trading, risk management, and portfolio optimisation. With a strong focus on mathematical theory, statistical methods, and computational techniques, participants will acquire the knowledge and skills needed to excel in the competitive field of quantitative finance.
+        description: Learn to design, implement, and test quantitative models used in various domains, including supply chain optimisation, risk management, and portfolio optimisation. With a strong focus on mathematical theory, statistical methods, and computational techniques, trainees acquire the knowledge and skills necessary to solve complex quantitative problems in any data-driven domain.
         benefits:
-          - "Foundations of Quantitative Finance: Probability, Stochastic Processes & Time Series"
-          - "Advanced Statistical Inference & Machine Learning in Quantitative Finance"
-          - "Algorithmic Trading Strategies: Design, Backtesting & Execution"
-          - "Risk Management & Portfolio Optimisation: Techniques and Applications"
+          - "Foundations of Quantitative Modelling: Probability, Stochastic Processes & Time Series"
+          - "Advanced Statistical Inference & Machine Learning Techniques in Quantitative Modelling"
+          - "Practical Applications in Algorithmic Forecasting: Design, Simulation & Prediction"
+          - "Risk Management & Portfolio Optimisation: Practical Techniques & Applications"
 
   solutions-technical-training.md:
     title: Technical Training
