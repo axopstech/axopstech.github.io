@@ -29,45 +29,45 @@ pages:
     services:
       devops-engineering:
         title: DevOps Engineering
-        description: This advanced course delves into the intricacies of DevOps Engineering and Continuous Integration/Continuous Deployment (CI/CD) pipelines. As a seasoned IT or technical architect, you will explore essential concepts, methodologies, and tools that facilitate streamlined software development and deployment. Our comprehensive training programme emphasises automation, collaboration, and scalability, equipping professionals with the knowledge to design and implement efficient CI/CD processes, while fostering a robust DevOps culture.
+        description: Learn DevOps Engineering and Continuous Integration/Continuous Deployment (CI/CD) from AWS-certified DevOps Engineers. Explore essential concepts, methodologies, and tools to facilitate streamlined software development and deployment. Our comprehensive training programme emphasises automation, collaboration, and scalability, equipping you with the knowledge to design and implement efficient CI/CD processes, while fostering a robust DevOps culture.
         benefits:
-          - "DevOps Principles and Practices: Building a Collaborative Environment"
-          - "CI/CD Pipeline Fundamentals: Automation, Integration, and Deployment"
-          - "Tools and Technologies: Selection and Integration for Optimal Performance"
-          - "Scaling and Monitoring CI/CD Pipelines: Ensuring Stability and Efficiency"
+          - "DevOps Principles and Practices: Build Collaborative Environments"
+          - "CI/CD Pipelines: Automation, Integration, and Deployment"
+          - "Robust Techniques for Resilient, Highly Available Deployments"
+          - "Elasticity, Observability, and Monitoring for efficient CI/CD"
 
       event-driven-architecture:
         title: Event-Driven Architecture
-        description: Our comprehensive training programme on Event-Driven IT Architecture provides in-depth insights into the design, implementation, and management of event-driven systems. As a senior IT, technical, or cloud architect, you will explore the principles and patterns that govern the development of reactive and scalable solutions. Learn how to effectively leverage modern technologies and frameworks to meet the demands of today's dynamic and data-driven environments, enhancing your ability to create highly responsive and resilient applications.
+        description: Our comprehensive training programme on Event-Driven IT Architecture provides in-depth insights into the design, implementation, and management of event-driven systems. Explore the principles and patterns that govern the development of reactive and scalable architectures. Effectively leverage modern technologies and frameworks to create highly responsive and resilient applications.
         benefits:
-          - 'Principles of Event-Driven Architecture: Understanding Core Concepts and Design Patterns'
-          - 'Technologies and Frameworks: Tools for Building Robust Event-Driven Systems'
-          - 'Scalability and Performance: Optimising Event-Driven Solutions for Modern Applications'
-          - 'Monitoring and Management: Ensuring Reliability and Resilience in Event-Driven Environments'
+          - 'Principles and Design Patterns of Event-Driven Architecture'
+          - 'Technologies and Frameworks for Building Event-Driven Systems'
+          - 'Optimising Event-Driven Systems for Modern Applications'
+          - 'Ensuring Reliability and Resilience in Event-Driven Environments'
 
       blockchain-development:
         title: Blockchain Development
-        description: Our Blockchain Software Application Development programme provides an in-depth exploration into the technical aspects of designing, implementing, and deploying secure, scalable, and efficient blockchain solutions. Participants will gain a strong foundation in distributed ledger technology, consensus algorithms, smart contracts, and cloud infrastructure, enabling them to design and develop robust applications in various industries. This comprehensive training is aimed at professionals seeking to enhance their skill set and stay at the forefront of this rapidly evolving technology landscape.
+        description: Our Blockchain Development programme focuses on how to design, implement, and deploy secure, scalable, and efficient blockchain solutions. Trainees develop a strong foundation in distributed ledger technology, consensus algorithms, smart contracts, and cloud infrastructure, enabling them to design and develop robust, decentralised applications. Aimed at IT professionals seeking to stay at the forefront of today's rapidly evolving technology landscape.
         benefits:
-          - Understanding Distributed Ledger Technology and Consensus Mechanisms
-          - Designing and Implementing Smart Contracts
+          - Distributed Ledger Technology and Consensus Mechanisms
+          - How to Design and Implement Smart Contracts
           - Optimising Blockchain Solutions for Scalability and Security
-          - Leveraging Cloud Infrastructure for Blockchain Deployment
+          - Leveraging Cloud Infrastructure for Blockchain Deployments
 
       infrastructure-automation:
         title: Infrastructure Automation
-        description: As a senior IT, technical, or cloud architect, it is crucial to have a thorough understanding of IT Infrastructure Automation. Our comprehensive training programme covers the fundamental concepts and practical implementation of automation techniques to streamline IT operations, reduce human error, and enhance overall system efficiency. This course is designed for professionals seeking to optimise their organisation's infrastructure by employing best practices, cutting-edge tools, and emerging technologies.
+        description: Develop a thorough understanding of IT Infrastructure Automation in on-premise, hybrid, or public Cloud environments. Our comprehensive training programme covers the fundamental concepts and practical implementation of automation techniques required to streamline IT operations, reduce human error, and enhance overall efficiency across your technical orgs.
         benefits:
-          - 'Fundamentals of IT Infrastructure Automation: Principles and Components'
-          - 'Infrastructure as Code: Configuration Management and Deployment Tools'
-          - 'Continuous Integration and Continuous Deployment: Building an Automated Pipeline'
-          - 'Monitoring and Reporting: Ensuring Reliability and Performance in Automated Systems'
+          - 'Fundamentals, Core Concepts, and Principles of IT Automation'
+          - 'Hands-On Infrastructure as Code: AWS CloudFormation & Terraform'
+          - 'CI/CD: Building Automated Infrastructure Pipelines'
+          - 'Ensuring Reliability & Performance in Automated IT Systems'
 
       monitoring-observability:
         title: Monitoring & Observability
-        description: In this comprehensive training programme, we delve into IT Infrastructure Monitoring and Observability, covering essential aspects of monitoring, alerting, and performance analysis of complex IT systems. As a senior technical figure, I understand the significance of keeping systems reliable and performant. This course offers an in-depth understanding of the tools, methodologies, and best practices required to maintain the health of cloud-based, hybrid, and on-premise infrastructures, while ensuring optimal performance, and reducing system downtime.
+        description: A carefully prepared deep dive into IT Infrastructure Monitoring and Observability, covering essential aspects of monitoring, alerting, and performance analysis of complex IT systems. This training programme offers an in-depth understanding of the tools, methodologies, and best practices required to maintain the health of cloud-based, hybrid, and on-premise infrastructures, while ensuring optimal performance, and mitigating risks.
         benefits:
           - Fundamentals of IT Infrastructure Monitoring and Observability
-          - Tools and Techniques for Effective Monitoring
-          - Proactive Alerting and Incident Management
-          - Performance Analysis and Continuous Improvement
+          - Building Cloud-Native Processes for Effective Systems Monitoring
+          - Proactive Alerting, Incident & Response Management
+          - Real-Time Performance Analytics and Continuous Improvement
