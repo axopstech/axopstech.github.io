@@ -1,7 +1,11 @@
-tagline_main: Make your business processes efficient,<br />
+#tagline_main: Make your business processes efficient,<br />
+#tagline_main: Accelerated Digital Transformation,<br />
+#tagline_main: Accelerated Digital Transformation,<br />
+tagline_main: Unlock Your Digital Transformation,<br />
 tagline_dynamic: at reduced CapEx, at optimal OpEx, at infinite scale, on your terms 🎯
 tagline_dynamic_delay: 75
-tagline_cta: Paying too much for licensing? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
+#tagline_cta: Paying too much for licensing? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
+tagline_cta: Paying too much for too little? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
 
 button_cta1_text: Solutions
 button_cta1_url: /our-solutions
