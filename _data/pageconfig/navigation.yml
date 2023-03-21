@@ -221,56 +221,56 @@
   is_mega_dropdown: true
   children:
     -
-      name: Cloud Migration
-      url: /cloud-migration
+      name: Cloud & Infrastructure
+      url: /cloud-infrastructure
       enabled: true
       children:
         -
-          name: Cloud Migration 1
+          name: Case Study 1
           url: /cloud-migration1
           enabled: true
         -
-          name: Cloud Migration 2
+          name: Case Study 2
           url: /cloud-migration2
           enabled: true
     -
-      name: CRM Integration
-      url: /crm-integration
+      name: Application Engineering
+      url: /application-engineering
       enabled: true
       children:
         -
-          name: CRM Migration 1
+          name: Case Study 1
           url: /cloud-migration1
           enabled: true
         -
-          name: CRM Migration 2
+          name: Case Study 2
           url: /cloud-migration2
           enabled: true
     -
-      name: 'Hybrid Architecture    <span style="visibility: hidden">.</span>'
-      url: /crm-integration
+      name: 'Data Management'
+      url: /data-management
       enabled: true
       children:
         -
-          name: Hybrid 1
+          name: Case Study 1
           url: /cloud-migration1
           enabled: true
         -
-          name: Hybrid 2
+          name: Case Study 2
           url: /cloud-migration2
           enabled: true
     -
-      name: 'Continuous Delivery    <span style="visibility: hidden">.</span>'
-      url: /devops
+      name: 'Business Analytics'
+      url: /business-analytics
       enabled: true
       children:
         -
-          name: DevOps 1
-          url: /devops1
+          name: Case Study 1
+          url: /cloud-migration1
           enabled: true
         -
-          name: DevOps 2
-          url: /devops2
+          name: Case Study 2
+          url: /cloud-migration2
           enabled: true
 
 -
