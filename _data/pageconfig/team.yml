@@ -27,10 +27,10 @@ members:
     role: Quantitative R&D Consultant
   
   -
-    name: Tiniki
+    name: Tiniki (Generative AI)
     image_src: &site_url /assets/img/photos/team/tiniki.jpg
     image_srcset: &site_url /assets/img/photos/team/tiniki.jpg 2x
-    role: Algorithmic Creative Director
+    role: Creative Director
 
   -
     name: Saad Hashmi
@@ -43,3 +43,9 @@ members:
     image_src: &site_url /assets/img/photos/team/ali-saif-1.jpg
     image_srcset: &site_url /assets/img/photos/team/ali-saif-1.jpg 2x
     role: Technical Architect
+
+  -
+    name: Squirrel (Generative AI)
+    image_src: &site_url /assets/img/photos/team/squirrel.jpg
+    image_srcset: &site_url /assets/img/photos/team/squirrel.jpg 2x
+    role: Developer of All Things
