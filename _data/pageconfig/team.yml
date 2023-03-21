@@ -30,7 +30,7 @@ members:
     name: Tiniki (Generative AI)
     image_src: &site_url /assets/img/photos/team/tiniki.jpg
     image_srcset: &site_url /assets/img/photos/team/tiniki.jpg 2x
-    role: Creative Director
+    role: Producer of All Creatives
 
   -
     name: Saad Hashmi
