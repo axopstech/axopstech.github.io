@@ -294,11 +294,3 @@
       name: Our Partners
       url: /our-partners
       enabled: true
-    -
-      name: Privacy Policy
-      url: /privacy-policy
-      enabled: true
-    -
-      name: Cookie Policy
-      url: /cookie-policy
-      enabled: true
