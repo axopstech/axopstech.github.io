@@ -4,9 +4,10 @@ exclude:
 url: http://localhost:4000
 title: AxOps Technologies
 address: Calle Juan Urbieta, 16, 1ºA, 28007, Madrid - Spain.
-email: holler@axops.tech
+email: hola@axops.tech
 tagline: "pending"
 description: "pending"
+contact_form_action_endpoint: https://tech.us17.list-manage.com/subscribe/post?u=14840a8116fc972efb3519035&amp;id=375c5195d2&amp;v_id=4165&amp;f_id=005e57e0f0
 
 nav_logo: &url /assets/img/axops-134x26.png
 nav_logo2x: &url /assets/img/axops-134x26@2x.png 2x
