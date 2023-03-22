@@ -2,17 +2,17 @@
     <div class="container py-14 py-md-12">
       <div class="row">
         <div class="text-center col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-            <h3 class="display-4 mb-9 px-xl-11">Get in touch today!</h3>
+            <h3 class="display-4 mb-9 px-xl-11">Get in touch via the form below - we'll write back within 1 business day 🎯</h3>
         </div>
         <div class="col-xl-10 mx-auto">
           <div class="row gy-10 gx-lg-8 gx-xl-12">
-            <div class="col-lg-8">
-              <form class="contact-form needs-validation" method="post" action="#" novalidate>
+            <div class="col-lg-12">
+              <form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate needs-validation" method="post" action="https://tech.us17.list-manage.com/subscribe/post?u=14840a8116fc972efb3519035&amp;id=375c5195d2&amp;v_id=4165&amp;f_id=005e57e0f0" novalidate>
                 <div class="messages"></div>
                 <div class="row gx-4">
                   <div class="col-md-6">
                     <div class="form-floating mb-4">
-                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" required>
+                      <input id="form_name" type="text" name="FNAME" class="form-control" placeholder="Jane" required>
                       <label for="form_name">First Name *</label>
                       <div class="valid-feedback">
                         Looks good!
@@ -25,8 +25,8 @@
                   <!-- /column -->
                   <div class="col-md-6">
                     <div class="form-floating mb-4">
-                      <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required>
-                      <label for="form_lastname">Last Name *</label>
+                      <input id="form_lastname" type="text" name="LNAME" class="form-control" placeholder="Doe">
+                      <label for="form_lastname">Last Name</label>
                       <div class="valid-feedback">
                         Looks good!
                       </div>
@@ -38,7 +38,7 @@
                   <!-- /column -->
                   <div class="col-md-6">
                     <div class="form-floating mb-4">
-                      <input id="form_email" type="email" name="email" class="form-control" placeholder="jane.doe@example.com" required>
+                      <input id="form_email" type="email" name="EMAIL" class="form-control" placeholder="jane.doe@example.com" required>
                       <label for="form_email">Email *</label>
                       <div class="valid-feedback">
                         Looks good!
@@ -51,24 +51,24 @@
                   <!-- /column -->
                   <div class="col-md-6">
                     <div class="form-select-wrapper mb-4">
-                      <select class="form-select" id="form-select" name="department" required>
-                        <option selected disabled value="">Select a department</option>
-                        <option value="Sales">Sales</option>
-                        <option value="Marketing">Marketing</option>
-                        <option value="Customer Support">Customer Support</option>
+                      <select class="form-select" id="form-select" name="MSGCAT" required>
+                        <option selected disabled value="">Select a category</option>
+                        <option value="IT Solutions / Consulting">IT Solutions / Consulting</option>
+                        <option value="Technical Training">Technical Training</option>
+                        <option value="Other">Other</option>
                       </select>
                       <div class="valid-feedback">
                         Looks good!
                       </div>
                       <div class="invalid-feedback">
-                        Please select a department.
+                        Please select a category.
                       </div>
                     </div>
                   </div>
                   <!-- /column -->
                   <div class="col-12">
                     <div class="form-floating mb-4">
-                      <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
+                      <textarea id="form_message" name="MESSAGE" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
                       <label for="form_message">Message *</label>
                       <div class="valid-feedback">
                         Looks good!
@@ -81,47 +81,34 @@
                   <!-- /column -->
                   <div class="col-12">
                     <div class="form-check mb-4">
-                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                      <input class="form-check-input" name="gdpr[91617]" type="checkbox" value="Y" id="invalidCheck" required>
                       <label class="form-check-label" for="invalidCheck">
-                        I agree to <a href="#" class="hover">terms and policy</a>.
+                        <p>I have read and understood the AxOps <a href="/about-us/privacy-policy/" target="_blank" class="hover">Privacy Policy</a>. We use Mailchimp as our marketing platform. By submitting a message via this contact form, you acknowledge that your information will be transferred to Mailchimp for processing.</p>
+                        <p><strong>After you hit "Send Message"</strong>, you'll receive an email asking you to <strong><u>confirm your email address</u></strong>. Kindly click on the <strong>confirmation link</strong> in the email to ensure we can respond to your query.</strong><a href="https://mailchimp.com/legal/terms" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
+                        <p>Many thanks!<br /><br />Sincerely,<br />The AxOps Team</p>
                       </label>
+                      <div id="mce-responses" class="clear foot">
+                        <br /><br />
+                        <div class="display-6 mb-9 px-xl-11" id="mce-error-response" style="display:none; color: red;"></div>
+                        <div class="display-6 mb-9 px-xl-11" id="mce-success-response" style="display:none; color: rgb(0, 94, 255);"></div>
+                      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <input type="text" name="b_14840a8116fc972efb3519035_375c5195d2" tabindex="-1" value="" style="display:none;">
                       <div class="invalid-feedback">
-                        You must agree before submitting.
+                        You must agree to the Privacy Policy before submitting this form.
                       </div>
                     </div>
                   </div>
                   <!-- /column -->
                   <div class="col-12">
-                    <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send message">
-                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                    <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send Message">
+                    <p class="text-muted"><strong>*</strong> Fields marked with an asterisk (*) are required.</p>
                   </div>
                   <!-- /column -->
                 </div>
                 <!-- /.row -->
               </form>
-              <!-- /form -->
             </div>
-            <!--/column -->
-            <div class="col-lg-4">
-              <div class="d-flex flex-row">
-                <div>
-                  <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
-                </div>
-                <div>
-                  <h5 class="mb-1">Address</h5>
-                  <address>{{ site.address }}</address>
-                </div>
-              </div>
-              <div class="d-flex flex-row">
-                <div>
-                  <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-envelope"></i> </div>
-                </div>
-                <div>
-                  <h5 class="mb-1">E-mail</h5>
-                  <p class="mb-0"><a href="mailto:{{ site.email }}" class="text-body">{{ site.email }}</a></p>
-                </div>
-              </div>
-            </div>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='MSGCAT';ftypes[6]='dropdown';fnames[5]='MESSAGE';ftypes[5]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
             <!--/column -->
           </div>
           <!--/.row -->

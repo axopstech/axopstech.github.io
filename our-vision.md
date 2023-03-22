@@ -9,7 +9,7 @@ og_image_url: https://this-is-an-og-image-url.com/image.png
     <div class="container py-14 py-md-16">
         <div class="row mt-8 mt-md-12">
             <div class="col-md-10 offset-md-1 text-justify">
-                <h2 class="display-4 mb-9 px-xl-11 text-center">Our Vision @ AxOps&#8482;</h2>
+                <h2 class="display-4 mb-9 px-xl-11 text-center">The AxOps&#8482; Vision</h2>
                 
                 <p>A great team of motivated and empowered talent has the ability to effect profound and lasting change for good.</p>
 
@@ -31,7 +31,7 @@ og_image_url: https://this-is-an-og-image-url.com/image.png
 
                 <p>We’re driven to push the boundaries of what's possible, shaping the future of business in a rapidly advancing digital world, and ultimately, contributing to a more sustainable and prosperous global community.</p>
 
-                <p>Thank you for choosing AxOps - let’s make history together.</p>
+                <p>Thank you for choosing AxOps &#128591; - please visit our <a href="{{ site.url }}/our-solutions/">Solutions</a> and <a href="{{ site.url }}/supported-technologies/">Technologies</a> pages for information about our services.</p>
 
                 <p>Sincerely,<br />
                 Your AxOps Team</p>
