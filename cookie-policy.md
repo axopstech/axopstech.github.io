@@ -3,7 +3,7 @@ layout: default
 title: Cookie Policy
 permalink: /about-us/cookie-policy
 description: This "Cookie Policy" contains information about how our Website uses cookies to distinguish you from other users of our Website.
-og_image_url: https://this-is-an-og-image-url.com/image.png
+og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 <section class="wrapper bg-light">
     <div class="container py-14 py-md-16">

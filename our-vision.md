@@ -3,7 +3,7 @@ layout: default
 title: Our Vision
 permalink: /about-us/our-vision
 description: "At the forefront of innovation, we empower businesses to thrive in a digital world, fostering transformation, growth, and sustainability for a brighter future."
-og_image_url: https://this-is-an-og-image-url.com/image.png
+og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 <section class="wrapper bg-light">
     <div class="container py-14 py-md-16">

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: this is a template title
+title: Welcome to AxOps™
 permalink: /
-description: this is a template description
-og_image_url: https://this-is-an-og-image-url.com/image.png
+description: AxOps™ is a Technology, Consulting, and Training Services provider, based in the beautiful, sunny city of Madrid, Spain. We empower organisations and individuals alike to thrive in today’s fast-paced digital world, fostering transformation, growth, and sustainability for a brighter future.
+og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 {% assign content_config = site.data.content.config %}
 {% assign current_page = site.data.pageconfig %}

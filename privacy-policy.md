@@ -3,7 +3,7 @@ layout: default
 title: Privacy Policy
 permalink: /about-us/privacy-policy
 description: This "Privacy Policy" concerns the processing of personal data furnished by users of the www.axops.tech and axopx.tech website(s) by means of the various forms and/or through the use of cookies.
-og_image_url: https://this-is-an-og-image-url.com/image.png
+og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 <section class="wrapper bg-light">
     <div class="container py-14 py-md-16">

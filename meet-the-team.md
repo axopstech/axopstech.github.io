@@ -3,7 +3,7 @@ layout: default
 title: Meet the AxOps™ Team
 permalink: /about-us/meet-the-team
 description: Our battle-tested, international, multi-disciplinary talent pool.
-og_image_url: https://this-is-an-og-image-url.com/image.png
+og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 {% assign content_config = site.data.content.config %}
 {% assign current_page = site.data.pageconfig %}

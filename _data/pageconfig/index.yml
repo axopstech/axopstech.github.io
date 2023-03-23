@@ -12,7 +12,7 @@ button_cta1_text: Solutions
 button_cta1_url: /our-solutions
 
 button_cta2_text: Let's Talk!
-button_cta2_url: #
+button_cta2_url: /about-us/contact
 
 above_the_fold_images:
   left-top: ./assets/img/photos/home/left-top-eriz.jpg

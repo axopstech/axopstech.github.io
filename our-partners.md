@@ -3,7 +3,7 @@ layout: default
 title: Our PSA & Technology Partners
 permalink: /about-us/our-partners
 description: AxOps™ partners with select PSA and Technology Services Partners in the United Kingdom
-og_image_url: https://this-is-an-og-image-url.com/image.png
+og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 {% assign content_config = site.data.content.config %}
 {% assign current_page = site.data.pageconfig %}
