@@ -11,7 +11,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <div class="col-md-10 offset-md-1 text-justify">
                 <h2 class="display-4 mb-9 px-xl-11 text-center">Website Privacy Policy</h2>
                 
-                <p>This "Privacy Policy" concerns the processing of personal data furnished by visitors and users of the <a href="https://www.axops.tech/" target="_blank" rel="noreferrer noopener">www.axops.tech</a> website by means of the various forms and/or through the use of cookies.</p>
+                <p>This "Privacy Policy" concerns the processing of personal data furnished by visitors and users of the <a href="https://www.axops.tech" target="_blank" rel="noreferrer noopener">www.axops.tech</a> and <a href="https://axopstech.github.io" target="_blank" rel="noreferrer noopener">axopstech.github.io</a> website(s) by means of the various forms and/or through the use of cookies.</p>
 
                 <p>This Website is owned by AXOPS TECHNOLOGY SERVICES, S.L. ("AxOps").</p>
 
@@ -19,7 +19,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 
                 <p>This Privacy Policy is subject to change and should be read every time this Website is used.</p>
 
-                <p>Customers of the company can find out more about the processing of their personal data at the following link: <a href="https://www.axops.tech/privacy-policy/" target="_blank" rel="noopener noreferrer">customer privacy policy.</a></p>
+                <p>Customers of the company can find out more about the processing of their personal data at the following link: <a href="{{ site.url }}/about-us/privacy-policy" target="_blank" rel="noopener noreferrer">customer privacy policy.</a></p>
 
                 <p><b>Data controller for your personal data</b></p>
                 <p>AXOPS TECHNOLOGY SERVICES, S.L. ("AxOps"), having its registered office at Calle Juan Urbieta, 16, 1ºA, 28007, Madrid, Spain.</p>
@@ -32,7 +32,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                 <ol>
                 <li>Contact form to manage your requests. The legal basis for this processing is the consent you have provided in your requests.</li>
                 <li>Sending commercial information: if you have given your express consent, AxOps may contact you by post, email, SMS, or any other equivalent means of electronic communication to send you marketing information about its services.</li>
-                <li>Cookies: We use first-party and third-party cookies to: (i) enhance your browsing experience on the Website, (ii) personalise your content and ads, (iii) offer social networking tools, and (iv) perform traffic analytics. Processing of the personal data collected by the cookies is based on the consent given by you on accepting cookie use on the cookie information panel on the Website's home page. More information concerning the cookies we use, the purpose of those cookies, and other relevant information is available in our <a href="https://www.axops.tech/cookie-policy/" target="_blank" rel="noreferrer noopener">cookie policy.</a></li>
+                <li>Cookies: We use first-party and third-party cookies to: (i) enhance your browsing experience on the Website, (ii) personalise your content and ads, (iii) offer social networking tools, and (iv) perform traffic analytics. Processing of the personal data collected by the cookies is based on the consent given by you on accepting cookie use on the cookie information panel on the Website's home page. More information concerning the cookies we use, the purpose of those cookies, and other relevant information is available in our <a href="{{ site.url }}/about-us/cookie-policy" target="_blank" rel="noreferrer noopener">cookie policy.</a></li>
                 </ol>
 
                 <p><b>Duration of storage of personal data</b></p>
