@@ -1,6 +1,7 @@
 tagline_intro: Our Solutions
 tagline_main: AxOps™ Technology Consulting
-site_url: https://localhost:4000
+#site_url: https://localhost:4000
+site_url: https://axopstech.github.io
 members:
   -
     name: Cloud Solutions

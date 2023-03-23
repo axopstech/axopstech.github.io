@@ -1,6 +1,7 @@
 tagline_intro: Supported Technologies
 tagline_main: Accelerate Growth & Performance with AxOps™ Technologies
-site_url: https://localhost:4000
+#site_url: https://localhost:4000
+site_url: https://axopstech.github.io
 members:
   -
     name: Cloud & Infrastructure
