@@ -2,7 +2,8 @@ exclude:
   - .jekyll-cache
 
 #url: http://localhost:4000
-url: https://axopstech.github.io
+#url: https://axopstech.github.io
+url: https://www.axops.tech
 title: AxOps Technologies
 address: Calle Juan Urbieta, 16, 1ºA, 28007, Madrid - Spain.
 email: 
