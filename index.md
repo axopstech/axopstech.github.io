@@ -162,7 +162,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
         <div class="container pt-12 pt-md-14 pb-14 pb-md-16">
           <div class="row">
             <div class="col-lg-9 col-xl-8 mx-auto">
-              <figure class="mb-10"><img class="img-fluid" src="./assets/img/axops-640x448.png" alt=""></figure>
+              <figure class="mb-10"><img class="img-fluid" src="{{ site.url }}/assets/img/axops-640x448.png" alt=""></figure>
             </div>
             <!-- /column -->
             <div class="col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
