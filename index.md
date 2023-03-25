@@ -15,7 +15,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
       <div class="container pt-10 pb-12 pt-md-14 pb-md-17">
         <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
-            <h1 class="display-1 mb-5 mx-md-10 mx-lg-0">{{ config.tagline_main }} <span class="typer text-primary text-nowrap" data-delay="{{ config.tagline_dynamic_delay }}" data-words="{{ config.tagline_dynamic }}"></span><span class="cursor text-primary" data-owner="typer"></span></h1>
+            <h1 class="display-2 mb-5 mx-md-10 mx-lg-0">{{ config.tagline_main }} <span class="typer text-primary text-nowrap" data-delay="{{ config.tagline_dynamic_delay }}" data-words="{{ config.tagline_dynamic }}"></span><span class="cursor text-primary" data-owner="typer"></span></h1>
             <p class="lead fs-lg mb-7">{{ config.tagline_cta }}</p>
             <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
               <span><a href="{{ config.button_cta1_url }}" class="btn btn-lg btn-primary rounded me-2">{{ config.button_cta1_text }}</a></span>
