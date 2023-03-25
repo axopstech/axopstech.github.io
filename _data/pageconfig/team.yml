@@ -2,11 +2,11 @@ tagline_intro: Meet the AXOPS&#8482; Team
 tagline_main: Our battle-tested, international, multi-disciplinary talent pool.
 tagline_here: The Team
 site_url: https://axopstech.github.io
-image_path: https://axopstech.github.io/assets/img/photos/team/
+image_path: https://axopstech.github.io/assets/img/photos/team
 members:
   -
     name: Eriz Zárate
-    image_src: &image_path eriz-zarate.jpg
+    image_src: &image_path /eriz-zarate.jpg
     image_srcset: &site_url /assets/img/photos/team/eriz-zarate.jpg 2x
     role: Blockchain Solution Architect
 
