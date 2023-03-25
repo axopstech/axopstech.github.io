@@ -16,7 +16,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/full-stack-development.jpg 2x
     url: &site_url /our-solutions/technical-training
     #role: Upskill with confidence &#128588;
-    #
+    role:
   
   -
     name: Quantitative Training
