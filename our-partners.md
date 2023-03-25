@@ -14,11 +14,11 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
     <section class="wrapper bg-light">
         <div class="container py-14 py-md-16">
             <div class="row mb-3">
-            <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
-                <h2 class="fs-15 text-uppercase text-muted mb-3">{{ config.tagline_intro }}</h2>
-                <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{{ config.tagline_main }}</h3>
-            </div>
-            <!--/column -->
+                <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
+                    <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > ABOUT US > PARTNERS</h2>
+                    <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{{ config.tagline_main }}</h3>
+                </div>
+                <!--/column -->
             </div>
             <!--/.row -->
             <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-8" data-cue="slideInDown" data-delay="700">
