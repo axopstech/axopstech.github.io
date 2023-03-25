@@ -7,10 +7,17 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 <section class="wrapper bg-light">
     <div class="container py-14 py-md-16">
-        <div class="row mt-8 mt-md-12">
+        <div class="row mb-3">
+            <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
+                <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > ABOUT US > {{ config.tagline_intro }}</h2>
+                <h3 class="display-4 mb-7 px-lg-19 px-xl-18">The AxOps&#8482; Vision</h3>
+                <hr />
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row mt-8 mt-md-2">
             <div class="col-md-10 offset-md-1 text-justify">
-                <h2 class="display-4 mb-9 px-xl-11 text-center">The AxOps&#8482; Vision</h2>
-                
                 <p>A great team of motivated and empowered talent has the ability to effect profound and lasting change for good.</p>
 
                 <p>AxOps isn’t the brainchild of one, but many individuals, all founders in their own rights and respective capacities.</p>
@@ -31,7 +38,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 
                 <p>We’re driven to push the boundaries of what's possible, shaping the future of business in a rapidly advancing digital world, and ultimately, contributing to a more sustainable and prosperous global community.</p>
 
-                <p>Thank you for choosing AxOps &#128591; - please visit our <a href="{{ site.url }}/our-solutions/">Solutions</a> and <a href="{{ site.url }}/supported-technologies/">Technologies</a> pages for information about our services.</p>
+                <p>Thank you for choosing AxOps &#128591; - please visit our <a href="{{ site.url }}/our-solutions">Solutions</a> and <a href="{{ site.url }}/supported-technologies">Technologies</a> pages for information about our services.</p>
 
                 <p>Sincerely,<br />
                 Your AxOps Team</p>

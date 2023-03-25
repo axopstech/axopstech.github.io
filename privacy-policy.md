@@ -7,10 +7,17 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 <section class="wrapper bg-light">
     <div class="container py-14 py-md-16">
-        <div class="row mt-8 mt-md-12">
+        <div class="row mb-3">
+            <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
+                <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > ABOUT US > Privacy Policy</h2>
+                <h3 class="display-4 mb-7 px-lg-19 px-xl-18">Website Privacy Policy</h3>
+                <hr />
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row mt-8 mt-md-2">
             <div class="col-md-10 offset-md-1 text-justify">
-                <h2 class="display-4 mb-9 px-xl-11 text-center">Website Privacy Policy</h2>
-                
                 <p>This "Privacy Policy" concerns the processing of personal data furnished by visitors and users of the <a href="https://www.axops.tech" target="_blank" rel="noreferrer noopener">www.axops.tech</a> and <a href="https://axopstech.github.io" target="_blank" rel="noreferrer noopener">axopstech.github.io</a> website(s) by means of the various forms and/or through the use of cookies.</p>
 
                 <p>This Website is owned by AXOPS TECHNOLOGY SERVICES, S.L. ("AxOps").</p>
