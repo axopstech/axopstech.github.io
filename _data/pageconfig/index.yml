@@ -6,7 +6,8 @@ tagline_main: Expedite your path from idea to execution,<br />
 
 #tagline_dynamic: at reduced CapEx, at optimal OpEx, at infinite scale, on your terms 🎯
 tagline_dynamic: at low cost, and infinite scale, on your terms 🎯
-tagline_dynamic_delay: 75
+tagline_dynamic_delay: 100
+#tagline_dynamic_delay: 75
 #tagline_cta: Paying too much for licensing? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
 tagline_cta: Paying too much for too little? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
 
