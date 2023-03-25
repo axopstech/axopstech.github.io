@@ -10,7 +10,9 @@ tagline_dynamic_delay: 100
 #tagline_dynamic_delay: 75
 #tagline_cta: Paying too much for licensing? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
 #tagline_cta: Paying too much for too little? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
-tagline_cta: Paying too much for too little? Need to modernise your data infrastructure? Considering the Cloud but lack the in-house expertise?
+#tagline_cta: Paying too much for too little? Need to modernise your data infrastructure? Considering the Cloud but lack the in-house expertise?
+tagline_cta: Paying too much for too little? Need to modernise your organisation? Considering the Cloud but lack the in-house expertise?
+
 button_cta1_text: Solutions
 button_cta1_url: /our-solutions
 
