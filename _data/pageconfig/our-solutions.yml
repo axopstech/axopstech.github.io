@@ -8,25 +8,27 @@ members:
     image_src: &site_url /assets/img/illustrations/custom/data-science-consulting.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/data-science-consulting.jpg 2x
     url: &site_url /our-solutions/technology-consulting-solutions
-    role: Ask, and consider it done &#127919;
-
+    #role: Ask, and consider it done &#127919;
+    role:
   -
     name: Technical Training
     image_src: &site_url /assets/img/illustrations/custom/full-stack-development.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/full-stack-development.jpg 2x
     url: &site_url /our-solutions/technical-training
-    role: Upskill with confidence &#128588;
+    #role: Upskill with confidence &#128588;
+    #
   
   -
     name: Quantitative Training
     image_src: &site_url /assets/img/illustrations/training/quantitative-development.jpg
     image_srcset: &site_url /assets/img/illustrations/training/quantitative-development.jpg 2x
     url: &site_url /our-solutions/quantitative-training
-    role: Make informed decisions &#128065;
-
+    #role: Make informed decisions &#128065;
+    role:
   -
     name: Strategic Advisory
     image_src: &site_url /assets/img/illustrations/custom/solutions-workforce-optimisation.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-workforce-optijmisation.jpg 2x
     url: &site_url /our-solutions/strategic-advisory-solutions
-    role: Leverage our experience &#129417;
+    #role: Leverage our experience &#129417;
+    role:
