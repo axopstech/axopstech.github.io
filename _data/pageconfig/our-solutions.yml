@@ -1,7 +1,10 @@
-tagline_intro: AxOps&#8482; Solutions
-tagline_main: Unlock Your Organisation's Digital Transformation
-#site_url: https://localhost:4000
 site_url: https://axopstech.github.io
+#site_url: https://localhost:4000
+tagline_intro: AxOps&#8482; Solutions Overview
+tagline_here: Solutions
+tagline_href: /our-solutions/
+tagline_main: Unlock Your Organisation's Digital Transformation
+
 members:
   -
     name: Technology Consulting

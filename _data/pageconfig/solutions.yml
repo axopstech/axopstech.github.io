@@ -5,6 +5,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-workforce-optimisation.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /strategic-advisory-solutions 
+    tagline_text: Strategic Advisory Solutions
 
     desired_outcomes:
       - category: Enhanced Efficiency
@@ -199,6 +201,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-project-management.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /strategic-advisory-solutions 
+    tagline_text: Strategic Advisory Solutions
 
     desired_outcomes:
       - category: Strategic Planning
