@@ -6,7 +6,7 @@ pages:
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /strategic-advisory-solutions 
-    tagline_text: Strategic Advisory Solutions
+    tagline_text: Strategic Advisory
 
     desired_outcomes:
       - category: Enhanced Efficiency
@@ -202,7 +202,7 @@ pages:
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /strategic-advisory-solutions 
-    tagline_text: Strategic Advisory Solutions
+    tagline_text: Strategic Advisory
 
     desired_outcomes:
       - category: Strategic Planning
@@ -293,6 +293,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /technology-consulting-solutions 
+    tagline_text: Technology Consulting
 
     desired_outcomes:
       - category: Data Management Efficiency
@@ -390,6 +392,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-salesforce-development.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /technology-consulting-solutions 
+    tagline_text: Technology Consulting
 
     desired_outcomes:
       - category: Streamlined Integrations
@@ -474,6 +478,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-blockchain-development.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /technology-consulting-solutions 
+    tagline_text: Technology Consulting
 
     desired_outcomes:
       - category: Enhanced Security
@@ -567,6 +573,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-application-engineering.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /technology-consulting-solutions 
+    tagline_text: Technology Consulting
 
     desired_outcomes:
       - category: Systems Integration
@@ -663,6 +671,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /technology-consulting-solutions 
+    tagline_text: Technology Consulting
 
     desired_outcomes:
       - category: Streamlined Engagement
@@ -760,6 +770,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-digital-transformation.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /technology-consulting-solutions 
+    tagline_text: Technology Consulting
 
     desired_outcomes:
       - category: Operational Efficiency
@@ -855,6 +867,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /technology-consulting-solutions 
+    tagline_text: Technology Consulting
 
     desired_outcomes:
       - 
@@ -955,6 +969,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-crm-data-migrations.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /technology-consulting-solutions 
+    tagline_text: Technology Consulting
 
     desired_outcomes:
       - category: Seamless Data Migration
@@ -1056,6 +1072,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-business-analytics.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /technology-consulting-solutions 
+    tagline_text: Technology Consulting
 
     desired_outcomes:
       - 
@@ -1170,6 +1188,8 @@ pages:
     main_image: /assets/img/illustrations/custom/solutions-cloud-solutions-2.jpg
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
+    tagline_href: /technology-consulting-solutions 
+    tagline_text: Technology Consulting
 
     desired_outcomes:
       - 
