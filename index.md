@@ -11,6 +11,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 
   <div class="content-wrapper">
     <!-- .content-wrapper -->
+    {% if config.mode == "live" %}
     <section class="wrapper bg-soft-primary">
       <div class="container pt-10 pb-12 pt-md-14 pb-md-17">
         <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
@@ -156,5 +157,27 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
       <!-- /.container -->
     </section>
     <!-- /section - CLIENTS -->
+    {% else %}
+    <section class="wrapper bg-light">
+        <div class="container pt-12 pt-md-14 pb-14 pb-md-16">
+          <div class="row">
+            <div class="col-lg-9 col-xl-8 mx-auto">
+              <figure class="mb-10"><img class="img-fluid" src="./assets/img/axops-640x448.png" alt=""></figure>
+            </div>
+            <!-- /column -->
+            <div class="col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
+              <h1 class="mb-3">AxOps Technologies</h1>
+              <p class="lead mb-7 px-md-12 px-lg-5 px-xl-7">“When done well, software is invisible.” - Bjarne Stroustrup</p>
+              <a href="#" class="btn btn-primary rounded-pill">Website Under Maintenance - Hang Tight &#128578;</a>
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+    {% endif %}
   </div>
   <!-- /.content-wrapper -->
+  

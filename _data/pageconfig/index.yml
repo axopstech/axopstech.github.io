@@ -1,3 +1,4 @@
+maintenance: live
 #tagline_main: Make your business processes efficient,<br />
 #tagline_main: Accelerated Digital Transformation,<br />
 #tagline_main: Accelerated Digital Transformation,<br />
@@ -18,8 +19,11 @@ tagline_cta: Paying too much for too little? Need to modernise your IT systems? 
 button_cat_text: Solutions
 button_cta1_url: /our-solutions
 
-button_cta2_text: Technologies
-button_cta2_url: /supported-technologies
+button_cta2_text: Let's Talk
+button_cta2_url: /about-us/contact
+
+#button_cta2_text: Technologies
+#button_cta2_url: /supported-technologies
 
 above_the_fold_images:
   left-top: ./assets/img/photos/home/left-top-eriz.jpg
