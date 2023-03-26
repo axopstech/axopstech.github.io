@@ -79,7 +79,7 @@ members:
     slug: ali-saif
     image_src: &site_url /assets/img/photos/team/ali-saif-1.jpg
     image_srcset: &site_url /assets/img/photos/team/ali-saif-1.jpg 2x
-    role: Founder | Technical Architect
+    role: Technical Architect
     bio: >
       <p>Ali brings to AxOps&#8482;, over two decades worth of battle scars earned as a Software Engineer, Technical Architect, 
       Quant Developer, and Technical Trainer in the Professional IT Services, Decision Intelligence, 
