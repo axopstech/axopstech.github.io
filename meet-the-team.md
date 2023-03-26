@@ -11,7 +11,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 
   <div class="content-wrapper">
     <!-- .content-wrapper -->
-    <section class="wrapper bg-light">
+    <section class="wrapper bg-light wrapper-border">
         <div class="container py-14 py-md-16">
             <div class="row mb-3">
                 <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
@@ -26,6 +26,9 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                 <div class="col-md-6 col-lg-3">
                     <div class="position-relative">
                     <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
+                    {% if member.bio %}
+                    <a href="#{{ member.slug }}">
+                    {% endif %}
                     <div class="card">
                         <figure class="card-img-top"><img class="img-fluid" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt="" /></figure>
                         <div class="card-body px-6 py-5">
@@ -34,6 +37,9 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                         </div>
                         <!--/.card-body -->
                     </div>
+                    {% if member.bio %}
+                    </a>
+                    {% endif %}
                     <!-- /.card -->
                     </div>
                     <!-- /div -->
@@ -44,6 +50,39 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <!--/.row -->
         </div>
         <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light wrapper-border">
+      <div class="container py-14 py-md-16 align-items-center">
+        {% assign loc = "right" %}
+        {% for member in config.members %}
+        {% if member.bio %}
+        <a name="{{ member.slug }}" style="visibility: hidden;"></a>
+        <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-18 align-items-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
+          {% if loc == "right" %}
+          <div class="col-lg-4 order-lg-2 position-relative">
+          {% else %}
+          <div class="col-lg-4 position-relative">
+          {% endif %}
+            <figure class="rounded mb-0"><img class="img-fluid" style="max-width: 300px; max-height: 300px;" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt=""></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-8">
+            <h3 class="display-4 mb-4">{{ member.name }} | {{ member.role }}</h3>
+            <p class="mb-5" align="justify">{{ member.bio }}</p>
+          </div>
+          <!--/column -->
+        </div><hr />
+        <!--/.row -->
+        {% if loc == "right" %}
+          {% assign loc = "left" %}
+        {% else %}
+          {% assign loc = "right" %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div>
+      <!-- /.container -->
     </section>
     <!-- /section -->
   </div>
