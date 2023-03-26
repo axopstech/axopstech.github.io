@@ -73,6 +73,10 @@ members:
     image_src: &site_url /assets/img/photos/team/saad-hashmi-1.jpg
     image_srcset: &site_url /assets/img/photos/team/saad-hashmi-1.jpg 2x
     role: Business Strategy & Presales
+    bio: >
+      <p>Saad has extensive leadership experience in companies around the world such as Amazon, Deloitte, Cisco and HSBC. He has an MBA from University of Michigan and is passionate about using technology to drive innovation and impact.</p>
+      <p>He is a natural leader, team player with an entrepreneurial spirit, and a passion for using technology and design to drive development of new and innovative solutions to challenging business problems.</p>
+      <p>He has a demonstrated ability to ideate, allocate resources, build solutions, and overcome complex challenges to drive from issue to impact.</p>
 
   -
     name: Ali Saif
