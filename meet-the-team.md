@@ -64,7 +64,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
           {% else %}
           <div class="col-lg-4 position-relative">
           {% endif %}
-            <figure class="rounded mb-0"><img class="img-fluid" style="max-width: 300px; max-height: 300px;" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt=""></figure>
+            <figure class="rounded mb-0"><img class="img-fluid" style="max-width: 400px; max-height: 400px;" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt=""></figure>
           </div>
           <!--/column -->
           <div class="col-lg-8">
