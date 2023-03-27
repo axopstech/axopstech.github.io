@@ -28,7 +28,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <div class="row">
               <div class="col-3 offset-1 offset-lg-0 col-lg-4 d-flex flex-column" data-cues="zoomIn" data-group="col-start" data-delay="300">
                 <div class="ms-auto mt-auto"><a href="{{ site.url }}/about-us/meet-the-team"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-top-2 }}" srcset="{{ config.above_the_fold_images.left-top-2-srcset }}" alt="" /></a></div>
-                <div class="ms-auto mt-auto"><a href="{{ site.url }}/about-us/meet-the-team"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-top }}" srcset="{{ config.above_the_fold_images.left-top-srcset }}" alt="" /></a></div>
+                <div class="ms-auto mt-5"><a href="{{ site.url }}/about-us/meet-the-team"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-top }}" srcset="{{ config.above_the_fold_images.left-top-srcset }}" alt="" /></a></div>
                 <div class="ms-auto mt-5 mb-10"><a href="{{ site.url }}/about-us/meet-the-team"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-bottom }}" srcset="{{ config.above_the_fold_images.left-bottom-srcset }}" alt="" /></a></div>
               </div>
               <!-- /column -->
@@ -38,7 +38,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
               <!-- /column -->
               <div class="col-3 d-flex flex-column" data-cues="zoomIn" data-group="col-end" data-delay="300">
                 <div class="mt-auto"><a href="{{ site.url }}/about-us/meet-the-team"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-top }}" srcset="{{ config.above_the_fold_images.right-top-srcset }}" alt="" /></a></div>
-                <div class="ms-auto mt-auto"><a href="{{ site.url }}/about-us/meet-the-team"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-middle }}" srcset="{{ config.above_the_fold_images.right-middle-srcset }}" alt="" /></a></div>
+                <div class="mt-5"><a href="{{ site.url }}/about-us/meet-the-team"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-middle }}" srcset="{{ config.above_the_fold_images.right-middle-srcset }}" alt="" /></a></div>
                 <div class="mt-5 mb-10"><a href="{{ site.url }}/about-us/meet-the-team"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-bottom }}" srcset="{{ config.above_the_fold_images.right-bottom-srcset }}" alt="" /></a></div>
               </div>
               <!-- /column -->
