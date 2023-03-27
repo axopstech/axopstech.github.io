@@ -9,14 +9,12 @@ assets/img/demos
 assets/img/partners/cintra*
 assets/img/partners/original
 assets/img/photos/custom
-assets/img/photos/team/*.psd
-assets/img/photos/team/*.png
-assets/img/illustrations/custom/*.psd
-assets/img/illustrations/custom/*.png
 assets/img/illustrations/custom/original
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
 Gemfile.lock
 *.gem
+*.psd
+*.png
 .DS_Store
