@@ -47,8 +47,8 @@ pages:
         - Scalable and adaptable solutions for evolving enterprise needs
 
   technologies-cloud-infrastructure.md:
-    title: Cloud & Infrastructure
-    tagline: "Empowering Your Digital Evolution: AxOps™ Cloud & Infrastructure Solutions"
+    title: Cloud Services
+    tagline: "Empowering Your Digital Evolution: AxOps™ Cloud Services"
 
     services:
       data-lake-solutions:

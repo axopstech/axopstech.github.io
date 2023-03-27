@@ -125,7 +125,7 @@
   is_mega_dropdown: true
   children:
     -
-      name: Cloud & Infrastructure
+      name: Cloud Services
       url: /cloud-infrastructure
       enabled: true
       children:
