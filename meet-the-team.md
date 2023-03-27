@@ -14,7 +14,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
     <section class="wrapper bg-light wrapper-border">
         <div class="container py-14 py-md-16">
             <div class="row mb-3">
-                <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
+                <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="50">
                     <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > ABOUT US > {{ config.tagline_intro }}</h2>
                     <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{{ config.tagline_main }}</h3>
                 </div>
@@ -58,7 +58,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
         {% for member in config.members %}
         {% if member.bio %}
         <a name="{{ member.slug }}" style="visibility: hidden;"></a>
-        <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-18 align-items-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-18 align-items-center" data-cues="slideInDown" data-group="page-title" data-delay="10">
           {% if loc == "right" %}
           <div class="col-lg-4 order-lg-2 position-relative">
           {% else %}
