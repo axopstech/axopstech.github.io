@@ -1,0 +1,35 @@
+tagline_intro: Case Studies
+tagline_main: Learn more about our team's past projects.
+tagline_here: Case Studies
+site_url: https://axopstech.github.io
+members:
+  -
+    title: Quantum Financial Engineering at Scale on AWS
+    subtitle: Developing and Deploying a Quantum Platform on AWS for Optimizing Investment Portfolios
+    slug: quantum-engineering-at-scale-aws
+    image: &site_url /assets/img/illustrations/case-studies/quantum-engineering-at-scale-aws.jpg
+    industry: Financial Services
+    service: Cloud Engineering
+    challenges: >
+      <p>The financial industry has been facing challenges with traditional portfolio optimization methods, which are based on historical data and do not take into account the potential impact of real-time macroeconomic events on investment performance. Our company set out to create a quantum platform on AWS that would address these issues by incorporating quantum computing techniques to optimize investment portfolios under different metrics and by including relevant real-time macroeconomic data.</p>
+    research_and_development: >
+      <p>Our research and development team began by studying the existing portfolio optimization methods and identifying their limitations in terms of incorporating real-time macroeconomic data and leveraging quantum computing techniques. We also conducted market research to understand the specific needs and requirements of financial institutions in terms of portfolio optimization and risk management, together with infrastructure limitations.</p>
+      <p>Based on this research, we designed a quantum platform that utilizes quantum computing techniques to optimize investment portfolios under different metrics, such as return-to-volatility. The platform also includes a feature that allows for the analysis of a larger universe of assets, including alternative assets and the incorporation of relevant real-time macroeconomic data.</p>
+    architecture: >
+      <p>To ensure high scalability and performance, we deployed the platform on AWS using a complex and highly available architecture. We also improved traditional cybersecurity practices by enabling quantum-encryption of the information with the latest on-cloud security technologies. In addition, we used Fujitsu’s cloud environment to provide high- performance computing and efficient communication with other services hosted on AWS.</p>
+    deployment: >
+      <p>Once development was complete, we deployed the platform on AWS. The platform was deployed using a Kubernetes cluster, which allowed us to easily scale the solution as needed and handle high traffic loads. We also used Terraform for infrastructure as code, which allowed us to easily provision and manage the infrastructure on AWS.</p>
+      <p>To store and process the financial data, we used Amazon S3, Amazon DynamoDB, and Amazon Elastic MapReduce (EMR). These services allowed us to store and process the data in a highly available and scalable manner, while also providing built-in security features to protect user data.</p>
+    conclusion: >
+      <p>Through the development and deployment of this quantum platform on AWS, we were able to provide financial institutions with a more efficient and effective way to optimize investment portfolios. The platform incorporates quantum computing techniques and relevant real-time macroeconomic data, allowing for more accurate and robust portfolio optimization. By using AWS and Fujitsu’s cloud environment, we were able to achieve high scalability, performance, and security while complying with industry regulations. The platform is already used by some top-tier banks.</p>
+    technologies:
+      - Terraform
+      - Amazon S3
+      - Amazon EC2
+      - Amazon EKS
+      - Amazon EMR
+      - Amazon QLDB
+      - Amazon DynamoDB
+      
+
+  
