@@ -16,8 +16,8 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <!--/column -->
         </div>
         <!--/.row -->
-        <div class="row mt-8 mt-md-2">
-            <div class="col-md-10 offset-md-1 text-justify" data-cues="slideInDown" data-group="page-title" data-delay="100">
+        <div class="row card mt-8 mt-md-2">
+            <div class="card-body col-md-10 offset-md-1 text-justify" data-cues="slideInDown" data-group="page-title" data-delay="100">
                 <div>
                     <!-- Begin: CookieBot Declaration Script -->
                     <script id="CookieDeclaration" src="https://consent.cookiebot.com/3f731cd7-57dc-4e2f-b612-24a4cbaf3c8d/cd.js" type="text/javascript" async></script>
