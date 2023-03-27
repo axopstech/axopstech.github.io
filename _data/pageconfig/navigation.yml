@@ -294,3 +294,7 @@
       name: Partners
       url: /our-partners
       enabled: true
+    -
+      name: Contact Us
+      url: /contact
+      enabled: true
