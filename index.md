@@ -27,7 +27,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
           <div class="col-lg-7">
             <div class="row">
               <div class="col-3 offset-1 offset-lg-0 col-lg-4 d-flex flex-column" data-cues="zoomIn" data-group="col-start" data-delay="300">
-                <div class="ms-auto mt-auto"><img class="rounded shadow-lg" src="{{ config.above_the_fold_images.left-top }}" srcset="{{ config.above_the_fold_images.left-top-srcset }}" alt="" /></div>
+                <div class="ms-auto mt-auto"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-top }}" srcset="{{ config.above_the_fold_images.left-top-srcset }}" alt="" /></div>
                 <div class="ms-auto mt-5 mb-10"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-bottom }}" srcset="{{ config.above_the_fold_images.left-bottom-srcset }}" alt="" /></div>
               </div>
               <!-- /column -->
@@ -37,7 +37,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
               <!-- /column -->
               <div class="col-3 d-flex flex-column" data-cues="zoomIn" data-group="col-end" data-delay="300">
                 <div class="mt-auto"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-top }}" srcset="{{ config.above_the_fold_images.right-top-srcset }}" alt="" /></div>
-                <div class="mt-5"><img class="rounded shadow-lg" src="{{ config.above_the_fold_images.right-middle }}" srcset="{{ config.above_the_fold_images.right-middle-srcset }}" alt="" /></div>
+                <div class="mt-5"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-middle }}" srcset="{{ config.above_the_fold_images.right-middle-srcset }}" alt="" /></div>
                 <div class="mt-5 mb-10"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-bottom }}" srcset="{{ config.above_the_fold_images.right-bottom-srcset }}" alt="" /></div>
               </div>
               <!-- /column -->
