@@ -11,13 +11,13 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
                 <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > ABOUT US > VISION</h2>
                 <h3 class="display-4 mb-7 px-lg-19 px-xl-18">The AxOps&#8482; Vision</h3>
-                <hr />
+                <!-- <hr /> -->
             </div>
             <!--/column -->
         </div>
         <!--/.row -->
-        <div class="row mt-8 mt-md-2">
-            <div class="col-md-10 offset-md-1 text-justify">
+        <div class="row card mt-8 mt-md-2" data-cues="slideInDown" data-group="page-title" data-delay="100">
+            <div class="card-body col-md-10 offset-md-1 text-justify">
                 <p>A great team of motivated and empowered talent has the ability to effect profound and lasting change for good.</p>
 
                 <p>AxOps isn’t the brainchild of one, but many individuals, all founders in their own rights and respective capacities.</p>
