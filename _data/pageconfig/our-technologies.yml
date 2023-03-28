@@ -5,10 +5,10 @@ tagline_main: Accelerate Innovation with AxOps™
 site_url: https://axopstech.github.io
 members:
   -
-    name: Cloud & Infrastructure
+    name: Cloud Services
     image_src: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions.jpg 2x
-    url: &site_url /technologies/cloud-infrastructure
+    url: &site_url /technologies/cloud-services
     role: 
 
   -

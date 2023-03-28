@@ -2,7 +2,7 @@
 layout: default
 title: Case Studies
 permalink: /case-studies
-description: Learn more about our past projects
+description: "Our Projects: Past & Present"
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 {% assign content_config = site.data.content.config %}
