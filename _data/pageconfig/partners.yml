@@ -9,6 +9,11 @@ members:
     image_src: &site_url /assets/img/partners/iqlink-2.jpg
     image_srcset: &site_url /assets/img/partners/iqlink-2.jpg 2x
     role: PSA & CRM Solutions
+    bio: >
+      <p>iQlink's team have, between them, many years' experience working with the Intapp DealCloud and Salesforce.com platforms.</p>
+      <p>We can deliver services using our certified Salesforce Administrators, together with minor developments and enhancements.</p>
+      <p>We have over 10 years' experience in delivering implementation, development, and integration solutions on the Kantata SX PSA solution.</p>
+      <p>We also provide extensive practical experience gained across the professional service, legal, and consultancy sectors.</p>
 
   -
     name: Cintra
