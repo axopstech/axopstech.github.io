@@ -24,7 +24,7 @@
         -
           name: Cloud Solutions
           url: /cloud-solutions
-          enabled: true
+          enabled: false
         -
           name: Business Analytics
           url: /business-analytics
@@ -48,7 +48,7 @@
         -
           name: Application Engineering
           url: /application-engineering
-          enabled: true
+          enabled: false
         -
           name: Blockchain Development
           url: /blockchain-development
