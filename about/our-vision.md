@@ -38,7 +38,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 
                 <p>We’re driven to push the boundaries of what's possible, shaping the future of business in a rapidly advancing digital world, and ultimately, contributing to a more sustainable and prosperous global community.</p>
 
-                <p>Thank you for choosing AxOps &#128591; - please visit our <a href="{{ site.url }}/our-solutions">Solutions</a> and <a href="{{ site.url }}/supported-technologies">Technologies</a> pages for information about our services.</p>
+                <p>Thank you for choosing AxOps &#128591; - please visit our <a href="{{ site.url }}/solutions">Solutions</a> and <a href="{{ site.url }}/supported-technologies">Technologies</a> pages for information about our services.</p>
 
                 <p>Sincerely,<br />
                 Your AxOps Team</p>
