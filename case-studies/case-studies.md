@@ -59,7 +59,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                         <figure class="card-img-top"><img class="img-fluid" src="{{ site.url }}/assets/img/illustrations/custom/devops-automation.jpg" srcset="{{ site.url }}/assets/img/illustrations/custom/devops-automation.jpg" alt="" /></figure>
                         <div class="card-body px-6 py-5">
                         <h4 class="mb-1">More case studies enroute &#128077;</h4>
-                        <p class="mb-0" style="color: inherit;">Thank you for your interest!</p>
+                        <p class="mb-0" style="color: inherit;">This section is pending completion, please stand by. Thank you for your interest!</p>
                         </div>
                         <!--/.card-body -->
                     </div>

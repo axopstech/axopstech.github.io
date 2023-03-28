@@ -126,7 +126,7 @@
   children:
     -
       name: Cloud Services
-      url: /cloud-infrastructure
+      url: /cloud-services
       enabled: true
       children:
         -
@@ -214,7 +214,7 @@
   name: Case Studies
   url: /case-studies
   current: false
-  enabled: false
+  enabled: true
   has_children: false
   multi_column: false
   has_subchildren: false
