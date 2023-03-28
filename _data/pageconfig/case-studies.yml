@@ -13,7 +13,8 @@ members:
     challenges: >
       <p>The financial industry has been facing challenges with traditional portfolio optimization methods, 
       which are based on historical data and do not take into account the potential impact of real-time macroeconomic 
-      events on investment performance. We set out to create a quantum computing platform on AWS that would 
+      events on investment performance.</p>
+      <p>We set out to create a quantum computing platform on AWS that would 
       address these issues by incorporating quantum computing techniques to optimize investment portfolios under different metrics 
       and by including relevant real-time macroeconomic data.</p>
     research_and_development: >
@@ -28,13 +29,15 @@ members:
       relevant real-time macroeconomic data.</p>
     architecture: >
       <p>To ensure high scalability and performance, we deployed the platform on AWS using a complex and highly available 
-      architecture. We also improved traditional cybersecurity practices by enabling quantum-encryption of the information 
-      with the latest on-cloud security technologies. In addition, we used Fujitsu's cloud environment to provide high-performance 
+      architecture.</p>
+      <p>We also improved traditional cybersecurity practices by enabling quantum-encryption of the information 
+      with the latest on-cloud security technologies.</p>
+      <p>Additionally, we used Fujitsu's cloud environment to provide high-performance 
       computing (HPC) and efficient communication with other services hosted on AWS.</p>
     deployment: >
       <p>Once development was complete, we deployed the platform on AWS. The platform was deployed using a Kubernetes cluster, 
-      which allowed us to easily scale the solution as needed and handle high traffic loads. We also used Terraform for 
-      infrastructure as code, which allowed us to easily provision and manage the infrastructure on AWS.</p>
+      which allowed us to easily scale the solution as needed and handle high traffic loads. </p>
+      <p>We used Terraform for infrastructure as code, which allowed us to easily provision and manage the infrastructure on AWS.</p>
       <p>To store and process the financial data, we used Amazon S3, Amazon DynamoDB, and Amazon Elastic MapReduce (EMR). 
       These services allowed us to store and process the data in a highly available and scalable manner, while also providing 
       built-in security features to protect user data.</p>
@@ -42,7 +45,8 @@ members:
       <p>Through the development and deployment of this quantum platform on AWS and Fujitsu, we were able to provide financial 
       institutions with a more efficient and effective way to optimize investment portfolios.</p>
       <p>The platform incorporates quantum computing techniques and relevant real-time macroeconomic data, allowing for more 
-      accurate and robust portfolio optimization. By using AWS and Fujitsu's cloud environments, we were able to achieve high 
+      accurate and robust portfolio optimization.</p>
+      <p>By using AWS and Fujitsu's cloud environments, we were able to achieve high 
       scalability, performance, and security while complying with industry regulations.</p>
     technologies:
       - S3

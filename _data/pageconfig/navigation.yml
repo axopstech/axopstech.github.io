@@ -214,7 +214,7 @@
   name: Case Studies
   url: /case-studies
   current: false
-  enabled: true
+  enabled: false
   has_children: false
   multi_column: false
   has_subchildren: false
