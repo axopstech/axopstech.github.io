@@ -2,7 +2,7 @@
 layout: default
 title: Welcome to AxOps™
 permalink: /
-description: AxOps™ is a Technology, Consulting, and Training Services provider, based in the beautiful, sunny city of Madrid, Spain. We empower organisations and individuals alike to thrive in today’s fast-paced digital world, fostering transformation, growth, and sustainability for a brighter future.
+description: AxOps™ is a Technology, Consulting, and Training Services company. We expedite your journey from idea to execution 🎯
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 {% assign content_config = site.data.content.config %}
