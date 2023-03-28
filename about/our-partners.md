@@ -11,7 +11,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 
   <div class="content-wrapper">
     <!-- .content-wrapper -->
-    <section class="wrapper bg-light">
+    <section class="wrapper bg-light wrapper-border">
         <div class="container py-14 py-md-16">
             <div class="row mb-3">
                 <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
@@ -48,5 +48,6 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
         <!-- /.container -->
     </section>
     <!-- /section -->
+    {% include contact-form.html %}
   </div>
   <!-- /.content-wrapper -->
