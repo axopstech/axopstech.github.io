@@ -214,64 +214,13 @@
   name: Case Studies
   url: /case-studies
   current: false
-  enabled: false
-  has_children: true
+  enabled: true
+  has_children: false
   multi_column: false
   has_subchildren: false
-  is_mega_dropdown: true
+  is_mega_dropdown: false
   children:
-    -
-      name: Cloud & Infrastructure
-      url: /cloud-infrastructure
-      enabled: true
-      children:
-        -
-          name: Case Study 1
-          url: /cloud-migration1
-          enabled: true
-        -
-          name: Case Study 2
-          url: /cloud-migration2
-          enabled: true
-    -
-      name: Application Engineering
-      url: /application-engineering
-      enabled: true
-      children:
-        -
-          name: Case Study 1
-          url: /cloud-migration1
-          enabled: true
-        -
-          name: Case Study 2
-          url: /cloud-migration2
-          enabled: true
-    -
-      name: 'Data Management'
-      url: /data-management
-      enabled: true
-      children:
-        -
-          name: Case Study 1
-          url: /cloud-migration1
-          enabled: true
-        -
-          name: Case Study 2
-          url: /cloud-migration2
-          enabled: true
-    -
-      name: 'Business Analytics'
-      url: /business-analytics
-      enabled: true
-      children:
-        -
-          name: Case Study 1
-          url: /cloud-migration1
-          enabled: true
-        -
-          name: Case Study 2
-          url: /cloud-migration2
-          enabled: true
+    - N/A
 
 -
   name: About Us

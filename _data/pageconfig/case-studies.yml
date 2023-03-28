@@ -1,35 +1,230 @@
 tagline_intro: Case Studies
-tagline_main: Learn more about our team's past projects.
+tagline_main: "Our Projects: Past & Present"
 tagline_here: Case Studies
 site_url: https://axopstech.github.io
 members:
-  -
-    title: Quantum Financial Engineering at Scale on AWS
-    subtitle: Developing and Deploying a Quantum Platform on AWS for Optimizing Investment Portfolios
+  quantum-engineering-at-scale-aws.md:
+    title: "Case Study: Quantum Financial Engineering on AWS and Fujitsu"
+    subtitle: Design, development and delivery of a Quantum Platform on AWS and Fujitsu for optimising investment portfolios.
     slug: quantum-engineering-at-scale-aws
-    image: &site_url /assets/img/illustrations/case-studies/quantum-engineering-at-scale-aws.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/quantum-engineering-at-scale-aws.jpg
     industry: Financial Services
     service: Cloud Engineering
     challenges: >
-      <p>The financial industry has been facing challenges with traditional portfolio optimization methods, which are based on historical data and do not take into account the potential impact of real-time macroeconomic events on investment performance. Our company set out to create a quantum platform on AWS that would address these issues by incorporating quantum computing techniques to optimize investment portfolios under different metrics and by including relevant real-time macroeconomic data.</p>
+      <p>The financial industry has been facing challenges with traditional portfolio optimization methods, 
+      which are based on historical data and do not take into account the potential impact of real-time macroeconomic 
+      events on investment performance. We set out to create a quantum computing platform on AWS that would 
+      address these issues by incorporating quantum computing techniques to optimize investment portfolios under different metrics 
+      and by including relevant real-time macroeconomic data.</p>
     research_and_development: >
-      <p>Our research and development team began by studying the existing portfolio optimization methods and identifying their limitations in terms of incorporating real-time macroeconomic data and leveraging quantum computing techniques. We also conducted market research to understand the specific needs and requirements of financial institutions in terms of portfolio optimization and risk management, together with infrastructure limitations.</p>
-      <p>Based on this research, we designed a quantum platform that utilizes quantum computing techniques to optimize investment portfolios under different metrics, such as return-to-volatility. The platform also includes a feature that allows for the analysis of a larger universe of assets, including alternative assets and the incorporation of relevant real-time macroeconomic data.</p>
+      <p>Leveraging our experience in Quantitative Finance and Quantum Computing, our research and development personnel began 
+      by studying the existing portfolio optimization methods and identifying their limitations in terms of incorporating 
+      real-time macroeconomic data and leveraging quantum computing techniques.</p>
+      <p>We also conducted market research to understand the specific needs and requirements of financial institutions in terms 
+      of portfolio optimization and risk management, together with infrastructure limitations.</p>
+      <p>Based on this research, we designed a platform that utilizes quantum computing techniques to optimize 
+      investment portfolios under different metrics, such as return-to-volatility. The platform also includes a feature 
+      that allows for the analysis of a larger universe of assets, including alternative assets and the incorporation of 
+      relevant real-time macroeconomic data.</p>
     architecture: >
-      <p>To ensure high scalability and performance, we deployed the platform on AWS using a complex and highly available architecture. We also improved traditional cybersecurity practices by enabling quantum-encryption of the information with the latest on-cloud security technologies. In addition, we used Fujitsu’s cloud environment to provide high- performance computing and efficient communication with other services hosted on AWS.</p>
+      <p>To ensure high scalability and performance, we deployed the platform on AWS using a complex and highly available 
+      architecture. We also improved traditional cybersecurity practices by enabling quantum-encryption of the information 
+      with the latest on-cloud security technologies. In addition, we used Fujitsu's cloud environment to provide high-performance 
+      computing (HPC) and efficient communication with other services hosted on AWS.</p>
     deployment: >
-      <p>Once development was complete, we deployed the platform on AWS. The platform was deployed using a Kubernetes cluster, which allowed us to easily scale the solution as needed and handle high traffic loads. We also used Terraform for infrastructure as code, which allowed us to easily provision and manage the infrastructure on AWS.</p>
-      <p>To store and process the financial data, we used Amazon S3, Amazon DynamoDB, and Amazon Elastic MapReduce (EMR). These services allowed us to store and process the data in a highly available and scalable manner, while also providing built-in security features to protect user data.</p>
+      <p>Once development was complete, we deployed the platform on AWS. The platform was deployed using a Kubernetes cluster, 
+      which allowed us to easily scale the solution as needed and handle high traffic loads. We also used Terraform for 
+      infrastructure as code, which allowed us to easily provision and manage the infrastructure on AWS.</p>
+      <p>To store and process the financial data, we used Amazon S3, Amazon DynamoDB, and Amazon Elastic MapReduce (EMR). 
+      These services allowed us to store and process the data in a highly available and scalable manner, while also providing 
+      built-in security features to protect user data.</p>
     conclusion: >
-      <p>Through the development and deployment of this quantum platform on AWS, we were able to provide financial institutions with a more efficient and effective way to optimize investment portfolios. The platform incorporates quantum computing techniques and relevant real-time macroeconomic data, allowing for more accurate and robust portfolio optimization. By using AWS and Fujitsu’s cloud environment, we were able to achieve high scalability, performance, and security while complying with industry regulations. The platform is already used by some top-tier banks.</p>
+      <p>Through the development and deployment of this quantum platform on AWS and Fujitsu, we were able to provide financial 
+      institutions with a more efficient and effective way to optimize investment portfolios.</p>
+      <p>The platform incorporates quantum computing techniques and relevant real-time macroeconomic data, allowing for more 
+      accurate and robust portfolio optimization. By using AWS and Fujitsu's cloud environments, we were able to achieve high 
+      scalability, performance, and security while complying with industry regulations.</p>
     technologies:
+      - S3
+      - EC2
+      - EKS
+      - EMR
+      - QLDB
+      - DynamoDB
       - Terraform
-      - Amazon S3
-      - Amazon EC2
-      - Amazon EKS
-      - Amazon EMR
-      - Amazon QLDB
-      - Amazon DynamoDB
-      
+  
+  social-media-super-app-aws.md:
+    title: "Case Study: Social Media Super App Deployment on AWS"
+    subtitle: Design, development and delivery of a novel, highly available Social Media App on AWS for fast, global content consumption.
+    slug: social-media-super-app-aws
+    image_src: &site_url /assets/img/illustrations/case-studies/social-media-super-app-aws.jpg
+    industry: Social Media Sites
+    service: Cloud Engineering
+    challenges: >
+      <p>The social media landscape is highly competitive, with a variety of platforms catering to different types of content 
+      creation and sharing. We set out to create a social media super app that would allow users to create and share 
+      multiple types of content, such as video, audio, text, audio journaling, and live rooms, all within the same app and user experience.</p>
+    research_and_development: >
+      <p>Our research and development personnel began by studying the existing social media platforms and identifying their limitations 
+      in terms of content creation and sharing. We also conducted market research to understand the specific needs and requirements 
+      of users in the social media space.</p>
+      <p>Based on this research, we designed a social media super app that allows users to create and share a variety of content 
+      types, such as videos, photos, and live streams. The application also includes a feature for audio journaling, which allows users to 
+      record and share their thoughts and experiences in an audio format.</p>
+    architecture: >
+      <p>To ensure scalability and performance, we used a variety of technologies and architectures, including Serverless and Flutter, 
+      to cut development times by 2x. Specifically, we used AWS Lambda, Amazon S3, and Amazon DynamoDB to achieve 
+      high scalability and performance.</p>
+    deployment: >
+      <p>Once development was complete, we deployed the application on AWS using a microservices 
+      architecture, with each service running on a separate AWS Lambda function. This allowed us to easily scale the app as needed 
+      and handle high traffic loads on-demand.</p>
+      <p>To store the user data, we used Amazon S3 and Amazon DynamoDB, making sure redundancy was taken into account and accordingly 
+      deployed. These services allowed us to store the data in a highly available and scalable manner. Additionally, we implemented 
+      a variety of security best practices, such as encryption in-transit and at-rest, and multi-factor authentication, to ensure 
+      the safety and security of user data.</p>
+    conclusion: >
+      <p>Through the development and deployment of this social media super app on AWS, we were able to provide users with a unique 
+      and comprehensive social media experience. The app allows users to create and share a variety of content types, all within 
+      the same app and user experience. By using Serverless and Flutter on AWS, we were able to achieve 
+      high scalability and performance, while also ensuring the security of user data. The app has had zero downtime since its launch and 
+      is highly performant, taking into account the fact that it is using resource-heavy user experience components such as 3D environments.</p>
+    technologies:
+      - S3
+      - Lambda
+      - Flutter
+      - DynamoDB
 
+  multi-tenancy-saas-financial-risk-management.md:
+    title: "Case Study: Multi-Tenancy SaaS for Financial Risk Management"
+    subtitle: Modernising traditional risk management operations and improving their performance using applied Machine Learning / AI.
+    slug: multi-tenancy-saas-financial-risk-management
+    image_src: &site_url /assets/img/illustrations/case-studies/multi-tenancy-saas-financial-risk-management.jpg
+    industry: FinTech
+    service: Application Engineering
+    challenges: >
+      <p>In the investment finance industry, risk management and regulatory compliance are a crucial aspect of operations. In this project,
+      we built a multi-tenant SaaS platform that utilizes artificial intelligence to automate and analyze risk. The 
+      platform was deployed on DigitalOcean, using Kubernetes and Terraform to manage the infrastructure.</p>
+    research_and_development: >
+      <p>The platform's architecture is based on a microservices approach, where each service is responsible for a specific functionality. 
+      This allows for greater scalability and flexibility in managing the resources required for each tenant.</p>
+      <p>To handle real-time data access, we used the Go programming language, known for its high performance and efficient memory management. 
+      Asynchronous programming was used to handle high-performance request processing.</p>
+    architecture: >
+      <p>For multi-tenancy, we used a multi-tenant architecture that allows for efficient management of resources, including memory, 
+      CPU and storage. This also helps in cutting down deployment and server costs.</p>
+      <p>For the AI pipeline, we used a combination of machine learning and deep learning techniques to analyze data and identify 
+      potential investment risks. This pipeline was integrated with the platform, allowing tenants to access the AI functionality as part of 
+      their subscription.</p>
+    deployment: >
+      <p>To deploy the platform, we used Terraform to provision the infrastructure on DigitalOcean. Kubernetes was used to manage the 
+      containerized microservices, allowing for easy scaling and deployment of updates.</p>
+      <p>To tackle the complex regulations and data access requirements in the investment finance industry, we conducted extensive 
+      research to understand the specific requirements and tailor the technology accordingly.</p>
+    conclusion: >
+      <p>In summary, the Multi-Tenancy SaaS platform uses AI to automate and analyze risk, is deployed on DigitalOcean, and managed via 
+      Kubernetes and Terraform. The platform's architecture is based on microservices, which allows for scalability and flexibility. 
+      The platform is built with Golang to leverage asynchronous programming, and multi-tenant architecture to handle real-time data 
+      access and high-performance request processing. A full AI production pipeline was also deployed as the core of the platform. The 
+      platform was successfully deployed in a highly regulated environment with complex data access and migration requirements.</p>
+    technologies:
+      - Golang
+      - Terraform
+      - Kubernetes
+      - DigitalOcean
+
+  blockchain-powered-mobility-service-aws-gcp.md:
+    title: "Case Study: Blockchain-powered Mobility Service on AWS and GCP"
+    subtitle: Developing and Deploying a High-Availability Blockchain-based Mobility Solution on AWS and GCP.
+    slug: blockchain-powered-mobility-service-aws-gcp
+    image_src: &site_url /assets/img/illustrations/case-studies/blockchain-powered-mobility-service-aws-gcp.jpg
+    industry: Transportation
+    service: Blockchain Development
+    challenges: >
+      <p>The taxi industry has been facing challenges with centralized systems and lack of transparency. Our company set out to create 
+      a highly available, blockchain-based mobility solution for the taxi industry that would address these issues and provide a more 
+      efficient and secure service for both customers and drivers. By leveraging the strengths of both Amazon Web Services (AWS) and 
+      the Google Cloud Platform (GCP), we aimed to create a solution that is scalable, secure, and highly available.</p>
+    research_and_development: >
+      <p>Our research and development personnel began by studying the existing taxi industry systems and identifying their limitations in 
+      terms of transparency and scalability. We also conducted market research to understand the specific needs and requirements of 
+      customers and drivers in the taxi industry.</p>
+      <p>Based on this research, we designed a blockchain-based mobility solution that utilizes smart contracts on the blockchain to 
+      ensure transparency and security of all transactions. The solution included a real-time tracking feature, which allows customers 
+      to track the location of their taxi in real-time, and a decentralized finance and tokenization feature, which allows customers 
+      to pay for their rides using a digital token.</p>
+    architecture: >
+      <p>To ensure high scalability and performance, we deployed the solution with a multi-cloud architecture on AWS and GCP, using 
+      Kubernetes and Terraform. We also used novel technologies to handle real-time tracking and reduce response times by 2x.</p>
+      <p>Additionally, we incorporated security measures such as encryption (both in-transit and at-rest), and multi-factor authentication 
+      to safeguard user data. To improve the user experience, we used Swift and Kotlin for the front-end and Rust for the back-end, 
+      which allowed us to create a fast and responsive application.</p>
+    deployment: >
+      <p>Once development was complete, we deployed the solution on AWS and GCP. The solution was deployed using a Kubernetes 
+      cluster, which allowed us to easily scale the solution as needed and handle high traffic loads.</p>
+      <p>We used Terraform for infrastructure-as-code, which allowed us to easily provision and manage the infrastructure on both 
+      AWS and GCP simultaneously.</p>
+      <p>To store the user data, we used Amazon S3 and Google Cloud Storage. These services allowed us to store the data in a highly 
+      available and scalable manner, while also providing built-in security features to protect user data. Additionally, we implemented 
+      a variety of security best practices, such as encryption and multi-factor authentication, to ensure the safety of user data.</p>
+    conclusion: >
+      <p>Through the development and deployment of this blockchain-based mobility solution on AWS and Google Cloud, 
+      we were able to provide customers and taxi drivers with a more efficient and secure service. The solution addresses the challenges of 
+      transparency and scalability that the taxi industry has been facing and modernizes the business model with the use of decentralized 
+      finance and tokenization.</p>
+      <p>By using a multi-cloud architecture on AWS and GCP, and Kubernetes, Terraform, Serverless, and Blockchain, we were 
+      able to achieve a highly scalable, performant, and secure solution while safeguarding user data. The use of modern programming languages 
+      such as Rust, Swift, and Kotlin helped us to reduce response times by 3x and improve the user experience.</p>
+    technologies:
+      - Rust
+      - Swift
+      - Kotlin
+      - Terraform
+      - Kubernetes
+  
+  decentralized-p2p-challenges-aws.md:
+    title: "Case Study: Decentralized Peer-to-Peer Challenges on AWS"
+    subtitle: Developing and Deploying a Blockchain-based Social Decentralized Peer-to-Peer Gaming Platform.
+    slug: decentralized-p2p-challenges-aws
+    image_src: &site_url /assets/img/illustrations/case-studies/decentralized-p2p-challenges-aws.jpg
+    industry: Online Gaming
+    service: Blockchain Development
+    challenges: >
+      <p>The online gaming industry has traditionally been centralized, with a few large companies controlling the majority of the market. 
+      However, with the advent of blockchain technology, there is an opportunity to create decentralized peer-to-peer platforms that 
+      are more transparent and secure. We set out to develop such a platform, with a focus on incorporating social features and a 
+      proprietary decentralized dispute resolution flow.</p>
+    research_and_development: >
+      <p>Our research and development personnel began by studying the existing decentralized platforms and identifying their limitations. 
+      We also conducted market research to understand the specific needs and requirements of users in the industry.</p>
+      <p>Based on this research, we designed a blockchain-based platform that allows users to exchange collateral directly with each 
+      other, without the need for a centralized intermediary. The platform utilizes smart contracts on the blockchain to ensure the 
+      transparency and security of all transactions.</p>
+      <p>In addition to this core functionality, we also incorporated several social features, such as live streaming and the ability for 
+      users to generate video content. This allows users to interact with each other and share their experiences on the platform.</p>
+    architecture: >
+      <p>To accomplish the above, we developed the whole architecture on AWS and Kubernetes to ensure high-availability, scalability and 
+      security, without any dependency on third-party providers.</p>
+      <p>Platforms of this nature often encounter high traffic load on certain events and scenarios. Our case was no different and the social features 
+      made it even more sensitive as the whole infrastructure would need to adapt accordingly to the demand, while at the same time being resource-efficient.</p>
+      <p>To address this, we ensured that the architecture was built in a highly available, instantly scalable, and fault-tolerant manner.</p>
+      <p>To address the issue of dispute resolution, we developed a proprietary decentralized dispute resolution flow. This allows users to 
+      resolve disputes in a transparent and fair manner, without the need for a centralized intermediary.</p>
+    deployment: >
+      <p>Once development was complete, we began the deployment process. This included setting up the necessary infrastructure, such as nodes 
+      for the blockchain network and servers for the live streaming functionality on AWS.</p>
+      <p>To further enhance the deployment, Kubernetes was used to manage the containerized microservices, allowing for easy scaling and deployment 
+      of updates.</p>
+    conclusion: >
+      <p>Through the development and deployment of this blockchain-based social decentralized peer-to-peer platform, we were able to 
+      provide users with a more transparent and secure way to exchange collateral. The incorporation of social features and a proprietary 
+      decentralized dispute resolution flow sets the platform apart from existing decentralized platforms and creates a unique user 
+      experience. The platform has been well received by users and has shown strong growth since its launch.</p>
+    technologies:
+      - Rust
+      - Swift
+      - Terraform
+      - Kubernetes
+      - Smart Contracts
   
