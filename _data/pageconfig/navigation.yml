@@ -116,7 +116,7 @@
           
 -
   name: Technologies
-  url: /supported-technologies
+  url: /technologies
   current: false
   enabled: true
   has_children: true
