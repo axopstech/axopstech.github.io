@@ -14,8 +14,8 @@ members:
       <p>The financial industry has been facing challenges with traditional portfolio optimization methods, 
       which are based on historical data and do not take into account the potential impact of real-time macroeconomic 
       events on investment performance.</p>
-      <p>We set out to create a quantum computing platform on AWS that would 
-      address these issues by incorporating quantum computing techniques to optimize investment portfolios under different metrics 
+      <p>Upon finalising the scope with the client, we set out to create a quantum computing platform on AWS that would 
+      address these issues by incorporating quantum computing techniques to optimise investment portfolios under different metrics 
       and by including relevant real-time macroeconomic data.</p>
     research_and_development: >
       <p>Leveraging our experience in Quantitative Finance and Quantum Computing, our research and development personnel began 
@@ -23,7 +23,7 @@ members:
       real-time macroeconomic data and leveraging quantum computing techniques.</p>
       <p>We also conducted market research to understand the specific needs and requirements of financial institutions in terms 
       of portfolio optimization and risk management, together with infrastructure limitations.</p>
-      <p>Based on this research, we designed a platform that utilizes quantum computing techniques to optimize 
+      <p>Based on this research, we designed a platform that utilises quantum computing techniques to optimise 
       investment portfolios under different metrics, such as return-to-volatility. The platform also includes a feature 
       that allows for the analysis of a larger universe of assets, including alternative assets and the incorporation of 
       relevant real-time macroeconomic data.</p>
@@ -43,7 +43,7 @@ members:
       built-in security features to protect user data.</p>
     conclusion: >
       <p>Through the development and deployment of this quantum platform on AWS and Fujitsu, we were able to provide financial 
-      institutions with a more efficient and effective way to optimize investment portfolios.</p>
+      institutions with a more efficient and effective way to optimise investment portfolios.</p>
       <p>The platform incorporates quantum computing techniques and relevant real-time macroeconomic data, allowing for more 
       accurate and robust portfolio optimization.</p>
       <p>By using AWS and Fujitsu's cloud environments, we were able to achieve high 
@@ -67,7 +67,7 @@ members:
     challenges: >
       <p>The social media landscape is highly competitive, with a variety of platforms catering to different types of content 
       creation and sharing.</p>
-      <p>The client for this project wanted us to create a social media super app that would allow users to create and share multiple types of content, 
+      <p>The client envisioned creating a social media super app that would allow users to create and share multiple types of content, 
       such as video, audio, text, audio journaling, and live rooms, all within the same app and user experience.</p>
     research_and_development: >
       <p>Our research and development personnel began by studying the existing social media platforms and identifying their limitations 
@@ -112,7 +112,7 @@ members:
     service: Application Engineering
     challenges: >
       <p>In the investment finance industry, risk management and regulatory compliance are a crucial aspect of operations. In this 
-      project, we built a multi-tenant SaaS platform that utilizes artificial intelligence to automate and analyze risk. </p>
+      project, we built a multi-tenant SaaS platform that utilises artificial intelligence to automate and analyze risk. </p>
       <p>The platform was deployed on DigitalOcean, using Kubernetes and Terraform to manage the infrastructure.</p>
     research_and_development: >
       <p>The platform's architecture is based on a microservices approach, where each service is responsible for a specific functionality. 
@@ -127,7 +127,7 @@ members:
       their subscription.</p>
     deployment: >
       <p>To deploy the platform, we used Terraform to provision the infrastructure on DigitalOcean. Kubernetes was used to manage the 
-      containerized microservices, allowing for easy scaling and deployment of updates.</p>
+      containerised microservices, allowing for easy scaling and deployment of updates.</p>
       <p>To tackle the complex regulations and data access requirements in the investment finance industry, we conducted extensive 
       research to understand the specific requirements and tailor the technology accordingly.</p>
     conclusion: >
@@ -150,8 +150,8 @@ members:
     industry: Transportation
     service: Blockchain Development
     challenges: >
-      <p>The taxi industry has been facing challenges with centralized systems and lack of transparency. Upon finalising the scope with
-      our client for this project, we set out to create a highly available, blockchain-based mobility solution for the taxi industry 
+      <p>The taxi industry has been facing challenges with centralised systems and lack of transparency. Upon finalising the scope with
+      the client, we set out to create a highly available, blockchain-based mobility solution for the taxi industry 
       that would address these issues and provide a more efficient and secure service for both customers and drivers.</p>
       <p>By leveraging the strengths of both Amazon Web Services (AWS) and the Google Cloud Platform (GCP), we aimed to create 
       a solution that is scalable, secure, and highly available.</p>
@@ -159,9 +159,9 @@ members:
       <p>Our research and development personnel began by studying the existing taxi industry systems and identifying their limitations in 
       terms of transparency and scalability. We also conducted market research to understand the specific needs and requirements of 
       customers and drivers in the taxi industry.</p>
-      <p>Based on this research, we designed a blockchain-based mobility solution that utilizes smart contracts on the blockchain to 
+      <p>Based on this research, we designed a blockchain-based mobility solution that utilises smart contracts on the blockchain to 
       ensure transparency and security of all transactions. The solution included a real-time tracking feature, which allows customers 
-      to track the location of their taxi in real-time, and a decentralized finance and tokenization feature, which allows customers 
+      to track the location of their taxi in real-time, and a decentralised finance and tokenization feature, which allows customers 
       to pay for their rides using a digital token.</p>
     architecture: >
       <p>To ensure high scalability and performance, we deployed the solution with a multi-cloud architecture on AWS and GCP, using 
@@ -181,7 +181,7 @@ members:
       <p>Through the development and deployment of this blockchain-based mobility solution on AWS and Google Cloud, 
       we were able to provide customers and taxi drivers with a more efficient and secure service. </p>
       <p>The solution addresses the challenges of transparency and scalability that the taxi industry has been facing 
-      and modernizes the business model with the use of decentralized finance and tokenization.</p>
+      and modernises the business model with the use of decentralised finance and tokenization.</p>
       <p>By using a multi-cloud architecture on AWS and GCP, and Kubernetes, Terraform, Serverless, and Blockchain, we were 
       able to achieve a highly scalable, performant, and secure solution while safeguarding user data. The use of modern programming languages 
       such as Rust, Swift, and Kotlin helped us to reduce response times by 3x and improve the user experience.</p>
@@ -193,22 +193,23 @@ members:
       - Kubernetes
   
   decentralized-p2p-challenges-aws.md:
-    title: "Case Study: Decentralized Peer-to-Peer Collateral Exchange on AWS"
-    subtitle: Developing and Deploying a Blockchain-based Social Decentralized Peer-to-Peer Collateral Exchange Platform.
+    title: "Case Study: Decentralised Peer-to-Peer Collateral Exchange on AWS"
+    subtitle: Developing and Deploying a Blockchain-based Social Decentralised Peer-to-Peer Collateral Exchange Platform.
     slug: decentralized-p2p-challenges-aws
     image_src: &site_url /assets/img/illustrations/case-studies/decentralized-p2p-challenges-aws.jpg
     industry: FinTech
     service: Blockchain Development
     challenges: >
-      <p>The FinTech payments industry has traditionally been centralized, with a few large companies controlling the majority of the market. 
-      However, with the advent of blockchain technology, our client for this project saw an opportunity to create decentralized peer-to-peer 
+      <p>The FinTech payments industry has traditionally been centralised, with a few large companies controlling the majority of the market. 
+      However, with the advent of blockchain technology, the client saw an opportunity to create decentralised peer-to-peer 
       platforms that are more transparent and secure. </p>
-      <p>We set out to develop such a platform, with a focus on incorporating social features and a proprietary decentralized dispute resolution flow.</p>
+      <p>Upon finalising the scope with the client, we set out to develop such a platform, with a focus on incorporating social 
+      features and a proprietary decentralised dispute resolution flow.</p>
     research_and_development: >
-      <p>Our research and development personnel began by studying the existing decentralized platforms and identifying their limitations. 
+      <p>Our research and development personnel began by studying the existing decentralised platforms and identifying their limitations. 
       We also conducted market research to understand the specific needs and requirements of users in the industry.</p>
       <p>Based on this research, we designed a blockchain-based platform that allows users to exchange collateral directly with each 
-      other, without the need for a centralized intermediary. The platform utilizes smart contracts on the blockchain to ensure the 
+      other, without the need for a centralised intermediary. The platform utilises smart contracts on the blockchain to ensure the 
       transparency and security of all transactions.</p>
       <p>In addition to this core functionality, we also incorporated several social features, such as live streaming and the ability for 
       users to generate video content. This allows users to interact with each other and share their experiences on the platform.</p>
@@ -218,18 +219,18 @@ members:
       <p>Platforms of this nature often encounter high traffic load on certain events and scenarios. Our case was no different and the social features 
       made it even more sensitive as the whole infrastructure would need to adapt accordingly to the demand, while at the same time being resource-efficient.</p>
       <p>To address this, we ensured that the architecture was built in a highly available, instantly scalable, and fault-tolerant manner.</p>
-      <p>To address the issue of dispute resolution, we developed a proprietary decentralized dispute resolution flow. This allows users to 
-      resolve disputes in a transparent and fair manner, without the need for a centralized intermediary.</p>
+      <p>To address the issue of dispute resolution, we developed a proprietary decentralised dispute resolution flow. This allows users to 
+      resolve disputes in a transparent and fair manner, without the need for a centralised intermediary.</p>
     deployment: >
       <p>Once development was complete, we began the deployment process. This included setting up the necessary infrastructure, such as nodes 
       for the blockchain network and servers for the live streaming functionality on AWS.</p>
-      <p>To further enhance the deployment, Kubernetes was used to manage the containerized microservices, allowing for easy scaling and deployment 
+      <p>To further enhance the deployment, Kubernetes was used to manage the containerised microservices, allowing for easy scaling and deployment 
       of updates.</p>
     conclusion: >
-      <p>Through the development and deployment of this blockchain-based social decentralized peer-to-peer platform, we were able to 
+      <p>Through the development and deployment of this blockchain-based social decentralised peer-to-peer platform, we were able to 
       provide users with a more transparent and secure way to exchange collateral.</p>
-      <p>The incorporation of social features and a proprietary decentralized dispute resolution flow sets the platform apart from existing 
-      decentralized platforms and creates a unique user experience. The platform has been well received by users and has shown strong 
+      <p>The incorporation of social features and a proprietary decentralised dispute resolution flow sets the platform apart from existing 
+      decentralised platforms and creates a unique user experience. The platform has been well received by users and has shown strong 
       growth since its launch.</p>
     technologies:
       - Rust
