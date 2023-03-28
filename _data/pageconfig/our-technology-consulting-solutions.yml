@@ -74,7 +74,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-salesforce-development.jpg 2x
     url: &site_url /solutions/technology-consulting/salesforce-development
     role: How we work with clients &#129309;
-    enabled: true
+    enabled: false
 
   -
     name: HubSpot CRM Solutions
@@ -82,4 +82,4 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.jpg 2x
     url: &site_url /solutions/technology-consulting/hubspot-crm-optimisation
     role: How we work with clients &#129309;
-    enabled: true
+    enabled: false

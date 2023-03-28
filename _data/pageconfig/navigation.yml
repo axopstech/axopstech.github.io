@@ -56,11 +56,11 @@
         -
           name: Salesforce Development
           url: /salesforce-development
-          enabled: true
+          enabled: false
         -
           name: HubSpot CRM Optimisation
           url: /hubspot-crm-optimisation
-          enabled: true
+          enabled: false
 
     -
       name: Technical Training
