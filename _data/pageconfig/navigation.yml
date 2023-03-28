@@ -8,7 +8,7 @@
 
 -
   name: Solutions
-  url: /our-solutions
+  url: /solutions
   current: false
   enabled: true
   has_children: false

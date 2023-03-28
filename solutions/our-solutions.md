@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Our Solutions
-permalink: /our-solutions
+permalink: /solutions
 description: Unlock Your Business's Full Potential with AxOps™
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---

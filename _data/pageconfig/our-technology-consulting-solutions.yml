@@ -8,68 +8,68 @@ members:
     name: Cloud Solutions
     image_src: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions-2.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions-2.jpg 2x
-    url: &site_url /our-solutions/technology-consulting/cloud-solutions
+    url: &site_url /solutions/technology-consulting/cloud-solutions
     role: Ask, and consider it done &#127919;
 
   -
     name: Business Analytics
     image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg 2x
-    url: &site_url /our-solutions/technology-consulting/business-analytics
+    url: &site_url /solutions/technology-consulting/business-analytics
     role: Upskill with confidence &#128588;
   
   -
     name: CRM Data Migrations
     image_src: &site_url /assets/img/illustrations/custom/solutions-crm-data-migrations.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-crm-data-migrations.jpg 2x
-    url: &site_url /our-solutions/technology-consulting/crm-data-migrations
+    url: &site_url /solutions/technology-consulting/crm-data-migrations
     role: Leverage our experience &#129417;
   
   -
     name: CRM Data Integrations
     image_src: &site_url /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg 2x
-    url: &site_url /our-solutions/technology-consulting/crm-data-integrations
+    url: &site_url /solutions/technology-consulting/crm-data-integrations
     role: How we work with clients &#129309;
 
   -
     name: Digital Transformation
     image_src: &site_url /assets/img/illustrations/custom/solutions-digital-transformation.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-digital-transformation.jpg 2x
-    url: &site_url /our-solutions/technology-consulting/digital-transformation
+    url: &site_url /solutions/technology-consulting/digital-transformation
     role: How we work with clients &#129309;
 
   -
     name: Bespoke CRM Solutions
     image_src: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg 2x
-    url: &site_url /our-solutions/technology-consulting/bespoke-crm-solutions
+    url: &site_url /solutions/technology-consulting/bespoke-crm-solutions
     role: How we work with clients &#129309;
 
   -
     name: Application Engineering
     image_src: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg 2x
-    url: &site_url /our-solutions/technology-consulting/application-engineering
+    url: &site_url /solutions/technology-consulting/application-engineering
     role: How we work with clients &#129309;
 
   -
     name: Blockchain Solutions
     image_src: &site_url /assets/img/illustrations/custom/solutions-blockchain-development.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-blockchain-development.jpg 2x
-    url: &site_url /our-solutions/technology-consulting/blockchain-development
+    url: &site_url /solutions/technology-consulting/blockchain-development
     role: How we work with clients &#129309;
 
   -
     name: Salesforce Development
     image_src: &site_url /assets/img/illustrations/custom/solutions-salesforce-development.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-salesforce-development.jpg 2x
-    url: &site_url /our-solutions/technology-consulting/salesforce-development
+    url: &site_url /solutions/technology-consulting/salesforce-development
     role: How we work with clients &#129309;
 
   -
     name: HubSpot CRM Solutions
     image_src: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.jpg 2x
-    url: &site_url /our-solutions/technology-consulting/hubspot-crm-optimisation
+    url: &site_url /solutions/technology-consulting/hubspot-crm-optimisation
     role: How we work with clients &#129309;
