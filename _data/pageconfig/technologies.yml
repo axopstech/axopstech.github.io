@@ -157,7 +157,7 @@ pages:
 
       blockchain-development:
         title: Blockchain Development
-        description: Blockchain Application Development involves the design, implementation, and deployment of decentralised applications using blockchain technology. Leverage the AxOps™ team's extensive experience in releasing large-scale Blockchain engineering projects (see Case Studies).
+        description: Blockchain Application Development involves the design, implementation, and deployment of decentralised applications using blockchain technology. Leverage the AxOps™ team's extensive experience in releasing large-scale Blockchain engineering projects (see <a href="/case-studies">Case Studies</a>).
         benefits:
           - Secure digital identity management
           - Real-time, multi-party tracking and management
