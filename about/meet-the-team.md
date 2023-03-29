@@ -21,7 +21,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                 <!--/column -->
             </div>
             <!--/.row -->
-            <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-8" data-cue="slideInDown" data-delay="700">
+            <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-8" data-cue="slideInDown" data-delay="500">
                 {% for member in config.members %}
                 <div class="col-md-6 col-lg-3">
                     <div class="position-relative">
@@ -71,6 +71,11 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <div class="col-lg-8">
               <h3 class="display-5 mb-4">{{ member.name }} | {{ member.role }}</h3>
               <p class="mb-5" align="justify">{{ member.bio }}</p>
+              {% if member.skills %}
+              {% for skill in member.skills %}
+                <span class="btn btn-soft-blue btn-sm rounded">{{ skill }}</span>&nbsp;
+              {% endfor %}
+              {% endif %}
             </div>
             <!--/column -->
           </div>
