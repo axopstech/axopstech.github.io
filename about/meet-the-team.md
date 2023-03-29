@@ -73,7 +73,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
               <p class="mb-5" align="justify">{{ member.bio }}</p>
               {% if member.skills %}
               {% for skill in member.skills %}
-                <span class="btn btn-soft-blue btn-sm rounded">{{ skill }}</span>&nbsp;
+                <span class="btn btn-soft-blue btn-sm rounded" style="margin-bottom: 0.5em;">{{ skill }}</span>&nbsp;
               {% endfor %}
               {% endif %}
             </div>
