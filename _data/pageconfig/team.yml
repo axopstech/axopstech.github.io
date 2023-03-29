@@ -21,7 +21,8 @@ members:
       - AWS
       - GCP
       - Fujitsu
-      - Blockchain Development
+      - Quant R&D
+      - Blockchain
       - Solution Architecture
 
   -
@@ -123,8 +124,10 @@ members:
       - AWS
       - DevOps
       - Quant R&D
+      - Generative AI
       - TeamOps
       - Technical Architecture
+      
 
   -
     name: Squirrel (Generative AI)
