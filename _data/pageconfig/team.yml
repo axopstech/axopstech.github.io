@@ -50,15 +50,12 @@ members:
     role: DevOps Architect
     bio: >
       <p>Alain is a versatile Software Architect, DevOps Engineer, and Agile Delivery Manager.</p>
-      <p>He's honed his craft in the FinTech and Machine Tool industries, specialising in
-      developing bespoke products for processing large, heterogenous data sources 
-      and delivering industrial data management solutions in on-premise, hybrid, and
-      public cloud environments.</p>
-      <p>His expertise lies in Architectural Design, Development, and Deployment on AWS and DigitalOcean for complex technical 
-      and functional challenges.</p>
-      <p>A passionate team leader, we're fortunate to be able
-      to count on his skills in multidisciplinary team and product management, developed over
-      the course of his tenure as CTO in three different companies prior to joining the AxOps&#8482; team.</p>
+      <p>Hailing from the FinTech and Machine Tool industries, he specialises in developing bespoke products for 
+      processing large, heterogenous datasets and delivering data management solutions in on-premise, hybrid, and
+      public cloud environments. His expertise lies in Architectural Design, Development, and Deployment on AWS 
+      and DigitalOcean.</p>
+      <p>A passionate team leader, we're fortunate to be able to count on his skills in multidisciplinary team 
+      and product management, developed over the course of his tenure as CTO in three different companies.</p>
     skills:
       - AWS
       - DigitalOcean
