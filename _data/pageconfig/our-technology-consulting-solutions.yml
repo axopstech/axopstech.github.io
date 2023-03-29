@@ -5,13 +5,19 @@ tagline_main: AxOps™ Technology Consulting
 site_url: https://axopstech.github.io
 members:
   -
-    name: Cloud Solutions
+    name: Cloud Services
     image_src: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions-2.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions-2.jpg 2x
-    url: &site_url /solutions/technology-consulting/cloud-solutions
+    url: &site_url /technologies/cloud-services
     role: Ask, and consider it done &#127919;
-    enabled: false
-
+    enabled: true
+  -
+    name: Cloud Engineering
+    image_src: &site_url /assets/img/illustrations/custom/cloud-engineering.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/cloud-engineering.jpg 2x
+    url: &site_url /technologies/application-engineering
+    role: Ask, and consider it done &#127919;
+    enabled: true
   -
     name: Business Analytics
     image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg

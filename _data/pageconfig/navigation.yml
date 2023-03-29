@@ -22,9 +22,15 @@
       enabled: true
       children:
         -
-          name: Cloud Solutions
-          url: /cloud-solutions
-          enabled: false
+          name: Cloud Services
+          url: /cloud-services
+          enabled: true
+          hard_href: /technologies/cloud-services
+        -
+          name: Cloud Engineering
+          url: /cloud-engineering
+          enabled: true
+          hard_href: /technologies/application-engineering
         -
           name: Business Analytics
           url: /business-analytics

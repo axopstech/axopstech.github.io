@@ -34,7 +34,13 @@
                             <ul class="list-unstyled">
                               {% for child in subitem.children %}
                               {% if child.enabled %}
-                              <li><a class="dropdown-item" href="{{ item_url | append: child.url }}">{{ child.name }}</a></li>
+                              {% if child.hard_href %}
+                              {% assign child_url = child.hard_href %}
+                              {% else %}
+                              {% assign child_url = item_url | append: child.url %}
+                              {% endif %}
+                              <!-- <li><a class="dropdown-item" href="{{ item_url | append: child.url }}">{{ child.name }}</a></li> -->
+                              <li><a class="dropdown-item" href="{{ child_url }}">{{ child.name }}</a></li>
                               {% endif %}
                               {% endfor %}
                             </ul>
