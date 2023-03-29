@@ -1,5 +1,5 @@
 ---
-layout: solution-2
+layout: solution-3
 title: Blockchain Development
 permalink: /solutions/technology-consulting/blockchain-development
 description: "Unleashing Trust, Transparency, and Security with Blockchain Technology"

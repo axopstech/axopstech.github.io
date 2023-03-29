@@ -1,5 +1,5 @@
 ---
-layout: solution-2
+layout: solution-3
 title: Business Analytics
 permalink: /solutions/technology-consulting/business-analytics
 description: Unlock the Power of Your Data with AxOps&#8482; Business Analytics Solutions

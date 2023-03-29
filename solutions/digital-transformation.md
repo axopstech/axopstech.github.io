@@ -1,5 +1,5 @@
 ---
-layout: solution-2
+layout: solution-3
 title: Digital Transformation
 permalink: /solutions/technology-consulting/digital-transformation
 description: "Optimise Your Business with AxOps™ Digital Transformation Solutions"

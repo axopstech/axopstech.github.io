@@ -1,5 +1,5 @@
 ---
-layout: solution-2
+layout: solution-3
 title: Project Management
 permalink: /solutions/strategic-advisory/project-management
 description: "AxOps&#8482; Project Management Services: Streamlined Projects, Realized Visions"

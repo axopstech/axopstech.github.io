@@ -1,5 +1,5 @@
 ---
-layout: solution-2
+layout: solution-3
 title: CRM Data Migrations
 permalink: /solutions/technology-consulting/crm-data-migrations
 description: Seamlessly migrate your data with AxOps&#8482; CRM Data Migration solutions

@@ -1,5 +1,5 @@
 ---
-layout: solution-2
+layout: solution-3
 title: Bespoke CRM Solutions
 permalink: /solutions/technology-consulting/bespoke-crm-solutions
 description: "Elevate Your Business: Bespoke CRM Solutions that Drive Results"
