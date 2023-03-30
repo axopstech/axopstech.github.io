@@ -59,6 +59,7 @@ members:
       and product management, developed over the course of his tenure as CTO in three different companies.</p>
     skills:
       - AWS
+      - Data Analytics
       - DigitalOcean
       - DevOps
       - TeamOps
@@ -78,11 +79,11 @@ members:
       extremely large, high density, and high frequency time series datasets, and their deployment as microservices on AWS and DigitalOcean.</p>
     skills:
       - AWS
-      - DigitalOcean
+      - Data Analytics
       - Quant R&D
       - DevOps
-      - Solution Architecture
       - TeamOps
+      - Solution Architecture
   
   -
     name: Tiniki (Generative AI)
