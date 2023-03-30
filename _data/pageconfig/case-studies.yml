@@ -1,30 +1,56 @@
 tagline_intro: Case Studies
 tagline_main: "Our Projects: Past & Present"
 tagline_here: Case Studies
+page_slug: /case-studies
 site_url: https://axopstech.github.io
 services: 
-  - Cloud Engineering
-  - Serverless Computing
-  - Blockchain Development
-  - Application Engineering
+  - 
+    name: Cloud Engineering
+    slug: /case-studies/cloud-engineering
+  - 
+    name: Serverless Computing
+    slug: /case-studies/serverless-computing
+  - 
+    name: Blockchain Development
+    slug: /case-studies/blockchain-development
+  - 
+    name: Application Engineering
+    slug: /case-studies/application-engineering
+
 industries:
-  - Energy
-  - FinTech
-  - Financial Services
-  - Social Media Sites
+  - 
+    name: Energy
+    slug: /case-studies/industry/energy
+  - 
+    name: FinTech
+    slug: /case-studies/industry/fintech
+  - 
+    name: Financial Services
+    slug: /case-studies/industry/financial-services
+  - 
+    name: Social Media Sites
+    slug: /case-studies/industry/social-media-sites
+
 scales:
-  - Startup
-  - Enterprise
-  - Small & Medium Business
+  - 
+    name: Startup
+    slug: /case-studies/scale/startup
+  - 
+    name: Enterprise
+    slug: /case-studies/scale/enterprise
+  - 
+    name: Small & Medium Business
+    slug: /case-studies/scale/small-medium-business
+
 members:
   quantum-engineering-at-scale-aws.md:
     title: "Case Study: Quantum Financial Engineering on AWS and Fujitsu"
     subtitle: Design, development and delivery of a Quantum Platform on AWS and Fujitsu for optimising investment portfolios.
     slug: quantum-engineering-at-scale-aws
     image_src: &site_url /assets/img/illustrations/case-studies/quantum-engineering-at-scale-aws.jpg
-    industry: Financial Services
-    service: Cloud Engineering
-    scale: Enterprise
+    industry: "Financial Services"
+    service: "Cloud Engineering"
+    scale: "Enterprise"
     challenges: >
       <p>The financial industry has been facing challenges with traditional portfolio optimization methods, 
       which are based on historical data and do not take into account the potential impact of real-time macroeconomic 
@@ -77,9 +103,9 @@ members:
     subtitle: Streamlining Invoice, Receipt, and Timesheet Processing with AWS Lambda, S3, and Salesforce Apex Batch Jobs.
     slug: streamlining-expense-processing-aws-salesforce
     image_src: &site_url /assets/img/illustrations/case-studies/streamlining-expense-processing-aws-salesforce.jpg
-    industry: Energy
-    service: Serverless Computing
-    scale: Enterprise
+    industry: "Energy"
+    service: "Serverless Computing"
+    scale: "Enterprise"
     challenges: >
       <p>The client using Salesforce as its CRM, faced challenges with manual processing and review of invoice, timesheet, and receipt data sent in by employees. 
       The process was time-consuming, and certain characteristics of an App the client used to process expenses in their Salesforce instance 
@@ -141,9 +167,9 @@ members:
     subtitle: Design, development and delivery of a novel, highly available Social Media App on AWS for fast, global content consumption.
     slug: social-media-super-app-aws
     image_src: &site_url /assets/img/illustrations/case-studies/social-media-super-app-aws.jpg
-    industry: Social Media Sites
-    service: Cloud Engineering
-    scale: Startup
+    industry: "Social Media Sites"
+    service: "Cloud Engineering"
+    scale: "Startup"
     challenges: >
       <p>The social media landscape is highly competitive, with a variety of platforms catering to different types of content 
       creation and sharing.</p>
@@ -188,9 +214,9 @@ members:
     subtitle: Modernising traditional risk management operations and improving performance using applied Machine Learning / AI.
     slug: multi-tenancy-saas-financial-risk-management
     image_src: &site_url /assets/img/illustrations/case-studies/multi-tenancy-saas-financial-risk-management.jpg
-    industry: FinTech
-    service: Application Engineering
-    scale: Enterprise
+    industry: "FinTech"
+    service: "Application Engineering"
+    scale: "Enterprise"
     challenges: >
       <p>In the investment finance industry, risk management and regulatory compliance are a crucial aspect of operations. In this 
       project, we built a multi-tenant SaaS platform that utilises artificial intelligence to automate and analyze risk. </p>
@@ -228,9 +254,9 @@ members:
     subtitle: Developing and Deploying a High-Availability Blockchain-based Mobility Solution on AWS and GCP.
     slug: blockchain-powered-mobility-service-aws-gcp
     image_src: &site_url /assets/img/illustrations/case-studies/blockchain-powered-mobility-service-aws-gcp.jpg
-    industry: Transportation
-    service: Blockchain Development
-    scale: Startup
+    industry: "Transportation"
+    service: "Blockchain Development"
+    scale: "Startup"
     challenges: >
       <p>The taxi industry has been facing challenges with centralised systems and lack of transparency. Upon finalising the scope with
       the client, we set out to create a highly available, blockchain-based mobility solution for the taxi industry 
@@ -279,9 +305,9 @@ members:
     subtitle: Developing and Deploying a Blockchain-based Social Decentralised Peer-to-Peer Collateral Exchange Platform.
     slug: decentralized-p2p-challenges-aws
     image_src: &site_url /assets/img/illustrations/case-studies/decentralized-p2p-challenges-aws.jpg
-    industry: FinTech
-    service: Blockchain Development
-    scale: Startup
+    industry: "FinTech"
+    service: "Blockchain Development"
+    scale: "Startup"
     challenges: >
       <p>The FinTech payments industry has traditionally been centralised, with a few large companies controlling the majority of the market. 
       However, with the advent of blockchain technology, the client saw an opportunity to create decentralised peer-to-peer 
