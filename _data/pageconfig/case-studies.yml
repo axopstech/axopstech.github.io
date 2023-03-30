@@ -86,7 +86,7 @@ members:
       were insufficient to adequately store the PDF and image files being received.</p>
       <p>To overcome these challenges, a solution was developed to offload the processing to AWS, utilising Amazon S3, AWS Lambda, and Salesforce Apex and SOQL.</p>
     research_and_development: >
-      <p>We conducted a thorough analysis of the existing system and its pain points. We identified Amazon S3 and AWS Lambda as the most 
+      <p>We conducted a thorough analysis of the existing system and its pain points, and identified Amazon S3 and AWS Lambda as the most 
       suitable services to address the client's requirements.</p>
       <p>These services would facilitate the creation of a middleware solution that would enable the client to automate and streamline 
       the process of receiving, uploading, processing, and transferring data between Salesforce and AWS, effectively bypassing the 
