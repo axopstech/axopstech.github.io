@@ -65,26 +65,26 @@ members:
     industry: Energy
     service: Serverless Computing
     challenges: >
-      <p>The client using Salesforce as its CRM, faced challenges with manual processing and review of invoice and receipt data sent in by employees. 
+      <p>The client using Salesforce as its CRM, faced challenges with manual processing and review of invoice, timesheet, and receipt data sent in by employees. 
       The process was time-consuming, and certain characteristics of an App the client used to process expenses in their Salesforce instance 
       were insufficient to adequately store the PDF and image files being received.</p>
       <p>To overcome these challenges, a solution was developed to offload the processing to AWS, utilising Amazon S3, AWS Lambda, and Salesforce Apex and SOQL.</p>
     research_and_development: >
-      <p>Our team conducted a thorough analysis of the existing system and its pain points. We researched various AWS services 
-      and determined that Amazon S3 and AWS Lambda would be the most suitable services to address the company's requirements.</p>
-      <p>These services would enable the creation of a middleware solution that would enable the client to automate and streamline 
+      <p>We conducted a thorough analysis of the existing system and its pain points. We identified Amazon S3 and AWS Lambda as the most 
+      suitable services to address the client's requirements.</p>
+      <p>These services would facilitate the creation of a middleware solution that would enable the client to automate and streamline 
       the process of receiving, uploading, processing, and transferring data between Salesforce and AWS, effectively bypassing the 
       aforementioned limitations by taking advantage of the chosen AWS cloud services.</p>
     architecture: >
-      <p>The proposed solution consists of the following components:</p>
+      <p>The proposed solution consisted of the following components:</p>
       <p>
         <ul>
-          <li><strong>Amazon S3</strong>: Employees would upload their invoice and receipt files to a designated S3 bucket prefix. Amazon S3 
+          <li><strong>Amazon S3</strong>: Employees would upload their invoice, timesheet, and receipt files to a designated S3 bucket prefix. Amazon S3 
           was chosen for its low cost, high availability, and security features. This eliminated the storage-specific limitations faced by the client with 
           their Salesforce App.</li>
           <li><strong>AWS Lambda</strong>: A serverless AWS Lambda function would be triggered via S3 event notifications whenever a new file was uploaded by an employee. 
           This function would process the files, extracting the relevant data from the data uploaded by the employee using Optical Character Recognition (OCR).
-           This not only automates the data extraction process, but would also save the client a tremendous amount of time and effort when compared to manually
+           This not only automated the data extraction process, but would also save the client a tremendous amount of time and effort when compared to manually
            processing uploads as was the case before.</li>
           <li><strong>Custom Salesforce Integration</strong>: The extracted data would be sent to Salesforce through a custom integration. 
           A Batch Job written in Apex and deployed in Salesforce would periodically call out to the AWS Lambda function, parse the returned data, 
@@ -96,16 +96,18 @@ members:
       <p>The solution was deployed in the following steps:</p>
       <p>
         <ul>
-          <li>We set up the Amazon S3 bucket with the necessary bucket policy, and IAM-based access permissions for employees to upload their files.</li>
+          <li>We set up the Amazon S3 bucket with the necessary security and access permissions for employees to upload their files.</li>
           <li>We then proceeded to develop the AWS Lambda function for processing the uploaded files, leveraging OCR technology to extract relevant data from the 
           uploaded files, and prepare it for outbound transfer to Salesforce.</li>
-          <li>We created a custom Salesforce integration whereby a Salesforce Batch Job written in Apex can call the AWS Lambda function and retrieve the extracted data for subsequent import to Salesforce, mapping the data fields to the appropriate Salesforce objects.</li>
+          <li>We created a custom Salesforce integration whereby a Salesforce Batch Job written in Apex can call the AWS Lambda function and retrieve the 
+          extracted data for subsequent import to Salesforce, mapping the data fields to the appropriate Salesforce objects.</li>
           <li>Finally, we thoroughly tested the end-to-end integration, ensuring accurate data processing and transfer between AWS and Salesforce.</li>
         </ul>
       </p>
     conclusion: >
       <p>By implementing the proposed solution using Salesforce Apex, Amazon S3 and AWS Lambda, the client successfully offloaded the processing of 
-      invoice and receipt data to AWS, bypassing certain limitations of their Salesforce App that forced the client to manually process uploaded data before.</p>
+      invoice, timesheet, and receipt data to AWS, bypassing certain limitations of their Salesforce App that previously forced the client to 
+      manually process uploaded data.</p>
       <p>Our solution streamlined their workflow dramatically, saving time and effort on manual data review and entry, and boosted productivity for 
       both their employees and HR staff.</p>
       <p>The solution also ensured seamless data exchange between Salesforce and AWS through a custom integration, making the process 
