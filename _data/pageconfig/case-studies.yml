@@ -185,7 +185,7 @@ members:
 
   multi-tenancy-saas-financial-risk-management.md:
     title: "Case Study: Multi-Tenancy SaaS for Financial Risk Management"
-    subtitle: Modernising traditional risk management operations and improving their performance using applied Machine Learning / AI.
+    subtitle: Modernising traditional risk management operations and improving performance using applied Machine Learning / AI.
     slug: multi-tenancy-saas-financial-risk-management
     image_src: &site_url /assets/img/illustrations/case-studies/multi-tenancy-saas-financial-risk-management.jpg
     industry: FinTech
@@ -275,7 +275,7 @@ members:
       - Kubernetes
   
   decentralized-p2p-challenges-aws.md:
-    title: "Case Study: Decentralised Peer-to-Peer Collateral Exchange on AWS"
+    title: "Case Study: Decentralised P2P Collateral Exchange on AWS"
     subtitle: Developing and Deploying a Blockchain-based Social Decentralised Peer-to-Peer Collateral Exchange Platform.
     slug: decentralized-p2p-challenges-aws
     image_src: &site_url /assets/img/illustrations/case-studies/decentralized-p2p-challenges-aws.jpg
