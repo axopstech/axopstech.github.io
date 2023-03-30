@@ -1,8 +1,7 @@
 ---
 layout: default
-title: "Case Studies: App. Engineering"
+title: "Application Engineering"
 cs_slug: application-engineering
-cs_name: "Application Engineering"
 permalink: /case-studies/application-engineering
 description: "Our Projects: Past & Present"
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg

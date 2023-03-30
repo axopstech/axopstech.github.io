@@ -1,8 +1,7 @@
 ---
 layout: default
-title: "Case Studies: Cloud Engineering"
+title: "Cloud Engineering"
 cs_slug: cloud-engineering
-cs_name: "Cloud Engineering"
 permalink: /case-studies/cloud-engineering
 description: "Our Projects: Past & Present"
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg

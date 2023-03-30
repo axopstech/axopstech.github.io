@@ -1,8 +1,7 @@
 ---
 layout: default
-title: "Case Studies: Serverless Computing"
+title: "Serverless Computing"
 cs_slug: serverless-computing
-cs_name: "Serverless Computing"
 permalink: /case-studies/serverless-computing
 description: "Our Projects: Past & Present"
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg

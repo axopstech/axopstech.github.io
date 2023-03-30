@@ -1,8 +1,7 @@
 ---
 layout: default
-title: "Case Studies: Blockchain Dev."
+title: "Blockchain Development"
 cs_slug: blockchain-development
-cs_name: "Blockchain Development"
 permalink: /case-studies/blockchain-development
 description: "Our Projects: Past & Present"
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
