@@ -37,10 +37,9 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                     </p>
                 </div>
                 <!--/column -->
-            </div>
-            <!--/.row -->
+            </div><!--/.row -->
+            {% assign members = config.members | where_exp: "member", "member.service == 'Application Engineering'" %}
             <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-8" data-cue="slideInDown" data-delay="700">
-                {% assign members = config.members | where_exp: "member", "member.service == 'Application Engineering'" %}
                 {% for member in members %}
                 <div class="col-md-6 col-lg-4">
                   <div class="position-relative">
