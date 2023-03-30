@@ -20,7 +20,8 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <p class="lead fs-lg mb-7">{{ config.tagline_cta }}</p>
             <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="300">
               <span><a href="{{ config.button_cta1_url }}" class="btn btn-lg btn-primary rounded me-2">{{ config.button_cta1_text }}</a></span>
-              <span><a href="{{ config.button_cta2_url }}" class="btn btn-lg btn-green rounded">{{ config.button_cta2_text }}</a></span>
+              <span><a href="{{ config.button_cta2_url }}" class="btn btn-lg btn-green rounded" style="margin-right: 0.6em; margin-bottom: 0.6em;">{{ config.button_cta2_text }}</a></span>
+              <span><a href="{{ config.button_cta3_url }}" class="btn btn-lg btn-soft-ash rounded">{{ config.button_cta3_text }}</a></span>
             </div>
           </div>
           <!-- /column -->

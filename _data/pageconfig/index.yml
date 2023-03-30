@@ -25,8 +25,8 @@ button_cta1_url: /solutions
 button_cta2_text: Technologies
 button_cta2_url: /technologies
 
-#button_cta2_text: Technologies
-#button_cta2_url: /supported-technologies
+button_cta3_text: Case Studies
+button_cta3_url: /case-studies
 
 above_the_fold_images:
   left-top-2: ./assets/img/photos/home/left-top-saad.jpg
