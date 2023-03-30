@@ -13,7 +13,11 @@
   <link rel="preload" href="{{ site.url }}/assets/css/fonts/dm.css" as="style" onload="this.rel='stylesheet'">
 
   <!-- HTML Meta Tags -->
-  <title>{{ page.title }} | {{ site.title }}</title>
+  {% if page.name == "index.md" %}
+  <title>{{ page.title }} | {{ site.subtitle }}</title>
+  {% else %}
+  <title>{{ page.title }} @ {{ site.title }}</title>
+  {% endif %}
   <meta name="description" content="{{ page.description }}">
 
   <!-- Facebook Meta Tags -->
