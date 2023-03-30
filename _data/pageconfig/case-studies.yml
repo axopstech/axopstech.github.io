@@ -11,11 +11,11 @@ services:
     name: Serverless Computing
     slug: /case-studies/serverless-computing
   - 
-    name: Blockchain Development
-    slug: /case-studies/blockchain-development
-  - 
     name: Application Engineering
     slug: /case-studies/application-engineering
+  - 
+    name: Blockchain Development
+    slug: /case-studies/blockchain-development
 
 industries:
   - 
