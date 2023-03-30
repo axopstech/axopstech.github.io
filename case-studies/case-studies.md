@@ -41,8 +41,9 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                           </ul>
                         </p>
                         <p>
-                          <div class="post-category text-line text-green">INDUSTRY: {{ member[1].industry }}</div>
-                          <div class="post-category text-line text-blue">SERVICE: {{ member[1].service }}</div>
+                          <div class="post-category text-line text-blue">SERVICE: {{ member[1].service }}</div><br />
+                          <div class="post-category text-line text-green">INDUSTRY: {{ member[1].industry }}</div><br />
+                          <div class="post-category text-line text-ash">SCALE: {{ member[1].scale }}</div>
                         </p>
                         </div>
                         <!--/.card-body -->
