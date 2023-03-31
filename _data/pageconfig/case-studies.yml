@@ -121,29 +121,43 @@ members:
       <p>The proposed solution consisted of the following components:</p>
       <p>
         <ul>
-          <li><strong>Amazon S3</strong>: Employees would upload their invoice, timesheet, and receipt files to a designated S3 bucket prefix. Amazon S3 
-          was chosen for its low cost, high availability, and security features. This eliminated the storage-specific limitations faced by the client with 
-          their Salesforce App.</li>
-          <li><strong>AWS Lambda</strong>: A serverless AWS Lambda function would be triggered via S3 event notifications whenever a new file was uploaded by an employee. 
-          This function would process the files, extracting the relevant data from the data uploaded by the employee using Optical Character Recognition (OCR).
-           This not only automated the data extraction process, but would also save the client a tremendous amount of time and effort when compared to manually
-           processing uploads as was the case before.</li>
-          <li><strong>Custom Salesforce Integration</strong>: The extracted data would be sent to Salesforce through a custom integration. 
-          A Batch Job written in Apex and deployed in Salesforce would periodically call out to the AWS Lambda function, parse the returned data, 
-          and ensure that it was stored in the appropriate Salesforce objects as specified by the client. This approach would allow the client to maintain 
-          control over the data flow without reinforcing its dependency on the Salesforce App.</li>
+          <li>
+            <p><strong>Amazon S3</strong>: Employees would upload their invoice, timesheet, and receipt files to a designated S3 bucket prefix. Amazon S3 
+            was chosen for its low cost, high availability, and security features. This eliminated the storage-specific limitations faced by the client with 
+            their Salesforce App.</p>
+          </li>
+          <li>
+            <p><strong>AWS Lambda</strong>: A serverless AWS Lambda function would be triggered via S3 event notifications whenever a new file was uploaded by an employee. 
+            This function would process the files, extracting the relevant data from the data uploaded by the employee using Optical Character Recognition (OCR).
+            This not only automated the data extraction process, but would also save the client a tremendous amount of time and effort when compared to manually
+            processing uploads as was the case before.</p>
+          </li>
+          <li>
+            <p><strong>Custom Salesforce Integration</strong>: The extracted data would be sent to Salesforce through a custom integration. 
+            A Batch Job written in Apex and deployed in Salesforce would periodically call out to the AWS Lambda function, parse the returned data, 
+            and ensure that it was stored in the appropriate Salesforce objects as specified by the client. This approach would allow the client to maintain 
+            control over the data flow without reinforcing its dependency on the Salesforce App.</p>
+          </li>
         </ul>
       </p>
     deployment: >
       <p>The solution was deployed in the following steps:</p>
       <p>
         <ul>
-          <li>We set up the Amazon S3 bucket with the necessary security and access permissions for employees to upload their files.</li>
-          <li>We then proceeded to develop the AWS Lambda function for processing the uploaded files, leveraging OCR technology to extract relevant data from the 
-          uploaded files, and prepare it for outbound transfer to Salesforce.</li>
-          <li>We created a custom Salesforce integration whereby a Salesforce Batch Job written in Apex can call the AWS Lambda function and retrieve the 
-          extracted data for subsequent import to Salesforce, mapping the data fields to the appropriate Salesforce objects.</li>
-          <li>Finally, we thoroughly tested the end-to-end integration, ensuring accurate data processing and transfer between AWS and Salesforce.</li>
+          <li>
+            <p>We set up the Amazon S3 bucket with the necessary security and access permissions for employees to upload their files.</p>
+          </li>
+          <li>
+            <p>We then proceeded to develop the AWS Lambda function for processing the uploaded files, leveraging OCR technology to extract relevant data from the 
+              uploaded files, and prepare it for outbound transfer to Salesforce.</p>
+          </li>
+          <li>
+            <p>We created a custom Salesforce integration whereby a Salesforce Batch Job written in Apex can call the AWS Lambda function and retrieve the 
+            extracted data for subsequent import to Salesforce, mapping the data fields to the appropriate Salesforce objects.</p>
+          </li>
+          <li>
+            <p>Finally, we thoroughly tested the end-to-end integration, ensuring accurate data processing and transfer between AWS and Salesforce.</p>
+          </li>
         </ul>
       </p>
     conclusion: >
