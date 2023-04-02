@@ -72,7 +72,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-blockchain-development.jpg 2x
     url: &site_url /solutions/technology-consulting/blockchain-solutions
     role: How we work with clients &#129309;
-    enabled: true
+    enabled: false
 
   -
     name: Salesforce Development
