@@ -4,7 +4,8 @@
 {% include header_site.html %}
 <!-- /header -->
 
-{% assign pageconfig = site.data.pageconfig.case-studies.members | map: page.name | first %}
+{% assign mainconfig = site.data.pageconfig.case-studies %}
+{% assign pageconfig = mainconfig.members | map: page.name | first %}
 
   <div class="content-wrapper">
     <!-- .content-wrapper -->
@@ -105,6 +106,13 @@
             </div>
         </div>
         <!--/.row -->
+        <div class="text-center">
+            <h3 class="display-6 mb-7 px-lg-19 px-xl-18">Found this useful? Spread the word &#128591;</h3>
+            <div style="margin-top: 0.1em;">
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.axops.tech{{ mainconfig.page_slug }}/{{ pageconfig.slug }}" target="_blank"><span class="btn btn-blue rounded">Share this Case Study on LinkedIn</span></a>
+                <!-- <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.axops.tech" target="_blank"><span class="btn btn-blue rounded">Share Pattern on LinkedIn</span></a> -->
+            </div>
+        </div>
       </div>
       <!-- /.container -->
     </section>
