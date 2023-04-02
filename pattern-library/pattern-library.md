@@ -17,6 +17,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                 <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="50">
                     <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > {{ config.tagline_here }}</h2>
                     <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{{ config.tagline_main }}</h3>
+                    <h2 class="fs-15 text-uppercase text-muted mb-8">{{ config.tagline_main2 }}</h2>
                     <p>
                       <ul class="list-inline mb-0">
                         <li class="list-inline-item me-1 mb-2">
@@ -56,6 +57,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                           <div class="post-category text-line text-blue">SERVICE: {{ member[1].service }}</div><br />
                           <div class="post-category text-line text-green">INDUSTRY: {{ member[1].industry }}</div><br />
                           <div class="post-category text-line text-ash">SCALE: {{ member[1].scale }}</div>
+                          <div style="margin-top: 0.5em;"><span class="btn btn-blue btn-sm rounded">Share on LinkedIn!</span></div>
                         </p>
                         </div>
                         <!--/.card-body -->
