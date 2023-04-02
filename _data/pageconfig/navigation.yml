@@ -34,7 +34,7 @@
         -
           name: Business Analytics
           url: /business-analytics
-          enabled: true
+          enabled: false
         -
           name: CRM Data Migrations
           url: /crm-data-migrations
@@ -46,7 +46,7 @@
         -
           name: Digital Transformation
           url: /digital-transformation
-          enabled: true
+          enabled: false
         -
           name: Bespoke CRM Solutions
           url: /bespoke-crm-solutions
@@ -56,8 +56,8 @@
           url: /application-engineering
           enabled: false
         -
-          name: Blockchain Development
-          url: /blockchain-development
+          name: Blockchain Solutions
+          url: /blockchain-solutions
           enabled: true
         -
           name: Salesforce Development

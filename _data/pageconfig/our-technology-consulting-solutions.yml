@@ -24,7 +24,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg 2x
     url: &site_url /solutions/technology-consulting/business-analytics
     role: Upskill with confidence &#128588;
-    enabled: true
+    enabled: false
   
   -
     name: CRM Data Migrations
@@ -32,7 +32,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-crm-data-migrations.jpg 2x
     url: &site_url /solutions/technology-consulting/crm-data-migrations
     role: Leverage our experience &#129417;
-    enabled: true
+    enabled: false
   
   -
     name: CRM Data Integrations
@@ -48,7 +48,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-digital-transformation.jpg 2x
     url: &site_url /solutions/technology-consulting/digital-transformation
     role: How we work with clients &#129309;
-    enabled: true
+    enabled: false
 
   -
     name: Bespoke CRM Solutions
@@ -56,7 +56,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg 2x
     url: &site_url /solutions/technology-consulting/bespoke-crm-solutions
     role: How we work with clients &#129309;
-    enabled: true
+    enabled: false
 
   -
     name: Application Engineering
@@ -70,7 +70,7 @@ members:
     name: Blockchain Solutions
     image_src: &site_url /assets/img/illustrations/custom/solutions-blockchain-development.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-blockchain-development.jpg 2x
-    url: &site_url /solutions/technology-consulting/blockchain-development
+    url: &site_url /solutions/technology-consulting/blockchain-solutions
     role: How we work with clients &#129309;
     enabled: true
 
