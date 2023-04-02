@@ -1,0 +1,119 @@
+{% include header.html %}
+
+<!-- Header -->
+{% include header_site.html %}
+<!-- /header -->
+
+{% assign mainconfig = site.data.pageconfig.pattern-library %}
+{% assign pageconfig = mainconfig.members | map: page.name | first %}
+
+  <div class="content-wrapper">
+    <!-- .content-wrapper -->
+    <section class="wrapper bg-light wrapper-border">
+      <div class="container py-14 py-md-16 align-items-center">
+        <div class="row mb-3">
+            <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center">
+                <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > <a href="{{ site.url }}{{ mainconfig.page_slug }}">{{ mainconfig.tagline_here }}</a> > YOU ARE HERE</h2>
+                <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{{ pageconfig.title }}</h3>
+                <h2 class="fs-15 text-uppercase text-muted mb-8">{{ pageconfig.subtitle }}</h2>
+                <ul class="list-inline mb-0"> 
+                    {% for tech in pageconfig.technologies %}
+                    <li class="list-inline-item me-1 mb-2">
+                    <span class="btn btn-soft-ash btn-sm rounded">{{ tech }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="card" style="margin-bottom: 2em;">
+          <div class="row card-body gx-lg-8 gx-xl-12 gy-10 mb-4 mb-md-4 align-items-center">
+            <div class="col-lg-4 position-relative">
+              <figure class="rounded mb-0"><img class="img-fluid" style="max-width: 400px; max-height: 400px;" src="{{ pageconfig.image_src }}" srcset="{{ pageconfig.image_src }}" alt=""></figure>
+            </div>
+            <!--/column -->
+            <div class="col-lg-8">
+                <h3 class="display-5 mb-7">Project Background</h3>
+                <p class="mb-5">{{ pageconfig.challenges }}</p>
+                <p>
+                    <div class="post-category text-line text-blue">SERVICE: {{ pageconfig.service }}</div><br />
+                    <div class="post-category text-line text-green">INDUSTRY: {{ pageconfig.industry }}</div><br />
+                    <div class="post-category text-line text-ash">SCALE: {{ pageconfig.scale }}</div>
+                </p>
+            </div>
+            <!--/column -->
+          </div>
+        </div>
+        <!--/.row -->
+        <div class="card" style="margin-bottom: 2em;">
+            <div class="row card-body gx-lg-8 gx-xl-12 gy-10 mb-4 mb-md-4 align-items-center">
+                <div class="col-lg-4 position-relative text-center">
+                    <figure class="rounded mb-0">
+                        <h3 class="display-5 mb-0">Research & Development</h3>
+                    </figure>
+                </div>
+                <!--/column -->
+                <div class="col-lg-8">
+                    <p class="mb-5">{{ pageconfig.research_and_development }}</p>
+                </div>
+                <!--/column -->
+            </div>
+        </div>
+        <!--/.row -->
+        <div class="card" style="margin-bottom: 2em;">
+            <div class="row card-body gx-lg-8 gx-xl-12 gy-10 mb-4 mb-md-4 align-items-center">
+                <div class="col-lg-4 position-relative text-center">
+                    <figure class="rounded mb-0">
+                        <h3 class="display-5 mb-0">Architecture</h3>
+                    </figure>
+                </div>
+                <!--/column -->
+                <div class="col-lg-8">
+                    <p class="mb-5">{{ pageconfig.architecture }}</p>
+                </div>
+                <!--/column -->
+            </div>
+        </div>
+        <!--/.row -->
+        <div class="card" style="margin-bottom: 2em;">
+            <div class="row card-body gx-lg-8 gx-xl-12 gy-10 mb-4 mb-md-4 align-items-center">
+                <div class="col-lg-4 position-relative text-center">
+                    <figure class="rounded mb-0">
+                        <h3 class="display-5 mb-0">Deployment</h3>
+                    </figure>
+                </div>
+                <!--/column -->
+                <div class="col-lg-8">
+                    <p class="mb-5">{{ pageconfig.deployment }}</p>
+                </div>
+                <!--/column -->
+            </div>
+        </div>
+        <!--/.row -->
+        <div class="card" style="margin-bottom: 2em;">
+            <div class="row card-body gx-lg-8 gx-xl-12 gy-10 mb-4 mb-md-4 align-items-center">
+                <div class="col-lg-4 position-relative text-center">
+                    <figure class="rounded mb-0">
+                        <h3 class="display-5 mb-0">Conclusion</h3>
+                    </figure>
+                </div>
+                <!--/column -->
+                <div class="col-lg-8">
+                    <p class="mb-5">{{ pageconfig.conclusion }}</p>
+                </div>
+                <!--/column -->
+            </div>
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    {% include contact-form.html %}
+  </div>
+  <!-- /.content-wrapper -->
+
+<!-- Footer -->
+{% include footer.html %}
+<!-- /footer -->

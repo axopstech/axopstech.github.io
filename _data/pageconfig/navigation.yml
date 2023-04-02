@@ -229,6 +229,18 @@
     - N/A
 
 -
+  name: Pattern Library
+  url: /pattern-library
+  current: false
+  enabled: true
+  has_children: false
+  multi_column: false
+  has_subchildren: false
+  is_mega_dropdown: false
+  children:
+    - N/A
+
+-
   name: About Us
   url: /about-us
   current: false
