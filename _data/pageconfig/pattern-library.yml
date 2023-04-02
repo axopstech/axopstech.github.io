@@ -1,5 +1,7 @@
 tagline_intro: Pattern Library
 tagline_main: "Common Patterns in Practice"
+tagline_main2: "Solutions to challenges frequently encountered during client engagements"
+#tagline_main: "Architectural Patterns in Practice"
 tagline_here: Pattern Library
 page_slug: /pattern-library
 site_url: https://axopstech.github.io
@@ -45,47 +47,51 @@ scales:
 members:
 
   modernising-a-musical-monolith-with-aws-serverless.md:
-    title: "Case Study: Modernising a Musical &#127925; Monolith with Serverless AWS"
-    subtitle: "Revamping an Online Music Retailer's Legacy Architecture with Serverless AWS for Scalability and Performance."
+    title: "Pattern: Modernising a Musical &#127925; Monolith with Serverless AWS"
+    subtitle: "Revamping a Musical Instrument Retailer's Legacy Architecture with Serverless AWS"
     slug: modernising-a-musical-monolith-with-aws-serverless
     image_src: &site_url /assets/img/illustrations/pattern-library/modernising-a-musical-monolith-with-aws-serverless.jpg
     industry: "Consumer Goods"
     service: "Serverless Computing"
     scale: "Small & Midsize Business"
-    challenges: >
-      <p class="bg-green rounded text-white" style="padding: 0.5em;">* Note: AxOps personnel were brought in as external 
-      help to add capacity to an existing team working on this piece, as part of a larger modernisation engagement for the client.</p>
-      <p>The client, an online musical instruments retailer, was running a legacy monolith order processing application backed by a MySQL database, 
-      both running on a single Ubuntu Linux server 24x7.</p>
-      <p>Their current architecture was becoming difficult to maintain and support with the client's limited developer resources. We were 
-      asked to explore a migration of this application stack to a serverless architecture, to reduce costs while ensuring high availability, 
-      scalability, and fault tolerance.</p>
-    research_and_development: >
-      <p>We analysed the existing monolith running on the Ubuntu Linux server to understand and decompose its components into a set of microservices. 
-      Based on this analysis, we determined that these microservices could indeed be implemented as AWS Lambda functions.</p>
-      
-      <p>Amazon API Gateway would be used to create, publish, and manage an API backed by these functions. AWS CloudFormation was chosen to manage the infrastructure and its deployment, as code.</p>
-    architecture: >
-      <p>The following AWS services and configurations were utilised to achieve the client's requirements:</p>
-      <p>
-        <ol>
-          <li><p>The monolith was broken down into microservices implemented as AWS Lambda functions.</p></li>
-          <li><p>Amazon API Gateway was used for deploying an API backed by the Lambda functions.</p></li>
-          <li><p>The MySQL database was migrated to Amazon Aurora Serverless.</p></li>
-        </ol>
-      </p>
-    deployment: >
-      <p>As the client's website experienced spikes in visitors and orders with no particularly predictable pattern throughout the year, 
-      auto scaling was configured for the Lambda functions and Aurora Serverless to handle traffic spikes and maintain consistent performance during peak periods.</p>
-      <p>To maintain all infrastructure as code, a CloudFormation template was created that defined all the required resources for this revised 
-      serverless application, including Lambda functions, API Gateway, Amazon S3, Amazon Aurora Serverless and Amazon CloudFront.</p>
-    conclusion: >
-      <p>The migration to a serverless architecture and the adoption of AWS CloudFormation successfully met the online musical instruments retailer's requirements and delivered tangible benefits in terms of high availability, scalability, fault tolerance, and cost savings.</p>
-      <p>The new architecture, combined with Amazon S3, Amazon Aurora Serverless, and Amazon CloudFront, improved the website's overall performance and user experience while handling traffic spikes during peak periods. By utilizing AWS Lambda and Amazon API Gateway, the company significantly reduced costs compared to their previous EC2-based architecture.</p>
-      <p>AWS CloudFormation streamlined the deployment process across multiple environments, reducing the potential for human error and increasing the overall efficiency of the development team. Lastly, the controlled feature rollout using Amazon API Gateway's canary release deployments minimized the risk of introducing bugs and ensured a smooth transition for all users.</p>
     technologies:
       - Lambda
       - API Gateway
       - Aurora Serverless
       - CloudFormation
-      
+    background: >
+      <p>The client, an online musical instruments retailer, was running a legacy monolith web application backed by a MySQL database, 
+      both running on a single Ubuntu Linux server 24x7.</p>
+      <p>Their current architecture was becoming difficult to maintain and support due to limited developer resources. We were 
+      asked to explore a migration of this application stack to a serverless architecture, to reduce costs while ensuring high availability, 
+      scalability, and fault tolerance.</p>
+    objectives:
+      - Migrate legacy monolith web application and MySQL database to serverless architecture
+      - Accommodate unpredictable traffic spikes at varying times of the year
+      - Reduce costs in general, particularly those associated with the current architecture
+
+    requirements:
+      - High Availability
+      - Scalability
+      - Fault Tolerance
+      - Cost Efficiency
+      - IaC Deployments
+      - Canary Testing 
+
+    solution_design:
+      - Decompose monolith application into microservices
+      - Implement microservices as AWS Lambda functions
+      - Manage APIs using Amazon API Gateway
+      - Migrate MySQL database to Aurora Serverless
+      - Store static assets using Amazon S3
+      - Integrate Amazon CloudFront for caching and content delivery
+      - Configure Auto Scaling for Aurora Serverless
+      - Use AWS CloudFormation for IaC and deployment management
+
+    results:
+      - Improved website performance during peak periods
+      - Successfully managed traffic spikes due to high availability and fault tolerance
+      - Significant cost savings compared to previous EC2-based architecture
+      - Streamlined deployment processes and increased development team efficiency
+      - Controlled feature rollout using Amazon API Gateway's canary release deployments
+      - Smooth transition for all users

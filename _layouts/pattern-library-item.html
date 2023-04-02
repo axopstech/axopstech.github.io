@@ -34,8 +34,8 @@
             </div>
             <!--/column -->
             <div class="col-lg-8">
-                <h3 class="display-5 mb-7">Project Background</h3>
-                <p class="mb-5">{{ pageconfig.challenges }}</p>
+                <h3 class="display-5 mb-7">Background</h3>
+                <p class="mb-5">{{ pageconfig.background }}</p>
                 <p>
                     <div class="post-category text-line text-blue">SERVICE: {{ pageconfig.service }}</div><br />
                     <div class="post-category text-line text-green">INDUSTRY: {{ pageconfig.industry }}</div><br />
@@ -50,12 +50,18 @@
             <div class="row card-body gx-lg-8 gx-xl-12 gy-10 mb-4 mb-md-4 align-items-center">
                 <div class="col-lg-4 position-relative text-center">
                     <figure class="rounded mb-0">
-                        <h3 class="display-5 mb-0">Research & Development</h3>
+                        <h3 class="display-5 mb-0">Objectives</h3>
                     </figure>
                 </div>
                 <!--/column -->
                 <div class="col-lg-8">
-                    <p class="mb-5">{{ pageconfig.research_and_development }}</p>
+                    <p class="mb-5">
+                        <ul>
+                            {% for o in pageconfig.objectives %}
+                            <li>{{ o }}</li>
+                            {% endfor %}
+                        </ul>
+                    </p>
                 </div>
                 <!--/column -->
             </div>
@@ -65,12 +71,18 @@
             <div class="row card-body gx-lg-8 gx-xl-12 gy-10 mb-4 mb-md-4 align-items-center">
                 <div class="col-lg-4 position-relative text-center">
                     <figure class="rounded mb-0">
-                        <h3 class="display-5 mb-0">Architecture</h3>
+                        <h3 class="display-5 mb-0">Requirements</h3>
                     </figure>
                 </div>
                 <!--/column -->
                 <div class="col-lg-8">
-                    <p class="mb-5">{{ pageconfig.architecture }}</p>
+                    <p class="mb-5">
+                        <ul>
+                            {% for o in pageconfig.requirements %}
+                            <li class="list-inline-item me-1 mb-2"><span class="btn btn-soft-ash btn-sm rounded mb-2">{{ o }}</span></li>
+                            {% endfor %}
+                        </ul>
+                    </p>
                 </div>
                 <!--/column -->
             </div>
@@ -80,12 +92,18 @@
             <div class="row card-body gx-lg-8 gx-xl-12 gy-10 mb-4 mb-md-4 align-items-center">
                 <div class="col-lg-4 position-relative text-center">
                     <figure class="rounded mb-0">
-                        <h3 class="display-5 mb-0">Deployment</h3>
+                        <h3 class="display-5 mb-0">Solution Design</h3>
                     </figure>
                 </div>
                 <!--/column -->
                 <div class="col-lg-8">
-                    <p class="mb-5">{{ pageconfig.deployment }}</p>
+                    <p class="mb-5">
+                        <ul>
+                            {% for o in pageconfig.solution_design %}
+                            <li>{{ o }}</li>
+                            {% endfor %}
+                        </ul>
+                    </p>
                 </div>
                 <!--/column -->
             </div>
@@ -95,17 +113,30 @@
             <div class="row card-body gx-lg-8 gx-xl-12 gy-10 mb-4 mb-md-4 align-items-center">
                 <div class="col-lg-4 position-relative text-center">
                     <figure class="rounded mb-0">
-                        <h3 class="display-5 mb-0">Conclusion</h3>
+                        <h3 class="display-5 mb-0">Results</h3>
                     </figure>
                 </div>
                 <!--/column -->
                 <div class="col-lg-8">
-                    <p class="mb-5">{{ pageconfig.conclusion }}</p>
+                    <p class="mb-5">
+                        <ul>
+                            {% for o in pageconfig.results %}
+                            <li>{{ o }}</li>
+                            {% endfor %}
+                        </ul>
+                    </p>
                 </div>
                 <!--/column -->
             </div>
         </div>
         <!--/.row -->
+        <div class="text-center">
+            <h3 class="display-6 mb-7 px-lg-19 px-xl-18">Found this useful? Spread the word &#128591;</h3>
+            <div style="margin-top: 0.1em;">
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.axops.tech{{ mainconfig.page_slug }}/{{ pageconfig.slug }}" target="_blank"><span class="btn btn-blue rounded">Share Pattern on LinkedIn</span></a>
+                <!-- <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.axops.tech" target="_blank"><span class="btn btn-blue rounded">Share Pattern on LinkedIn</span></a> -->
+            </div>
+        </div>
       </div>
       <!-- /.container -->
     </section>
