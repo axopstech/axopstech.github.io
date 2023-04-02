@@ -39,8 +39,8 @@ scales:
     name: Enterprise
     slug: /case-studies/scale/enterprise
   - 
-    name: Small & Medium Business
-    slug: /case-studies/scale/small-medium-business
+    name: Small & Midsize Business
+    slug: /case-studies/scale/small-midsize-business
 
 members:
   quantum-engineering-at-scale-aws.md:
