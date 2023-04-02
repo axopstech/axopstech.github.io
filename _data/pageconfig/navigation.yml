@@ -38,7 +38,7 @@
         -
           name: CRM Data Migrations
           url: /crm-data-migrations
-          enabled: true
+          enabled: false
         -
           name: CRM Data Integrations
           url: /crm-data-integrations
@@ -50,7 +50,7 @@
         -
           name: Bespoke CRM Solutions
           url: /bespoke-crm-solutions
-          enabled: true
+          enabled: false
         -
           name: Application Engineering
           url: /application-engineering
@@ -232,7 +232,7 @@
   name: Pattern Library
   url: /pattern-library
   current: false
-  enabled: true
+  enabled: false
   has_children: false
   multi_column: false
   has_subchildren: false
