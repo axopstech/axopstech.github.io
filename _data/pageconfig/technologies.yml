@@ -13,6 +13,7 @@ pages:
           - Optimise operational efficiency, reduce costs, and drive growth
           - Streamline processes with bespoke data-driven strategies
           - Leverage insights to foster productivity and innovation
+        enabled: true
       
       predictive-analytics-solutions:
         title: Predictive Analytics Solutions
@@ -22,6 +23,7 @@ pages:
           - Anticipate demand and allocate resources effectively to maximise efficiency and reduce costs
           - Identify and mitigate risks with near real-time intelligence, and proactively safeguard operations
           - Leverage predictive analytics to identify trends and opportunities, staying ahead of the competition
+        enabled: true
 
   technologies-data-management.md:
     title: Data Management
@@ -36,6 +38,7 @@ pages:
           - Reduced costs via flexible, cloud-native pay-as-you-go pricing
           - Minimised downtime and zero data loss during migrations
           - Migrate databases of any complexity securely and reliably
+        enabled: true
       
       data-visualisation-reporting:
         title: Data Visualisation & Reporting
@@ -45,6 +48,7 @@ pages:
         - Comprehensive data exploration features for diverse stakeholders
         - Improved communication of insights via visual storytelling
         - Scalable and adaptable solutions for evolving enterprise needs
+        enabled: true
 
   technologies-cloud-infrastructure.md:
     title: Cloud Services
@@ -59,6 +63,7 @@ pages:
           - "Unlock valuable insights with advanced analytics, machine learning, and AI"
           - "Seamlessly scale storage and processing capabilities while optimising costs"
           - "Ensure data compliance, security, and quality through well-defined policies and processes"
+        enabled: true
 
       cloud-migration:
         title: Cloud Migration
@@ -68,6 +73,7 @@ pages:
           - Benefit from near-infinite availability of Compute and Storage as you evolve.
           - Leverage vendor-maintained physical Cloud security and focus on building your solutions.
           - Streamline operations and improve performance by using cloud-native services.
+        enabled: true
 
       data-backup-archival:
         title: Data Backup & Archival
@@ -77,6 +83,7 @@ pages:
         - "Cost-effective solutions with flexible pricing models"
         - "Seamless integration with existing data infrastructure"
         - "Reliable long-term data retention, security, and on-demand retrieval"
+        enabled: true
       
       disaster-recovery:
         title: Disaster Recovery
@@ -86,6 +93,7 @@ pages:
           - "Minimised downtime and ensured business continuity"
           - "Preserved data integrity and security during disruptive events"
           - "Fault-tolerant and cloud-native disaster recovery infrastructure"
+        enabled: true
 
       hybrid-architecture:
         title: Hybrid Architecture
@@ -95,6 +103,7 @@ pages:
           - "Cost-effective, flexible utilisation of compute and storage"
           - "Improved compliance with regulatory requirements"
           - "Supports legacy infrastructure and mission-critical applications"
+        enabled: true
       
       serverless-computing:
         title: Serverless Computing
@@ -104,10 +113,11 @@ pages:
           - "Optimise operating costs with pay-as-you-go pricing"
           - "Easily adapt to changing demands through automatic scaling"
           - "Streamline development by using cloud-native service integrations"
+        enabled: true
 
   technologies-application-engineering.md:
     title: Application Engineering
-    tagline: "Empower Innovation with AxOps&#8482;: Engineer Applications with Confidence"
+    tagline: "Innovate with AxOps&#8482;: Engineer Applications with Confidence"
 
     services:
       cloud-engineering:
@@ -118,6 +128,7 @@ pages:
           - Pay-as-you-go as opposed to fixed on-premise overheads
           - Automated IT infrastructure deployment & maintenance
           - Benefit from economies of scale in the Cloud
+        enabled: true
 
       devops-automation:
         title: DevOps Automation
@@ -127,6 +138,7 @@ pages:
           - Increased deployment frequency, accelerating time to market for new features and improvements
           - Reduction in failure rates and quick recovery times, enhancing overall solution reliability
           - Optimised resource utilisation, leading to cost savings and improved operational efficiency
+        enabled: true
 
       full-stack-development:
         title: Full-Stack Development
@@ -136,6 +148,7 @@ pages:
           - Streamlined project workflows and agile approach to deliver timely, cost-effective solutions
           - Optimised resource allocation and modular architecture reduce time-to-market
           - Covers all aspects of the project lifecycle, ensuring visibility and consistency across the board
+        enabled: true
 
       api-development:
         title: API Development
@@ -145,6 +158,7 @@ pages:
           - Streamlined data exchange and communication
           - Facilitates scalability and adaptability
           - Encourages code reusability and maintainability
+        enabled: false
 
       saas-development:
         title: SaaS Development
@@ -154,6 +168,7 @@ pages:
           - Rapid and agile development, enabling convenient iterations throughout the project lifecycle
           - Scalable and flexible architecture to support growth and adaptation to evolving project requirements
           - Robust security and compliance with industry standards, ensuring data protection and privacy
+        enabled: true
 
       blockchain-development:
         title: Blockchain Development
@@ -163,6 +178,7 @@ pages:
           - Real-time, multi-party tracking and management
           - Transparent, real-time, point-to-point transactions
           - Decentralised data storage & sharing
+        enabled: true
 
         
 

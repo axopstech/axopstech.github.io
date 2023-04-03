@@ -23,6 +23,7 @@
         <!-- /.row -->
         {% assign loc = "right" %}
         {% for p in pageconfig.services %}
+        {% if p[1].enabled %}
         <a name="{{ p[0] }}" style="visibility: hidden;"></a>
         <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-18 align-items-center">
           {% if loc == "right" %}
@@ -64,6 +65,7 @@
           {% assign loc = "left" %}
         {% else %}
           {% assign loc = "right" %}
+        {% endif %}
         {% endif %}
         {% endfor %}
       </div>
