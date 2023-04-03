@@ -13,8 +13,8 @@ members:
 
   -
     name: Application Engineering
-    image_src: &site_url /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg 2x
     url: &site_url /technologies/application-engineering
     role: 
   

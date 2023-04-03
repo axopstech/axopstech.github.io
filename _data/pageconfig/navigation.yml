@@ -27,22 +27,28 @@
           enabled: true
           hard_href: /technologies/cloud-services
         -
-          name: Cloud Engineering
-          url: /cloud-engineering
+          name: Data Management
+          url: /data-management
           enabled: true
-          hard_href: /technologies/application-engineering
+          hard_href: /technologies/data-management
         -
           name: Business Analytics
           url: /business-analytics
-          enabled: false
-        -
-          name: CRM Data Migrations
-          url: /crm-data-migrations
-          enabled: false
+          enabled: true
+          hard_href: /technologies/business-analytics
         -
           name: CRM Data Integrations
           url: /crm-data-integrations
           enabled: true
+        -
+          name: Application Engineering
+          url: /application-engineering
+          enabled: true
+          hard_href: /technologies/application-engineering
+        -
+          name: CRM Data Migrations
+          url: /crm-data-migrations
+          enabled: false
         -
           name: Digital Transformation
           url: /digital-transformation
@@ -78,12 +84,12 @@
           url: "#devops-engineering"
           enabled: true
         -
-          name: Event-Driven Architecture
-          url: "#event-driven-architecture"
-          enabled: true
-        -
           name: Blockchain Development
           url: "#blockchain-development"
+          enabled: true
+        -
+          name: Event-Driven Architecture
+          url: "#event-driven-architecture"
           enabled: true
         -
           name: Infrastructure Automation
@@ -180,7 +186,7 @@
         -
           name: API Development
           url: "#api-development"
-          enabled: true
+          enabled: false
         -
           name: SaaS Development
           url: "#saas-development"
