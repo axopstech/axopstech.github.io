@@ -958,10 +958,15 @@ pages:
           - Damage to brand reputation due to security incidents
     
     pitch: >
-      <p>At AxOps&#8482;, we understand the importance of seamless CRM data integration in today's competitive business landscape. Our comprehensive suite of services is designed to help you achieve streamlined workflows, enhanced decision-making, time and cost efficiency, improved customer experience, scalable growth, and robust data security and compliance.</p>
-      <p>Our team of industry experts is well-versed in overcoming the challenges that come with CRM data integration. We tackle obstacles such as disparate data sources, limited technical expertise, data quality issues, inadequate data security, resistance to change, and insufficient budget allocation. Our goal is to ensure a smooth and successful implementation of your CRM system, empowering your business to thrive.</p>
-      <p>With our extensive experience, we help clients transform their operations, uncover valuable insights, and optimise resource allocation by addressing the pain points associated with manual processes, ineffective strategies, and inefficient data management. We take pride in our ability to adapt and scale our solutions to meet your evolving data needs, ensuring your CRM system remains future-proof and your business poised for growth.</p>
-      <p>Choose AxOps&#8482; as your trusted partner for CRM data integration, and experience the difference our expertise can make in unlocking your business's full potential. Let us help you turn challenges into opportunities and drive your success to new heights.</p>
+      <p>Our comprehensive suite of data integration services is designed to help you achieve streamlined workflows, enhanced decision-making, 
+      time and cost efficiency, improved customer experience, scalable growth, and robust data security and compliance.</p>
+      <p>We help you tackle challenges that come with disparate data sources, limited technical expertise, data quality issues, 
+      inadequate data security, resistance to change, and insufficient budget allocation; our goal being to ensure a smooth and successful 
+      integration of your systems, enabling your organisation to focus on value and growth drivers.</p>
+      <p>With our extensive experience, we help clients transform their operations, uncover valuable insights, and optimise 
+      resource allocation by addressing the pain points associated with manual processes, ineffective strategies, and inefficient data management. 
+      We take pride in our ability to adapt and scale our solutions to meet our clients' evolving requirements, ensuring implementations remain 
+      future-proof and our clients' businesses infrastructurally positioned for growth.</p>
 
   crm-data-migrations.md:
     title: CRM Data Migrations
