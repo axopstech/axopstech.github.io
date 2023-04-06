@@ -10,27 +10,27 @@ members:
     image_src: &site_url /assets/img/illustrations/custom/data-science-consulting.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/data-science-consulting.jpg 2x
     url: &site_url /solutions/technology-consulting-solutions
-    #role: Ask, and consider it done &#127919;
-    role:
+    role: >
+      Unlock your organisation's full potential with our cloud transformation, engineering, and data analytics solutions
   -
     name: Technical Training
     image_src: &site_url /assets/img/illustrations/custom/full-stack-development.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/full-stack-development.jpg 2x
     url: &site_url /solutions/technical-training
-    #role: Upskill with confidence &#128588;
-    role:
+    role: >
+      Tailored technical training to enhance, upskill, or reskill in-house talent for optimal performance and innovation
   
   -
     name: Quantitative Training
     image_src: &site_url /assets/img/illustrations/training/quantitative-development.jpg
     image_srcset: &site_url /assets/img/illustrations/training/quantitative-development.jpg 2x
     url: &site_url /solutions/quantitative-training
-    #role: Make informed decisions &#128065;
-    role:
+    role: >
+      Quantitative Research and Development Training to ensure your competitive edge in a data-centric world
   -
     name: Strategic Advisory
     image_src: &site_url /assets/img/illustrations/custom/solutions-workforce-optimisation.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-workforce-optijmisation.jpg 2x
     url: &site_url /solutions/strategic-advisory-solutions
-    #role: Leverage our experience &#129417;
-    role:
+    role: >
+      Streamline operations and maximise efficiency, while fostering productivity, innovation and growth
