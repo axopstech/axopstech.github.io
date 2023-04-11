@@ -2,7 +2,7 @@
 layout: default
 title: Our Partners
 permalink: /about-us/our-partners
-description: AxOps™ partners with select IT vendors to augment our services.
+description: AxOps partners with select IT vendors to augment our services.
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 {% assign content_config = site.data.content.config %}

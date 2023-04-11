@@ -10,7 +10,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
         <div class="row mb-3">
             <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
                 <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > ABOUT US > VISION</h2>
-                <h3 class="display-4 mb-7 px-lg-19 px-xl-18">The AxOps&#8482; Vision</h3>
+                <h3 class="display-4 mb-7 px-lg-19 px-xl-18">The AxOps Vision</h3>
                 <!-- <hr /> -->
             </div>
             <!--/column -->
@@ -28,7 +28,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 
                 <p>An international, multi-cultural, and intellectually versatile team, we recognise, live, and breathe diversity and equality in ideation, how it breeds innovation, and how that innovation applied to technology is capable of changing lives, revolutionising businesses, optimizing operations and processes, driving further innovation, and truly making the world a better place.</p>
 
-                <p>With a shared passion for digital transformation and a deep understanding of the IT landscape, we established AxOps™ to help organisations and individuals adapt, evolve, and succeed in an increasingly complex and competitive global market.</p>
+                <p>With a shared passion for digital transformation and a deep understanding of the IT landscape, we established AxOps to help organisations and individuals adapt, evolve, and succeed in an increasingly complex and competitive global market.</p>
 
                 <p>Our USP lies in our unwavering commitment to excellence, agility, and collaboration, a mantra that’s enabled us to establish strong relationships with clients and partners across several industries over time in our respective careers.</p>
 

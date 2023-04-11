@@ -2,7 +2,7 @@ tagline_href: solutions
 pages:
   solutions-quantitative-training.md:
     title: Quant R&D Training
-    tagline: "Advance Your Decision Intelligence with AxOps&#8482; Quantitative R&D Training"
+    tagline: "Advance Your Decision Intelligence with AxOps Quantitative R&D Training"
 
     services:
       quantitative-research:
@@ -25,7 +25,7 @@ pages:
 
   solutions-technical-training.md:
     title: Technical Training
-    tagline: "Empower Tomorrow's Innovators: with AxOps&#8482; Technical Training Services"
+    tagline: "Empower Tomorrow's Innovators: with AxOps Technical Training Services"
 
     services:
       devops-engineering:

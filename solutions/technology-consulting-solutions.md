@@ -2,7 +2,7 @@
 layout: default
 title: Technology Consulting
 permalink: /solutions/technology-consulting-solutions
-description: AxOps™ Technology Consulting
+description: AxOps Technology Consulting
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 {% assign content_config = site.data.content.config %}

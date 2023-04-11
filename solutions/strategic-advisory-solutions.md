@@ -2,7 +2,7 @@
 layout: default
 title: Strategic Advisory Solutions
 permalink: /solutions/strategic-advisory-solutions
-description: AxOps™ Strategic Advisory
+description: AxOps Strategic Advisory
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 {% assign content_config = site.data.content.config %}

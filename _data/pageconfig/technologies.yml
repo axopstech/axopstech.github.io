@@ -27,7 +27,7 @@ pages:
 
   technologies-data-management.md:
     title: Data Management
-    tagline: "AxOps&#8482; Data Management: Secure, Agile, and Efficient Data Solutions"
+    tagline: "AxOps Data Management: Secure, Agile, and Efficient Data Solutions"
 
     services:
       database-migration:
@@ -42,7 +42,7 @@ pages:
       
       data-visualisation-reporting:
         title: Data Visualisation & Reporting
-        description: AxOps™ provides an end-to-end data visualisation and reporting service. We'll analyse your specific business requirements, conduct thorough gap assessments, and implement appropriate data visualisation tools and reporting frameworks accordingly. Our expertise in design, integration, and optimisation ensures reliable aggregation of data from disparate sources into unified interfaces, enhancing decision-making with meaningful insights gleaned from activity across your enterprise.
+        description: AxOps provides an end-to-end data visualisation and reporting service. We'll analyse your specific business requirements, conduct thorough gap assessments, and implement appropriate data visualisation tools and reporting frameworks accordingly. Our expertise in design, integration, and optimisation ensures reliable aggregation of data from disparate sources into unified interfaces, enhancing decision-making with meaningful insights gleaned from activity across your enterprise.
         benefits:
         - Improved decision-making with accurate and timely insights
         - Comprehensive data exploration features for diverse stakeholders
@@ -52,7 +52,7 @@ pages:
 
   technologies-cloud-infrastructure.md:
     title: Cloud Services
-    tagline: "Empowering Your Digital Evolution: AxOps™ Cloud Services"
+    tagline: "Empowering Your Digital Evolution: AxOps Cloud Services"
 
     services:
       data-lake-solutions:
@@ -77,7 +77,7 @@ pages:
 
       data-backup-archival:
         title: Data Backup & Archival
-        description: "AxOps&#8482; provides comprehensive data backup and archival solutions in the cloud, in accordance with industry best practices to ensure data integrity, protection, and availability for your organisation. We leverage Cloud technologies to deliver a scalable, secure, and cost-effective solution for safeguarding your critical business data. Our solutions integrate seamlessly with your existing on-premise, hybrid, or public infrastructure while delivering reliable long-term data retention, security, and regulatory compliance."
+        description: "AxOps provides comprehensive data backup and archival solutions in the cloud, in accordance with industry best practices to ensure data integrity, protection, and availability for your organisation. We leverage Cloud technologies to deliver a scalable, secure, and cost-effective solution for safeguarding your critical business data. Our solutions integrate seamlessly with your existing on-premise, hybrid, or public infrastructure while delivering reliable long-term data retention, security, and regulatory compliance."
         benefits:
         - "Scalable and secure cloud storage for data backup"
         - "Cost-effective solutions with flexible pricing models"
@@ -87,7 +87,7 @@ pages:
       
       disaster-recovery:
         title: Disaster Recovery
-        description: "We design and implement robust, resilient, and scalable disaster recovery strategies to safeguard your critical business data, infrastructure, and applications. Our approach focuses on minimising downtime, ensuring business continuity, and preserving data integrity. Leverage the AxOps&#8482; team's field experience to confidently navigate unforeseen events, maintain operational resilience, high availability, and overall business continuity."
+        description: "We design and implement robust, resilient, and scalable disaster recovery strategies to safeguard your critical business data, infrastructure, and applications. Our approach focuses on minimising downtime, ensuring business continuity, and preserving data integrity. Leverage the AxOps team's field experience to confidently navigate unforeseen events, maintain operational resilience, high availability, and overall business continuity."
         benefits:
           - "Robust and resilient disaster recovery solutions"
           - "Minimised downtime and ensured business continuity"
@@ -107,7 +107,7 @@ pages:
       
       serverless-computing:
         title: Serverless Computing
-        description: "AxOps™ can both actively assist and train your development teams to create, manage, and deploy applications in the Cloud without the need to manage infrastructure. Benefits include auto-scaling, built-in high availability, and pay-as-you-go pricing for cost efficiency. By eliminating infrastructure management tasks, such as capacity provisioning and patching, going serverless allows your teams to focus on tasks that deliver actual value and drive business growth."
+        description: "AxOps can both actively assist and train your development teams to create, manage, and deploy applications in the Cloud without the need to manage infrastructure. Benefits include auto-scaling, built-in high availability, and pay-as-you-go pricing for cost efficiency. By eliminating infrastructure management tasks, such as capacity provisioning and patching, going serverless allows your teams to focus on tasks that deliver actual value and drive business growth."
         benefits:
           - "Accelerate time-to-market with reduced operational overhead"
           - "Optimise operating costs with pay-as-you-go pricing"
@@ -117,12 +117,12 @@ pages:
 
   technologies-application-engineering.md:
     title: Application Engineering
-    tagline: "Innovate with AxOps&#8482;: Build Solutions with Confidence"
+    tagline: "Innovate with AxOps: Build Solutions with Confidence"
 
     services:
       cloud-engineering:
         title: Cloud Engineering
-        description: Our team of vendor-certified Cloud professionals provide a comprehensive cloud engineering service focused on solution design, implementation, delivery and management of cloud-based infrastructure and applications. AxOps™ brings extensive field and subject matter Cloud expertise to your table, our approach ensuring optimal performance, security, and scalability in line with your organisation's needs.
+        description: Our team of vendor-certified Cloud professionals provide a comprehensive cloud engineering service focused on solution design, implementation, delivery and management of cloud-based infrastructure and applications. AxOps brings extensive field and subject matter Cloud expertise to your table, our approach ensuring optimal performance, security, and scalability in line with your organisation's needs.
         benefits:
           - Infinite elasticity, cost-efficiency, and global availability
           - Pay-as-you-go as opposed to fixed on-premise overheads
@@ -152,7 +152,7 @@ pages:
 
       api-development:
         title: API Development
-        description: We provide a comprehensive API development service, employing industry-standard methodologies and cutting-edge tools to create robust, scalable, and secure APIs. Our approach incorporates meticulous planning, design, and documentation to ensure seamless integration with existing systems and optimal performance. Partnering with AxOps&#8482; ensures delivery that adheres strictly to industry best practices for robustness, security, and interoperability.
+        description: We provide a comprehensive API development service, employing industry-standard methodologies and cutting-edge tools to create robust, scalable, and secure APIs. Our approach incorporates meticulous planning, design, and documentation to ensure seamless integration with existing systems and optimal performance. Partnering with AxOps ensures delivery that adheres strictly to industry best practices for robustness, security, and interoperability.
         benefits:
           - Enhanced system interoperability and modularity
           - Streamlined data exchange and communication
@@ -162,7 +162,7 @@ pages:
 
       saas-development:
         title: SaaS Development
-        description: AxOps™ provides a comprehensive Software-as-a-Service (SaaS) development solution including design, implementation, and maintainance of scalable and secure cloud-based applications, employing industry best practices and methodologies such as microservices architecture, containerisation, and continuous integration / continuous deployment (CI/CD) pipelines.
+        description: AxOps provides a comprehensive Software-as-a-Service (SaaS) development solution including design, implementation, and maintainance of scalable and secure cloud-based applications, employing industry best practices and methodologies such as microservices architecture, containerisation, and continuous integration / continuous deployment (CI/CD) pipelines.
         benefits:
           - Streamlined application delivery management, reducing fixed and operational overheads
           - Rapid and agile development, enabling convenient iterations throughout the project lifecycle
@@ -172,7 +172,7 @@ pages:
 
       blockchain-development:
         title: Blockchain Development
-        description: Blockchain Application Development involves the design, implementation, and deployment of decentralised applications using blockchain technology. Leverage the AxOps™ team's extensive experience in releasing large-scale Blockchain engineering projects (see <a href="/case-studies">Case Studies</a>).
+        description: Blockchain Application Development involves the design, implementation, and deployment of decentralised applications using blockchain technology. Leverage the AxOps team's extensive experience in releasing large-scale Blockchain engineering projects (see <a href="/case-studies">Case Studies</a>).
         benefits:
           - Secure digital identity management
           - Real-time, multi-party tracking and management

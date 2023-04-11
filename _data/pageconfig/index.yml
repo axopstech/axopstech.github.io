@@ -48,7 +48,7 @@ why_choose_us_section:
   enabled: true
   intro_tagline: “When done well, software is invisible.” - Bjarne Stroustrup
   main_tagline: 'Taming operational <span class="underline">inefficiencies</span> empowers <span class="underline-3 style-2 green">transformation</span> &#128161;'
-  outro_tagline: '<span class="underline-3 style-2 yellow">Everything</span> we do at AxOps&#8482; optimises:'
+  outro_tagline: '<span class="underline-3 style-2 yellow">Everything</span> we do at AxOps optimises:'
   tabs:
     -
       id: tab-1

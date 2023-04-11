@@ -1,4 +1,4 @@
-tagline_intro: The AXOPS&#8482; Team
+tagline_intro: The AXOPS Team
 tagline_main: Our battle-tested, international, multi-disciplinary talent pool
 tagline_here: The Team
 site_url: https://axopstech.github.io
@@ -10,7 +10,7 @@ members:
     image_srcset: &site_url /assets/img/photos/team/eriz-zarate.jpg 2x
     role: Technical Solutions Architect
     bio: >
-      <p>Eriz brings to AxOps&#8482;, over 10 years of experience in C-suite technical and management roles, 
+      <p>Eriz brings to AxOps, over 10 years of experience in C-suite technical and management roles, 
       having consulted, worked, and created companies in the fields of Applied AI, Quantitative 
       Financial Engineering, Quantum Computing, B2B/B2C SaaS, and Blockchain, focusing on Scalability, 
       CyberSec and Performance plus having directly managed 30+ engineers in various enterprises.</p>
@@ -72,7 +72,7 @@ members:
     image_srcset: &site_url /assets/img/photos/team/marti-castany.jpg 2x
     role: Data Analytics Architect
     bio: >
-      <p>Martí brings to AxOps&#8482;, over 8 years' experience as a Quantitative Researcher, Portfolio Manager 
+      <p>Martí brings to AxOps, over 8 years' experience as a Quantitative Researcher, Portfolio Manager 
       and Consultant for risk management services on both Buy and Sell sides.</p><p>He has a background in
       Electrical and Hardware Engineering, as well as EMC-compliant multi-layer digital-analog PCB design.</p>
       <p>His specialities include the design and development of systematic analytics and forecasting models for
