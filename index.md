@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to AxOps
+title: Welcome to AxOps Technology Services
 permalink: /
 description: AxOps is a Technology, Consulting, and Training Services company. We expedite your journey from idea to execution 🎯
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg

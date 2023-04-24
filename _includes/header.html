@@ -6,7 +6,6 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="elemis">
-  <!-- <title>{{ page.title }} | {{ site.title }}</title> -->
   <link rel="shortcut icon" href="{{ site.favicon }}">
   <link rel="stylesheet" href="{{ site.url }}/assets/css/plugins.css">
   <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
@@ -14,7 +13,7 @@
 
   <!-- HTML Meta Tags -->
   {% if page.name == "index.md" %}
-  <title>{{ page.title }} | {{ site.subtitle }}</title>
+  <title>{{ page.title }}</title>
   {% else %}
   <title>{{ page.title }} @ {{ site.title }}</title>
   {% endif %}
