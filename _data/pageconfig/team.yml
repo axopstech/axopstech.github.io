@@ -72,7 +72,7 @@ members:
     image_srcset: &site_url /assets/img/photos/team/marti-castany.jpg 2x
     role: Data Analytics Architect
     bio: >
-      <p>Martí brings to AxOps, over a decade’s experience in Quantitative Research, Portfolio Management and Executive Leadership in the Systematic Investing and FinTech industries.</p><p>He has a background in Electrical and Hardware Engineering, having worked on the fields of Digital Signal Processing (DSP), as well as high-speed multi-layer digital-analog PCB design.</p><p>His specialities include the design and development of systematic analytics and forecasting models for extremely large, high density, and high frequency time series datasets, and their deployment as microservices on AWS and DigitalOcean.</p>
+      <p>Martí brings to AxOps, over a decade’s experience in Quantitative Research, Portfolio Management and Executive Leadership in the Systematic Investing and FinTech industries.</p><p>He has a background in Electrical and Hardware Engineering, having worked in the fields of Digital Signal Processing (DSP) and high-speed multi-layer digital-analog PCB design.</p><p>His specialities include the design and development of systematic analytics and forecasting models for extremely large, high density, and high frequency time series datasets, and their deployment as microservices on AWS and DigitalOcean.</p>
     skills:
       - AWS
       - Data Analytics
