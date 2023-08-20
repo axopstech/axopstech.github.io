@@ -46,15 +46,6 @@ pages:
           - 'Optimising Event-Driven Systems for Modern Applications'
           - 'Ensuring Reliability and Resilience in Event-Driven Environments'
 
-      blockchain-development:
-        title: Blockchain Development
-        description: Our Blockchain Development programme focuses on how to design, implement, and deploy secure, scalable, and efficient blockchain solutions. Trainees develop a strong foundation in distributed ledger technology, consensus algorithms, smart contracts, and cloud infrastructure, enabling them to design and develop robust, decentralised applications. Aimed at IT professionals seeking to stay at the forefront of today's rapidly evolving technology landscape.
-        benefits:
-          - Distributed Ledger Technology and Consensus Mechanisms
-          - How to Design and Implement Smart Contracts
-          - Optimising Blockchain Solutions for Scalability and Security
-          - Leveraging Cloud Infrastructure for Blockchain Deployments
-
       infrastructure-automation:
         title: Infrastructure Automation
         description: Develop a thorough understanding of IT Infrastructure Automation in on-premise, hybrid, or public Cloud environments. Our comprehensive training programme covers the fundamental concepts and practical implementation of automation techniques required to streamline IT operations, reduce human error, and enhance overall efficiency across your technical orgs.
@@ -63,12 +54,3 @@ pages:
           - 'Hands-On Infrastructure as Code: AWS CloudFormation & Terraform'
           - 'CI/CD: Building Automated Infrastructure Pipelines'
           - 'Ensuring Reliability & Performance in Automated IT Systems'
-
-      monitoring-observability:
-        title: Monitoring & Observability
-        description: A carefully prepared deep dive into IT Infrastructure Monitoring and Observability, covering essential aspects of monitoring, alerting, and performance analysis of complex IT systems. This training programme offers an in-depth understanding of the tools, methodologies, and best practices required to maintain the health of cloud-based, hybrid, and on-premise infrastructures, while ensuring optimal performance, and mitigating risks.
-        benefits:
-          - Fundamentals of IT Infrastructure Monitoring and Observability
-          - Building Cloud-Native Processes for Effective Systems Monitoring
-          - Proactive Alerting, Incident & Response Management
-          - Real-Time Performance Analytics and Continuous Improvement

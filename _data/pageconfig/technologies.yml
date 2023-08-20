@@ -73,7 +73,7 @@ pages:
           - Benefit from near-infinite availability of Compute and Storage as you evolve.
           - Leverage vendor-maintained physical Cloud security and focus on building your solutions.
           - Streamline operations and improve performance by using cloud-native services.
-        enabled: true
+        enabled: false
 
       data-backup-archival:
         title: Data Backup & Archival
@@ -83,7 +83,7 @@ pages:
         - "Cost-effective solutions with flexible pricing models"
         - "Seamless integration with existing data infrastructure"
         - "Reliable long-term data retention, security, and on-demand retrieval"
-        enabled: true
+        enabled: false
       
       disaster-recovery:
         title: Disaster Recovery
@@ -93,7 +93,7 @@ pages:
           - "Minimised downtime and ensured business continuity"
           - "Preserved data integrity and security during disruptive events"
           - "Fault-tolerant and cloud-native disaster recovery infrastructure"
-        enabled: true
+        enabled: false
 
       hybrid-architecture:
         title: Hybrid Architecture
@@ -103,7 +103,7 @@ pages:
           - "Cost-effective, flexible utilisation of compute and storage"
           - "Improved compliance with regulatory requirements"
           - "Supports legacy infrastructure and mission-critical applications"
-        enabled: true
+        enabled: false
       
       serverless-computing:
         title: Serverless Computing
@@ -138,7 +138,7 @@ pages:
           - Increased deployment frequency, accelerating time to market for new features and improvements
           - Reduction in failure rates and quick recovery times, enhancing overall solution reliability
           - Optimised resource utilisation, leading to cost savings and improved operational efficiency
-        enabled: true
+        enabled: false
 
       full-stack-development:
         title: Full-Stack Development
@@ -148,7 +148,7 @@ pages:
           - Streamlined project workflows and agile approach to deliver timely, cost-effective solutions
           - Optimised resource allocation and modular architecture reduce time-to-market
           - Covers all aspects of the project lifecycle, ensuring visibility and consistency across the board
-        enabled: true
+        enabled: false
 
       api-development:
         title: API Development
@@ -178,7 +178,7 @@ pages:
           - Real-time, multi-party tracking and management
           - Transparent, real-time, point-to-point transactions
           - Decentralised data storage & sharing
-        enabled: true
+        enabled: false
 
         
 

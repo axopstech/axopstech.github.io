@@ -34,12 +34,12 @@
         -
           name: Business Analytics
           url: /business-analytics
-          enabled: true
+          enabled: false
           hard_href: /technologies/business-analytics
         -
           name: CRM Data Integrations
           url: /crm-data-integrations
-          enabled: true
+          enabled: false
         -
           name: Application Engineering
           url: /application-engineering
@@ -86,7 +86,7 @@
         -
           name: Blockchain Development
           url: "#blockchain-development"
-          enabled: true
+          enabled: false
         -
           name: Event-Driven Architecture
           url: "#event-driven-architecture"
@@ -98,7 +98,7 @@
         -
           name: Monitoring & Observability
           url: "#monitoring-observability"
-          enabled: true
+          enabled: false
     -
       name: Quantitative R&D Training
       url: /quantitative-training
@@ -115,7 +115,7 @@
     -
       name: Strategic Advisory
       url: /strategic-advisory
-      enabled: true
+      enabled: false
       children:
         -
           name: Project Management
@@ -148,19 +148,19 @@
         -
           name: Cloud Migration
           url: "#cloud-migration"
-          enabled: true
+          enabled: false
         -
           name: Data Backup & Archival
           url: "#data-backup-archival"
-          enabled: true
+          enabled: false
         -
           name: Disaster Recovery
           url: "#disaster-recovery"
-          enabled: true
+          enabled: false
         -
           name: Hybrid Architecture
           url: "#hybrid-architecture"
-          enabled: true
+          enabled: false
         -
           name: Serverless Computing
           url: "#serverless-computing"
@@ -178,11 +178,11 @@
         -
           name: DevOps Automation
           url: "#devops-automation"
-          enabled: true
+          enabled: false
         -
           name: Full-Stack Development
           url: "#full-stack-development"
-          enabled: true
+          enabled: false
         -
           name: API Development
           url: "#api-development"
@@ -194,7 +194,7 @@
         -
           name: Blockchain Development
           url: "#blockchain-development"
-          enabled: true
+          enabled: false
     -
       name: Data Management
       url: /data-management

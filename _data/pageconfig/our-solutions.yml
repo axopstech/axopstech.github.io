@@ -27,10 +27,4 @@ members:
     url: &site_url /solutions/quantitative-training
     role: >
       Quantitative Research and Development Training to ensure your competitive edge in a data-centric world
-  -
-    name: Strategic Advisory
-    image_src: &site_url /assets/img/illustrations/custom/solutions-workforce-optimisation.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-workforce-optijmisation.jpg 2x
-    url: &site_url /solutions/strategic-advisory-solutions
-    role: >
-      Streamline operations and maximise efficiency, while fostering productivity, innovation and growth
+  
