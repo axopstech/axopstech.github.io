@@ -61,10 +61,10 @@ why_choose_us_section:
       tabsvg_src: ./assets/img/icons/lineal/savings.svg
       svg_class: svg-inject icon-svg icon-svg-md text-yellow me-4
       div_class: tab-pane fade show active
-      title: Cost of Ownership
-      summary: Leverage the Cloud to reduce fixed costs and focus on value creation.
-      tagline: Cloud adoption can rapidly reduce your CapEx <span class="underline">and</span> OpEx, but there’s more to it than just "well-oiled machinery".
-      text: "To truly appreciate the benefits of the Cloud, it's important to align your business to take advantage of them. We'll help you address:"
+      title: Optimal Cost Efficiency
+      summary: Dynamic value creation with bespoke Cloud solutions.
+      tagline: 'Beyond CapEx and OpEx reduction: Tailored solutions that secure a <span class="underline">lasting</span> competitive advantage.'
+      text: 'We excel in creating Cloud-based strategies and solutions <span class="underline-3 style-2 yellow">precisely tailored</span> to your goals, ensuring your business is primed not just to adapt, but to lead.'
       image1_src: ./assets/img/illustrations/home/cost-of-ownership-1-v2.jpg
       image1_srcset: ./assets/img/illustrations/home/cost-of-ownership-1-v2.jpg 2x
       image2_src: ./assets/img/illustrations/home/cost-of-ownership-2-v2.jpg
@@ -75,11 +75,11 @@ why_choose_us_section:
       #image2_srcset: ./assets/img/photos/home/cost-of-ownership-1.jpg 2x
       bullets:
         -
-          - Inefficiencies in your current environment, e.g. technical debt.
-          - How to modernize to be more efficient, empowering growth.
+          - Design and deploy strategies addressing unique challenges, fostering innovation.
+          - Elevate operational efficiency with solutions meticulously crafted for your needs.
         -
-          - How to leverage the Cloud to support your competitive edge.
-          - How to optimise your technology infrastructure for infinite scale.
+          - Harness bespoke analytics tooling to enhance data-driven decision-making.
+          - Develop architectures designed for scalability, ready to evolve with your ambitions.
     -
       id: tab-2
       a_class: nav-link d-flex flex-row
@@ -87,10 +87,10 @@ why_choose_us_section:
       tabsvg_src: ./assets/img/icons/lineal/rocket.svg
       svg_class: svg-inject icon-svg icon-svg-md text-green me-4
       div_class: tab-pane fade
-      title: Operational Efficiency
-      summary: Rapidly and reliably build products and manage operations at scale.
-      tagline: Execute workloads efficiently, obtain valuable operational insights, and continuously refine operations to <span class="underline-3 style-2 green">deliver value</span>.
-      text: "To achieve operational efficiency, it's essential to understand your workloads and their operating behaviours in detail. We'll help you:"
+      title: Operational Excellence
+      summary: Streamline product development and operations for scale.
+      tagline: 'Optimize workloads, garner actionable insights, and refine operations to consistently <span class="underline-3 style-2 green">deliver value</span>.'
+      text: "Achieving top-tier operational efficiency requires a deep understanding of your workloads and their dynamics. Here's how we assist:"
       image1_src: ./assets/img/illustrations/home/operational-efficiency-2-v2.jpg
       image1_srcset: ./assets/img/illustrations/home/operational-efficiency-2-v2.jpg 2x
       image2_src: ./assets/img/illustrations/home/operational-efficiency-1-v2.jpg
@@ -101,11 +101,11 @@ why_choose_us_section:
       #image2_srcset: ./assets/img/photos/home/operational-efficiency-1.jpg 2x
       bullets:
         -
-          - Design and instrument your workloads to provide telemetry and situational awareness.
-          - Develop approaches for safe production deployments with rapid remediation of issues.
+          - Craft and instrument workloads for enhanced telemetry and situational clarity.
+          - Implement strategies for secure production deployments, ensuring swift issue resolution.
         -
-          - Evaluate your operational readiness, using Cloud tooling for reproducible issue resolution.
-          - Use "operations as code" to develop consistent workload and operations procedures.
+          - Stay operationally prepared, leveraging bespoke tooling for replicable problem-solving.
+          - Employ "operations as code" for uniform workload and procedural consistency.
     -
       id: tab-3
       a_class: nav-link d-flex flex-row
@@ -113,10 +113,10 @@ why_choose_us_section:
       tabsvg_src: ./assets/img/icons/lineal/startup.svg
       svg_class: svg-inject icon-svg icon-svg-md text-red me-4
       div_class: tab-pane fade
-      title: Innovation
-      summary: Reduce risk, retire technical debt, and focus on drivers that matter.
-      tagline: Streamline your business for greater efficiency and faster turnaround times, so you can focus on <span class="underline-3 style-2 yellow">differentiation</span> &#128161;
-      text: "Whatever your innovation goals, adopting the Cloud can increase your chances of success by enabling you to deliver more in less time. We'll assist you with:"
+      title: Intelligent Innovation
+      summary: Minimize risk, retire technical debt, focus on pivotal growth drivers.
+      tagline: Streamline your operations for efficiency, saving bandwidth to focus on <span class="underline-3 style-2 yellow">differentiation</span> and staying ahead of the curve &#128161;
+      text: "Embrace the Cloud's ability to bolster your innovation goals, empowering swift and impactful delivery."
       image1_src: ./assets/img/illustrations/home/innovation-2-v2.jpg
       image1_srcset: ./assets/img/illustrations/home/innovation-2-v2.jpg 2x
       image2_src: ./assets/img/illustrations/home/innovation-1-v2.jpg
@@ -127,11 +127,11 @@ why_choose_us_section:
       #image2_srcset: ./assets/img/photos/home/innovation-3.jpg 2x
       bullets:
         -
-          - Evaluating your environments with a view to establish better, more creative ways of operating.
-          - Lowering expenditure, retiring technical debt, and speeding up product development cycles.
+          - Dive deep into your systems, using data-driven insights for smarter operational decisions.
+          - Optimize expenses, resolve technical challenges, and launch products with informed agility.
         -
-          - Using Cloud technology for developing processes to enhance your customers' experiences.
-          - Leveraging economies of scale to make a meaningful impact with your products and services.
+          - Tap into your data, derive and create processes that intuitively resonate with customers.
+          - Scale with purpose, leveraging efficiencies to amplify the impact of every endeavor.
 
 client_logos_section:
   enabled: false
