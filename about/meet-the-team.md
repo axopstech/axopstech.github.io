@@ -16,7 +16,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <div class="row mb-3">
                 <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="50">
                     <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > ABOUT US > {{ config.tagline_intro }}</h2>
-                    <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{{ config.tagline_main }}</h3>
+                    <h3 class="display-5 mb-7 px-lg-19 px-xl-18">{{ config.tagline_main }}</h3>
                 </div>
                 <!--/column -->
             </div>
