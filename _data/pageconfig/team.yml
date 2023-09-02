@@ -1,5 +1,6 @@
 tagline_intro: The AXOPS Team
-tagline_main: Our battle-tested, international, multi-disciplinary talent pool
+#tagline_main: Our battle-tested, multi-disciplinary team of consultants
+tagline_main: "Consultants specialized in complex data technology domains"
 tagline_here: The Team
 site_url: https://axopstech.github.io
 members:
@@ -10,7 +11,7 @@ members:
     image_srcset: &site_url /assets/img/photos/team/eriz-zarate.jpg 2x
     role: Technical Solutions Architect
     bio: >
-      <p>Eriz brings to AxOps, over 10 years of experience in C-suite technical and management roles, 
+      <p>Eriz has over 10 years of experience in C-suite technical and management roles, 
       having consulted, worked, and created companies in the fields of Applied AI, Quantitative 
       Financial Engineering, Quantum Computing, B2B/B2C SaaS, and Blockchain, focusing on Scalability, 
       CyberSec and Performance plus having directly managed 30+ engineers in various enterprises.</p>
@@ -33,7 +34,7 @@ members:
     role: PMO / IT Project Manager
     bio: >
       <p>Moira has over 20 years of international experience in various managerial and executive capacities
-       across the IT and Legal sectors. She brings her strong skills in organisational and project management, technical 
+       across the IT and Legal sectors. She has strong skills in organisational and project management, technical 
        programmes and applications, complimented with a wide range of administrative skills, training and development, 
       communication and people management.</p><p>Pressure fears this lady, as she works extremely well under it, aside from
       having an incredible knack for resolving complex challenges in record time.</p><p>As our clients have rightly said over
@@ -48,14 +49,14 @@ members:
     slug: alain-porto
     image_src: &site_url /assets/img/photos/team/alain-porto-2.jpg
     image_srcset: &site_url /assets/img/photos/team/alain-porto-2.jpg 2x
-    role: DevOps Architect
+    role: Data Solutions Architect
     bio: >
       <p>Alain is a versatile Software Architect, DevOps Engineer, and Agile Delivery Manager.</p>
       <p>Hailing from the FinTech and Machine Tool industries, he specialises in developing bespoke products for 
       processing large, heterogenous datasets and delivering data management solutions in on-premise, hybrid, and
       public cloud environments. His expertise lies in Architectural Design, Development, and Deployment on AWS 
       and DigitalOcean.</p>
-      <p>A passionate team leader, we're fortunate to be able to count on his skills in multidisciplinary team 
+      <p>A passionate team leader, Alain has exceptional skills in multi-disciplinary team 
       and product management, developed over the course of his tenure as CTO in three different companies.</p>
     skills:
       - AWS
@@ -70,9 +71,9 @@ members:
     slug: marti-castany
     image_src: &site_url /assets/img/photos/team/marti-castany.jpg
     image_srcset: &site_url /assets/img/photos/team/marti-castany.jpg 2x
-    role: Data Analytics Architect
+    role: Quant Research Specialist
     bio: >
-      <p>Martí brings to AxOps, over a decade’s experience in Quantitative Research, Portfolio Management and Executive Leadership in the Systematic Investing and FinTech industries.</p><p>He has a background in Electrical and Hardware Engineering, having worked in the fields of Digital Signal Processing (DSP) and high-speed multi-layer digital-analog PCB design.</p><p>His specialities include the design and development of systematic analytics and forecasting models for extremely large, high density, and high frequency time series datasets, and their deployment as microservices on AWS and DigitalOcean.</p>
+      <p>Martí has over a decade’s experience in Quantitative Research, Portfolio Management and Executive Leadership in the Systematic Investing and FinTech industries.</p><p>He has a background in Electrical and Hardware Engineering, having worked in the fields of Digital Signal Processing (DSP) and high-speed multi-layer digital-analog PCB design.</p><p>His specialities include the design and development of systematic analytics and forecasting models for extremely large, high density, and high frequency time series datasets, and their deployment as microservices on AWS and DigitalOcean.</p>
     skills:
       - AWS
       - Data Analytics
@@ -108,7 +109,7 @@ members:
     slug: ali-saif
     image_src: &site_url /assets/img/photos/team/ali-saif-1.jpg
     image_srcset: &site_url /assets/img/photos/team/ali-saif-1.jpg 2x
-    role: Technical Solutions Architect
+    role: Principal Technical Architect
     bio: >
       <p>Ali is an AWS Certified DevOps Engineer Professional, and has over two decades worth of battle scars earned as a Software Engineer, Technical Architect, 
       Quant Developer, and Technical Trainer in the Professional IT Services, Decision Intelligence, 
