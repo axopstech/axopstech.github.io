@@ -39,8 +39,8 @@ above_the_fold_images:
   left-top-srcset: ./assets/img/illustrations/home/left-middle-application-engineering@2x.jpg 2x
   left-bottom: ./assets/img/illustrations/home/left-bottom-cloud-data-analytics.jpg
   left-bottom-srcset: ./assets/img/illustrations/home/left-bottom-cloud-data-analytics@2x.jpg 2x
-  middle: ./assets/img/photos/home/middle-2-axops.jpg
-  middle-srcset: ./assets/img/photos/home/middle-2-axops@2x.jpg 2x
+  middle: ./assets/img/illustrations/home/middle-future-proof-data-infrastructure-intelligence-solutions.jpg
+  middle-srcset: ./assets/img/illustrations/home/middle-future-proof-data-infrastructure-intelligence-solutions@2x.jpg 2x
   right-top: ./assets/img/illustrations/home/right-top-systems-integration.jpg
   right-top-srcset: ./assets/img/illustrations/home/right-top-systems-integration@2x.jpg 2x
   right-middle: ./assets/img/illustrations/home/right-middle-cloud-data-architecture.jpg
