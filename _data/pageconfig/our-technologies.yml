@@ -6,8 +6,8 @@ site_url: https://axopstech.github.io
 members:
   -
     name: Cloud Services
-    image_src: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/devops-automation.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/devops-automation.jpg 2x
     url: &site_url /technologies/cloud-services
     role: 
 
@@ -27,7 +27,7 @@ members:
   
   -
     name: Business Analytics
-    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg 2x
     url: &site_url /technologies/business-analytics
     role: 

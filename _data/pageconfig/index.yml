@@ -24,10 +24,10 @@ tagline_dynamic_delay: 100
 tagline_cta: We help future-proof your business with bespoke data infrastructure and intelligence solutions.
 
 button_cta1_text: Solutions
-button_cta1_url: /solutions
+button_cta1_url: /technologies
 
-button_cta2_text: Technologies
-button_cta2_url: /technologies
+button_cta2_text: Case Studies
+button_cta2_url: /case-studies
 
 button_cta3_text: Case Studies
 button_cta3_url: /case-studies
