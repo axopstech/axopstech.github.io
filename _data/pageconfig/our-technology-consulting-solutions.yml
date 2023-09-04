@@ -40,12 +40,6 @@ members:
     role: How we work with clients &#129309;
     enabled: true
     
-
-
-
-
-
-
   -
     name: CRM Data Migrations
     image_src: &site_url /assets/img/illustrations/custom/solutions-crm-data-migrations.jpg
@@ -54,8 +48,6 @@ members:
     role: Leverage our experience &#129417;
     enabled: false
   
-  
-
   -
     name: Digital Transformation
     image_src: &site_url /assets/img/illustrations/custom/solutions-digital-transformation.jpg

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Supported Technologies
-permalink: /technologies
+title: Solutions
+permalink: /solutions
 description: Unlock Your Business's Full Potential with AxOps
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---

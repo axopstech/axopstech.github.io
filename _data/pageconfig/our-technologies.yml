@@ -1,5 +1,5 @@
 tagline_intro: Supported Technologies
-tagline_here: Technologies
+tagline_here: Solutions
 tagline_main: Accelerate Innovation with AxOps
 #site_url: https://localhost:4000
 site_url: https://axopstech.github.io
@@ -8,26 +8,40 @@ members:
     name: Cloud Services
     image_src: &site_url /assets/img/illustrations/custom/devops-automation.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/devops-automation.jpg 2x
-    url: &site_url /technologies/cloud-services
+    url: &site_url /solutions/cloud-services
     role: 
 
   -
     name: Application Engineering
     image_src: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg 2x
-    url: &site_url /technologies/application-engineering
+    url: &site_url /solutions/application-engineering
     role: 
   
   -
     name: Data Management
     image_src: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg 2x
-    url: &site_url /technologies/data-management
+    url: &site_url /solutions/data-management
     role: 
   
   -
     name: Business Analytics
     image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg 2x
-    url: &site_url /technologies/business-analytics
+    url: &site_url /solutions/business-analytics
+    role: 
+
+  -
+    name: "Cloud Engr. Training"
+    image_src: &site_url /assets/img/illustrations/training/quantitative-research.jpg
+    image_srcset: &site_url /assets/img/illustrations/training/quantitative-research.jpg 2x
+    url: &site_url /solutions/technical-training
+    role: 
+
+  -
+    name: "Quant R&D Training"
+    image_src: &site_url /assets/img/illustrations/training/quantitative-development.jpg
+    image_srcset: &site_url /assets/img/illustrations/training/quantitative-development.jpg 2x
+    url: &site_url /solutions/quantitative-training
     role: 

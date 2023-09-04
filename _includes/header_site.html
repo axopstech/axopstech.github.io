@@ -64,13 +64,14 @@
                       <div class="dropdown-lg-content">
                         {% for subitem in item.children %}
                         {% if subitem.enabled %}
+                        {% assign item_url = item.url | append: subitem.url %}
                         {% assign child_url = child_base_url | append: subitem.url %}
                         <div>
                           <h6 class="dropdown-header">{{ subitem.name }}</h6>
                           <ul class="list-unstyled">
                             {% for subchild in subitem.children %}
                             {% if subchild.enabled %}
-                            {% assign child_url = child_url | append: subchild.url %}
+                            {% assign child_url = item_url | append: subchild.url %}
                             <li><a class="dropdown-item" href="{{ child_url }}">{{ subchild.name }}</a></li>
                             {% endif %}
                             {% endfor %}

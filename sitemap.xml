@@ -11,27 +11,22 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.axops.tech/technologies/cloud-services</loc>
+  <loc>https://www.axops.tech/solutions/cloud-services</loc>
   <lastmod>2023-04-24T10:33:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.axops.tech/technologies/data-management</loc>
+  <loc>https://www.axops.tech/solutions/data-management</loc>
   <lastmod>2023-04-24T10:33:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.axops.tech/technologies/business-analytics</loc>
+  <loc>https://www.axops.tech/solutions/business-analytics</loc>
   <lastmod>2023-04-24T10:33:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.axops.tech/solutions/technology-consulting/crm-data-integrations</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/technologies/application-engineering</loc>
+  <loc>https://www.axops.tech/solutions/application-engineering</loc>
   <lastmod>2023-04-24T10:33:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -42,16 +37,6 @@
 </url>
 <url>
   <loc>https://www.axops.tech/solutions/quantitative-training</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/solutions/strategic-advisory/project-management</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/solutions/strategic-advisory/workforce-optimisation</loc>
   <lastmod>2023-04-24T10:33:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -86,11 +71,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.axops.tech/technologies</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.axops.tech/about-us/privacy-policy</loc>
   <lastmod>2023-04-24T10:33:19+00:00</lastmod>
   <priority>0.80</priority>
@@ -99,16 +79,6 @@
   <loc>https://www.axops.tech/about-us/cookie-policy</loc>
   <lastmod>2023-04-24T10:33:19+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/solutions/technology-consulting-solutions</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/solutions/strategic-advisory-solutions</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.axops.tech/case-studies/cloud-engineering</loc>
