@@ -229,12 +229,31 @@
   url: /case-studies
   current: false
   enabled: true
-  has_children: false
+  has_children: true
   multi_column: false
   has_subchildren: false
   is_mega_dropdown: false
   children:
-    - N/A
+    -
+      name: All Case Studies
+      url: 
+      enabled: true
+    -
+      name: Cloud Engineering
+      url: /cloud-engineering
+      enabled: true
+    -
+      name: Serverless Computing
+      url: /serverless-computing
+      enabled: true
+    -
+      name: Application Engineering
+      url: /application-engineering
+      enabled: true
+    -
+      name: Blockchain Development
+      url: /blockchain-development
+      enabled: true
 
 -
   name: Pattern Library
