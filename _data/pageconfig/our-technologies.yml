@@ -9,7 +9,7 @@ members:
     image_src: &site_url /assets/img/illustrations/custom/devops-automation.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/devops-automation.jpg 2x
     url: &site_url /solutions/cloud-services
-    role: Centralize data, unlock and leverage actionable insights. Accelerate deployments while reducing overhead.
+    role: Centralise disparate data, unlock actionable insights, accelerate deployments while reducing overhead.
 
   -
     name: Application Engineering
