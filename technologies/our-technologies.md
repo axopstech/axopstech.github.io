@@ -30,7 +30,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                         <a href="{{ member.url }}"><figure class="card-img-top"><img class="img-fluid" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt="" /></figure></a>
                         <div class="card-body px-6 py-5">
                         <h4 class="mb-1"><a href="{{ member.url }}">{{ member.name }}</a></h4>
-                        <!-- <p class="mb-0">{{ member.role }}</p> -->
+                        <p class="mb-0">{{ member.role }}</p>
                         </div>
                         <!--/.card-body -->
                     </div>
