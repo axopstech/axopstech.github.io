@@ -5,48 +5,9 @@ tagline_here: The Team
 site_url: https://axopstech.github.io
 members:
   -
-    name: Eriz Zárate
-    slug: eriz-zarate
-    image_src: &site_url /assets/img/photos/team/eriz-zarate.jpg
-    image_srcset: &site_url /assets/img/photos/team/eriz-zarate.jpg 2x
-    role: Technical Solutions Architect
-    bio: >
-      <p>Eriz has over 10 years of experience in C-suite technical and management roles, 
-      having consulted, worked, and created companies in the fields of Applied AI, Quantitative 
-      Financial Engineering, Quantum Computing, B2B/B2C SaaS, and Blockchain, focusing on Scalability, 
-      CyberSec and Performance plus having directly managed 30+ engineers in various enterprises.</p>
-      <p>His expertise lies in Architectural Design, Development, and Deployment on AWS, GCP, Fujitsu, and DigitalOcean for complex technical 
-      and functional challenges.</p>
-      <p>He excels in delivering outstanding communication skills and laser-focused detail-oriented execution.</p>
-    skills:
-      - AWS
-      - GCP
-      - Fujitsu
-      - Quant R&D
-      - Blockchain
-      - Solution Architecture
-
-  -
-    name: Moira Khan
-    slug: moira-khan
-    image_src: &site_url /assets/img/photos/team/moira-khan.jpg
-    image_srcset: &site_url /assets/img/photos/team/moira-khan.jpg 2x
-    role: PMO / IT Project Manager
-    bio: >
-      <p>Moira has over 20 years of international experience in various managerial and executive capacities
-       across the IT and Legal sectors. She has strong skills in organisational and project management, technical 
-       programmes and applications, complimented with a wide range of administrative skills, training and development, 
-      communication and people management.</p><p>Pressure fears this lady, as she works extremely well under it, aside from
-      having an incredible knack for resolving complex challenges in record time.</p><p>As our clients have rightly said over
-      time: <i>"Everyone needs a Moira; problem is, there's only one Moira."</i></p>
-    skills:
-      - Team Leadership
-      - Project Management
-      - Programme Management
-  
-  -
     name: Alain Porto
     slug: alain-porto
+    enabled: true
     image_src: &site_url /assets/img/photos/team/alain-porto-2.jpg
     image_srcset: &site_url /assets/img/photos/team/alain-porto-2.jpg 2x
     role: Data Solutions Architect
@@ -67,8 +28,51 @@ members:
       - Solution Architecture
   
   -
+    name: Moira Khan
+    slug: moira-khan
+    enabled: true
+    image_src: &site_url /assets/img/photos/team/moira-khan.jpg
+    image_srcset: &site_url /assets/img/photos/team/moira-khan.jpg 2x
+    role: PMO / IT Project Manager
+    bio: >
+      <p>Moira has over 20 years of international experience in various managerial and executive capacities
+       across the IT and Legal sectors. She has strong skills in organisational and project management, technical 
+       programmes and applications, complimented with a wide range of administrative skills, training and development, 
+      communication and people management.</p><p>Pressure fears this lady, as she works extremely well under it, aside from
+      having an incredible knack for resolving complex challenges in record time.</p><p>As our clients have rightly said over
+      time: <i>"Everyone needs a Moira; problem is, there's only one Moira."</i></p>
+    skills:
+      - Team Leadership
+      - Project Management
+      - Programme Management
+
+  -
+    name: Eriz Zárate
+    slug: eriz-zarate
+    enabled: true
+    image_src: &site_url /assets/img/photos/team/eriz-zarate.jpg
+    image_srcset: &site_url /assets/img/photos/team/eriz-zarate.jpg 2x
+    role: Technical Solutions Architect
+    bio: >
+      <p>Eriz has over 10 years of experience in C-suite technical and management roles, 
+      having consulted, worked, and created companies in the fields of Applied AI, Quantitative 
+      Financial Engineering, Quantum Computing, B2B/B2C SaaS, and Blockchain, focusing on Scalability, 
+      CyberSec and Performance plus having directly managed 30+ engineers in various enterprises.</p>
+      <p>His expertise lies in Architectural Design, Development, and Deployment on AWS, GCP, Fujitsu, and DigitalOcean for complex technical 
+      and functional challenges.</p>
+      <p>He excels in delivering outstanding communication skills and laser-focused detail-oriented execution.</p>
+    skills:
+      - AWS
+      - GCP
+      - Fujitsu
+      - Quant R&D
+      - Blockchain
+      - Solution Architecture
+
+  -
     name: Martí Castany
     slug: marti-castany
+    enabled: true
     image_src: &site_url /assets/img/photos/team/marti-castany.jpg
     image_srcset: &site_url /assets/img/photos/team/marti-castany.jpg 2x
     role: Quant Research Specialist
@@ -81,17 +85,11 @@ members:
       - DevOps
       - TeamOps
       - Solution Architecture
-  
-  -
-    name: Tiniki (Generative AI)
-    slug: tiniki-gai
-    image_src: &site_url /assets/img/photos/team/tiniki.jpg
-    image_srcset: &site_url /assets/img/photos/team/tiniki.jpg 2x
-    role: Director of All Creatives
-
+      
   -
     name: Saad Hashmi
     slug: saad-hashmi
+    enabled: false
     image_src: &site_url /assets/img/photos/team/saad-hashmi-1.jpg
     image_srcset: &site_url /assets/img/photos/team/saad-hashmi-1.jpg 2x
     role: Business Strategy & Presales
@@ -104,9 +102,19 @@ members:
       - Team Management
       - Project Management
       - Corporate Leadership
+
+  -
+    name: Tiniki (Generative AI)
+    slug: tiniki-gai
+    enabled: true
+    image_src: &site_url /assets/img/photos/team/tiniki.jpg
+    image_srcset: &site_url /assets/img/photos/team/tiniki.jpg 2x
+    role: Director of All Creatives
+
   -
     name: Ali Saif
     slug: ali-saif
+    enabled: true
     image_src: &site_url /assets/img/photos/team/ali-saif-1.jpg
     image_srcset: &site_url /assets/img/photos/team/ali-saif-1.jpg 2x
     role: Principal Technical Architect
@@ -125,11 +133,11 @@ members:
       - Generative AI
       - TeamOps
       - Technical Architecture
-      
-
+    
   -
     name: Squirrel (Generative AI)
     slug: squirrel-gai
+    enabled: true
     image_src: &site_url /assets/img/photos/team/squirrel.jpg
     image_srcset: &site_url /assets/img/photos/team/squirrel.jpg 2x
     role: Developer of All Things
