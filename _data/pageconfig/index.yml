@@ -1,27 +1,18 @@
 mode: live
 #mode: maintenance
-#tagline_main: Make your business processes efficient,<br />
-#tagline_main: Accelerated Digital Transformation,<br />
-#tagline_main: Accelerated Digital Transformation,<br />
-#tagline_main: Unlock Your Digital Transformation,<br />
-#tagline_main: Expedite your path from idea to execution,<br />
-tagline_main: Expedite your journey from idea to execution,<br />
+tagline_main: Expedite your journey from <i>idea</i> to <b>execution</b><br />
 
 #tagline_dynamic: at reduced CapEx, at optimal OpEx, at infinite scale, on your terms 🎯
-tagline_dynamic: at low cost, and infinite scale, on your terms 🎯
-tagline_dynamic_delay: 100
+#tagline_dynamic: at low cost, and infinite scale, on your terms 🎯
+tagline_dynamic: at optimal cost, and unlimited scale, on your terms 🎯
+tagline_dynamic_delay: 85
+#tagline_dynamic_delay: 100
 #tagline_dynamic_delay: 75
-#tagline_cta: Paying too much for licensing? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
-#tagline_cta: Paying too much for too little? Need a bespoke solution without the vendor lock-in? Considering the Cloud but lack the in-house expertise?
-#tagline_cta: Paying too much for too little? Need to modernise your data infrastructure? Considering the Cloud but lack the in-house expertise?
-#tagline_cta: Paying too much for too little? Need to modernise your organisation? Considering the Cloud but lack the in-house expertise?
-#tagline_cta: Paying too much for too little? Need to modernise your systems? Considering the Cloud but lack the expertise?
-#tagline_cta: Paying too much for too little? Need to modernise your IT systems? Considering the Cloud but lack the in-house expertise?
-#tagline_cta: Underutilising resources? Need to modernise your IT systems? Lacking expertise for Cloud adoption?
-#tagline_cta: Future-proof your business with modern data architectures and bespoke AI/ML solutions.
-#tagline_cta: We help future-proof your business with bespoke data infrastructure and AI/ML solutions.
-#tagline_cta: We help future-proof your business with bespoke data infrastructure and intelligent systems.
-tagline_cta: We help future-proof your business with bespoke data infrastructure and intelligence solutions.
+#tagline_cta: We help future-proof your business with bespoke data infrastructure and intelligence solutions.
+#tagline_cta: Data Intelligence and Executive Technical Leadership Solutions for Your Enterprise
+#tagline_cta: Strategic Data Intelligence & Executive Technical Leadership Solutions for Your Enterprise
+#tagline_cta: Strategic Data Intelligence Solutions & Interim CTO Services for Your Enterprise
+tagline_cta: Strategic Data Intelligence Solutions & CTO Advisory Services for Your Enterprise
 
 button_cta1_text: Solutions
 button_cta1_url: /solutions
