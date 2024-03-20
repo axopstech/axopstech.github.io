@@ -28,15 +28,6 @@ pages:
     tagline: "Empower Tomorrow's Innovators: with AxOps Technical Training Services"
 
     services:
-      devops-engineering:
-        title: DevOps Engineering
-        description: Learn DevOps Engineering and Continuous Integration/Continuous Deployment (CI/CD) from AWS-certified DevOps Engineers. Explore essential concepts, methodologies, and tools to facilitate streamlined software development and deployment. Our comprehensive training programme emphasises automation, collaboration, and scalability, equipping you with the knowledge to design and implement efficient CI/CD processes, while fostering a robust DevOps culture.
-        benefits:
-          - "DevOps Principles and Practices: Build Collaborative Environments"
-          - "CI/CD Pipelines: Automation, Integration, and Deployment"
-          - "Robust Techniques for Resilient, Highly Available Deployments"
-          - "Elasticity, Observability, and Monitoring for efficient CI/CD"
-
       event-driven-architecture:
         title: Event-Driven Architecture
         description: Our comprehensive training programme on Event-Driven IT Architecture provides in-depth insights into the design, implementation, and management of event-driven systems. Explore the principles and patterns that govern the development of reactive and scalable architectures. Effectively leverage modern technologies and frameworks to create highly responsive and resilient applications.

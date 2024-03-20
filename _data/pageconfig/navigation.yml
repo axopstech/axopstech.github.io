@@ -178,7 +178,7 @@
         -
           name: DevOps Engineering
           url: "#devops-engineering"
-          enabled: true
+          enabled: false
         -
           name: Blockchain Development
           url: "#blockchain-development"
