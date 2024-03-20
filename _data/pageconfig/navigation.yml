@@ -12,9 +12,9 @@
   current: false
   enabled: true
   has_children: true
-  multi_column: false
+  multi_column: true
   has_subchildren: false
-  is_mega_dropdown: true
+  is_mega_dropdown: false
   children:
     -
       name: Cloud Services
@@ -49,7 +49,7 @@
     -
       name: 'Application Engineering    <span style="visibility: hidden">.</span>'
       url: /application-engineering
-      enabled: true
+      enabled: false
       children:
         -
           name: Cloud Engineering
@@ -78,7 +78,7 @@
     -
       name: Data Management
       url: /data-management
-      enabled: true
+      enabled: false
       children:
         -
           name: Database Migration
@@ -91,6 +91,19 @@
     -
       name: Business Analytics
       url: /business-analytics
+      enabled: false
+      children:
+        -
+          name: Data Science Consulting
+          url: '#data-science-consulting'
+          enabled: true
+        -
+          name: Predictive Analytics
+          url: '#predictive-analytics-solutions'
+          enabled: true
+    -
+      name: Data Intelligence
+      url: /data-intelligence
       enabled: true
       children:
         -

@@ -10,6 +10,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/devops-automation.jpg 2x
     url: &site_url /solutions/cloud-services
     role: Centralise disparate data, unlock actionable insights, accelerate deployments while reducing overhead.
+    enabled: true
 
   -
     name: Application Engineering
@@ -17,6 +18,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg 2x
     url: &site_url /solutions/application-engineering
     role: Innovate confidently with AxOps, optimising for security, high availability, performance, and scalability.
+    enabled: false
   
   -
     name: Data Management
@@ -24,6 +26,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg 2x
     url: &site_url /solutions/data-management
     role: Seamlessly transition from legacy systems, dive deep into your data, and enhance decision-making.
+    enabled: false
   
   -
     name: Business Analytics
@@ -31,6 +34,15 @@ members:
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg 2x
     url: &site_url /solutions/business-analytics
     role: Transform insights into actionable intelligence with bespoke predictive data analytics solutions. 
+    enabled: false
+
+  -
+    name: Data Intelligence
+    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg 2x
+    url: &site_url /solutions/data-intelligence
+    role: Transform insights into actionable intelligence with strategic data intelligence solutions. 
+    enabled: true
 
   -
     name: "Cloud Engr. Training"
@@ -38,6 +50,7 @@ members:
     image_srcset: &site_url /assets/img/illustrations/training/quantitative-research.jpg 2x
     url: &site_url /solutions/technical-training
     role: Level up your skills with cloud technologies and patterns for creating reliable, performant, and reactive systems.
+    enabled: true
 
   -
     name: "Quant R&D Training"
@@ -45,3 +58,4 @@ members:
     image_srcset: &site_url /assets/img/illustrations/training/quantitative-development.jpg 2x
     url: &site_url /solutions/quantitative-training
     role: Equip yourself with the skills to tackle complex, data-driven challenges with confidence and precision.
+    enabled: true
