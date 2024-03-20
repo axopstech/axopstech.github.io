@@ -44,8 +44,8 @@ scales:
 
 members:
   quantum-engineering-at-scale-aws.md:
-    title: "Case Study: Quantum Financial Engineering on AWS and Fujitsu"
-    subtitle: Design, development and delivery of a Quantum Platform on AWS and Fujitsu for optimising investment portfolios.
+    title: "Case Study: Quantum Financial Engineering on AWS Cloud"
+    subtitle: Design, development and delivery of a Quantum Platform on AWS Cloud for optimising investment portfolios.
     slug: quantum-engineering-at-scale-aws
     image_src: &site_url /assets/img/illustrations/case-studies/quantum-engineering-at-scale-aws.jpg
     industry: "Financial Services"
@@ -73,8 +73,6 @@ members:
       architecture.</p>
       <p>We also improved traditional cybersecurity practices by enabling quantum-encryption of the information 
       with the latest on-cloud security technologies.</p>
-      <p>Additionally, we used Fujitsu's cloud environment to provide high-performance 
-      computing (HPC) and efficient communication with other services hosted on AWS.</p>
     deployment: >
       <p>Once development was complete, we deployed the platform on AWS. The platform was deployed using a Kubernetes cluster, 
       which allowed us to easily scale the solution as needed and handle high traffic loads. </p>
@@ -83,11 +81,11 @@ members:
       These services allowed us to store and process the data in a highly available and scalable manner, while also providing 
       built-in security features to protect user data.</p>
     conclusion: >
-      <p>Through the development and deployment of this quantum platform on AWS and Fujitsu, we were able to provide financial 
+      <p>Through the development and deployment of this quantum platform on AWS, we were able to provide financial 
       institutions with a more efficient and effective way to optimise investment portfolios.</p>
       <p>The platform incorporates quantum computing techniques and relevant real-time macroeconomic data, allowing for more 
       accurate and robust portfolio optimization.</p>
-      <p>By using AWS and Fujitsu's cloud environments, we were able to achieve high 
+      <p>By leveraging AWS managed services, we were able to achieve high 
       scalability, performance, and security while complying with industry regulations.</p>
     technologies:
       - S3
