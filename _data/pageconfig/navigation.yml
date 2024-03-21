@@ -100,20 +100,20 @@
         -
           name: Predictive Analytics
           url: '#predictive-analytics-solutions'
-          enabled: true
+          enabled: false
     -
       name: Data Intelligence
       url: /data-intelligence
       enabled: true
       children:
         -
-          name: Data Science Consulting
-          url: '#data-science-consulting'
+          name: Applied AI & ML
+          url: '#applied-ai-ml-data-science-consulting'
           enabled: true
         -
           name: Predictive Analytics
           url: '#predictive-analytics-solutions'
-          enabled: true
+          enabled: false
     -
       name: Technology Consulting
       url: /technology-consulting

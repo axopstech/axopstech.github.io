@@ -49,7 +49,7 @@ members:
     image_src: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.jpg 2x
     url: &site_url /solutions/technology-consulting
-    role: On-Demand Leadership and Expertise with AxOps™ Technology Consulting & CTO Advisory Services. 
+    role: On-Demand Leadership and Expertise with AxOps™ Technology Consulting & <b>CTO Advisory Services</b>. 
     enabled: true
   -
     name: "Cloud Engr. Training"

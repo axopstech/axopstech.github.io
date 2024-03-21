@@ -7,12 +7,12 @@ pages:
     services:
       interim-fractional-cto-advisory-services:
         title: CTO Advisory Services
-        description: "Interim or Fractional CTOs serve as a powerful asset for startups, SMEs, and enterprises who need experienced technical leaders to steer technology, development, or engineering teams, defining technology strategy and providing oversight over critical projects and technology initiatives. AxOps&#8482 provides high-level technology advisory and leadership backed by extensive experience across multiple industry verticals and engineering stacks, <b>as-a-service</b>."
+        description: "Interim or Fractional CTOs are a cost-effective alternative to full-time CTO hires, providing experienced technical leadership to steer technology, development, or engineering teams, defining technology strategy and providing oversight over critical projects and technology initiatives. AxOps&#8482 provides <b>CTOs as a service</b>, high-level technology advisory and leadership from extensive experience across multiple industry verticals, cloud vendors, and engineering stacks."
         benefits:
-          - Align technology strategy with business objectives
-          - Leverage broad industry expertise for innovative solutions
+          - Align technology roadmaps and strategy with business objectives
+          - Leverage broad industry expertise for reliable solutions engineering
           - Develop robust technical posture without full-time CTO costs
-          - Direct and mentor tech teams with executive leadership
+          - Direct and mentor teams with battle-tested technical leadership
         enabled: true
 
   technologies-business-analytics.md:
@@ -21,13 +21,13 @@ pages:
 
     services:
       data-science-consulting:
-        title: Data Science Consulting
-        description: "AxOps&#8482 consultants have extensive field experience in senior data science and quantitative research roles, specialising in delivering robust and sophisticated data-driven solutions. We employ cutting-edge statistical methods and machine learning techniques, always delivering solutions to the highest industry standards to ensure that clients receive reliable, actionable intelligence tailored to their organisation's specific needs."
+        title: Applied AI & ML Solutions
+        description: "AxOps&#8482 consultants have extensive field experience in senior ML engineering, data science and quantitative research roles, specialising in delivering sophisticated data intelligence solutions. We employ state-of-the-art machine learning and decision intelligence techniques, delivering solutions to the highest industry standards to ensure that clients receive reliable, actionable intelligence tailored to their organisation's specific needs."
         benefits:
+          - Leverage your data to make more informed, data-backed decisions
+          - Identify trends and opportunities, staying ahead of the competition
           - Enhance decision-making with evidence-based insights
-          - Optimise operational efficiency, reduce costs, and drive growth
-          - Streamline processes with bespoke data-driven strategies
-          - Leverage insights to foster productivity and innovation
+          - Use Generative AI specifically adapted to your use-cases
         enabled: true
       
       predictive-analytics-solutions:
@@ -38,7 +38,7 @@ pages:
           - Anticipate demand and allocate resources effectively to maximise efficiency and reduce costs
           - Identify and mitigate risks with near real-time intelligence, and proactively safeguard operations
           - Leverage predictive analytics to identify trends and opportunities, staying ahead of the competition
-        enabled: true
+        enabled: false
 
   technologies-data-management.md:
     title: Data Management
