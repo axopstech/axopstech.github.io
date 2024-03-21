@@ -120,8 +120,8 @@
       enabled: true
       children:
         -
-          name: CTO Advisory Services
-          url: '#interim-fractional-cto-advisory-services'
+          name: CTO-as-a-Service (CaaS)
+          url: '#interim-fractional-cto-advisory-consulting-services'
           enabled: true
 
 -
