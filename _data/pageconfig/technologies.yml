@@ -128,7 +128,7 @@ pages:
           - "Optimise operating costs with pay-as-you-go pricing"
           - "Easily adapt to changing demands through automatic scaling"
           - "Streamline development by using cloud-native service integrations"
-        enabled: true
+        enabled: false
 
   technologies-application-engineering.md:
     title: Application Engineering

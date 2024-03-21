@@ -44,7 +44,7 @@
         -
           name: Serverless Computing
           url: "#serverless-computing"
-          enabled: true
+          enabled: false
 
     -
       name: 'Application Engineering    <span style="visibility: hidden">.</span>'

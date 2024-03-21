@@ -5,6 +5,22 @@ tagline_main: Accelerate Innovation with AxOps™
 site_url: https://axopstech.github.io
 members:
   -
+    name: Technology Consulting
+    image_src: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.jpg 2x
+    url: &site_url /solutions/technology-consulting
+    role: On-Demand Leadership and Expertise with AxOps™ Technology Consulting & <b>CTO Advisory Services</b>. 
+    enabled: true
+  
+  -
+    name: Data Intelligence
+    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg 2x
+    url: &site_url /solutions/data-intelligence
+    role: Transform insights into actionable intelligence with strategic data intelligence solutions. 
+    enabled: true
+  
+  -
     name: Cloud Services
     image_src: &site_url /assets/img/illustrations/custom/devops-automation.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/devops-automation.jpg 2x
@@ -36,21 +52,6 @@ members:
     role: Transform insights into actionable intelligence with bespoke predictive data analytics solutions. 
     enabled: false
 
-  -
-    name: Data Intelligence
-    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg 2x
-    url: &site_url /solutions/data-intelligence
-    role: Transform insights into actionable intelligence with strategic data intelligence solutions. 
-    enabled: true
-  
-  -
-    name: Technology Consulting
-    image_src: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.jpg 2x
-    url: &site_url /solutions/technology-consulting
-    role: On-Demand Leadership and Expertise with AxOps™ Technology Consulting & <b>CTO Advisory Services</b>. 
-    enabled: true
   -
     name: "Cloud Engr. Training"
     image_src: &site_url /assets/img/illustrations/training/quantitative-research.jpg
