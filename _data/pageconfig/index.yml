@@ -12,7 +12,8 @@ tagline_dynamic_delay: 85
 #tagline_cta: Data Intelligence and Executive Technical Leadership Solutions for Your Enterprise
 #tagline_cta: Strategic Data Intelligence & Executive Technical Leadership Solutions for Your Enterprise
 #tagline_cta: Strategic Data Intelligence Solutions & Interim CTO Services for Your Enterprise
-tagline_cta: Strategic Data Intelligence Solutions & CTO Advisory Services for Your Enterprise
+#tagline_cta: Strategic Data Intelligence Solutions & CTO Advisory Services for Your Enterprise
+tagline_cta: Data Intelligence Solutions & CTO Advisory Services for Your Enterprise
 
 button_cta1_text: Solutions
 button_cta1_url: /solutions

@@ -17,7 +17,7 @@ members:
     image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg
     image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg 2x
     url: &site_url /solutions/data-intelligence
-    role: Transform insights into actionable intelligence with strategic data intelligence solutions. 
+    role: Translate insights into measurable business outcomes with end-to-end data intelligence solutions. 
     enabled: true
   
   -

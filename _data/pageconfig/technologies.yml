@@ -7,10 +7,10 @@ pages:
     services:
       interim-fractional-cto-advisory-services:
         title: CTO Advisory Services
-        description: "Interim or Fractional CTOs are a cost-effective alternative to full-time CTO hires, providing experienced technical leadership to steer technology, development, or engineering teams, defining technology strategy and providing oversight over critical projects and technology initiatives. AxOps&#8482 provides <b>CTOs as a service</b>, high-level technology advisory and leadership from extensive experience across multiple industry verticals, cloud vendors, and engineering stacks."
+        description: "Interim or Fractional CTOs are a cost-effective alternative to full-time CTO positions, delivering on-demand technical leadership to navigate technology, development, and engineering initiatives. Our <b>CTO-as-a-Service</b> solution covers the full product development cycle from business analysis and strategic planning to guiding technical solutions, hands-on technical architecture, and setting standards for technical teams, drawing from a wealth of experience across multiple industry verticals, cloud platforms, and engineering stacks."
         benefits:
+          - Scale software engineering teams with hands-on tech leadership
           - Align technology roadmaps and strategy with business objectives
-          - Leverage broad industry expertise for reliable solutions engineering
           - Develop robust technical posture without full-time CTO costs
           - Direct and mentor teams with battle-tested technical leadership
         enabled: true
