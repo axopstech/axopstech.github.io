@@ -1,5 +1,20 @@
 tagline_href: solutions
 pages:
+  technologies-technology-consulting.md:
+    title: Technology Consulting
+    tagline: "On-Demand Leadership and Expertise with AxOps&#8482 Technology Consulting"
+
+    services:
+      interim-fractional-cto-advisory-services:
+        title: CTO Advisory Services
+        description: "Interim or Fractional CTOs serve as a powerful asset for startups, SMEs, and enterprises who need experienced technical leaders to steer technology, development, or engineering teams, defining technology strategy and providing oversight over critical projects and technology initiatives. AxOps&#8482 provides high-level technology advisory and leadership backed by extensive experience across multiple industry verticals and engineering stacks, <b>as-a-service</b>."
+        benefits:
+          - Align technology strategy with business objectives
+          - Leverage broad industry expertise for innovative solutions
+          - Develop robust technical posture without full-time CTO costs
+          - Direct and mentor tech teams with executive leadership
+        enabled: true
+
   technologies-business-analytics.md:
     title: Data Intelligence
     tagline: "Transform Insights into Impact: with AxOps&#8482 Data Intelligence Solutions"

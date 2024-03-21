@@ -1,6 +1,6 @@
 tagline_intro: Supported Technologies
 tagline_here: Solutions
-tagline_main: Accelerate Innovation with AxOps
+tagline_main: Accelerate Innovation with AxOps™
 #site_url: https://localhost:4000
 site_url: https://axopstech.github.io
 members:
@@ -43,14 +43,21 @@ members:
     url: &site_url /solutions/data-intelligence
     role: Transform insights into actionable intelligence with strategic data intelligence solutions. 
     enabled: true
-
+  
+  -
+    name: Technology Consulting
+    image_src: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.jpg
+    image_srcset: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.jpg 2x
+    url: &site_url /solutions/technology-consulting
+    role: On-Demand Leadership and Expertise with AxOps™ Technology Consulting & CTO Advisory Services. 
+    enabled: true
   -
     name: "Cloud Engr. Training"
     image_src: &site_url /assets/img/illustrations/training/quantitative-research.jpg
     image_srcset: &site_url /assets/img/illustrations/training/quantitative-research.jpg 2x
     url: &site_url /solutions/technical-training
     role: Level up your skills with cloud technologies and patterns for creating reliable, performant, and reactive systems.
-    enabled: true
+    enabled: false
 
   -
     name: "Quant R&D Training"

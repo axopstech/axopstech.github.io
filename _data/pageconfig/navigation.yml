@@ -114,6 +114,15 @@
           name: Predictive Analytics
           url: '#predictive-analytics-solutions'
           enabled: true
+    -
+      name: Technology Consulting
+      url: /technology-consulting
+      enabled: true
+      children:
+        -
+          name: CTO Advisory Services
+          url: '#interim-fractional-cto-advisory-services'
+          enabled: true
 
 -
   name: Technical Training
