@@ -35,6 +35,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <!--/.row -->
             <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-8" data-cue="slideInDown" data-delay="700">
                 {% for member in config.members %}
+                {% if member[1].enabled %}
                 <div class="col-md-6 col-lg-4">
                     <div class="position-relative">
                     <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
@@ -64,6 +65,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                     </div>
                     <!-- /div -->
                 </div>
+                {% endif %}
                 {% endfor %}
                 <div class="col-md-6 col-lg-4">
                     <div class="position-relative">

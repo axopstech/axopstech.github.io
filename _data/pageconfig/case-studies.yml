@@ -44,6 +44,7 @@ scales:
 
 members:
   quantum-engineering-at-scale-aws.md:
+    enabled: true
     title: "Case Study: Quantum Financial Engineering on AWS Cloud"
     subtitle: Design, development and delivery of a Quantum Platform on AWS Cloud for optimising investment portfolios.
     slug: quantum-engineering-at-scale-aws
@@ -97,6 +98,7 @@ members:
       - Terraform
   
   streamlining-expense-processing-aws-salesforce.md:
+    enabled: true
     title: "Case Study: OCR Data Processing in Salesforce with Serverless AWS"
     subtitle: Streamlining Invoice, Receipt, and Timesheet Processing with AWS Lambda, S3, and Salesforce Apex Batch Jobs.
     slug: streamlining-expense-processing-aws-salesforce
@@ -175,6 +177,7 @@ members:
       - CloudFormation
       
   social-media-super-app-aws.md:
+    enabled: false
     title: "Case Study: Social Media Super App Deployment on AWS"
     subtitle: Design, development and delivery of a novel, highly available Social Media App on AWS for fast, global content consumption.
     slug: social-media-super-app-aws
@@ -222,6 +225,7 @@ members:
       - DynamoDB
 
   multi-tenancy-saas-financial-risk-management.md:
+    enabled: true
     title: "Case Study: Multi-Tenancy SaaS for Financial Risk Management"
     subtitle: Modernising traditional risk management operations and improving performance using applied Machine Learning / AI.
     slug: multi-tenancy-saas-financial-risk-management
@@ -262,6 +266,7 @@ members:
       - DigitalOcean
 
   blockchain-powered-mobility-service-aws-gcp.md:
+    enabled: false
     title: "Case Study: Blockchain-powered Mobility Service on AWS and GCP"
     subtitle: Developing and Deploying a High-Availability Blockchain-based Mobility Solution on AWS and GCP.
     slug: blockchain-powered-mobility-service-aws-gcp
@@ -313,6 +318,7 @@ members:
       - Kubernetes
   
   decentralized-p2p-challenges-aws.md:
+    enabled: false
     title: "Case Study: Decentralised P2P Collateral Exchange on AWS"
     subtitle: Developing and Deploying a Blockchain-based Social Decentralised Peer-to-Peer Collateral Exchange Platform.
     slug: decentralized-p2p-challenges-aws

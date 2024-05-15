@@ -40,6 +40,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             {% assign members = config.members | where_exp: "member", "member.service == 'Application Engineering'" %}
             <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-8" data-cue="slideInDown" data-delay="700">
                 {% for member in members %}
+                {% if member.enabled %}
                 <div class="col-md-6 col-lg-4">
                   <div class="position-relative">
                   <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
@@ -69,6 +70,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                   </div>
                   <!-- /div -->
                 </div>
+                {% endif %}
                 {% endfor %}
                 <!--/column -->
                 <div class="col-md-6 col-lg-4">
