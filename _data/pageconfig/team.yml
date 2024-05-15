@@ -1,6 +1,6 @@
 tagline_intro: The AXOPS Team
 #tagline_main: Our battle-tested, multi-disciplinary team of consultants
-tagline_main: "International consultants specialized in complex data technology domains"
+tagline_main: "International consultants specialized in diverse data technology domains"
 tagline_here: The Team
 site_url: https://axopstech.github.io
 members:
@@ -10,7 +10,7 @@ members:
     enabled: true
     image_src: &site_url /assets/img/photos/team/alain-porto-2.jpg
     image_srcset: &site_url /assets/img/photos/team/alain-porto-2.jpg 2x
-    role: Data Solutions Architect
+    role: Technical Architect
     bio: >
       <p>Alain is a versatile Software Architect, DevOps Engineer, and Agile Delivery Manager.</p>
       <p>Hailing from the FinTech and Machine Tool industries, he specialises in developing bespoke products for 
@@ -26,7 +26,7 @@ members:
       - DevOps
       - TeamOps
       - Solution Architecture
-  
+
   -
     name: Moira Khan
     slug: moira-khan
@@ -47,9 +47,32 @@ members:
       - Programme Management
 
   -
+    name: Ali Saif
+    slug: ali-saif
+    enabled: true
+    image_src: &site_url /assets/img/photos/team/ali-saif-1.jpg
+    image_srcset: &site_url /assets/img/photos/team/ali-saif-1.jpg 2x
+    role: Technical Architect
+    bio: >
+      <p>Ali is an AWS Certified DevOps Engineer Professional, and has over two decades worth of battle scars earned as a Software Engineer, Technical Architect, 
+      Quant Developer, and Technical Trainer in the Professional IT Services, Decision Intelligence, 
+      FinTech, Quantitative Finance, Applied AI/ML, and EdTech industries.</p> 
+      <p>He specialises in Design, Implementation, and Delivery of Big Data and Cloud Data Solutions, and setting 
+      up Data Engineering practices across Architecture, Design, Development & Deployment.</p>
+      <p>He has strong stakeholder-management skills, having worked closely with C-Suite leaders, clients, 
+      engineering and cross-functional teams of all sizes.</p>
+    skills:
+      - AWS
+      - DevOps
+      - Quant R&D
+      - Generative AI
+      - TeamOps
+      - Technical Architecture
+      
+  -
     name: Eriz Zárate
     slug: eriz-zarate
-    enabled: true
+    enabled: false
     image_src: &site_url /assets/img/photos/team/eriz-zarate.jpg
     image_srcset: &site_url /assets/img/photos/team/eriz-zarate.jpg 2x
     role: Technical Solutions Architect
@@ -75,7 +98,7 @@ members:
     enabled: true
     image_src: &site_url /assets/img/photos/team/marti-castany.jpg
     image_srcset: &site_url /assets/img/photos/team/marti-castany.jpg 2x
-    role: Quant Research Specialist
+    role: Quant Research Consultant
     bio: >
       <p>Martí has over a decade’s experience in Quantitative Research, Portfolio Management and Executive Leadership in the Systematic Investing and FinTech industries.</p><p>He has a background in Electrical and Hardware Engineering, having worked in the fields of Digital Signal Processing (DSP) and high-speed multi-layer digital-analog PCB design.</p><p>His specialities include the design and development of systematic analytics and forecasting models for extremely large, high density, and high frequency time series datasets, and their deployment as microservices on AWS and DigitalOcean.</p>
     skills:
@@ -85,7 +108,7 @@ members:
       - DevOps
       - TeamOps
       - Solution Architecture
-      
+
   -
     name: Saad Hashmi
     slug: saad-hashmi
@@ -104,40 +127,17 @@ members:
       - Corporate Leadership
 
   -
-    name: Tiniki (Generative AI)
+    name: Tiniki (GenAI FTM)
     slug: tiniki-gai
     enabled: true
     image_src: &site_url /assets/img/photos/team/tiniki.jpg
     image_srcset: &site_url /assets/img/photos/team/tiniki.jpg 2x
-    role: Director of All Creatives
-
-  -
-    name: Ali Saif
-    slug: ali-saif
-    enabled: true
-    image_src: &site_url /assets/img/photos/team/ali-saif-1.jpg
-    image_srcset: &site_url /assets/img/photos/team/ali-saif-1.jpg 2x
-    role: Principal Technical Architect
-    bio: >
-      <p>Ali is an AWS Certified DevOps Engineer Professional, and has over two decades worth of battle scars earned as a Software Engineer, Technical Architect, 
-      Quant Developer, and Technical Trainer in the Professional IT Services, Decision Intelligence, 
-      FinTech, Quantitative Finance, Applied AI/ML, and EdTech industries.</p> 
-      <p>He specialises in Design, Implementation, and Delivery of Big Data and Cloud Data Solutions, and setting 
-      up Data Engineering practices across Architecture, Design, Development & Deployment.</p>
-      <p>He has strong stakeholder-management skills, having worked closely with C-Suite leaders, clients, 
-      engineering and cross-functional teams of all sizes.</p>
-    skills:
-      - AWS
-      - DevOps
-      - Quant R&D
-      - Generative AI
-      - TeamOps
-      - Technical Architecture
+    role: Frontend Development Agent
     
   -
-    name: Squirrel (Generative AI)
+    name: Squirrel (GenAI FTM)
     slug: squirrel-gai
     enabled: true
     image_src: &site_url /assets/img/photos/team/squirrel.jpg
     image_srcset: &site_url /assets/img/photos/team/squirrel.jpg 2x
-    role: Developer of All Things
+    role: Backend Engineering Agent

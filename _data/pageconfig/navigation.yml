@@ -305,7 +305,7 @@
     -
       name: The Team
       url: /meet-the-team
-      enabled: false
+      enabled: true
     -
       name: Partners
       url: /our-partners
