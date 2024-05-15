@@ -7,15 +7,19 @@ services:
   - 
     name: Cloud Engineering
     slug: /case-studies/cloud-engineering
+    enabled: true
   - 
     name: Serverless Computing
     slug: /case-studies/serverless-computing
+    enabled: true
   - 
     name: Application Engineering
     slug: /case-studies/application-engineering
+    enabled: true
   - 
     name: Blockchain Development
     slug: /case-studies/blockchain-development
+    enabled: false
 
 industries:
   - 

@@ -24,6 +24,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                           <a href="{{ config.page_slug }}"><span class="btn btn-soft-ash btn-sm rounded text-blue">All</span></a>
                         </li>
                         {% for service in config.services %}
+                        {% if service.enabled %}
                         <li class="list-inline-item me-1 mb-2">
                         {% if service.slug contains page.cs_slug %}
                           <a href="{{ service.slug }}"><span class="btn btn-soft-ash btn-sm rounded bg-blue text-white">{{ service.name }}</span></a>
@@ -31,6 +32,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                           <a href="{{ service.slug }}"><span class="btn btn-soft-ash btn-sm rounded text-blue">{{ service.name }}</span></a>
                         {% endif %}
                         </li>
+                        {% endif %}
                         {% endfor %}
                       </ul>
                     </p>

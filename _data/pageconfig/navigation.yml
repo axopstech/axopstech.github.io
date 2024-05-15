@@ -275,7 +275,7 @@
     -
       name: Blockchain Development
       url: /blockchain-development
-      enabled: true
+      enabled: false
 
 -
   name: Pattern Library
