@@ -1,10 +1,10 @@
 tagline_intro: Our Technology Partners
-tagline_main: AxOps engages select IT vendors to augment our services &#129309;
+tagline_main: AxOps engages select IT partners to augment our services &#129309;
 #site_url: https://localhost:4000
 site_url: https://axopstech.github.io
 members:
   -
-    name: iQlink Limited
+    name: iQlink (United Kingdom)
     link: https://iqlink.co.uk/?utm_source=axops&utm_medium=axops-partners-page
     enabled: true
     image_src: &site_url /assets/img/partners/iqlink-2.jpg
@@ -22,3 +22,19 @@ members:
       - Intapp DealCloud
       - Salesforce
       - PSA & CRM Solutions
+
+  -
+    name: Komalogic (Spain)
+    link: https://komalogic.com/?utm_source=axops&utm_medium=axops-partners-page
+    enabled: true
+    image_src: &site_url /assets/img/partners/komalogic.png
+    image_srcset: &site_url /assets/img/partners/komalogic.png 2x
+    role: 
+    bio: >
+      <p>Komalogic is a Quant Research firm combining expertise from across the quantitative finance, social sciences, and world history domains, to create novel systematic trading models.</p>
+      <p>The firm's multidisciplinary approach aims to provide investors with investment vehicles uncorrelated to the global economy, and within an absolute return mandate.</p>
+      <p>A technology company at its core, KomaLogic also provides FinTech SaaS development services, backed by the same proprietary tech stack that powers their Quant Research function.</p>
+    skills:
+      - Quantitative Finance
+      - Portfolio Management
+      - FinTech SaaS Development
