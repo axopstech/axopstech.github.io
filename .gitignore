@@ -19,4 +19,10 @@ Gemfile.lock
 *.psd
 *.png
 !komalogic.png
+!alkali-business-analyst.png
+!incubo-researcher.png
+!incuba-researcher.png
+!apex-salesforce-developer.png
+!nuben-cloud-architect.png
+!reva-code-reviewer.png
 .DS_Store

@@ -1,6 +1,6 @@
 tagline_intro: The AXOPS Team
 #tagline_main: Our battle-tested, multi-disciplinary team of consultants
-tagline_main: "International consultants specialized in diverse data technology domains"
+tagline_main: "A <i>human-agentic</i> team specialized in diverse data technology domains"
 tagline_here: The Team
 site_url: https://axopstech.github.io
 members:
@@ -127,17 +127,114 @@ members:
       - Corporate Leadership
 
   -
-    name: Tiniki (GenAI FTM)
+    name: Tiniki
     slug: tiniki-gai
     enabled: true
     image_src: &site_url /assets/img/photos/team/tiniki.jpg
     image_srcset: &site_url /assets/img/photos/team/tiniki.jpg 2x
     role: Frontend Development Agent
-    
+    bio: "..."
+    skills:
+      - Vite
+      - React
+      - NextJS
+      - TypeScript
+      - Python
+
   -
-    name: Squirrel (GenAI FTM)
+    name: Apex
+    slug: apex-gai
+    enabled: true
+    image_src: &site_url /assets/img/photos/team/apex-salesforce-developer.png
+    image_srcset: &site_url /assets/img/photos/team/apex-salesforce-developer.png 2x
+    role: Salesforce Developer Agent
+    bio: "..."
+    skills:
+      - Apex
+      - SOQL
+      - SOSL
+      - Flows
+      
+  -
+    name: Alkali
+    slug: alkali-gai
+    enabled: true
+    image_src: &site_url /assets/img/photos/team/alkali-business-analyst.png
+    image_srcset: &site_url /assets/img/photos/team/alkali-business-analyst.png 2x
+    role: Team Coordination Agent
+    bio: "..."
+    skills:
+      - Requirements Analysis
+      - Scoping & Alignment
+
+  -
+    name: Squirrel
     slug: squirrel-gai
     enabled: true
     image_src: &site_url /assets/img/photos/team/squirrel.jpg
     image_srcset: &site_url /assets/img/photos/team/squirrel.jpg 2x
     role: Backend Engineering Agent
+    bio: "..."
+    skills:
+      - Rust
+      - C/C++
+      - Python
+      - TypeScript
+      - AWS CDK
+      - Terraform
+
+  -
+    name: Incub<u>a</u>
+    slug: incuba-gai
+    enabled: true
+    image_src: &site_url /assets/img/photos/team/incuba-researcher.png
+    image_srcset: &site_url /assets/img/photos/team/incuba-researcher.png 2x
+    role: Research Agent
+    bio: "..."
+    skills:
+      - Domain Research
+      - Technical Discovery
+      - Requirements Analysis
+      - Scoping & Alignment
+  -
+    name: Nuben
+    slug: nuben-gai
+    enabled: true
+    image_src: &site_url /assets/img/photos/team/nuben-cloud-architect.png
+    image_srcset: &site_url /assets/img/photos/team/nuben-cloud-architect.png 2x
+    role: Cloud Architecture Agent
+    bio: "..."
+    skills:
+      - GCP
+      - AWS
+      - Azure
+      - Solution Architecture
+      - Architecture Diagramming
+
+  -
+    name: Reva
+    slug: reva-gai
+    enabled: true
+    image_src: &site_url /assets/img/photos/team/reva-code-reviewer.png
+    image_srcset: &site_url /assets/img/photos/team/reva-code-reviewer.png 2x
+    role: Code Review Agent
+    bio: "..."
+    skills:
+      - Domain Research
+      - Technical Discovery
+      - Requirements Analysis
+      - Scoping & Alignment
+
+  -
+    name: Incub<u>o</u>
+    slug: incubo-gai
+    enabled: true
+    image_src: &site_url /assets/img/photos/team/incubo-researcher.png
+    image_srcset: &site_url /assets/img/photos/team/incubo-researcher.png 2x
+    role: Research Agent
+    bio: "..."
+    skills:
+      - Domain Research
+      - Technical Discovery
+      - Requirements Analysis
+      - Scoping & Alignment
