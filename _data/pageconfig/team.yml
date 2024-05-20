@@ -132,7 +132,7 @@ members:
     enabled: true
     image_src: &site_url /assets/img/photos/team/tiniki.jpg
     image_srcset: &site_url /assets/img/photos/team/tiniki.jpg 2x
-    role: Frontend Development Agent
+    role: Frontend Engineering Agent
     bio: "..."
     skills:
       - Vite
@@ -177,7 +177,10 @@ members:
     image_src: &site_url /assets/img/photos/team/squirrel.jpg
     image_srcset: &site_url /assets/img/photos/team/squirrel.jpg 2x
     role: Backend Engineering Agent
-    bio: "..."
+    bio: >
+      <p>Squirrel is a digital agent, backed by selected open-source large language models fine-tuned on proprietary AxOps backend code datasets. It's responsibilities include interpreting task requirements, and performing and explaining project-specific backend engineering tasks.</p>
+      <p>Guided by the expertise and vision of our human team members, it plays a critical role in automating and optimizing various engineering processes in the company, helping the wider team ensure the efficient and reliable delivery of projects.</p> 
+      <p>As a key member of our distributed engineering organization, Squirrel empowers us to deliver exceptional results while minimizing errors and maximizing developer productivity.</p>
     skills:
       - Rust
       - C/C++
@@ -192,7 +195,7 @@ members:
     enabled: true
     image_src: &site_url /assets/img/photos/team/incuba-researcher.jpg
     image_srcset: &site_url /assets/img/photos/team/incuba-researcher.jpg 2x
-    role: Research Agent
+    role: Research Discovery Agent
     bio: "..."
     skills:
       - Domain Research
@@ -234,7 +237,7 @@ members:
     enabled: true
     image_src: &site_url /assets/img/photos/team/incubo-researcher.jpg
     image_srcset: &site_url /assets/img/photos/team/incubo-researcher.jpg 2x
-    role: Research Agent
+    role: Research Evaluation Agent
     bio: "..."
     skills:
       - Domain Research
