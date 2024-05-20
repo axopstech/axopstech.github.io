@@ -151,7 +151,7 @@ members:
     image_src: &site_url /assets/img/photos/team/nuben-cloud-architect.jpg
     image_srcset: &site_url /assets/img/photos/team/nuben-cloud-architect.jpg 2x
     role: Cloud Architecture Agent
-    bio: "..."
+    bio: 
     skills:
       - GCP
       - AWS
@@ -166,7 +166,7 @@ members:
     image_src: &site_url /assets/img/photos/team/reva-code-reviewer.jpg
     image_srcset: &site_url /assets/img/photos/team/reva-code-reviewer.jpg 2x
     role: Code Review Agent
-    bio: "..."
+    bio: 
     skills:
       - Domain Research
       - Technical Discovery
@@ -200,7 +200,7 @@ members:
     image_src: &site_url /assets/img/photos/team/incuba-researcher.jpg
     image_srcset: &site_url /assets/img/photos/team/incuba-researcher.jpg 2x
     role: Research Discovery Agent
-    bio: "..."
+    bio: 
     skills:
       - Domain Research
       - Technical Discovery
@@ -208,13 +208,13 @@ members:
       - Scoping & Alignment
 
   -
-    name: Apex
-    slug: apex-gai
+    name: Pintxo
+    slug: pintxo-gai
     enabled: true
     image_src: &site_url /assets/img/photos/team/apex-salesforce-developer.jpg
     image_srcset: &site_url /assets/img/photos/team/apex-salesforce-developer.jpg 2x
     role: Salesforce Developer Agent
-    bio: "..."
+    bio: 
     skills:
       - Apex
       - SOQL
@@ -228,7 +228,7 @@ members:
     image_src: &site_url /assets/img/photos/team/alkali-team-coordinator.jpg
     image_srcset: &site_url /assets/img/photos/team/alkali-team-coordinator.jpg 2x
     role: Team Coordination Agent
-    bio: "..."
+    bio: 
     skills:
       - SCRUM
       - TeamOps
@@ -242,7 +242,7 @@ members:
     image_src: &site_url /assets/img/photos/team/incubo-researcher.jpg
     image_srcset: &site_url /assets/img/photos/team/incubo-researcher.jpg 2x
     role: Research Evaluation Agent
-    bio: "..."
+    bio: 
     skills:
       - Domain Research
       - Technical Discovery
