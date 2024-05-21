@@ -169,12 +169,15 @@ members:
     image_src: &site_url /assets/img/photos/team/reva-code-reviewer.jpg
     image_srcset: &site_url /assets/img/photos/team/reva-code-reviewer.jpg 2x
     role: Code Review Agent
-    bio: 
+    bio: >
+      <p><b>Reva</b> is a digital agent we built to assist us with <b>code reviews</b>, optimized over our internal codebases, documentation, standards, best practices, error patterns and solutions we've documented over time.</p>
+      <p>Code review requires attention to detail and a deep understanding of the domain and optimal approach to a given problem. Reva abstracts away the undifferentiated aspects of this process, and suggests code optimizations, helping us identify and fix issues effectively, and ultimately ship better and faster.</p>
+      <p>Reva thus helps streamline our code review process, reduce errors, and manage risks throughout the development lifecycle, allowing us to focus available bandwidth on innovation and creating value.</p>
     skills:
-      - Domain Research
-      - Technical Discovery
-      - Requirements Analysis
-      - Scoping & Alignment
+      - Code Quality
+      - Error Detection
+      - Standards Compliance
+      - Performance Optimization
 
   -
     name: Squirrel
