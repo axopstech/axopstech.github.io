@@ -151,7 +151,10 @@ members:
     image_src: &site_url /assets/img/photos/team/nuben-cloud-architect.jpg
     image_srcset: &site_url /assets/img/photos/team/nuben-cloud-architect.jpg 2x
     role: Cloud Architecture Agent
-    bio: 
+    bio: >
+      <p><b>Nuben</b> is a digital agent we built to assist our <b>technical solution architects</b> achieve optimal cloud architectures. Powered by SoTA open-source LLMs and data frameworks, Nuben is optimized over our proprietary library of domain-wise cloud architecture patterns and associated technology stacks.</p>
+      <p>Keeping track of cross-vendor service-level technical detail is no straightforward feat. Nuben abstracts this away, helping us iterate quickly towards the most optimal architecture for a given problem.</p>
+      <p>This helps optimize the team's workflow, reduces complexity and mitigates selection risk early on in the project lifecycle, leaving us more bandwidth to focus on innovation and strategic decision-making.</p>
     skills:
       - GCP
       - AWS
