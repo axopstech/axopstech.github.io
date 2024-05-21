@@ -134,7 +134,7 @@ members:
     image_srcset: &site_url /assets/img/photos/team/tiniki.jpg 2x
     role: Frontend Engineering Agent
     bio: >
-      <p><b>Tiniki</b> is a digital agent we built to make our <b>frontend engineering</b> workflows more efficient. Powered by select SoTA open-source LLMs and data frameworks, Tiniki has been trained to leverage proprietary AxOps design and code datasets to interpret and execute technical UI/UX requirements.</p>
+      <p><b>Tiniki</b> is a digital agent we built to make our <b>frontend engineering</b> workflows more efficient. Powered by select SoTA open-source LLMs and data frameworks, Tiniki is optimized over proprietary AxOps design and code datasets to interpret and execute technical UI/UX requirements.</p>
       <p>Built with the ambitious aim of entirely eliminating any undifferentiated heavy lifting from our frontend workflows, it currently automates most of the "boring stuff" with minimal human intervention.</p>
       <p>In doing so, it boosts developer productivity and velocity, allowing the wider team to focus on value creation and delivering exceptional user experiences for our clients.</p>
     skills:
@@ -181,9 +181,9 @@ members:
     image_srcset: &site_url /assets/img/photos/team/squirrel.jpg 2x
     role: Backend Engineering Agent
     bio: >
-      <p><b>Squirrel</b> is an advanced digital agent powered by select SoTA open-source LLMs (large language models) and data frameworks. It has been trained to leverage proprietary AxOps code datasets, enabling it to interpret technical requirements and handle <b>backend engineering</b> tasks with precision.</p>
-      <p>Guided by the expertise and vision of our human team members, Squirrel automates and optimizes our engineering workflows, helping us ensure efficient and reliable project delivery.</p>
-      <p>It plays a critical role in our engineering organization, taking care of all undifferentiated heavy lifting, thereby also reducing errors, and boosting overall developer productivity and velocity.</p>
+      <p><b>Squirrel</b> is an advanced digital agent powered by select SoTA open-source LLMs (large language models) and data frameworks. It is optimized over proprietary AxOps code datasets, enabling it to interpret technical requirements and actively assist with <b>backend engineering</b> tasks.</p>
+      <p>Squirrel automates and optimizes our engineering workflows, abstracts away boilerplate, thereby realizing 15-20% in time and cost savings while helping us ensure efficient and reliable delivery.</p>
+      <p>It hence plays a critical role in our engineering organization, handling undifferentiated heavy lifting with precision, reducing errors, and boosting both developer productivity and velocity.</p>
     skills:
       - Rust
       - C/C++
