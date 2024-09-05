@@ -97,6 +97,6 @@ published: false
       <!-- /.container -->
     </section>
     <!-- /section -->
-    {% include contact-form.html %}
+    {% include contact-form-2.html %}
   </div>
   <!-- /.content-wrapper -->
