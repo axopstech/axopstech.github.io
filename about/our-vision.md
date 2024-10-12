@@ -26,7 +26,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 
                 <p>As a diverse and intellectually versatile team, we don’t just believe in innovation, we <b>live it</b>. Our passion for <b>technology</b> is rooted in the power of innovation to optimize operations, drive business growth, and create value for organizations across sectors.</p>
 
-                <p>With our deep understanding of the IT landscape, we established <b>AxOps™</b> to help businesses adapt and succeed in an increasingly <b>complex and competitive global market</b>. Our team combines <b>decades of expertise</b> across industries like <b>FinTech, Data Management, Cloud Computing, AI, and Data Analytics</b>, giving clients the confidence that we have the <i>scars</i> to prove, and the <b>accelerators</b> to solve, for a variety of <b>data-driven challenges</b> across organisations.</p>
+                <p>With our deep understanding of the IT landscape, we established <b>AxOps™</b> to help businesses adapt and succeed in an increasingly <b>complex and competitive global market</b>. Our team combines <b>decades of expertise</b> across industries like <b>FinTech, Data Management, Hybrid Cloud Computing, AI, and Data Analytics</b>, giving clients the confidence that we have the <i>scars</i> to prove, and the <b>accelerators</b> to solve, for a variety of <b>data-driven challenges</b> across organisations.</p>
 
                 <p>What sets us apart is our <b>unwavering commitment to excellence, agility, and collaboration</b>. These principles have helped us build <b>long-lasting relationships</b> with clients and partners across industries, supporting them in tackling challenges like <b>cloud adoption, AI integration, and data security</b>.</p>
 
