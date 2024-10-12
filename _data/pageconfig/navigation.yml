@@ -107,7 +107,7 @@
       enabled: true
       children:
         -
-          name: Applied AI & ML
+          name: Applied Data & AI Solutions
           url: '#applied-ai-ml-data-science-consulting'
           enabled: true
         -

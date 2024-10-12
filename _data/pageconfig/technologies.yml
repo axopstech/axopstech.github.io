@@ -21,8 +21,8 @@ pages:
 
     services:
       data-science-consulting:
-        title: Applied AI & ML Solutions
-        description: "AxOps&#8482 consultants have extensive field experience in senior ML engineering, data science and quantitative research roles, specialising in delivering sophisticated data intelligence solutions. We employ state-of-the-art machine learning and decision intelligence techniques, delivering solutions to the highest industry standards to ensure that clients receive reliable, actionable intelligence tailored to their organisation's specific needs."
+        title: Applied Data & AI Solutions
+        description: "AxOps&#8482 consultants have extensive field experience in senior ML engineering, data science and quantitative research roles, specialising in delivering sophisticated data intelligence solutions. We employ state-of-the-art machine learning and decision intelligence techniques, delivering enterprise-ready AI solutions to the highest industry standards to ensure that clients receive reliable, actionable intelligence tailored to their organisation's specific needs."
         benefits:
           - Leverage your data to make more informed, data-backed decisions
           - Identify trends and opportunities, staying ahead of the competition
