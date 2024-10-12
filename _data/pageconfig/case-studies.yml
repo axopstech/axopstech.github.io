@@ -5,6 +5,10 @@ page_slug: /case-studies
 site_url: https://axopstech.github.io
 services: 
   - 
+    name: Process Automation
+    slug: /case-studies/process-automation
+    enabled: true
+  - 
     name: Cloud Engineering
     slug: /case-studies/cloud-engineering
     enabled: true
@@ -29,6 +33,9 @@ industries:
     name: FinTech
     slug: /case-studies/industry/fintech
   - 
+    name: Construction
+    slug: /case-studies/industry/construction
+  - 
     name: Financial Services
     slug: /case-studies/industry/financial-services
   - 
@@ -47,6 +54,122 @@ scales:
     slug: /case-studies/scale/small-midsize-business
 
 members:
+  automating-manual-data-entry-serverless-aws-on-prem-proprietary-apis.md:
+    enabled: true
+    title: "Case Study: Automating Data Entry in On-Prem CRM with AWS Services"
+    subtitle: Consultative and Engineering Support towards automating legacy data entry processes in an on-premise CRM.
+    slug: automating-manual-data-entry-serverless-aws-on-prem-proprietary-apis
+    image_src: &site_url /assets/img/illustrations/case-studies/automating-manual-data-entry-serverless-aws-on-prem-proprietary-apis.jpg
+    industry: "Financial Services"
+    service: "Process Automation"
+    scale: "Small & Midsize Business"
+    challenges: >
+      <p>The client, a mid-sized firm in the financial services sector, was struggling with manual data entry processes involving scanned documents, such as quarterly accounts submissions, contracts, and compliance forms. These documents needed to be processed into an on-prem CRM, where key data points could be extracted and stored for further processing, analysis, and decision-making.</p>
+
+      <p>Previously, the client relied on a combination of manual entry and rudimentary OCR (Optical Character Recognition) tools to extract data from scanned documents. The manual process led to several operational inefficiencies, including delays in processing time, human errors, and significant overhead costs. Additionally, the existing OCR tools had limited accuracy and did not integrate well with their legacy on-premise CRM, leading to further workflow disruptions.</p>
+
+    research_and_development: >
+      <p>The primary objectives of the client were:
+        <ol>
+          <li>Automating data extraction from scanned documents and importing it into their CRM.</li>
+          <li>Reducing human error and accelerating the data processing times.</li>
+          <li>Ensuring scalability to handle increasing document volumes.</li>
+          <li>Providing a cost-effective solution that could scale without the need for significant infrastructure investments or specialised personnel on staff.</li>
+        </ol>
+      </p>
+
+      <p>During the research phase, we conducted an in-depth analysis of the client’s existing data entry workflow. Key bottlenecks were identified, including slow OCR performance, limited CRM integration, and the need for significant manual intervention. The client also expressed concerns about the scalability of their current process as the volume of incoming documents increased.</p>
+
+      <p>To address these challenges, we proposed leveraging AWS’s serverless offerings for scalable and more accurate OCR processing. After evaluating various options, we proposed the following:
+        <ol>
+            <li><b>Amazon Textract</b> for OCR processing due to its ability to automatically extract text, forms, and tables from scanned documents with high accuracy.</li>
+            <li><b>AWS Lambda</b> for serverless execution of OCR tasks, and a pay-per-use model without managing servers.</li>
+            <li><b>Amazon S3</b> for storage of the scanned documents before and after OCR processing.</li>
+            <li><b>AWS Step Functions</b> to orchestrate the OCR workflow.</li>
+            <li><b>Proprietary APIs</b> to integrate with AWS and automatically push processed data into the client's on-premise CRM.</li>
+        </ol>
+      </p>
+      <p>These services were selected for their seamless integration with each other in AWS Cloud, and their pay-as-you-go pricing model, which ensured the client only paid for the resources they used.</p>
+
+    architecture: >
+      <p>The solution was designed to be entirely serverless, ensuring that it could scale effortlessly with the client’s growing document processing needs. The architecture included the following key components:
+        <ol>
+            <li><b>Amazon S3:</b> Scanned documents are uploaded to an S3 bucket, triggering the processing workflow.</li>
+            <li><b>AWS Lambda:</b> A Lambda function is triggered by the upload of a new document to S3. This function calls Amazon Textract to perform OCR on the document.</li>
+            <li><b>Amazon Textract:</b> Textract processes the document and extracts the required data points, including both structured and unstructured data such as names, addresses, and financial amounts.</li>
+            <li><b>AWS Step Functions:</b> Step Functions coordinate the workflow, handling failures, retries, and orchestrating the process of calling Textract, validating the results, and pushing the data to the client's CRM via a proprietary REST API.</li>
+            <li><b>Proprietary APIs</b>: The extracted data is sent via REST API calls to an on-prem Windows Server, where it is mapped to the appropriate fields in the client’s CRM system.</li>
+        </ol>
+      </p>
+
+      <p>This architecture provided several benefits:
+        <ol>
+          <li><b>Scalability</b>: The serverless design allowed the client to process a large number of documents simultaneously without any performance degradation.</li>
+          <li><b>Cost Efficiency</b>: Since the chosen AWS services are pay-per-use, the client only incurred costs when documents were processed, eliminating the need for upfront infrastructure investment.</li>
+          <li><b>Automation</b>: The end-to-end automation reduced manual interventions, eliminated errors, and significantly shortened processing times.</li>
+          <li><b>Security</b>: Using AWS IAM roles, encryption, and controlled access to S3 buckets, the data of the client and its customers remained segregated, secure and compliant with industry standards.</li>
+        </ol>
+      </p>
+
+    deployment: >
+      <p>The deployment was divided into several key stages, ensuring a smooth rollout:
+        <ol>
+          <li><b>Infrastructure Setup:</b>
+            <ul>
+              <li>S3 buckets were configured to store incoming scanned documents and processed outputs. Permissions were set using AWS IAM to ensure secure access.</li>
+              <li>The client’s proprietary API was configured to accept incoming data from AWS Lambda with appropriate OAuth authentication.</li>
+            </ul>
+          </li>
+
+          <li><b>Lambda Functions and Step Functions:</b>
+            <ul>
+              <li>AWS Lambda functions were written to trigger OCR processing when a new document was uploaded to S3. Additional functions handled error checking, validation, and communication with the client's on-prem CRM.</li>
+              <li>AWS Step Functions were used to orchestrate the entire workflow, ensuring proper sequencing and error handling.</li>
+            </ul>
+          </li>
+
+          <li><b>On-Prem CRM Integration:</b>
+            <ul>
+              <li>A custom API integration was developed to map the extracted OCR data to CRM objects.</li>
+              <li>Data validation scripts ensured that only accurate and relevant data was pushed into the CRM, avoiding data quality issues.</li>
+            </ul>
+          </li>
+              
+          <li><b>Testing and Validation:</b>
+            <ul>
+              <li>Extensive testing was conducted using a wide variety of scanned documents to ensure that Textract handled various document types (forms, tables, unstructured documents) effectively.</li>
+              <li>The solution was tested for performance and scalability by processing large batches of documents simultaneously.</li>
+            </ul>
+          </li>
+
+          <li><b>CI/CD Pipeline:</b>
+            <ul>
+              <li>A CI/CD pipeline was established using GitHub Actions to automate deployment and ensure ongoing updates could be rolled out with minimal disruption.</li>
+            </ul>
+          </li>
+        </ol>
+      </p>
+
+    conclusion: >
+      <p>The implementation of the serverless OCR data processing solution provided significant business value to the client. By integrating AWS's serverless services with the client's on-prem CRM, the client was able to automate a previously manual and error-prone process, resulting in:
+
+        <ol>
+          <li><b>80% reduction in processing time:</b> Documents that previously took hours to process manually were now processed in minutes.</li>
+          <li><b>Significant cost savings:</b> The client experienced a 35% reduction in operational costs, primarily due to the elimination of manual data entry and the pay-per-use nature of the application.</li>
+          <li><b>Improved data accuracy:</b> The solution reduced human errors by automating the data extraction and entry process.</li>
+          <li><b>Scalability:</b> The client’s document processing capability scaled effortlessly to meet growing demands without requiring additional infrastructure.</li>
+        </ol>
+      </p>
+      
+      <p>The new architecture resolved the client’s pain points by delivering a solution that not only optimized their current workflow but also positioned them for future growth. The use of serverless technology allowed the client to focus on their core business, confident that their data processing system could grow with them.</p>
+      
+    technologies:
+      - S3
+      - SQL
+      - Lambda
+      - Textract
+      - Step Functions
+
   quantum-engineering-at-scale-aws.md:
     enabled: true
     title: "Case Study: Quantum Financial Engineering on AWS Cloud"
