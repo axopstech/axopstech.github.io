@@ -265,6 +265,10 @@
       url: /cloud-engineering
       enabled: true
     -
+      name: Process Automation
+      url: /process-automation
+      enabled: true
+    -
       name: Serverless Computing
       url: /serverless-computing
       enabled: true
