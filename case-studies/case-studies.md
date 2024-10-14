@@ -69,22 +69,6 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                 </div>
                 {% endif %}
                 {% endfor %}
-                <div class="col-md-6 col-lg-4">
-                    <div class="position-relative">
-                    <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-                    <div class="card">
-                        <figure class="card-img-top"><img class="img-fluid" src="{{ site.url }}/assets/img/illustrations/custom/devops-automation.jpg" srcset="{{ site.url }}/assets/img/illustrations/custom/devops-automation.jpg" alt="" /></figure>
-                        <div class="card-body px-6 py-5">
-                        <h4 class="mb-1">More case studies enroute &#128077;</h4>
-                        <p class="mb-0" style="color: inherit;">This section is pending completion, please stand by. Thank you for your interest!</p>
-                        </div>
-                        <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                    </div>
-                    <!-- /div -->
-                </div>
-                <!--/column -->
             </div>
             <!--/.row -->
         </div>

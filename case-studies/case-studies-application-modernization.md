@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Process Automation"
-cs_slug: process-automation
-permalink: /case-studies/process-automation
+title: "Application Modernization"
+cs_slug: application-modernization
+permalink: /case-studies/application-modernization
 description: "Our Projects: Past & Present"
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
@@ -39,7 +39,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                 </div>
                 <!--/column -->
             </div><!--/.row -->
-            {% assign members = config.members | where_exp: "member", "member.service == 'Process Automation'" %}
+            {% assign members = config.members | where_exp: "member", "member.service == 'Application Modernization'" %}
             <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-8" data-cue="slideInDown" data-delay="700">
                 {% for member in members %}
                 {% if member.enabled %}
