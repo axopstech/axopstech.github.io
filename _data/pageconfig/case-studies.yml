@@ -121,17 +121,18 @@ members:
       </p>
 
     conclusion: >
-      <p>The implementation of the serverless OCR data processing solution provided significant business value to the client. By integrating AWS's serverless services with the client's on-prem CRM, the client was able to automate a previously manual and error-prone process, resulting in:
+      <p>Our consultative support provided the Quantitative Research & Development firm with a clear roadmap for modernizing its technology infrastructure. By proposing a cloud-native solution built on AWS, we addressed key operational challenges, including system fragmentation, scalability limitations, and security gaps.</p>
 
+      <p>The recommendations positioned the firm to:
         <ol>
-          <li><b>80% reduction in processing time:</b> Documents that previously took hours to process manually were now processed in minutes.</li>
-          <li><b>Significant cost savings:</b> The client experienced a 35% reduction in operational costs, primarily due to the elimination of manual data entry and the pay-per-use nature of the application.</li>
-          <li><b>Improved data accuracy:</b> The solution reduced human errors by automating the data extraction and entry process.</li>
-          <li><b>Scalability:</b> The client’s document processing capability scaled effortlessly to meet growing demands without requiring additional infrastructure.</li>
+          <li><b>Unify Operations:</b> By integrating portfolio management, CRM, and ERP functions into a single platform, the firm would be able to operate more efficiently and provide a higher level of service to its clients.</li>
+          <li><b>Scale Effectively:</b> The proposed architecture would allow the firm to handle increasing data volumes and client demands without sacrificing performance.</li>
+          <li><b>Enhance Research Capabilities:</b> Real-time data integrations would allow the firm to deliver timely insights to its clients, strengthening its position as a leading provider of quantitative research.</li>
+          <li><b>Improve Security:</b> By adhering to AWS’s Well-Architected and Security Reference frameworks, the firm would ensure compliance with financial regulations while protecting sensitive client data.</li>
         </ol>
       </p>
       
-      <p>The new architecture resolved the client’s pain points by delivering a solution that not only optimized their current workflow but also positioned them for future growth. The use of serverless technology allowed the client to focus on their core business, confident that their data processing system could grow with them.</p>
+      <p>These recommendations provided the firm with a comprehensive, secure, and scalable foundation for future growth.</p>
       
     technologies:
       - S3
