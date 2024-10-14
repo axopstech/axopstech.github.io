@@ -269,12 +269,12 @@
       url: /process-automation
       enabled: true
     -
-      name: Serverless Computing
-      url: /serverless-computing
-      enabled: true
-    -
       name: Financial Engineering
       url: /financial-engineering
+      enabled: true
+    -
+      name: Serverless Computing
+      url: /serverless-computing
       enabled: true
     -
       name: Application Engineering
