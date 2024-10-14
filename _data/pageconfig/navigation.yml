@@ -257,7 +257,7 @@
   is_mega_dropdown: false
   children:
     -
-      name: All Case Studies
+      name: <u>All Case Studies</u>
       url: 
       enabled: true
     -
