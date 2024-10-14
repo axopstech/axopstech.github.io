@@ -273,6 +273,10 @@
       url: /serverless-computing
       enabled: true
     -
+      name: Financial Engineering
+      url: /financial-engineering
+      enabled: true
+    -
       name: Application Engineering
       url: /application-engineering
       enabled: true

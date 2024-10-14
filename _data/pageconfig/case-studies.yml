@@ -17,6 +17,10 @@ services:
     slug: /case-studies/serverless-computing
     enabled: true
   - 
+    name: Financial Engineering
+    slug: /case-studies/financial-engineering
+    enabled: true
+  - 
     name: Application Engineering
     slug: /case-studies/application-engineering
     enabled: true
@@ -54,92 +58,93 @@ scales:
     slug: /case-studies/scale/small-midsize-business
 
 members:
-  solution-architecture-financial-asset-management-quantitative-research-development-firm:
+  solution-architecture-financial-asset-management-quantitative-research-development-firm.md:
     enabled: true
-    title: "Case Study: Financial Asset Management Portal, CRM & ERP on AWS"
-    subtitle: Consultative Support for Architecting a Bespoke Financial Asset Management Solution for a Quant R&D Firm.
+    title: "Case Study: Financial Analytics Portal, CRM & ERP on AWS Cloud"
+    subtitle: "Consultative Support for architecting a bespoke Financial Analytics, Custom CRM & ERP Solution for a Quantitative R&D Firm"
     slug: solution-architecture-financial-asset-management-quantitative-research-development-firm
-    image_src: &site_url /assets/img/illustrations/case-studies/solution-architecture-financial-asset-management-quantitative-research-development-firms.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/solution-architecture-financial-asset-management-quantitative-research-development-firm.jpg
     industry: "Financial Services"
-    service: "Application Engineering"
+    service: "Financial Engineering"
     scale: "Enterprise"
     challenges: >
-      <p>A Quantitative Research & Development firm specializing in financial services approached us for consultative support in designing a robust, scalable solution to manage its growing portfolio of quantitative research products and services. The firm offers sophisticated financial models, data analytics, and investment insights to a wide range of clients, including large financial institutions and individual investors.</p>
+      <p>A Quantitative Research & Development firm approached us for consultative support in designing a bespoke, scalable solution to manage its growing portfolio of quantitative research products and services. The firm offered sophisticated financial models, financial data analytics, and investment insights to a wide range of clients, including mid-sized financial institutions and individual UHNW investors.</p>
 
-      <p>Their existing system was struggling to handle the increasing demand for real-time data processing from multiple market data feeds and alternative data sources, accessible via APIs. Additionally, the firm needed a solution to unify financial portfolio management with a custom-built CRM and ERP system to streamline internal operations and enhance customer relationship management.</p>
+      <p>Their existing workflow was unable to cope with the computational overhead of real-time data processing from multiple market data feeds and alternative data sources, consumed manually at the time into spreadsheet software. Additionally, the firm required a custom CRM and ERP solution to support their financial portfolio management and analytics offerings, this decision being primarily motivated by cost at scale, the nature of their workflows being too bespoke and expensive to implement with existing off-the-shelf CRM and ERP options available to them in the market.</p>
     research_and_development: >
-      <p>The primary objectives of the client were:
+      <p>The primary objectives of the client were to:
         <ol>
-          <li>Integrate real-time market and alternative data sources, enabling the firm to enhance its quantitative research capabilities and provide timely insights to its clients.</li>
+          <li>Integrate real-time market and alternative data feeds, enabling the firm to enhance its quantitative research capabilities and provide richer insights to its clients.</li>
           <li>Create a unified system that could manage financial portfolio research and client interactions via a custom-built CRM and ERP system.</li>
-          <li>Ensure scalability for future growth as the firm expanded its client base and product offerings.</li>
-          <li>Provide robust, multi-tenant support to cater to both institutional and individual clients while maintaining data security and segregation.</li>
+          <li>Ensure scalability for future growth as the firm expanded its client base, product offerings, and employee head count.</li>
+          <li>Create a multi-tenant solution featuring scoped, tenant-level data security and isolation.</li>
         </ol>
       </p>
 
-      <p>We began by analyzing the firm’s current infrastructure, which was fragmented and not capable of handling the firm’s expanding needs. Their legacy systems struggled with integrating third-party data feeds and supporting real-time analytics for portfolio management. Additionally, the current CRM and ERP systems were largely off-the-shelf solutions that lacked customization, creating inefficiencies in managing customer relationships and internal operations.</p>
+      <p>We began by analyzing the firm’s current infrastructure. Their legacy systems struggled with integrating third-party data feeds and supporting real-time analytics for portfolio management. Additionally, the current CRM and ERP systems were largely off-the-shelf solutions that were expensive to customize and scale due to additional licensing and SI costs, making it considerably difficult for the firm to manage customer relationships and internal operations to the standard they required.</p>
 
       <p>Key findings included:
         <ol>
-            <li><b>System Fragmentation:</b> The firm’s tools for quantitative research, CRM, and ERP were isolated from each other, resulting in significant data silos and process inefficiencies..</li>
+            <li><b>System Fragmentation:</b> The firm’s quantitative research and development tooling, CRM, and ERP were isolated from each other, creating data silos and process inefficiencies.</li>
             <li><b>Lack of Scalability:</b> The current systems could not handle the growing volume of data or the increasing complexity of the firm’s research products.</li>
             <li><b>Security Gaps:</b> The system needed to be more secure, particularly with respect to handling sensitive financial data and managing multiple clients under a multi-tenant architecture.</li>
         </ol>
       </p>
 
-      <p>Based on this analysis, we recommended leveraging AWS cloud-native services for their ability to integrate seamlessly with third-party APIs, provide scalability, and maintain high levels of security.</p>
-
-      <p>Key services recommended:
+      <p>Based on this analysis, and the firm's explicit request to build the solution on Amazon Web Services (AWS), we recommended building an architecture involving the following AWS services:
         <ol>
             <li><b>Amazon RDS</b> for managing relational data, allowing for structured storage of client portfolios, CRM records, and ERP transactions.</li>
-            <li><b>AWS Lambda</b> for serverless, real-time data processing, enabling the firm to process large amounts of data from multiple sources without the need for dedicated infrastructure.</li>
-            <li><b>Amazon API Gateway</b> to manage external data integrations, particularly market data feeds and alternative data sources that the firm relies on for quantitative analysis.</li>
-            <li><b>Amazon S3</b> for secure and scalable storage of large datasets and research outputs.</li>
-            <li><b>AWS Cognito</b> to manage multi-tenant user authentication and ensure secure client access while adhering to strict data privacy requirements.</li>
+            <li><b>AWS Lambda</b> for serverless data processing on a pay-per-use basis, without the cost and management burden of dedicated compute infrastructure. AWS Lambda Functions would also be used to develop consumers for market data feeds and alternative data sources that the firm relied on for quantitative analysis.</li>
+            <li><b>Amazon S3</b> for secure and scalable storage of datasets and research outputs.</li>
+            <li><b>AWS Cognito</b> to manage user authentication, and together with Lambda Authorizers, ensure secure, scoped tenant-level access to data.</li>
         </ol>
       </p> 
 
     architecture: >
       <p>The architecture we recommended was designed with flexibility, scalability, and security in mind, with a focus on unifying the firm’s operations and allowing it to expand its product offerings with minimal disruption.
         <ol>
-            <li><b>Data Storage:</b> We proposed Amazon RDS to store structured data related to the firm’s research products, client portfolios, CRM, and ERP activities. This would enable the firm to store, query, and manage large datasets with ease, while also supporting future scalability needs.</li>
-            <li><b>API Integration:</b> To integrate market and alternative data feeds, Amazon API Gateway was recommended. This would act as a central interface for pulling in real-time data from external sources and feeding it into the firm’s quantitative models. The gateway would provide secure and scalable access to these APIs, ensuring that data could be processed efficiently, regardless of volume.</li>
-            <li><b>Business Logic and Data Processing:</b> AWS Lambda was recommended to handle serverless execution of the firm’s data processing algorithms, including real-time analytics, portfolio management updates, and other critical computations. This would allow the firm to handle large amounts of data without the need for traditional servers, reducing infrastructure costs and improving system responsiveness.</li>
+            <li><b>Data Storage:</b> We proposed Amazon RDS to store structured data related to the firm’s research products, client portfolios, CRM, and ERP dependencies.</li>
+            
+            <li><b>Business Logic and Data Processing:</b> AWS Lambda was recommended to handle serverless execution of the firm’s data processing workflows, including analytics, portfolio management updates, and other critical computations.</li>
+            
+            <li><b>AWS ECS Fargate:</b> Some of the firm's workloads were resource-intensive and lasted from several hours to multiple days, with varying compute, memory, and ephemeral storage requirements. Given that the firm’s developers were already familiar with Docker, Amazon ECS (Elastic Container Service) was a natural choice to orchestrate containerized workloads. AWS Fargate, as the serverless compute engine for containers, provided flexibility by allowing the firm to run containers without managing the underlying infrastructure. However, for long-running or resource-heavy tasks, careful configuration of Fargate’s task size (compute and memory allocation) was recommended to avoid resource limitations and ensure cost efficiency.</li>
+            
             <li><b>Multi-Tenant Support:</b> AWS Cognito was recommended to manage user authentication and ensure secure, segregated access to the platform. Each client (institutional or individual) would have their own data partition in RDS, allowing them to interact with their portfolio and research tools securely, while IAM policies would restrict access to sensitive internal operations.</li>
-            <li><b>Security and Compliance:</b> The firm required a solution that adhered to strict security and compliance guidelines, especially given its dealings with financial institutions. Encryption at rest and in transit was to be implemented via AWS Key Management Service (KMS). We also recommended using AWS CloudTrail and AWS Config to provide real-time monitoring, auditing, and compliance reporting.</li>
+            
+            <li><b>Security and Compliance:</b> The firm required a solution that adhered to strict security and compliance guidelines, particularly due to its dealings with financial institutions. Encryption at rest and in transit was to be implemented using AWS Key Management Service (KMS) to manage encryption keys securely. Additionally, AWS CloudTrail and AWS Config were incorporated into the architecture to provide comprehensive auditing, real-time monitoring, and resource compliance checks, ensuring adherence to internal policies and regulatory requirements.</li>
         </ol>
       </p>
 
     deployment: >
       <p>Though the solution was still in the design phase, we provided clear recommendations for how to deploy it effectively:
         <ol>
-          <li><b>Infrastructure as Code:</b> We advised using AWS CloudFormation to define and automate the infrastructure setup. This would ensure consistent deployments across different environments (development, staging, and production) and allow the firm to quickly provision resources as their needs grew.</li>
+          <li><b>Infrastructure as Code:</b> We advised using Terraform or AWS Cloud Development Kit (CDK) to define and provision the infrastructure declaratively, enabling predictable and consistent deployments across different environments.</li>
           <li><b>CI/CD Pipeline:</b> To support continuous integration and deployment, we recommended the implementation of AWS CodePipeline and CodeDeploy. This would allow for fast, reliable updates to the platform without downtime, ensuring that new features and bug fixes could be rolled out in a controlled manner.</li>
-          <li><b>Security Best Practices:</b> To secure the infrastructure, we recommended configuring security groups, VPCs, and NACLs to control network access, ensuring that only trusted sources could communicate with critical resources. Additionally, we proposed regular penetration testing and security audits to identify and address potential vulnerabilities.</li>
-          <li><b>Testing & Validation:</b> We recommended a thorough testing strategy that included performance tests to validate the scalability of real-time data processing, security tests to ensure that sensitive client data remained secure, and user acceptance tests to ensure that the CRM and ERP systems met the firm’s operational needs.</li>
+          <li><b>Security Best Practices:</b> We recommended implementing a multi-layered security approach to safeguard the firm’s infrastructure. This included fine-grained IAM policies and roles to enforce the principle of least privilege, as well as security groups and Network Access Control Lists (NACLs) to tightly regulate inbound and outbound traffic across the network. A well-architected VPC design was proposed to isolate critical workloads, ensuring that only trusted sources had access to sensitive resources. To ensure ongoing protection, we advocated for regular penetration testing and security audits to proactively identify and mitigate potential vulnerabilities, ensuring continuous alignment with industry security standards and regulatory requirements.</li>
+          <li><b>Testing & Validation:</b> We recommended a testing strategy that included performance tests to validate the scalability of real-time data processing, security tests to ensure that sensitive client data remained secure, and user acceptance tests to ensure that the CRM and ERP systems met the firm’s operational needs.</li>
         </ol>
       </p>
 
     conclusion: >
-      <p>Our consultative support provided the Quantitative Research & Development firm with a clear roadmap for modernizing its technology infrastructure. By proposing a cloud-native solution built on AWS, we addressed key operational challenges, including system fragmentation, scalability limitations, and security gaps.</p>
+      <p>Through this engagement, we provided the client with a clear roadmap for modernizing their technology infrastructure. By proposing a cloud-native solution built on AWS, we addressed key operational challenges, including system fragmentation, scalability limitations, and security considerations.</p>
 
       <p>The recommendations positioned the firm to:
         <ol>
           <li><b>Unify Operations:</b> By integrating portfolio management, CRM, and ERP functions into a single platform, the firm would be able to operate more efficiently and provide a higher level of service to its clients.</li>
           <li><b>Scale Effectively:</b> The proposed architecture would allow the firm to handle increasing data volumes and client demands without sacrificing performance.</li>
-          <li><b>Enhance Research Capabilities:</b> Real-time data integrations would allow the firm to deliver timely insights to its clients, strengthening its position as a leading provider of quantitative research.</li>
+          <li><b>Enhance Research Capabilities:</b> Native support for data integrations via AWS Lambda consumers would enable the firm to deliver richer and more timely insights to its clients.</li>
           <li><b>Improve Security:</b> By adhering to AWS’s Well-Architected and Security Reference frameworks, the firm would ensure compliance with financial regulations while protecting sensitive client data.</li>
         </ol>
       </p>
       
-      <p>These recommendations provided the firm with a comprehensive, secure, and scalable foundation for future growth.</p>
-      
     technologies:
+      - KMS
       - S3
-      - SQL
+      - RDS
       - Lambda
-      - Textract
-      - Step Functions
+      - ECS
+      - Cognito
+      - API Gateway
     
   automating-manual-data-entry-serverless-aws-on-prem-proprietary-apis.md:
     enabled: true
