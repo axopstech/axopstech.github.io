@@ -281,6 +281,10 @@
       url: /application-engineering
       enabled: true
     -
+        name: Application Modernization
+        url: /application-modernization
+        enabled: true
+    -
       name: Blockchain Development
       url: /blockchain-development
       enabled: false

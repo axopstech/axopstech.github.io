@@ -25,11 +25,18 @@ services:
     slug: /case-studies/application-engineering
     enabled: true
   - 
+      name: Application Modernization
+      slug: /case-studies/application-modernization
+      enabled: true
+  - 
     name: Blockchain Development
     slug: /case-studies/blockchain-development
     enabled: false
 
 industries:
+  - 
+    name: Internet of Things (IoT)
+    slug: /case-studies/industry/iot
   - 
     name: Energy
     slug: /case-studies/industry/energy
@@ -58,6 +65,104 @@ scales:
     slug: /case-studies/scale/small-midsize-business
 
 members:
+  aws-cloud-application-modernization-iot-device-manufacturer.md:
+    enabled: true
+    title: "Case Study: IoT Application & Infra Optimization on AWS Cloud"
+    subtitle: "Consultative Support for analyzing and proposing optimizations for an existing IoT Application & Infrastructure on AWS."
+    slug: aws-cloud-application-modernization-iot-device-manufacturer
+    image_src: &site_url /assets/img/illustrations/case-studies/aws-cloud-application-modernization-iot-device-manufacturer.jpg
+    industry: "Internet of Things (IoT)"
+    service: "Application Modernization"
+    scale: "Small & Midsize Business"
+    challenges: >
+      <p>The client, a fast-growing IoT device manufacturer, was experiencing significant challenges in scaling and managing their AWS infrastructure efficiently. Their existing setup consisted of RabbitMQ for messaging, EC2 for compute resources, and Amazon RDS MariaDB for database management. As the number of connected devices increased, the infrastructure began to show signs of stress, including performance bottlenecks, higher operational costs, security gaps, and limited scalability.</p>
+
+      <p>The client sought recommendations for optimizing their existing application and infrastructure to improve scalability, enhance performance, and lower operational costs. Their primary goals included ensuring that their infrastructure could handle continued growth while remaining cost-efficient and reducing the need for manual intervention in scaling and maintenance.</p>
+    research_and_development: >
+      <h3>Research & Analysis</h3>
+      <p>Our analysis focused on identifying inefficiencies and areas where costs could be optimized without compromising performance. We conducted the following evaluations:
+        <ol>
+          <li><b>Compute Resources:</b> The client’s use of on-demand EC2 instances resulted in underutilized resources during periods of lower device activity, leading to higher costs. Additionally, manual management of scaling was contributing to operational inefficiencies.</li>
+          <li><b>Messaging System:</b> RabbitMQ, though functional, required frequent manual scaling and tuning to manage the growing volume of IoT messages. This increased the operational complexity and cost.</li>
+          <li><b>Database Performance and Costs:</b> The RDS MariaDB instance was facing significant performance challenges as device traffic increased. Scaling MariaDB was becoming costly due to the need for additional read replicas and larger instances to manage concurrent reads and writes.</li>
+          <li><b>Cost Structure:</b> The client was incurring unnecessary costs due to over-provisioning of EC2 resources and fixed database capacity. Given the fluctuating nature of IoT workloads, their infrastructure was not optimized for handling dynamic changes in traffic patterns.</li>
+        </ol>
+      </p>
+
+      <h3>Recommendations</h3>
+      <p>We provided a set of recommendations tailored to the client’s specific requirements for <b>cost optimization</b> and <b>scalability</b>. These recommendations focused on leveraging AWS services that automatically scale to meet demand, thereby reducing manual intervention and operational overhead.</p>
+
+      <h4>Compute Optimization:</h4>
+      <p>
+        <ol>
+            <li><b>EC2 Auto Scaling with Spot Instances:</b> To reduce compute costs, we recommended adopting <b>Spot Instances</b> for non-critical workloads. Spot Instances can offer up to 90% cost savings compared to on-demand instances, making them ideal for workloads that can tolerate interruptions. For critical workloads, we advised combining <b>Reserved Instances</b> with <b>Auto Scaling</b>, ensuring that the client could lock in lower pricing for predictable workloads while still maintaining flexibility.</li>
+            <li><b>AWS Lambda for Event-Driven Compute:</b> For IoT event-driven tasks, such as processing incoming data or triggering backend workflows, we suggested migrating to <b>AWS Lambda</b>. Lambda is a serverless service that only charges for the actual compute time used, significantly reducing idle costs compared to always-on EC2 instances. This approach would help eliminate the costs associated with running compute resources during off-peak times.</li>
+        </ol>
+      </p>
+
+      <h4>Messaging System Optimization:</h4>
+      <p>
+        <ol>
+            <li><b>Switch from RabbitMQ to Amazon MQ:</b> We recommended migrating from RabbitMQ to <b>Amazon MQ</b>, a managed message broker service that scales automatically based on workload demand. This would reduce the need for manual scaling and maintenance, leading to lower operational costs and better handling of the increasing message volume from IoT devices.</li>
+        </ol>
+      </p>
+
+      <h4>Database Optimization:</h4>
+      <p>
+        <ol>
+            <li><p><b>Migrate from RDS MariaDB to Amazon Aurora Serverless:</b> While the CTO expressed concerns about Aurora potentially being more expensive than MariaDB at scale, we clarified that <b>Amazon Aurora Serverless</b> offers significant benefits for their use case, given the dynamic and unpredictable nature of their workloads.</p>
+            <p>
+              <ul>
+                <li><b>Cost Efficiency:</b> Unlike <b>RDS MariaDB</b>, which requires the provisioning of a fixed instance size and storage capacity (even during periods of low activity), <b>Aurora Serverless</b> automatically adjusts its database capacity within a defined range, based on actual demand. The client pays only for the database capacity consumed during active periods and incurs minimal costs during idle times, potentially leading to significant savings during off-peak hours.</li>
+                <li><b>Performance at Scale:</b> Aurora is designed for high-throughput workloads. At scale, this improved performance would reduce the need for costly additional read replicas and larger instance sizes, as Aurora can handle significantly more concurrent connections and transactions.</li>
+                <li><b>Scalability and Automation:</b> Aurora Serverless eliminates the need for manual intervention to scale the database. It automatically adjusts to handle spikes in traffic, making it ideal for the client’s fluctuating IoT data streams. This also simplifies operational management, reducing the overall operational cost and complexity of scaling.</li>
+              </ul>
+            </p>
+            </li>
+        </ol>
+      </p>
+
+      <h4>Data Storage and Cost Control:</h4>
+      <p>
+        <ol>
+            <li><b>S3 with Intelligent-Tiering:</b> We recommended using Amazon S3 for archiving IoT device data after completed analytics workflows, and enabling Intelligent-Tiering to automatically move infrequently accessed data to cheaper storage tiers. This would help the client optimize their storage costs without the need for manual data management.</li>
+            <li><b>Cost Monitoring Tools:</b> To ensure continuous monitoring and optimization of infrastructure costs, we recommended setting up AWS Budgets and Cost Explorer.</li>
+        </ol>
+      </p>
+
+    architecture: >
+      <p>The recommended architecture would ensure that the client’s AWS infrastructure is both scalable and cost-efficient. The key components were as follows:
+        <ol>
+            <li><b>Amazon MQ</b> would replace RabbitMQ for messaging, providing a managed, scalable solution that reduces operational complexity.</li>
+            
+            <li><b>EC2 Auto Scaling with Spot Instances</b> would dynamically adjust compute resources based on workload demand, while <b>AWS Lambda</b> would handle event-driven tasks triggered by IoT device interactions, eliminating the costs of always-on instances.</li>
+            
+            <li><b>Amazon Aurora Serverless</b> would replace RDS MariaDB, providing an elastic, high-performance database solution that scales automatically with demand, ensuring cost efficiency during periods of low activity.</li>
+            
+            <li><b>Amazon S3 Intelligent-Tiering</b> would optimize data storage costs, and <b>AWS Budgets</b> and <b>Cost Explorer</b> would provide ongoing cost monitoring and controls.</li>
+        </ol>
+      </p>
+
+    deployment: >
+      <p>We provided clear recommendations for build, CI/CD, monitoring and observability, in line with the AWS Well-Architected and Security Reference Frameworks.</p>
+
+    conclusion: >
+      <p>By following the recommendations provided, the client would stand to benefit from significant improvements in scalability, performance, and cost-efficiency. These include:
+        <ol>
+          <li><b>Reduced Costs:</b> By utilizing Spot Instances, AWS Lambda, and Aurora Serverless, our cost analysis concluded that the client could achieve up to <b>45% savings</b> on infrastructure costs, depending on workload patterns and usage. The shift to a pay-per-use model for compute and database resources would ensure that the client only paid for what they actually used.</li>
+          <li><b>Improved Scalability:</b> The use of managed services such as Amazon MQ and Aurora Serverless would allow the client to scale reliably as the number of IoT devices increased, without the need for manual intervention.</li>
+          <li><b>Reduced Operational Overhead:</b> Managed services would reduce the burden on the client’s internal team, allowing them to focus on core business activities rather than managing the infrastructure. Aurora Serverless, in particular, would simplify database scaling, backups, and failovers, which further reduces operational costs.</li>
+          <li><b>Long-Term Flexibility:</b> The architecture recommended was considerably more future-proof than before, enabling the client to expand their IoT footprint without worrying about significant increases in operational complexity or cost.</li>
+        </ol>
+      </p>
+      
+    technologies:
+      - S3
+      - Lambda
+      - EC2 Spot
+      - Amazon MQ
+      - Aurora Serverless
+
   solution-architecture-financial-asset-management-quantitative-research-development-firm.md:
     enabled: true
     title: "Case Study: Financial Analytics Portal, CRM & ERP on AWS Cloud"
