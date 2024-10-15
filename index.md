@@ -57,7 +57,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
       <!-- <div class="container py-14 pt-md-17 pb-md-25"> -->
       <div class="container py-14">
         {% if config.client_logos_section.enabled %}
-        <h2 class="fs-15 text-uppercase text-muted text-center mb-8">Certified by Leading Cloud Providers</h2>
+        <h2 class="fs-15 text-uppercase text-muted text-center mb-8">Professionally Certified by Leading Cloud Services Providers</h2>
         <div class="px-lg-5 mb-14 mb-md-19">
           <div class="row gx-0 gx-md-8 gx-xl-12 gy-8 align-items-center">
             <div class="col-4 col-md-2">
