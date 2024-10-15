@@ -7,127 +7,127 @@
 
 <url>
   <loc>https://www.axops.tech/</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://www.axops.tech/solutions</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://www.axops.tech/solutions/cloud-services</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.axops.tech/solutions/data-management</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <loc>https://www.axops.tech/solutions/data-intelligence</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.axops.tech/solutions/business-analytics</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/solutions/application-engineering</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <loc>https://www.axops.tech/solutions/technology-consulting</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.axops.tech/solutions/technical-training</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.axops.tech/solutions/quantitative-training</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.axops.tech/case-studies</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/about-us/our-vision</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/about-us/meet-the-team</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/about-us/our-partners</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/about-us/contact</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/solutions</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/about-us/privacy-policy</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/about-us/cookie-policy</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.axops.tech/case-studies/cloud-engineering</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.axops.tech/case-studies/process-automation</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.axops.tech/case-studies/financial-engineering</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.axops.tech/case-studies/serverless-computing</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.axops.tech/case-studies/application-engineering</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.axops.tech/case-studies/application-modernization</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.axops.tech/about-us/our-vision</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.axops.tech/about-us/our-partners</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.axops.tech/about-us/contact</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.axops.tech/about-us/privacy-policy</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.axops.tech/about-us/cookie-policy</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.axops.tech/case-studies/aws-cloud-application-modernization-iot-device-manufacturer</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.axops.tech/case-studies/blockchain-development</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <loc>https://www.axops.tech/case-studies/solution-architecture-financial-asset-management-quantitative-research-development-firm</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.axops.tech/case-studies/automating-manual-data-entry-serverless-aws-on-prem-proprietary-apis</loc>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.axops.tech/case-studies/quantum-engineering-at-scale-aws</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.axops.tech/case-studies/streamlining-expense-processing-aws-salesforce</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/case-studies/social-media-super-app-aws</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.axops.tech/case-studies/multi-tenancy-saas-financial-risk-management</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/case-studies/blockchain-powered-mobility-service-aws-gcp</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.axops.tech/case-studies/decentralized-p2p-challenges-aws</loc>
-  <lastmod>2023-04-24T10:33:19+00:00</lastmod>
+  <lastmod>2024-10-14T22:32:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
