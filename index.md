@@ -12,7 +12,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
   <div class="content-wrapper">
     <!-- .content-wrapper -->
     {% if config.mode == "live" %}
-    <section class="wrapper bg-soft-primary">
+    <section class="wrapper bg-light">
       <div class="container pt-10 pb-12 pt-md-14 pb-md-17">
         <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="300">
@@ -55,7 +55,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
     <!-- /section -->
     <section class="wrapper bg-light">
       <!-- <div class="container py-14 pt-md-17 pb-md-25"> -->
-      <div class="container py-14">
+      <div class="container py-0">
         {% if config.client_logos_section.enabled %}
         <h2 class="fs-15 text-uppercase text-muted text-center mb-8">AxOps™ Consultants: Certified Experts by the World's Leading Cloud Providers</h2>
         <div class="px-lg-5 mb-14 mb-md-19">
