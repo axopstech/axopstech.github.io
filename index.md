@@ -61,51 +61,51 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
         <div class="px-lg-5 mb-14 mb-md-19">
           <div class="row gx-0 gx-md-8 gx-xl-12 gy-8 align-items-center">
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-solutions-architect-professional.png" alt="AWS Certified Solutions Architect Professional" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-solutions-architect-professional.webp" alt="AWS Certified Solutions Architect Professional" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-devops-engineer-professional.png" alt="AWS Certified DevOps Engineer Professional" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-devops-engineer-professional.webp" alt="AWS Certified DevOps Engineer Professional" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-solutions-architect-associate.png" alt="AWS Certified Solutions Architect Associate" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-solutions-architect-associate.webp" alt="AWS Certified Solutions Architect Associate" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-developer-associate.png" alt="AWS Certified Developer Associate" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-developer-associate.webp" alt="AWS Certified Developer Associate" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-sysops-administrator-associate.png" alt="AWS Certified SysOps Administrator Associate" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-sysops-administrator-associate.webp" alt="AWS Certified SysOps Administrator Associate" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-cloud-practitioner.webp" alt="AWS Certified Cloud Practitioner" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/hashicorp-certified-terraform-associate.png" alt="HashiCorp Certified Terraform Associate" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/hashicorp-certified-terraform-associate.webp" alt="HashiCorp Certified Terraform Associate" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-accreditation-cloud-economics.png" alt="AWS Partner Cloud Economics Accreditation " /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-accreditation-cloud-economics.webp" alt="AWS Partner Cloud Economics Accreditation " /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-accreditation-technical.png" alt="AWS Partner Technical Accreditation" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-accreditation-technical.webp" alt="AWS Partner Technical Accreditation" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-migration-sales-essentials.png" alt="AWS Partner Migration Ambassador Accreditation" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-migration-sales-essentials.webp" alt="AWS Partner Migration Ambassador Accreditation" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-accreditation-sales.png" alt="AWS Partner Sales Accreditation" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-accreditation-sales.webp" alt="AWS Partner Sales Accreditation" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/microsoft-certified-azure-fundamentals.png" alt="Microsoft Certified Azure Fundamentals" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/microsoft-certified-azure-fundamentals.webp" alt="Microsoft Certified Azure Fundamentals" /></figure>
             </div>
             <!--/column -->
           </div>
