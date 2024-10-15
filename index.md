@@ -81,10 +81,6 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-sysops-administrator-associate.png" alt="AWS Certified SysOps Administrator Associate" /></figure>
-            </div>
-            <!--/column -->
-            <div class="col-4 col-md-2">
               <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner" /></figure>
             </div>
             <!--/column -->
@@ -102,6 +98,10 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <!--/column -->
             <div class="col-4 col-md-2">
               <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-migration-sales-essentials.png" alt="AWS Partner Migration Ambassador Accreditation" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-accreditation-sales.png" alt="AWS Partner Sales Accreditation" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
