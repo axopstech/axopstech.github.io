@@ -26,4 +26,9 @@ Gemfile.lock
 !nuben-cloud-architect.png
 !reva-code-reviewer.png
 !alkali-team-coordinator.png
+!aws-*.png
+!expertrating*.png
+!hashicorp*.png
+!microsoft*.png
+!udacity*.png
 .DS_Store
