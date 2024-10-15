@@ -33,10 +33,10 @@ above_the_fold_images:
   left-bottom-srcset: ./assets/img/illustrations/home/left-bottom-cloud-data-analytics@2x.webp 2x
   middle: ./assets/img/illustrations/home/middle-future-proof-data-infrastructure-intelligence-solutions.webp
   middle-srcset: ./assets/img/illustrations/home/middle-future-proof-data-infrastructure-intelligence-solutions@2x.webp 2x
-  right-top: ./assets/img/illustrations/training/right-top-quantitative-development.jpg
-  right-top-srcset: ./assets/img/illustrations/training/right-top-quantitative-development@2x.jpg 2x
-  right-middle: ./assets/img/illustrations/training/right-middle-quantitative-research.jpg
-  right-middle-srcset: ./assets/img/illustrations/training/right-middle-quantitative-research@2x.jpg 2x
+  right-top: ./assets/img/illustrations/training/right-top-quantitative-development.webp
+  right-top-srcset: ./assets/img/illustrations/training/right-top-quantitative-development@2x.webp 2x
+  right-middle: ./assets/img/illustrations/training/right-middle-quantitative-research.webp
+  right-middle-srcset: ./assets/img/illustrations/training/right-middle-quantitative-research@2x.webp 2x
   right-bottom: ./assets/img/illustrations/home/right-bottom-devops-architecture.webp
   right-bottom-srcset: ./assets/img/illustrations/home/right-bottom-devops-architecture@2x.webp 2x
 
