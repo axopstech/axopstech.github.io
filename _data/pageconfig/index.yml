@@ -126,4 +126,4 @@ why_choose_us_section:
           - Scale with purpose, leveraging efficiencies to amplify the impact of every endeavor.
 
 client_logos_section:
-  enabled: false
+  enabled: true

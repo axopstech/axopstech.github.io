@@ -57,31 +57,55 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
       <!-- <div class="container py-14 pt-md-17 pb-md-25"> -->
       <div class="container py-14">
         {% if config.client_logos_section.enabled %}
-        <h2 class="fs-15 text-uppercase text-muted text-center mb-8">Trusted by Over 5000 Clients</h2>
+        <h2 class="fs-15 text-uppercase text-muted text-center mb-8">Certified by Leading Cloud & Technology Providers</h2>
         <div class="px-lg-5 mb-14 mb-md-19">
           <div class="row gx-0 gx-md-8 gx-xl-12 gy-8 align-items-center">
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c1.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-solutions-architect-professional.png" alt="AWS Certified Solutions Architect Professional" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c2.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-devops-engineer-professional.png" alt="AWS Certified DevOps Engineer Professional" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c3.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-solutions-architect-associate.png" alt="AWS Certified Solutions Architect Associate" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c4.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-developer-associate.png" alt="AWS Certified Developer Associate" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c5.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-sysops-administrator-associate.png" alt="AWS Certified SysOps Administrator Associate" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c6.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-sysops-administrator-associate.png" alt="AWS Certified SysOps Administrator Associate" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/hashicorp-certified-terraform-associate.png" alt="HashiCorp Certified Terraform Associate" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-accreditation-cloud-economics.png" alt="AWS Partner Cloud Economics Accreditation " /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-accreditation-technical.png" alt="AWS Partner Technical Accreditation" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/aws-partner-migration-sales-essentials.png" alt="AWS Partner Migration Ambassador Accreditation" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/badges/microsoft-certified-azure-fundamentals.png" alt="Microsoft Certified Azure Fundamentals" /></figure>
             </div>
             <!--/column -->
           </div>
