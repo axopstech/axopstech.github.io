@@ -25,20 +25,20 @@ button_cta3_text: Case Studies
 button_cta3_url: /case-studies
 
 above_the_fold_images:
-  left-top-2: ./assets/img/illustrations/home/left-top-cost-of-ownership-1-v2.jpg
-  left-top-2-srcset: ./assets/img/illustrations/home/left-top-cost-of-ownership-1-v2@2x.jpg 2x
-  left-top: ./assets/img/illustrations/home/left-middle-application-engineering.jpg
-  left-top-srcset: ./assets/img/illustrations/home/left-middle-application-engineering@2x.jpg 2x
-  left-bottom: ./assets/img/illustrations/home/left-bottom-cloud-data-analytics.jpg
-  left-bottom-srcset: ./assets/img/illustrations/home/left-bottom-cloud-data-analytics@2x.jpg 2x
-  middle: ./assets/img/illustrations/home/middle-future-proof-data-infrastructure-intelligence-solutions.jpg
-  middle-srcset: ./assets/img/illustrations/home/middle-future-proof-data-infrastructure-intelligence-solutions@2x.jpg 2x
+  left-top-2: ./assets/img/illustrations/home/left-top-cost-of-ownership-1-v2.webp
+  left-top-2-srcset: ./assets/img/illustrations/home/left-top-cost-of-ownership-1-v2@2x.webp 2x
+  left-top: ./assets/img/illustrations/home/left-middle-application-engineering.webp
+  left-top-srcset: ./assets/img/illustrations/home/left-middle-application-engineering@2x.webp 2x
+  left-bottom: ./assets/img/illustrations/home/left-bottom-cloud-data-analytics.webp
+  left-bottom-srcset: ./assets/img/illustrations/home/left-bottom-cloud-data-analytics@2x.webp 2x
+  middle: ./assets/img/illustrations/home/middle-future-proof-data-infrastructure-intelligence-solutions.webp
+  middle-srcset: ./assets/img/illustrations/home/middle-future-proof-data-infrastructure-intelligence-solutions@2x.webp 2x
   right-top: ./assets/img/illustrations/training/right-top-quantitative-development.jpg
   right-top-srcset: ./assets/img/illustrations/training/right-top-quantitative-development@2x.jpg 2x
   right-middle: ./assets/img/illustrations/training/right-middle-quantitative-research.jpg
   right-middle-srcset: ./assets/img/illustrations/training/right-middle-quantitative-research@2x.jpg 2x
-  right-bottom: ./assets/img/illustrations/home/right-bottom-devops-architecture.jpg
-  right-bottom-srcset: ./assets/img/illustrations/home/right-bottom-devops-architecture@2x.jpg 2x
+  right-bottom: ./assets/img/illustrations/home/right-bottom-devops-architecture.webp
+  right-bottom-srcset: ./assets/img/illustrations/home/right-bottom-devops-architecture@2x.webp 2x
 
 why_choose_us_section:
   enabled: true
@@ -57,14 +57,10 @@ why_choose_us_section:
       summary: Dynamic value creation with bespoke Cloud solutions.
       tagline: 'Beyond CapEx and OpEx reduction: Tailored solutions that secure a <span class="underline">lasting</span> competitive advantage.'
       text: 'We excel in creating Cloud-based strategies and solutions <span class="underline-3 style-2 yellow">precisely tailored</span> to your goals, ensuring your business is primed not just to adapt, but to lead.'
-      image1_src: ./assets/img/illustrations/home/cost-of-ownership-1-v2.jpg
-      image1_srcset: ./assets/img/illustrations/home/cost-of-ownership-1-v2.jpg 2x
-      image2_src: ./assets/img/illustrations/home/cost-of-ownership-2-v2.jpg
-      image2_srcset: ./assets/img/illustrations/home/cost-of-ownership-2-v2.jpg 2x
-      #image1_src: ./assets/img/photos/about7.jpg
-      #image1_srcset: ./assets/img/photos/about3@2x.jpg 2x
-      #image2_src: ./assets/img/photos/home/cost-of-ownership-1.jpg
-      #image2_srcset: ./assets/img/photos/home/cost-of-ownership-1.jpg 2x
+      image1_src: ./assets/img/illustrations/home/cost-of-ownership-1-v2.webp
+      image1_srcset: ./assets/img/illustrations/home/cost-of-ownership-1-v2.webp 2x
+      image2_src: ./assets/img/illustrations/home/cost-of-ownership-2-v2.webp
+      image2_srcset: ./assets/img/illustrations/home/cost-of-ownership-2-v2.webp 2x
       bullets:
         -
           - Design and deploy strategies addressing unique challenges, fostering innovation.
@@ -83,14 +79,10 @@ why_choose_us_section:
       summary: Streamline product development and operations for scale.
       tagline: 'Optimize workloads, garner actionable insights, and refine operations to consistently <span class="underline-3 style-2 green">deliver value</span>.'
       text: "Achieving top-tier operational efficiency requires a deep understanding of your workloads and their dynamics. Here's how we assist:"
-      image1_src: ./assets/img/illustrations/home/operational-efficiency-2-v2.jpg
-      image1_srcset: ./assets/img/illustrations/home/operational-efficiency-2-v2.jpg 2x
-      image2_src: ./assets/img/illustrations/home/operational-efficiency-1-v2.jpg
-      image2_srcset: ./assets/img/illustrations/home/operational-efficiency-1-v2.jpg 2x
-      #image1_src: ./assets/img/photos/home/operational-efficiency-2a.jpg
-      #image1_srcset: ./assets/img/photos/home/operational-efficiency-2a.jpg 2x
-      #image2_src: ./assets/img/photos/home/operational-efficiency-1.jpg
-      #image2_srcset: ./assets/img/photos/home/operational-efficiency-1.jpg 2x
+      image1_src: ./assets/img/illustrations/home/operational-efficiency-2-v2.webp
+      image1_srcset: ./assets/img/illustrations/home/operational-efficiency-2-v2.webp 2x
+      image2_src: ./assets/img/illustrations/home/operational-efficiency-1-v2.webp
+      image2_srcset: ./assets/img/illustrations/home/operational-efficiency-1-v2.webp 2x
       bullets:
         -
           - Craft and instrument workloads for enhanced telemetry and situational clarity.
@@ -109,14 +101,10 @@ why_choose_us_section:
       summary: Minimize risk, retire technical debt, focus on pivotal growth drivers.
       tagline: Streamline your operations for efficiency, saving bandwidth to focus on <span class="underline-3 style-2 yellow">differentiation</span> and staying ahead of the curve &#128161;
       text: "Embrace the Cloud's ability to bolster your innovation goals, empowering swift and impactful delivery."
-      image1_src: ./assets/img/illustrations/home/innovation-2-v2.jpg
-      image1_srcset: ./assets/img/illustrations/home/innovation-2-v2.jpg 2x
-      image2_src: ./assets/img/illustrations/home/innovation-1-v2.jpg
-      image2_srcset: ./assets/img/illustrations/home/innovation-1-v2.jpg 2x
-      #image1_src: ./assets/img/photos/home/innovation-2.jpg
-      #image1_srcset: ./assets/img/photos/home/innovation-2.jpg 2x
-      #image2_src: ./assets/img/photos/home/innovation-3.jpg
-      #image2_srcset: ./assets/img/photos/home/innovation-3.jpg 2x
+      image1_src: ./assets/img/illustrations/home/innovation-2-v2.webp
+      image1_srcset: ./assets/img/illustrations/home/innovation-2-v2.webp 2x
+      image2_src: ./assets/img/illustrations/home/innovation-1-v2.webp
+      image2_srcset: ./assets/img/illustrations/home/innovation-1-v2.webp 2x
       bullets:
         -
           - Dive deep into your systems, using data-driven insights for smarter operational decisions.
