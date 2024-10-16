@@ -17,12 +17,15 @@ tagline_cta: Data Intelligence, Fractional CTO, and Hybrid Cloud Solutions for Y
 
 button_cta1_text: Solutions
 button_cta1_url: /solutions
+button_cta1_aria_label: Explore our Cloud, Data Intelligence, and Technology Consulting Solutions.
 
 button_cta2_text: Case Studies
 button_cta2_url: /case-studies
+button_cta2_aria_label: Explore our Case Studies organised by Service, Industry, and Scale.
 
 button_cta3_text: Case Studies
 button_cta3_url: /case-studies
+button_cta3_aria_label: Explore our Case Studies organised by Service, Industry, and Scale.
 
 above_the_fold_images:
   left-top-2: ./assets/img/illustrations/home/left-top-cost-of-ownership-1-v2.webp

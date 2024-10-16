@@ -19,8 +19,8 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <h1 class="display-2 mb-5 mx-md-10 mx-lg-0">{{ config.tagline_main }} <span class="rotator-fade text-primary">{{ config.tagline_dynamic }}</span></h1>
             <p class="lead fs-lg mb-7">{{ config.tagline_cta }}</p>
             <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="300">
-              <span><a href="{{ config.button_cta1_url }}" class="btn btn-lg btn-primary rounded me-2">{{ config.button_cta1_text }}</a></span>
-              <span><a href="{{ config.button_cta2_url }}" class="btn btn-lg btn-green rounded" style="margin-right: 0.6em; margin-bottom: 0.6em;">{{ config.button_cta2_text }}</a></span>
+              <span><a href="{{ config.button_cta1_url }}" aria-label="{{ config.button_cta1_aria_label }}" class="btn btn-lg btn-primary rounded me-2">{{ config.button_cta1_text }}</a></span>
+              <span><a href="{{ config.button_cta2_url }}" aria-label="{{ config.button_cta2_aria_label }}" class="btn btn-lg btn-green rounded" style="margin-right: 0.6em; margin-bottom: 0.6em;">{{ config.button_cta2_text }}</a></span>
               <!-- <span><a href="{{ config.button_cta3_url }}" class="btn btn-lg btn-soft-ash rounded">{{ config.button_cta3_text }}</a></span> -->
             </div>
           </div>
@@ -28,19 +28,19 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
           <div class="col-lg-7">
             <div class="row">
               <div class="col-3 offset-1 offset-lg-0 col-lg-4 d-flex flex-column" data-cues="zoomIn" data-group="col-start" data-delay="300">
-                <div class="ms-auto mt-auto"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-top-2 }}" srcset="{{ config.above_the_fold_images.left-top-2-srcset }}" alt="" /></a></div>
-                <div class="ms-auto mt-5"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-top }}" srcset="{{ config.above_the_fold_images.left-top-srcset }}" alt="" /></a></div>
-                <div class="ms-auto mt-5 mb-10"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-bottom }}" srcset="{{ config.above_the_fold_images.left-bottom-srcset }}" alt="" /></a></div>
+                <div class="ms-auto mt-auto"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}" aria-label="{{ config.button_cta1_aria_label }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-top-2 }}" srcset="{{ config.above_the_fold_images.left-top-2-srcset }}" alt="" /></a></div>
+                <div class="ms-auto mt-5"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}" aria-label="{{ config.button_cta1_aria_label }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-top }}" srcset="{{ config.above_the_fold_images.left-top-srcset }}" alt="" /></a></div>
+                <div class="ms-auto mt-5 mb-10"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}" aria-label="{{ config.button_cta1_aria_label }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.left-bottom }}" srcset="{{ config.above_the_fold_images.left-bottom-srcset }}" alt="" /></a></div>
               </div>
               <!-- /column -->
               <div class="col-4 col-lg-5" data-cue="zoomIn">
-                <div><a href="{{ site.url }}{{ site.above-the-fold-right-link }}"><img class="w-100 img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.middle }}" srcset="{{ config.above_the_fold_images.middle-srcset }}" alt="" /></a></div>
+                <div><a href="{{ site.url }}{{ site.above-the-fold-right-link }}" aria-label="{{ config.button_cta1_aria_label }}"><img class="w-100 img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.middle }}" srcset="{{ config.above_the_fold_images.middle-srcset }}" alt="" /></a></div>
               </div>
               <!-- /column -->
               <div class="col-3 d-flex flex-column" data-cues="zoomIn" data-group="col-end" data-delay="300">
-                <div class="mt-auto"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-top }}" srcset="{{ config.above_the_fold_images.right-top-srcset }}" alt="" /></a></div>
-                <div class="mt-5"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-middle }}" srcset="{{ config.above_the_fold_images.right-middle-srcset }}" alt="" /></a></div>
-                <div class="mt-5 mb-10"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-bottom }}" srcset="{{ config.above_the_fold_images.right-bottom-srcset }}" alt="" /></a></div>
+                <div class="mt-auto"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}" aria-label="{{ config.button_cta1_aria_label }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-top }}" srcset="{{ config.above_the_fold_images.right-top-srcset }}" alt="" /></a></div>
+                <div class="mt-5"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}" aria-label="{{ config.button_cta1_aria_label }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-middle }}" srcset="{{ config.above_the_fold_images.right-middle-srcset }}" alt="" /></a></div>
+                <div class="mt-5 mb-10"><a href="{{ site.url }}{{ site.above-the-fold-right-link }}" aria-label="{{ config.button_cta1_aria_label }}"><img class="img-fluid rounded shadow-lg" src="{{ config.above_the_fold_images.right-bottom }}" srcset="{{ config.above_the_fold_images.right-bottom-srcset }}" alt="" /></a></div>
               </div>
               <!-- /column -->
             </div>
