@@ -368,7 +368,7 @@ members:
       - Step Functions
 
   quantum-engineering-at-scale-aws.md:
-    enabled: true
+    enabled: false
     title: "Case Study: Quantum Financial Engineering on AWS Cloud"
     subtitle: Design, development and delivery of a Quantum Platform on AWS Cloud for optimising investment portfolios.
     slug: quantum-engineering-at-scale-aws
