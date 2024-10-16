@@ -38,7 +38,7 @@ pages:
           - Anticipate demand and allocate resources effectively to maximise efficiency and reduce costs
           - Identify and mitigate risks with near real-time intelligence, and proactively safeguard operations
           - Leverage predictive analytics to identify trends and opportunities, staying ahead of the competition
-        enabled: false
+        enabled: true
 
   technologies-data-management.md:
     title: Data Management
@@ -88,7 +88,7 @@ pages:
           - Benefit from near-infinite availability of Compute and Storage as you evolve.
           - Leverage vendor-maintained physical Cloud security and focus on building your solutions.
           - Streamline operations and improve performance by using cloud-native services.
-        enabled: false
+        enabled: true
 
       data-backup-archival:
         title: Data Backup & Archival
@@ -108,17 +108,17 @@ pages:
           - "Minimised downtime and ensured business continuity"
           - "Preserved data integrity and security during disruptive events"
           - "Fault-tolerant and cloud-native disaster recovery infrastructure"
-        enabled: false
+        enabled: true
 
       hybrid-architecture:
         title: Hybrid Architecture
-        description: Our hybrid architecture solutions enable your organisation to scale its compute and storage capacity into the public cloud on demand and cost-effectively. This unified IT infrastructure permits scaling efficiently in response to changing demands on a pay-as-you-go basis, instead of via increases in fixed CapEx.
+        description: Our hybrid architecture solutions enable your organisation to scale its on-premise compute, database, and storage capacity into the public cloud on demand and cost-effectively. This unified IT infrastructure permits scaling efficiently in response to changing demands on a pay-as-you-go basis, avoiding increases in fixed CapEx. Our solutions also cover extending storage in Salesforce and other third-party SaaS platforms to the Cloud.
         benefits:
           - "Enhanced scalability for fluctuating workloads"
           - "Cost-effective, flexible utilisation of compute and storage"
           - "Improved compliance with regulatory requirements"
           - "Supports legacy infrastructure and mission-critical applications"
-        enabled: false
+        enabled: true
       
       serverless-computing:
         title: Serverless Computing
