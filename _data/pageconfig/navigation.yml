@@ -22,24 +22,24 @@
       enabled: true
       children:
         -
+          name: Hybrid Architecture
+          url: "#hybrid-architecture"
+          enabled: true
+        -
           name: Data Lake Solutions
           url: "#data-lake-solutions"
           enabled: true
         -
+          name: Disaster Recovery
+          url: "#disaster-recovery"
+          enabled: true
+        -
           name: Cloud Migration
           url: "#cloud-migration"
-          enabled: false
+          enabled: true
         -
           name: Data Backup & Archival
           url: "#data-backup-archival"
-          enabled: false
-        -
-          name: Disaster Recovery
-          url: "#disaster-recovery"
-          enabled: false
-        -
-          name: Hybrid Architecture
-          url: "#hybrid-architecture"
           enabled: false
         -
           name: Serverless Computing
@@ -113,7 +113,7 @@
         -
           name: Predictive Analytics
           url: '#predictive-analytics-solutions'
-          enabled: false
+          enabled: true
     -
       name: Technology Consulting
       url: /technology-consulting
