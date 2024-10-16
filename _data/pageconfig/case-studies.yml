@@ -70,7 +70,7 @@ members:
     title: "Case Study: IoT Application & Infra Optimization on AWS Cloud"
     subtitle: "Consultative Support for analyzing and proposing optimizations for an existing IoT Application & Infrastructure on AWS."
     slug: aws-cloud-application-modernization-iot-device-manufacturer
-    image_src: &site_url /assets/img/illustrations/case-studies/aws-cloud-application-modernization-iot-device-manufacturer.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/aws-cloud-application-modernization-iot-device-manufacturer.webp
     industry: "Internet of Things (IoT)"
     service: "Application Modernization"
     scale: "Small & Midsize Business"
@@ -168,7 +168,7 @@ members:
     title: "Case Study: Financial Analytics Portal, CRM & ERP on AWS Cloud"
     subtitle: "Consultative Support for architecting a bespoke Financial Analytics, Custom CRM & ERP Solution for a Quantitative R&D Firm"
     slug: solution-architecture-financial-asset-management-quantitative-research-development-firm
-    image_src: &site_url /assets/img/illustrations/case-studies/solution-architecture-financial-asset-management-quantitative-research-development-firm.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/solution-architecture-financial-asset-management-quantitative-research-development-firm.webp
     industry: "Financial Services"
     service: "Financial Engineering"
     scale: "Enterprise"
@@ -256,7 +256,7 @@ members:
     title: "Case Study: Automating Data Entry in On-Prem CRM with AWS Services"
     subtitle: Consultative and Engineering Support towards automating legacy data entry processes in an on-premise CRM.
     slug: automating-manual-data-entry-serverless-aws-on-prem-proprietary-apis
-    image_src: &site_url /assets/img/illustrations/case-studies/automating-manual-data-entry-serverless-aws-on-prem-proprietary-apis.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/automating-manual-data-entry-serverless-aws-on-prem-proprietary-apis.webp
     industry: "Financial Services"
     service: "Process Automation"
     scale: "Small & Midsize Business"
@@ -372,7 +372,7 @@ members:
     title: "Case Study: Quantum Financial Engineering on AWS Cloud"
     subtitle: Design, development and delivery of a Quantum Platform on AWS Cloud for optimising investment portfolios.
     slug: quantum-engineering-at-scale-aws
-    image_src: &site_url /assets/img/illustrations/case-studies/quantum-engineering-at-scale-aws.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/quantum-engineering-at-scale-aws.webp
     industry: "Financial Services"
     service: "Cloud Engineering"
     scale: "Enterprise"
@@ -426,7 +426,7 @@ members:
     title: "Case Study: OCR Data Processing in Salesforce with Serverless AWS"
     subtitle: Streamlining Invoice, Receipt, and Timesheet Processing with AWS Lambda, S3, and Salesforce Apex Batch Jobs.
     slug: streamlining-expense-processing-aws-salesforce
-    image_src: &site_url /assets/img/illustrations/case-studies/streamlining-expense-processing-aws-salesforce.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/streamlining-expense-processing-aws-salesforce.webp
     industry: "Energy"
     service: "Serverless Computing"
     scale: "Enterprise"
@@ -505,7 +505,7 @@ members:
     title: "Case Study: Social Media Super App Deployment on AWS"
     subtitle: Design, development and delivery of a novel, highly available Social Media App on AWS for fast, global content consumption.
     slug: social-media-super-app-aws
-    image_src: &site_url /assets/img/illustrations/case-studies/social-media-super-app-aws.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/social-media-super-app-aws.webp
     industry: "Social Media Sites"
     service: "Cloud Engineering"
     scale: "Startup"
@@ -553,7 +553,7 @@ members:
     title: "Case Study: Multi-Tenancy SaaS for Financial Risk Management"
     subtitle: Modernising traditional risk management operations and improving performance using applied Machine Learning / AI.
     slug: multi-tenancy-saas-financial-risk-management
-    image_src: &site_url /assets/img/illustrations/case-studies/multi-tenancy-saas-financial-risk-management.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/multi-tenancy-saas-financial-risk-management.webp
     industry: "FinTech"
     service: "Application Engineering"
     scale: "Enterprise"
@@ -594,7 +594,7 @@ members:
     title: "Case Study: Blockchain-powered Mobility Service on AWS and GCP"
     subtitle: Developing and Deploying a High-Availability Blockchain-based Mobility Solution on AWS and GCP.
     slug: blockchain-powered-mobility-service-aws-gcp
-    image_src: &site_url /assets/img/illustrations/case-studies/blockchain-powered-mobility-service-aws-gcp.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/blockchain-powered-mobility-service-aws-gcp.webp
     industry: "Transportation"
     service: "Blockchain Development"
     scale: "Startup"
@@ -646,7 +646,7 @@ members:
     title: "Case Study: Decentralised P2P Collateral Exchange on AWS"
     subtitle: Developing and Deploying a Blockchain-based Social Decentralised Peer-to-Peer Collateral Exchange Platform.
     slug: decentralized-p2p-challenges-aws
-    image_src: &site_url /assets/img/illustrations/case-studies/decentralized-p2p-challenges-aws.jpg
+    image_src: &site_url /assets/img/illustrations/case-studies/decentralized-p2p-challenges-aws.webp
     industry: "FinTech"
     service: "Blockchain Development"
     scale: "Startup"
