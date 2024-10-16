@@ -6,7 +6,7 @@
     <nav class="navbar navbar-expand-lg classic transparent navbar-light">
       <div class="container flex-lg-row flex-nowrap align-items-center">
         <div class="navbar-brand w-100">
-          <a href="{{ site.url }}">
+          <a href="{{ site.url }}" aria-label="{{ site.company_description }}">
             <img src="{{ site.url | append: site.nav_logo }}" srcset="{{ site.url | append: site.nav_logo2x }}" alt="" />
           </a>
         </div>
@@ -22,7 +22,7 @@
                   {% assign item_url = item.url %}
                   {% if item.is_mega_dropdown %}
                   <!-- <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="{{ item.url }}" data-bs-toggle="">{{ item.name }}</a> -->
-                  <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">{{ item.name }}</a>
+                  <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" aria-label="{{ item.name }}">{{ item.name }}</a>
                     <ul class="dropdown-menu mega-menu">
                       <li class="mega-menu-content">
                         <div class="row gx-0 gx-lg-3">
@@ -40,7 +40,7 @@
                               {% assign child_url = item_url | append: child.url %}
                               {% endif %}
                               <!-- <li><a class="dropdown-item" href="{{ item_url | append: child.url }}">{{ child.name }}</a></li> -->
-                              <li><a class="dropdown-item" href="{{ child_url }}">{{ child.name }}</a></li>
+                              <li><a class="dropdown-item" href="{{ child_url }}" aria-label="{{ child.name }}">{{ child.name }}</a></li>
                               {% endif %}
                               {% endfor %}
                             </ul>
@@ -58,7 +58,7 @@
                   {% elsif item.has_children %}
                   <li class="nav-item dropdown">
                     {% assign child_base_url = site.baseurl | append: item.url %}
-                    <a class="nav-link dropdown-toggle" href="{{ child_base_url }}" data-bs-toggle="dropdown">{{ item.name }}</a>
+                    <a class="nav-link dropdown-toggle" href="{{ child_base_url }}" data-bs-toggle="dropdown" aria-label="{{ item.name }}">{{ item.name }}</a>
                     {% if item.multi_column %}
                     <div class="dropdown-menu dropdown-lg">
                       <div class="dropdown-lg-content">
@@ -72,7 +72,7 @@
                             {% for subchild in subitem.children %}
                             {% if subchild.enabled %}
                             {% assign child_url = item_url | append: subchild.url %}
-                            <li><a class="dropdown-item" href="{{ child_url }}">{{ subchild.name }}</a></li>
+                            <li><a class="dropdown-item" href="{{ child_url }}" aria-label="{{ subchild.name }}">{{ subchild.name }}</a></li>
                             {% endif %}
                             {% endfor %}
                           </ul>
@@ -88,10 +88,10 @@
                       {% for subitem in item.children %}
                       {% if subitem.enabled %}
                       {% assign child_url = child_base_url | append: subitem.url %}
-                      <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">{{ subitem.name }}</a>
+                      <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-label="{{ subitem.name }}">{{ subitem.name }}</a>
                         <ul class="dropdown-menu">
                           {% for child in subitem.children %}
-                          <li class="nav-item"><a class="dropdown-item" href="#">{{ child.name }}</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="#" aria-label="{{ child.name }}">{{ child.name }}</a></li>
                           {% endfor %}
                         </ul>
                       </li>
@@ -104,7 +104,7 @@
                       {% if subitem.enabled %}
                       {% assign child_url = child_base_url | append: subitem.url %}
                       <li class="nav-item">
-                        <a class="dropdown-item" href="{{ child_url }}">{{ subitem.name }}</a>
+                        <a class="dropdown-item" href="{{ child_url }}" aria-label="{{ subitem.name }}">{{ subitem.name }}</a>
                       </li>
                       {% endif %}
                       {% endfor %}
@@ -113,7 +113,7 @@
                   </li>
                   {% else %}
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ item.url }}">{{ item.name }}</a>
+                    <a class="nav-link" href="{{ item.url }}" aria-label="{{ item.name }}">{{ item.name }}</a>
                   </li>
                   {% endif %}
                 {% endif %}
@@ -127,7 +127,7 @@
         <div class="navbar-other ms-lg-4">
           <ul class="navbar-nav flex-row align-items-center ms-auto">
             <li class="nav-item d-none d-md-block">
-              <a href="{{ site.url }}/about-us/contact" class="btn btn-sm btn-primary rounded-pill">Contact Us</a>
+              <a href="{{ site.url }}/about-us/contact" class="btn btn-sm btn-primary rounded-pill" aria-label="Get in touch today!">Contact Us</a>
             </li>
             <li class="nav-item d-lg-none">
               <button class="hamburger offcanvas-nav-btn"><span></span></button>

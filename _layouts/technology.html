@@ -13,7 +13,7 @@
       <div class="container py-14 py-md-16">
         <div class="row text-center">
           <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-            <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > <a href="{{ site.url }}/{{ mainconfig.tagline_href }}">{{ mainconfig.tagline_href | upcase }}</a> > {{ pageconfig.title }}</h2>
+            <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}" aria-label="Home Page">HOME</a> > <a href="{{ site.url }}/{{ mainconfig.tagline_href }}" aria-label="{{ mainconfig.tagline_href | upcase }}">{{ mainconfig.tagline_href | upcase }}</a> > {{ pageconfig.title }}</h2>
             <h3 class="display-4 mb-9 px-xl-11">{{ pageconfig.tagline }}</h3>
             <h2 class="fs-15 text-uppercase text-muted mb-12">See below for the specific {{ pageconfig.title }} domains we support</h2>
             <hr />
@@ -56,7 +56,7 @@
               <!--/column -->
             </div>
             <!--/.row -->
-            <a href="#contact" class="btn btn-primary rounded-pill mt-6 mb-0">Request {{ p[1].title }} Support</a>
+            <a href="#contact" class="btn btn-primary rounded-pill mt-6 mb-0" aria-label="Request {{ p[1].title }} Support">Request {{ p[1].title }} Support</a>
           </div>
           <!--/column -->
         </div>

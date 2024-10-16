@@ -32,7 +32,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             {% else %}
             <div class="col-lg-4 position-relative">
             {% endif %}
-              <figure class="rounded mb-0"><a href="{{ member.link }}" target="_blank"><img class="img-fluid" style="max-width: 400px; max-height: 400px;" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt=""></a></figure>
+              <figure class="rounded mb-0"><a href="{{ member.link }}" aria-label="Visit our partner {{ member.name }}'s website." target="_blank"><img class="img-fluid" style="max-width: 400px; max-height: 400px;" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt=""></a></figure>
             </div>
             <!--/column -->
             <div class="col-lg-8">

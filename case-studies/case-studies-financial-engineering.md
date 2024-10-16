@@ -16,20 +16,20 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
         <div class="container py-14 py-md-16">
             <div class="row mb-3">
                 <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="50">
-                    <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > <a href="{{ config.page_slug }}">CASE STUDIES</a> > YOU ARE HERE</h2>
+                    <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}" aria-label="Home Page">HOME</a> > <a href="{{ config.page_slug }}" aria-label="Explore our Case Studies.">CASE STUDIES</a> > YOU ARE HERE</h2>
                     <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{{ page.title }}</h3>
                     <p>
                       <ul class="list-inline mb-0">
                         <li class="list-inline-item me-1 mb-2">
-                          <a href="{{ config.page_slug }}"><span class="btn btn-soft-ash btn-sm rounded text-blue">All</span></a>
+                          <a href="{{ config.page_slug }}" aria-label="All Services"><span class="btn btn-soft-ash btn-sm rounded text-blue">All</span></a>
                         </li>
                         {% for service in config.services %}
                         {% if service.enabled %}
                         <li class="list-inline-item me-1 mb-2">
                         {% if service.slug contains page.cs_slug %}
-                          <a href="{{ service.slug }}"><span class="btn btn-soft-ash btn-sm rounded bg-blue text-white">{{ service.name }}</span></a>
+                          <a href="{{ service.slug }}" aria-label="{{ service.name }}"><span class="btn btn-soft-ash btn-sm rounded bg-blue text-white">{{ service.name }}</span></a>
                         {% else %}
-                          <a href="{{ service.slug }}"><span class="btn btn-soft-ash btn-sm rounded text-blue">{{ service.name }}</span></a>
+                          <a href="{{ service.slug }}" aria-label="{{ service.name }}"><span class="btn btn-soft-ash btn-sm rounded text-blue">{{ service.name }}</span></a>
                         {% endif %}
                         </li>
                         {% endif %}
@@ -47,9 +47,9 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                   <div class="position-relative">
                   <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
                   <div class="card">
-                      <figure class="card-img-top"><a href="{{ site.url }}/case-studies/{{ member.slug }}"><img class="img-fluid" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt="" /></a></figure>
+                      <figure class="card-img-top"><a href="{{ site.url }}/case-studies/{{ member.slug }}" aria-label="{{ member.title }}"><img class="img-fluid" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt="" /></a></figure>
                       <div class="card-body px-6 py-5">
-                      <h4 class="mb-1"><a href="{{ site.url }}/case-studies/{{ member.slug }}">{{ member.title }}</a></h4>
+                      <h4 class="mb-1"><a href="{{ site.url }}/case-studies/{{ member.slug }}" aria-label="{{ member.title }}">{{ member.title }}</a></h4>
                       <p class="mb-0" style="color: inherit;">{{ member.subtitle }}</p>
                       <p>
                         <ul class="list-inline mb-0">

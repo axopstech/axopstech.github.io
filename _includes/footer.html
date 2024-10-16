@@ -5,7 +5,7 @@
         <div class="col-md-4 col-lg-3">
           <div class="widget">
             <img class="mb-4" src="{{ site.url | append: site.nav_logo }}" srcset="{{ site.url | append: site.nav_logo2x }}" alt="" />
-            <p class="mb-2">{{ site.company_description }}<br /><br />© {{ site.time | date: "%Y" }}. All Rights Reserved. <br /><a href="/about-us/privacy-policy">> <u>Privacy Policy</u></a><br /><a href="/about-us/cookie-policy">> <u>Cookie Policy</u></a></p>
+            <p class="mb-2">{{ site.company_description }}<br /><br />© {{ site.time | date: "%Y" }}. All Rights Reserved. <br /><a href="/about-us/privacy-policy" aria-label="Read our Privacy Policy.">> <u>Privacy Policy</u></a><br /><a href="/about-us/cookie-policy" aria-label="Read our Cookie Policy.">> <u>Cookie Policy</u></a></p>
           </div>
           <!-- /.widget -->
         </div>
@@ -14,10 +14,10 @@
           <div class="widget">
             <h4 class="widget-title text-white mb-3">What We Do</h4>
             <ul class="list-unstyled  mb-0">
-              <li><a href="/solutions">Solutions</a></li>
-              <li><a href="/case-studies">Case Studies</a></li>
-              <li><a href="/solutions/technical-training">Technical Training</a></li>
-              <li><a href="/solutions/quantitative-training">Quant R&D Training</a></li>
+              <li><a href="/solutions" aria-label="{{ config.button_cta1_aria_label }}">Solutions</a></li>
+              <li><a href="/case-studies" aria-label="{{ config.button_cta2_aria_label }}">Case Studies</a></li>
+              <li><a href="/solutions/technical-training" aria-label="Explore our Technical Training programmes.">Technical Training</a></li>
+              <li><a href="/solutions/quantitative-training" aria-label="Explore our Quantitative R&D Training programmes.">Quant R&D Training</a></li>
             </ul>
           </div>
           <!-- /.widget -->
@@ -27,8 +27,8 @@
           <div class="widget">
             <h4 class="widget-title text-white mb-3">Who We Are</h4>
             <ul class="list-unstyled  mb-0">
-              <li><a href="/about-us/our-vision">Our Vision</a></li>
-              <li><a href="/about-us/our-partners">Our Partners</a></li>
+              <li><a href="/about-us/our-vision" aria-label="Who we are, and what we do. Read our Vision Statement.">Our Vision</a></li>
+              <li><a href="/about-us/our-partners" aria-label="We partner with select IT partners to augment our services.">Our Partners</a></li>
             </ul>
           </div>
           <!-- /.widget -->
@@ -38,9 +38,9 @@
           <div class="widget">
             <h4 class="widget-title text-white mb-3">Contact Us</h4>
             <p class="mb-2">Calle Juan Urbieta, 16, 1ºA, 28007, Madrid - Spain.</p>
-            <p class="mb-2"><a href="/about-us/contact" class="btn btn-sm btn-primary rounded-pill">Get In Touch Today 🤝</a></p>
+            <p class="mb-2"><a href="/about-us/contact" class="btn btn-sm btn-primary rounded-pill" aria-label="Get In Touch Today!">Get In Touch Today 🤝</a></p>
             <nav class="nav social social-white">
-              <a href="https://www.linkedin.com/company/axops/" target="_blank"><i class="uil uil-linkedin"></i> Follow AxOps on LinkedIn</a>
+              <a href="https://www.linkedin.com/company/axops/" target="_blank" aria-label="Follow AxOps on LinkedIn"><i class="uil uil-linkedin"></i> Follow AxOps on LinkedIn</a>
               <!-- <a href="#"><i class="uil uil-youtube"></i></a> -->
             </nav>
             <!-- /.social -->

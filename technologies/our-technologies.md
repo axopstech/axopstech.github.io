@@ -15,7 +15,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
         <div class="container py-14 py-md-16">
             <div class="row mb-3">
             <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
-                <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > {{ config.tagline_here }}</h2>
+                <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}" aria-label="Home Page">HOME</a> > {{ config.tagline_here }}</h2>
                 <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{{ config.tagline_main }}</h3>
             </div>
             <!--/column -->
@@ -28,9 +28,9 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                     <div class="position-relative">
                     <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
                     <div class="card">
-                        <a href="{{ member.url }}"><figure class="card-img-top"><img class="img-fluid" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt="" /></figure></a>
+                        <a href="{{ member.url }}" aria-label="{{ member.name }}"><figure class="card-img-top"><img class="img-fluid" src="{{ member.image_src }}" srcset="{{ member.image_src }}" alt="" /></figure></a>
                         <div class="card-body px-6 py-5">
-                        <h4 class="mb-1"><a href="{{ member.url }}">{{ member.name }}</a></h4>
+                        <h4 class="mb-1"><a href="{{ member.url }}" aria-label="{{ member.name }}">{{ member.name }}</a></h4>
                         <p class="mb-0">{{ member.role }}</p>
                         </div>
                         <!--/.card-body -->
