@@ -30,7 +30,8 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
   <section class="wrapper bg-light text-black">
     <div class="container pt-18 pt-md-16 pb-21 pb-md-21 text-center">
       <div class="row">
-        <div class="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto">
+        <!-- <div class="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto"> -->
+        <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
           <h1 class="display-6 text-black mb-9 px-xl-0"><span class="underline-3 style-2 yellow">"Great</span> things in business are never done by <span class="underline grey">one</span> person. They're done by a <span class="underline-3 style-2 green">team</span> of people." <i>- Steve Jobs</i></h1>
         </div>
         <!-- /column -->
@@ -51,11 +52,11 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
               <!--/column -->
               <div class="col-lg-6">
                 <div class="p-10 p-md-11 p-lg-13">
-                  <h2 class="display-4 mb-3">Let’s Connect</h2>
-                  <p class="lead fs-lg">Need help with a <span class="underline-3 style-2 yellow">Data</span> or <span class="underline-3 style-2 green">Cloud</span> use-case?</p>
-                  <p class="lead fs-lg">Reach out via the contact form below and we'll be in touch within 24 hours.</p> 
-                  <p class="lead fs-lg">Who knows, we might just <a target="_blank" href="{{ site.url }}/case-studies" aria-label="{{ site.data.pageconfig.index.button_cta2_aria_label }}">make something great together!</a> 🤝</p>
-                  <a href="#" class="btn btn-primary rounded-pill mt-2">Join Us</a>
+                  <h2 class="display-4 mb-3">Let’s Talk</h2>
+                  <p class="lead fs-lg">Would you like to learn more about our services?</p>
+                  <p>Reach out via the contact form below and we'll be in touch within 24 hours.</p> 
+                  <p>Who knows.. we might just <a target="_blank" href="{{ site.url }}/case-studies" aria-label="{{ site.data.pageconfig.index.button_cta2_aria_label }}">make something great together!</a> 🤝</p>
+                  <a href="#contactform" aria-label="Contact Us" class="btn btn-primary rounded-pill mt-2">Complete The Form Below</a>
                 </div>
                 <!--/div -->
               </div>
@@ -76,12 +77,14 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
       <div class="container pb-11">
         <div class="row">
           <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-            <form class="contact-form needs-validation" method="post" action="./assets/php/contact.php" novalidate>
+            <h2 class="display-6 lead fs-lg mb-3 text-center">Please complete the form below to proceed:</h2>
+            <form id="contact-form" class="contact-form needs-validation" method="post" novalidate>
               <div class="messages"></div>
               <div class="row gx-4">
+                <a name="contactform" style="visibility: hidden;"></a>
                 <div class="col-md-6">
                   <div class="form-floating mb-4">
-                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" required>
+                    <input id="form_name" type="text" name="form_name" class="form-control" placeholder="Jane" required>
                     <label for="form_name">First Name *</label>
                     <div class="valid-feedback"> Looks good! </div>
                     <div class="invalid-feedback"> Please enter your first name. </div>
@@ -90,52 +93,120 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                 <!-- /column -->
                 <div class="col-md-6">
                   <div class="form-floating mb-4">
-                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required>
-                    <label for="form_lastname">Last Name *</label>
+                    <input id="form_company" type="text" name="form_company" class="form-control" placeholder="Company Ltd" required>
+                    <label for="form_company">Company *</label>
                     <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please enter your last name. </div>
+                    <div class="invalid-feedback"> Please provide your company name or enter "Individual" if you don't have one to hand. </div>
                   </div>
                 </div>
                 <!-- /column -->
                 <div class="col-md-6">
                   <div class="form-floating mb-4">
-                    <input id="form_email" type="email" name="email" class="form-control" placeholder="jane.doe@example.com" required>
-                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="form_email" class="form-control" placeholder="jane.doe@example.com" required>
+                    <label for="form_email">Work Email Address *</label>
                     <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please provide a valid email address. </div>
+                    <div class="invalid-feedback"> Please provide a valid work email address. </div>
                   </div>
                 </div>
                 <!-- /column -->
                 <div class="col-md-6">
                   <div class="form-select-wrapper mb-4">
-                    <select class="form-select" id="form-select" name="department" required>
-                      <option selected disabled value="">Select a department</option>
-                      <option value="Sales">Sales</option>
-                      <option value="Marketing">Marketing</option>
-                      <option value="Customer Support">Customer Support</option>
+                    <select class="form-select" id="form_service" name="form_service" required>
+                      <option selected disabled value="">Service of Interest *</option>
+                      <option value="Systems Integration">Systems Integration</option>
+                      <option value="Data Lake Solutions">Data Lake Solutions</option>
+                      <option value="Disaster Recovery">Disaster Recovery</option>
+                      <option value="Data or Cloud Migration">Data or Cloud Migration</option>
+                      <option value="Hybrid Cloud Architecture">Hybrid Cloud Architecture</option>
+                      <option disabled value="">--</option>
+                      <option value="FinTech Solutions">FinTech Solutions</option>
+                      <option value="Data Intelligence">Data Intelligence</option>
+                      <option disabled value="">--</option>
+                      <option value="Enterprise AI">Enterprise AI</option>
+                      <option value="SaaS Development">SaaS Development</option>
+                      <option value="Technology Consulting">Technology Consulting</option>
+                      <option value="CTO Services">Interim / Fractional CTO Services</option>
+                      <option disabled value="">--</option>
+                      <option value="Technical Training">Technical Training</option>
+                      <option value="Quant R&D Training">Quant R&D Training</option>
+                      <option disabled value="">--</option>
+                      <option value="Other">Other / Not Sure</option>
                     </select>
                     <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please select a department. </div>
+                    <div class="invalid-feedback"> Please select a service. </div>
                   </div>
                 </div>
                 <!-- /column -->
                 <div class="col-12">
                   <div class="form-floating mb-4">
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
-                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="form_message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
+                    <label for="form_message">To help us assist you as best as we can, please describe your query in as much detail as possible. *</label>
                     <div class="valid-feedback"> Looks good! </div>
                     <div class="invalid-feedback"> Please enter your messsage. </div>
                   </div>
                 </div>
                 <!-- /column -->
+                <div class="col-12">
+                  <div class="form-check mb-4">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck"> I consent to being contacted via email, and have read and understood our <a href="{{ site.url }}/about-us/privacy-policy" class="hover" aria-label="AxOps Privacy Policy">Privacy Policy</a>. </label>
+                    <div class="invalid-feedback"> You must provide your consent to being contacted via email by AxOps by checking this box. </div>
+                  </div>
+                </div>
+                <!-- /column -->
                 <div class="col-12 text-center">
-                  <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send message">
-                  <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                  <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send Message">
+                  <p class="text-muted"><strong>*</strong> denotes <b>required fields</b> that must be completed.</p>
+                </div>
+                <!-- /column -->
+                <div class="col-12">
+                  <script src="https://www.google.com/recaptcha/api.js"></script>
+                  <div class="form-group">
+                    <input class="form-control d-none" data-recaptcha="true" required>
+                    <div class="g-recaptcha" data-sitekey="{{ site.google_recaptcha.site_key }}" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                      Please complete the Captcha
+                    </div>
+                  </div>
                 </div>
                 <!-- /column -->
               </div>
               <!-- /.row -->
             </form>
+            <script>
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                
+                const formData = {
+                    name: document.getElementById('form_name').value,
+                    email: document.getElementById('form_email').value,
+                    company: document.getElementById('form_company').value,
+                    service: document.getElementById('form_service').value,
+                    message: document.getElementById('form_message').value,
+                    'g-recaptcha-response': grecaptcha.getResponse()  // Get the reCAPTCHA token
+                };
+
+                fetch('https://<your-api-gateway-invoke-url>/contact', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                    alert('Form submitted successfully!');
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    alert('Error submitting form!');
+                });
+            });
+            </script>
             <!-- /form -->
           </div>
           <!-- /column -->
