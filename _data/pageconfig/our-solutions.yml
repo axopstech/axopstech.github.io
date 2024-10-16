@@ -7,23 +7,23 @@ tagline_main: Unlock Your Organisation's Digital Transformation
 members:
   -
     name: Technology Consulting
-    image_src: &site_url /assets/img/illustrations/custom/data-science-consulting.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/data-science-consulting.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/data-science-consulting.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/data-science-consulting.webp 2x
     url: &site_url /solutions/technology-consulting-solutions
     role: >
       Unlock your organisation's full potential with our cloud transformation, engineering, and data analytics solutions
   -
     name: Technical Training
-    image_src: &site_url /assets/img/illustrations/custom/full-stack-development.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/full-stack-development.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/full-stack-development.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/full-stack-development.webp 2x
     url: &site_url /solutions/technical-training
     role: >
       Tailored technical training to enhance, upskill, or reskill in-house talent for optimal performance and innovation
   
   -
     name: Quantitative Training
-    image_src: &site_url /assets/img/illustrations/training/quantitative-development.jpg
-    image_srcset: &site_url /assets/img/illustrations/training/quantitative-development.jpg 2x
+    image_src: &site_url /assets/img/illustrations/training/quantitative-development.webp
+    image_srcset: &site_url /assets/img/illustrations/training/quantitative-development.webp 2x
     url: &site_url /solutions/quantitative-training
     role: >
       Quantitative Research and Development Training to ensure your competitive edge in a data-centric world

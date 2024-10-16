@@ -6,92 +6,92 @@ site_url: https://axopstech.github.io
 members:
   -
     name: Cloud Services
-    image_src: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions-2.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions-2.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions-2.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-cloud-solutions-2.webp 2x
     url: &site_url /technologies/cloud-services
     role: Ask, and consider it done &#127919;
     enabled: true
   -
     name: Application Engineering
-    image_src: &site_url /assets/img/illustrations/custom/cloud-engineering.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/cloud-engineering.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/cloud-engineering.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/cloud-engineering.webp 2x
     url: &site_url /technologies/application-engineering
     role: Ask, and consider it done &#127919;
     enabled: true
   -
     name: Business Analytics
-    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics.webp 2x
     url: &site_url /technologies/business-analytics
     role: Upskill with confidence &#128588;
     enabled: true
   -
     name: CRM Data Integrations
-    image_src: &site_url /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-crm-data-integrations.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-crm-data-integrations.webp 2x
     url: &site_url /solutions/technology-consulting/crm-data-integrations
     role: How we work with clients &#129309;
     enabled: false
   -
     name: Data Management
-    image_src: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.webp 2x
     url: &site_url /technologies/data-management
     role: How we work with clients &#129309;
     enabled: true
     
   -
     name: CRM Data Migrations
-    image_src: &site_url /assets/img/illustrations/custom/solutions-crm-data-migrations.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-crm-data-migrations.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-crm-data-migrations.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-crm-data-migrations.webp 2x
     url: &site_url /solutions/technology-consulting/crm-data-migrations
     role: Leverage our experience &#129417;
     enabled: false
   
   -
     name: Digital Transformation
-    image_src: &site_url /assets/img/illustrations/custom/solutions-digital-transformation.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-digital-transformation.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-digital-transformation.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-digital-transformation.webp 2x
     url: &site_url /solutions/technology-consulting/digital-transformation
     role: How we work with clients &#129309;
     enabled: false
 
   -
     name: Bespoke CRM Solutions
-    image_src: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.webp 2x
     url: &site_url /solutions/technology-consulting/bespoke-crm-solutions
     role: How we work with clients &#129309;
     enabled: false
 
   -
     name: Application Engineering
-    image_src: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-application-engineering.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-application-engineering.webp 2x
     url: &site_url /solutions/technology-consulting/application-engineering
     role: How we work with clients &#129309;
     enabled: false
 
   -
     name: Blockchain Solutions
-    image_src: &site_url /assets/img/illustrations/custom/solutions-blockchain-development.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-blockchain-development.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-blockchain-development.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-blockchain-development.webp 2x
     url: &site_url /solutions/technology-consulting/blockchain-solutions
     role: How we work with clients &#129309;
     enabled: false
 
   -
     name: Salesforce Development
-    image_src: &site_url /assets/img/illustrations/custom/solutions-salesforce-development.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-salesforce-development.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-salesforce-development.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-salesforce-development.webp 2x
     url: &site_url /solutions/technology-consulting/salesforce-development
     role: How we work with clients &#129309;
     enabled: false
 
   -
     name: HubSpot CRM Solutions
-    image_src: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.webp 2x
     url: &site_url /solutions/technology-consulting/hubspot-crm-optimisation
     role: How we work with clients &#129309;
     enabled: false

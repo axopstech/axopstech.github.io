@@ -6,64 +6,64 @@ site_url: https://axopstech.github.io
 members:
   -
     name: Technology Consulting
-    image_src: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/interim-fractional-cto-advisory-services.webp 2x
     url: &site_url /solutions/technology-consulting
     role: On-Demand Leadership and Expertise with AxOps™ Technology Consulting & <b>CTO Advisory Services</b>. 
     enabled: true
   
   -
     name: Data Intelligence
-    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.webp 2x
     url: &site_url /solutions/data-intelligence
     role: Translate insights into measurable business outcomes with end-to-end data intelligence solutions. 
     enabled: true
   
   -
     name: Cloud Services
-    image_src: &site_url /assets/img/illustrations/custom/devops-automation.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/devops-automation.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/devops-automation.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/devops-automation.webp 2x
     url: &site_url /solutions/cloud-services
     role: Centralise disparate data, unlock actionable insights, accelerate deployments while reducing overhead.
     enabled: true
 
   -
     name: Application Engineering
-    image_src: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-application-engineering.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-application-engineering.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-application-engineering.webp 2x
     url: &site_url /solutions/application-engineering
     role: Innovate confidently with AxOps, optimising for security, high availability, performance, and scalability.
     enabled: false
   
   -
     name: Data Management
-    image_src: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.webp 2x
     url: &site_url /solutions/data-management
     role: Seamlessly transition from legacy systems, dive deep into your data, and enhance decision-making.
     enabled: false
   
   -
     name: Business Analytics
-    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg
-    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.jpg 2x
+    image_src: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.webp
+    image_srcset: &site_url /assets/img/illustrations/custom/solutions-business-analytics-2.webp 2x
     url: &site_url /solutions/business-analytics
     role: Transform insights into actionable intelligence with bespoke predictive data analytics solutions. 
     enabled: false
 
   -
     name: "Cloud Engr. Training"
-    image_src: &site_url /assets/img/illustrations/training/quantitative-research.jpg
-    image_srcset: &site_url /assets/img/illustrations/training/quantitative-research.jpg 2x
+    image_src: &site_url /assets/img/illustrations/training/quantitative-research.webp
+    image_srcset: &site_url /assets/img/illustrations/training/quantitative-research.webp 2x
     url: &site_url /solutions/technical-training
     role: Level up your skills with cloud technologies and patterns for creating reliable, performant, and reactive systems.
     enabled: false
 
   -
     name: "Quant R&D Training"
-    image_src: &site_url /assets/img/illustrations/training/quantitative-development.jpg
-    image_srcset: &site_url /assets/img/illustrations/training/quantitative-development.jpg 2x
+    image_src: &site_url /assets/img/illustrations/training/quantitative-development.webp
+    image_srcset: &site_url /assets/img/illustrations/training/quantitative-development.webp 2x
     url: &site_url /solutions/quantitative-training
     role: Equip yourself with the skills to tackle complex, data-driven challenges with confidence and precision.
     enabled: true

@@ -2,7 +2,7 @@ pages:
   workforce-optimisation.md:
     title: Workforce Optimisation
     tagline: 'Maximise Productivity with AxOps Workforce <span class="underline-3 style-2 yellow">TeamOps</span> Solutions'
-    main_image: /assets/img/illustrations/custom/solutions-workforce-optimisation.jpg
+    main_image: /assets/img/illustrations/custom/solutions-workforce-optimisation.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /strategic-advisory-solutions 
@@ -198,7 +198,7 @@ pages:
   project-management.md:
     title: Project Management
     tagline: "Deliver Projects, Realise Visions: with AxOps Project Management Services"
-    main_image: /assets/img/illustrations/custom/solutions-project-management.jpg
+    main_image: /assets/img/illustrations/custom/solutions-project-management.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /strategic-advisory-solutions 
@@ -290,7 +290,7 @@ pages:
   hubspot-crm-optimisation.md:
     title: HubSpot CRM Optimisation
     tagline: "Unlock HubSpot's Full Potential with AxOps CRM Optimisation Solutions"
-    main_image: /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.jpg
+    main_image: /assets/img/illustrations/custom/solutions-hubspot-crm-optimisation.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /technology-consulting-solutions 
@@ -389,7 +389,7 @@ pages:
   salesforce-development.md:
     title: Salesforce Development
     tagline: "Enhance Your CRM Journey: AxOps Salesforce Development Solutions"
-    main_image: /assets/img/illustrations/custom/solutions-salesforce-development.jpg
+    main_image: /assets/img/illustrations/custom/solutions-salesforce-development.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /technology-consulting-solutions 
@@ -475,7 +475,7 @@ pages:
   blockchain-development.md:
     title: Blockchain Solutions
     tagline: "Trust, Traceability & Transparency with AxOps Blockchain Solutions"
-    main_image: /assets/img/illustrations/custom/solutions-blockchain-development.jpg
+    main_image: /assets/img/illustrations/custom/solutions-blockchain-development.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /technology-consulting-solutions 
@@ -570,7 +570,7 @@ pages:
   application-engineering.md:
     title: Application Engineering
     tagline: "Empowering Innovation: AxOps Application Engineering Services"
-    main_image: /assets/img/illustrations/custom/solutions-application-engineering.jpg
+    main_image: /assets/img/illustrations/custom/solutions-application-engineering.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /technology-consulting-solutions 
@@ -668,7 +668,7 @@ pages:
   bespoke-crm-solutions.md:
     title: Bespoke CRM Solutions
     tagline: 'Technology Built Exclusively For <span class="underline">You</span>: AxOps Bespoke CRM Solutions'
-    main_image: /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.jpg
+    main_image: /assets/img/illustrations/custom/solutions-bespoke-crm-solutions.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /technology-consulting-solutions 
@@ -767,7 +767,7 @@ pages:
   digital-transformation.md:
     title: Digital Transformation
     tagline: "Optimise Your Business with AxOps Digital Transformation Solutions"
-    main_image: /assets/img/illustrations/custom/solutions-digital-transformation.jpg
+    main_image: /assets/img/illustrations/custom/solutions-digital-transformation.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /technology-consulting-solutions 
@@ -864,7 +864,7 @@ pages:
   crm-data-integrations.md:
     title: CRM Data Integrations
     tagline: "Unify Your Data Seamlessly with AxOps CRM Integration Solutions"
-    main_image: /assets/img/illustrations/custom/solutions-crm-data-integrations.jpg
+    main_image: /assets/img/illustrations/custom/solutions-crm-data-integrations.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /technology-consulting-solutions 
@@ -971,7 +971,7 @@ pages:
   crm-data-migrations.md:
     title: CRM Data Migrations
     tagline: "Seamlessly migrate your CRM with AxOps Data Migration Solutions"
-    main_image: /assets/img/illustrations/custom/solutions-crm-data-migrations.jpg
+    main_image: /assets/img/illustrations/custom/solutions-crm-data-migrations.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /technology-consulting-solutions 
@@ -1074,7 +1074,7 @@ pages:
   business-analytics.md:
     title: Business Analytics
     tagline: "Unlock the Power of Your Data with AxOps Business Analytics Solutions"
-    main_image: /assets/img/illustrations/custom/solutions-business-analytics.jpg
+    main_image: /assets/img/illustrations/custom/solutions-business-analytics.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /technology-consulting-solutions 
@@ -1190,7 +1190,7 @@ pages:
   cloud-solutions.md:
     title: Cloud Solutions
     tagline: "Unlock Your Business's Full Potential with AxOps Cloud Solutions"
-    main_image: /assets/img/illustrations/custom/solutions-cloud-solutions-2.jpg
+    main_image: /assets/img/illustrations/custom/solutions-cloud-solutions-2.webp
     outcome_image: /assets/img/icons/lineal/target.svg
     obstacle_image: /assets/img/icons/lineal/puzzle.svg
     tagline_href: /technology-consulting-solutions 
