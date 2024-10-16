@@ -8,7 +8,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 <section class="wrapper bg-light wrapper-border">
     <div class="container py-14 py-md-16">
         <div class="row mb-3">
-            <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="100">
+            <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center" data-cues="slideInDown" data-group="page-title" data-delay="0">
                 <h2 class="fs-15 text-uppercase text-muted mb-3"><a href="{{ site.url }}">HOME</a> > ABOUT US > VISION</h2>
                 <h3 class="display-4 mb-7 px-lg-19 px-xl-18">The AxOps™ Vision</h3>
                 <!-- <hr /> -->
@@ -16,7 +16,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
             <!--/column -->
         </div>
         <!--/.row -->
-        <div class="row card mt-8 mt-md-2" data-cues="slideInDown" data-group="page-title" data-delay="100">
+        <div class="row card mt-8 mt-md-2" data-cues="slideInDown" data-group="page-title" data-delay="0">
             <div class="card-body col-md-10 offset-md-1 text-justify">
                 <p>A motivated and empowered team can drive <b>transformative change</b> that reshapes industries and delivers lasting impact.</p>
 
