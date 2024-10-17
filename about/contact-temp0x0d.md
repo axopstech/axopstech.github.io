@@ -178,35 +178,6 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
               </div>
               <!-- /.row -->
             </form>
-            <!-- <script>
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                const formData = {
-                    name: document.getElementById('form_name').value,
-                    email: document.getElementById('form_email').value,
-                    company: document.getElementById('form_company').value,
-                    service: document.getElementById('form_service').value,
-                    message: document.getElementById('form_message').value,
-                    'g-recaptcha-response': grecaptcha.getResponse()  // Get the reCAPTCHA token
-                };
-                fetch('https://5hkpmrb523.execute-api.eu-west-2.amazonaws.com/dev/contact', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(formData)
-                })
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Success:', data);
-                    alert('Form submitted successfully!');
-                })
-                .catch((error) => {
-                    console.error('Error:', error);
-                    alert('Error submitting form!');
-                });
-            });
-            </script> -->
             <!-- /form -->
           </div>
           <!-- /column -->
