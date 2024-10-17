@@ -78,7 +78,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
         <div class="row">
           <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
             <!-- <h2 class="display-6 lead fs-lg mb-3 text-center">Please complete the form below to proceed:</h2> -->
-            <form id="contact-form" class="contact-form needs-validation" method="post" action="https://5hkpmrb523.execute-api.eu-west-2.amazonaws.com/dev/contact" novalidate>
+            <form class="contact-form needs-validation" method="post" action="" novalidate>
               <div class="messages"></div>
               <div class="row gx-4">
                 <a name="contactform" style="visibility: hidden;"></a>
@@ -178,7 +178,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
               </div>
               <!-- /.row -->
             </form>
-            <!-- <script>
+            <script>
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 const formData = {
@@ -189,7 +189,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                     message: document.getElementById('form_message').value,
                     'g-recaptcha-response': grecaptcha.getResponse()  // Get the reCAPTCHA token
                 };
-                fetch('https://<your-api-gateway-invoke-url>/contact', {
+                fetch('https://5hkpmrb523.execute-api.eu-west-2.amazonaws.com/dev/contact', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -206,7 +206,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                     alert('Error submitting form!');
                 });
             });
-            </script> -->
+            </script>
             <!-- /form -->
           </div>
           <!-- /column -->
