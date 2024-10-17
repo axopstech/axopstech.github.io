@@ -1,0 +1,121 @@
+<section class="wrapper bg-light angled upper-end">
+    <div class="container pb-11">
+      <div class="row" data-cues="slideInDown" data-group="page-title" data-delay="0">
+        <div class="text-center col-md-10 offset-md-1 col-lg-10 offset-lg-1">
+            <h3 class="display-5 mb-6 px-xl-11">Would you like to learn more about our services?</h3>
+            <p>Reach out via the contact form below and we'll be in touch within 24 hours.</p> 
+            <p>Who knows.. we might just <a target="_blank" href="{{ site.url }}/case-studies" aria-label="{{ site.data.pageconfig.index.button_cta2_aria_label }}">make something great together!</a> 🤝</p>
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+          <!-- <h2 class="display-6 lead fs-lg mb-3 text-center">Please complete the form below to proceed:</h2> -->
+          <form id="contact-form" class="contact-form needs-validation" method="post" action="https://5hkpmrb523.execute-api.eu-west-2.amazonaws.com/dev/contact" novalidate>
+            <div class="messages"></div>
+            <div class="row gx-4">
+              <a name="contactform" style="visibility: hidden;"></a>
+              <div class="col-md-6">
+                <div class="form-floating mb-4">
+                  <input id="form_name" type="text" name="form_name" class="form-control" placeholder="Jane" required>
+                  <label for="form_name">First Name *</label>
+                  <div class="valid-feedback"> Looks good! </div>
+                  <div class="invalid-feedback"> Please enter your first name. </div>
+                </div>
+              </div>
+              <!-- /column -->
+              <div class="col-md-6">
+                <div class="form-floating mb-4">
+                  <input id="form_company" type="text" name="form_company" class="form-control" placeholder="Company Ltd" required>
+                  <label for="form_company">Company *</label>
+                  <div class="valid-feedback"> Looks good! </div>
+                  <div class="invalid-feedback"> Please provide your company name or enter "Individual" if you don't have one to hand. </div>
+                </div>
+              </div>
+              <!-- /column -->
+              <div class="col-md-6">
+                <div class="form-floating mb-4">
+                  <input id="form_email" type="email" name="form_email" class="form-control" placeholder="jane.doe@example.com" required>
+                  <label for="form_email">Work Email Address *</label>
+                  <div class="valid-feedback"> Looks good! </div>
+                  <div class="invalid-feedback"> Please provide a valid work email address. </div>
+                </div>
+              </div>
+              <!-- /column -->
+              <div class="col-md-6">
+                <div class="form-select-wrapper mb-4">
+                  <select class="form-select" id="form_service" name="form_service" required>
+                    <option selected disabled value="">Service of Interest *</option>
+                    <option value="Systems Integration">Systems Integration</option>
+                    <option value="Data Lake Solutions">Data Lake Solutions</option>
+                    <option value="Disaster Recovery">Disaster Recovery</option>
+                    <option value="Data or Cloud Migration">Data or Cloud Migration</option>
+                    <option value="Hybrid Cloud Architecture">Hybrid Cloud Architecture</option>
+                    <option disabled value="">--</option>
+                    <option value="FinTech Solutions">FinTech Solutions</option>
+                    <option value="Data Intelligence">Data Intelligence</option>
+                    <option disabled value="">--</option>
+                    <option value="Enterprise AI">Enterprise AI</option>
+                    <option value="SaaS Development">SaaS Development</option>
+                    <option value="Technology Consulting">Technology Consulting</option>
+                    <option value="CTO Services">Interim / Fractional CTO Services</option>
+                    <option disabled value="">--</option>
+                    <option value="Technical Training">Technical Training</option>
+                    <option value="Quant R&D Training">Quant R&D Training</option>
+                    <option disabled value="">--</option>
+                    <option value="Other">Other / Not Sure</option>
+                  </select>
+                  <div class="valid-feedback"> Looks good! </div>
+                  <div class="invalid-feedback"> Please select a service. </div>
+                </div>
+              </div>
+              <!-- /column -->
+              <div class="col-12">
+                <div class="form-floating mb-4">
+                  <textarea id="form_message" name="form_message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
+                  <label for="form_message">To help us assist you as best as we can, please describe your query in as much detail as possible. *</label>
+                  <div class="valid-feedback"> Looks good! </div>
+                  <div class="invalid-feedback"> Please enter your messsage. </div>
+                </div>
+              </div>
+              <!-- /column -->
+              <div class="col-12">
+                <div class="form-check mb-4">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck"> I consent to being contacted via email, and have read and understood the <a href="{{ site.url }}/about-us/privacy-policy" class="hover" aria-label="AxOps Privacy Policy" target="_blank">Privacy Policy</a>. </label>
+                  <div class="invalid-feedback"> You must provide your consent to being contacted via email by AxOps by checking this box. </div>
+                </div>
+              </div>
+              <!-- /column -->
+              <div class="col-12 text-center">
+                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                <div class="form-group">
+                  <input class="form-control d-none" data-recaptcha="true" required>
+                  <div class="g-recaptcha" data-sitekey="{{ site.google_recaptcha.site_key }}" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                  <!-- <div class="g-recaptcha" data-sitekey="{{ site.google_recaptcha.site_key }}" data-action="SIGNUP"></div> -->
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                    Please complete the Captcha
+                  </div>
+                </div>
+              </div>
+              <!-- /column -->
+              <div class="col-12 text-center">
+                <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send Message">
+                <p class="text-muted"><strong>*</strong> denotes <b>required fields</b> that must be completed.</p>
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+          </form>
+          <!-- /form -->
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>

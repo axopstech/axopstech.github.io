@@ -58,12 +58,12 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
   <section class="wrapper bg-light angled upper-end">
       <div class="container pb-11">
         <div class="row">
+          <a name="contactform" style="visibility: hidden;"></a>
           <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
             <!-- <h2 class="display-6 lead fs-lg mb-3 text-center">Please complete the form below to proceed:</h2> -->
             <form id="contact-form" class="contact-form needs-validation" method="post" action="https://5hkpmrb523.execute-api.eu-west-2.amazonaws.com/dev/contact" novalidate>
               <div class="messages"></div>
               <div class="row gx-4">
-                <a name="contactform" style="visibility: hidden;"></a>
                 <div class="col-md-6">
                   <div class="form-floating mb-4">
                     <input id="form_name" type="text" name="form_name" class="form-control" placeholder="Jane" required>
@@ -131,7 +131,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                 <div class="col-12">
                   <div class="form-check mb-4">
                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck"> I consent to being contacted via email, and have read and understood our <a href="{{ site.url }}/about-us/privacy-policy" class="hover" aria-label="AxOps Privacy Policy">Privacy Policy</a>. </label>
+                    <label class="form-check-label" for="invalidCheck"> I consent to being contacted via email, and have read and understood the <a href="{{ site.url }}/about-us/privacy-policy" class="hover" aria-label="AxOps Privacy Policy" target="_blank">Privacy Policy</a>. </label>
                     <div class="invalid-feedback"> You must provide your consent to being contacted via email by AxOps by checking this box. </div>
                   </div>
                 </div>
