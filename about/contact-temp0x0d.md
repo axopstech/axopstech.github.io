@@ -178,7 +178,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
               </div>
               <!-- /.row -->
             </form>
-            <!-- <script>
+            <script>
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 const formData = {
@@ -206,7 +206,7 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                     alert('Error submitting form!');
                 });
             });
-            </script> -->
+            </script>
             <!-- /form -->
           </div>
           <!-- /column -->
