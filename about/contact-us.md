@@ -155,10 +155,12 @@ og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
                 </div>
                 <!-- /column -->
                 <div class="col-12 text-center">
-                  <script src="https://www.google.com/recaptcha/api.js"></script>
+                  <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
+                  <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
                   <div class="form-group">
                     <input class="form-control d-none" data-recaptcha="true" required>
-                    <div class="g-recaptcha" data-sitekey="{{ site.google_recaptcha.site_key }}" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                    <!-- <div class="g-recaptcha" data-sitekey="{{ site.google_recaptcha.site_key }}" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div> -->
+                    <div class="g-recaptcha" data-sitekey="{{ site.google_recaptcha.site_key }}" data-action="SIGNUP"></div>
                     <div class="valid-feedback">
                       Looks good!
                     </div>
