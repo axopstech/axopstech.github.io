@@ -32,3 +32,5 @@ Gemfile.lock
 !microsoft*.png
 !udacity*.png
 .DS_Store
+
+contact-backup.md
