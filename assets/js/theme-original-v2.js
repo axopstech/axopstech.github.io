@@ -741,11 +741,91 @@ var theme = {
       positionY: 'bottom'
     })
   },
+
+  /* Revised Form Validation Code */
+  /**
+ * Form Validation and Contact Form Submit
+ * Bootstrap validation - Only sends messages if form has class ".contact-form" and is validated and shows success/fail messages
+ */
+  forms: () => {
+    (function() {
+      "use strict";
+      window.addEventListener("load", function() {
+        var forms = document.querySelectorAll(".needs-validation");
+        var inputRecaptcha = document.querySelector("input[data-recaptcha]"); 
+        
+        // reCAPTCHA callbacks
+        window.verifyRecaptchaCallback = function(response) {
+          inputRecaptcha.value = response;
+          inputRecaptcha.dispatchEvent(new Event("change"));
+        }
+
+        window.expiredRecaptchaCallback = function() {
+          var inputRecaptcha = document.querySelector("input[data-recaptcha]");
+          inputRecaptcha.value = "";
+          inputRecaptcha.dispatchEvent(new Event("change"));
+        }
+
+        // Form validation and submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener("submit", function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add("was-validated");
+
+            if (form.checkValidity() === true) {
+              event.preventDefault();
+              form.classList.remove("was-validated");
+
+              // Send message only if the form has class .contact-form
+              var isContactForm = form.classList.contains('contact-form');
+              if (isContactForm) {
+                // Serialize form data as JSON
+                var formData = new FormData(form);
+                var jsonData = {};
+                formData.forEach((value, key) => {
+                  jsonData[key] = value;
+                });
+
+                var alertClass = 'alert-danger';
+
+                // Send JSON data instead of FormData
+                fetch(form.action, {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json"
+                  },
+                  body: JSON.stringify(jsonData) // Send the form data as a JSON string
+                }).then((response) => {
+                  if (response.ok) {
+                    alertClass = 'alert-success';
+                  }
+                  return response.text();
+                }).then((txt) => {
+                  var alertBox = '<div class="alert ' + alertClass + ' alert-dismissible fade show"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' + txt + '</div>';
+                  if (alertClass && txt) {
+                    form.querySelector(".messages").insertAdjacentHTML('beforeend', alertBox);
+                    form.reset();
+                    grecaptcha.reset(); // Reset reCAPTCHA if used
+                  }
+                }).catch((err) => {
+                  console.log(err);
+                });
+              }
+            }
+          }, false);
+        });
+      }, false);
+    })();
+  },
+
   /**
    * Form Validation and Contact Form submit
    * Bootstrap validation - Only sends messages if form has class ".contact-form" and is validated and shows success/fail messages
    */
-  forms: () => {
+  /*forms: () => {
     (function() {
       "use strict";
       window.addEventListener("load", function() {
@@ -779,7 +859,7 @@ var theme = {
                 fetch(form.action, {
                   mode: "no-cors",
                   method: "post",
-                  body: JSON.stringify(data)
+                  body: data
                 }).then((data) => {
                   if(data.ok) {
                     alertClass = 'alert-success';
@@ -802,6 +882,7 @@ var theme = {
       }, false);
     })();
   },
+  */
   /**
    * Password Visibility Toggle
    * Toggles password visibility in password input
