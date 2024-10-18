@@ -6,7 +6,7 @@ description: Would you like to learn more about our services? Reach out via the 
 og_image_url: /assets/img/photos/opengraph/axops-technologies-og-image-v1.jpg
 ---
 
-  <div class="content-wrapper">
+<div class="content-wrapper">
   <!-- .content-wrapper -->
   <!-- /section -->
   <section class="wrapper bg-light text-black">
